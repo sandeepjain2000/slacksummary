@@ -1,0 +1,131 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-08
+Total messages: 14 | Threads: 2 | Standalone: 0
+================================================================================
+
+### 1.a [13:01] — Fernanda: @Harshwardhan More Malahide & Portmarnock has moved to tyro, I added the link and the codes, can you please confirm if its working?
+**Original message:** Fernanda: @Harshwardhan More Malahide & Portmarnock has moved to tyro, I added the link and the codes, can you please confirm if its working?
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ayush Kharpuse confirms that fetching data from the API using the current token is working fine. However, there is no attendance available for the school in Tyro yet, so further verification is pending.
+
+### 1.b [14:10] — Fernanda: @channel can someone look into this, Marist college saying they are -433 sms when trying to send one, but in the app engagement it shows that they have +170 sms
+**Original message:** Fernanda: @channel can someone look into this, Marist college saying they are -433 sms when trying to send one, but in the app engagement it shows that they have +170 sms
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Kritika Wadhwa points out a discrepancy in SMS balance calculation in App Engagement and suggests comparing it with CMS. After investigation, Harshwardhan More fixes the issue and clarifies the correction made regarding SMS balance calculation in the App Engagement Overview tab and Personal Notification 2.0. Negative balance for reminder SMS is allowed, and OTP calculations are now included as expected, aligning the SMS balance with the CMS. Krishan Thite is requested to create an FMP job for this resolution. Fernanda seeks clarification on how the system allowed sending SMS with a negative balance, to which Kritika explains the allowance for reminder SMS. The issue is resolved with the correction in SMS balance calculation.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (2)
+  Thread #1 [13:01] — "@Harshwardhan More Malahide & Portmarnock has moved to tyro, I added the link an..."
+  Thread #2 [14:10] — "@channel can someone look into this, Marist college
+saying they are -433 sms whe..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-08 (3 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-04-07 18:22)
+  Author  : Lee
+  Message : @channel TUSLA Notifications > Send TUSLA PN > Send button not visible. Issue is with the text, text should wrap, full text should be visible and send/submit button should show
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1775566329559319?thread_ts=1775566329.559319&cid=C08LEFNF0BS
+  [7 earlier replies before 2026-04-08 not shown]
+  New replies on 2026-04-08 (3):
+    [11:02] Krishna Thite: Job : Fix Text Wrapping and Send Button Visibility in TUSLA Notifications Screen
+Project code : 752
+    [12:38] Harshwardhan More: @Lee The issue of splitting words for this school originates from the template data itself. It appears that hidden Unicode characters were introduced, likely due to copy-pasting content from sources like PDFs or emails. This is not a system-wide issue, as templates from other schools are functioning correctly. While manually correcting the affected templates in the database could resolve it, this approach is not ideal or recommended.
+    [12:38] Lee: ok that's fine, thanks Harsh much appreciated
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-04-07 15:15)
+  Author  : Tejas Mahadik
+  Message : @channel
+Hi, The web ticketing system is deployed on QA2. Kindly have a look.
+
+CC: @Sandeep Jain, @Ravindra Chherke
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1775555116113669?thread_ts=1775555116.113669&cid=C08LEFNF0BS
+  [4 earlier replies before 2026-04-08 not shown]
+  New replies on 2026-04-08 (2):
+    [17:53] Tejas Mahadik: @Lee
+Hey, I’ve put together a document covering the notification rules for the system (emails + in-app).
+Could you have a look and check the logic for the events and the recipients?
+If anything looks off or needs a change, just let me know. Thanks! [Attachment(s): stakeholder_notifications_guide.docx]
+    [17:58] Tejas Mahadik: We also intend to have notifications on slack channel for some statuses of ticket.
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-04-03 13:03)
+  Author  : Sunny
+  Message : Happy Good Friday everyone!
+
+@Sonali Gaikwad 25 schools with VSware ID are now all updated to Dept ID. Please let @Fernanda and @Lee know when the deletion feature is made live. We will need to delete old mapping and trigger student mapping again. This needs to be done by next Friday before the school starts from midterm break.
+
+I'll ensure FM and Wonde Dashboard are updated.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1775201635294249?thread_ts=1775201635.294249&cid=C08LEFNF0BS
+  [4 earlier replies before 2026-04-08 not shown]
+  New replies on 2026-04-08 (10):
+    [10:57] Krishna Thite: Job :Enable Mapping Deletion and Re-trigger Student Mapping for VSware to Dept ID Migration
+Project Code : 751
+    [12:40] Sonali Gaikwad: @Fernanda @Lee @Sunny The updates have been completed as of yesterday and documented on Trello. Please review.
+As next steps, kindly proceed with the following:
+• Delete the old mapping
+• Switch the school to the department ID on the Wonde dashboard
+• Run the student mapping
+https://trello.com/c/VmkbIYvl/899-provide-option-to-delete-student-mapping-wonde-dashboard [Preview: [no preview available]]
+    [13:50] Fernanda: i would like to test the mapping again, but there are 6 pages waiting to be refreshed, that can take up the whole day. if theres any way you can speed up @Sonali Gaikwad
+    [14:32] Sonali Gaikwad: @Fernanda Which school do you want to run for?
+We can run it manually.
+
+Is there any ARF/writeback work going on?
+    [14:40] Fernanda: no arf at present
+    [14:40] Fernanda: mount anville
+    [14:41] Sonali Gaikwad: @Fernanda We have run it for mount anvile. Please check
+    [14:42] Sonali Gaikwad: You can verify at this screen with updated id.
+Refer wonde mis id column for Department id [Attachment(s): image.png]
+    [14:44] Fernanda: i have to get 25 schools mapped again
+    [14:45] Sonali Gaikwad: It will map by automatically
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [13:01] Fernanda: @Harshwardhan More Malahide & Portmarnock has moved to tyro, I added the link and the codes, can you please confirm if its working?
+│   └─ Replies:
+│      [13:07] Ravindra Chherke: @Ayush Kharpuse Can you please check this
+│      [13:13] Ayush Kharpuse: Checking..
+│      [13:19] Ayush Kharpuse: @Fernanda @Ravindra Chherke Fetching data from the API using the current token is working fine.
+I haven’t checked WB yet because there is no attendance available for the school in Tyro. Once I have some data, I will try to verify WB using the same attendance code.
+│      [13:42] Fernanda: thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (8 replies) ──────────────────────────────────────
+│ [14:10] Fernanda: @channel can someone look into this, Marist college
+saying they are -433 sms when trying to send one, but in the app engagement it shows that they have +170 sms [Attachment(s): image.png, image.png]
+│   └─ Replies:
+│      [15:23] Kritika Wadhwa: I guess the SMS balance calculation is not correct in App Engagment.
+
+@Harshwardhan More @Vivek Jadhav can you compare it with CMS
+│      [15:33] Fernanda: it is weird Kritika because last week sunny sent out sms for their incoming with no problems, now its -433 its a big difference
+│      [15:56] Kritika Wadhwa: @Fernanda Can you check the report and let me know if you think there is some issue there in numbers?
+
+also for the reminder SMS the balqnce go in negative.
+
+i am also checking if there is any issue in calculation
+│      [19:08] Harshwardhan More: @Fernanda This is fixed and deployed to LIVE.
+│      [19:10] Harshwardhan More: @Krishna Thite Could you please create an FMP job for this, mark it as completed, and share the job details here? Thanks!
+│      [19:34] Fernanda: what do you mean its fixed @Harshwardhan More? how did the system sllow to send out sms if they were negative?
+│      [19:39] Kritika Wadhwa: Negative balance is allowed @Fernanda the reminder SMS
+
+Harsh has fixed SMS balance calculation in app engagement
+│      [19:49] Harshwardhan More: Hi @Fernanda, sorry if my earlier message wasn’t clear about what was fixed.
+I’ve corrected the SMS calculation in the App Engagement Overview tab and Personal Notification 2.0. Earlier, OTP usage (including OTP and Temporary OTP) was not included in the SMS balance, even though it was accounted for in the CMS.
+This has now been fixed, and OTP calculations are included as expected. The SMS balance for Yearheads dashboard is now fully aligned with the CMS.
+└─────────────────────────────────────────────────────────────────────────

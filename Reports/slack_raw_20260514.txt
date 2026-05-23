@@ -1,0 +1,163 @@
+SLACK RAW EXPORT — 2026-05-14
+Channel: C08LEFNF0BS
+Total messages: 58 | Threads: 9 | Standalone: 0
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [11:37] Ayush Kharpuse: Hi @Lee
+
+The Boarder PTL change is now live. If a student is in the boarders and a parent submits a PTL, the PTL will be sent to the Boarder Manager.
+│   └─ Replies:
+│      [11:40] Ayush Kharpuse: Here are the responses shown to parents when a student is in the boarders and they try to submit a PTL. [Attachment(s): image.png, image.png]
+│      [12:51] Lee: great
+│      [12:51] Lee: thanks Ayush
+│      [14:34] Ayush Kharpuse: @Amatullah Andamanwala this is part of project - 136, which is already marked Completed.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (1 reply) ──────────────────────────────────────
+│ [12:56] Lee: @channel add job to investigate the following: Can we pull Year Heads from VSware/Tyro? So that our Access & Permissions assigned users are updated automatically each year.
+│   └─ Replies:
+│      [13:03] Amatullah Andamanwala: Job: Investigate Automatic Year Head Sync from VSware/Tyro for Access & Permissions
+Project code: 844
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (12 replies) ──────────────────────────────────────
+│ [13:48] Sunny: @channel
+
+A bit urgent as parent would like to pay
+<mailto:katewise@cpsetanta.ie|S>t Paul's College - payment: 1st Year Trip to Alive Outside Killruddery Estate 21st May 26
+
+School set up the limit to 100, 95 paid by app, 4 paid by link and 1 refunded.
+It seems that the 1 refunded one is still taking up the space. Can this be rectify so the parent can pay? Thank you! @Kritika Wadhwa
+│   └─ Replies:
+│      [17:04] Lee: @Kritika Wadhwa can you look at this asap please?
+
+it's happening for the below payments. Needs to be resolved asap urgently please [Attachment(s): Screenshot 2026-05-14 at 12.32.44.png, Screenshot 2026-05-14 at 12.31.42.png]
+│      [17:04] Lee: also should not happen going forward so logic must be changed
+│      [17:07] Kritika Wadhwa: I am looking @Lee @Sunny
+│      [18:46] Kritika Wadhwa: I have fixed it on QA server and Shruti is testing it.
+
+one question:
+As of now cash payments are not included in Limits, is that ok?
+
+@Lee @Sunny
+│      [18:47] Lee: they should be included to prevent over selling
+│      [18:48] Kritika Wadhwa: Okay
+│      [18:49] Lee: but if you can deploy the fix first and then look at this isssue after please
+│      [18:50] Kritika Wadhwa: Yes i will do that way
+│      [18:50] Lee: thank you Kritika
+│      [11:29] Kritika Wadhwa: Hi @Lee, I have deployed the fix
+│      [11:31] Kritika Wadhwa: But in case of "Multiple Payments" turned on, if the user has paid once and then that order gets refunded the shopuser status doesnt get updated to refunded it remains "Ongoing" so then the refunded space will not free up
+│      [11:33] Lee: ok that's fine, thank you Kritika
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (11 replies) ──────────────────────────────────────
+│ [13:58] Sunny: @channel *Colaiste Pobail Setanta - pending email alert*
+
+Can someone check *what notification item was pending* as <mailto:BERNIEKELLY@cpsetanta.ie|BERNIEKELLY@cpsetanta.ie> got an email yesterday 13/05/2026 saying there's one pending but she didn't seem to find it.
+I had a look and other posts published yesterday were posted by full limited users. [Attachment(s): Screenshot 2026-05-14 at 09.26.12.png, Screenshot 2026-05-14 at 09.25.57.png]
+│   └─ Replies:
+│      [14:37] Sonali Gaikwad: @Sunny The email itself mention the module name and title of the notification.
+│      [14:46] Sunny: i cannot know that from SendGird right?
+│      [14:47] Sonali Gaikwad: no
+│      [14:48] Sunny: i see
+│      [14:48] Sunny: possible to check from your end that if there was any post pending or being deleted though?
+│      [14:49] Sunny: (just before i get back to the school asking for the content of that email alert
+│      [14:52] Sonali Gaikwad: i can't see any deleted or pending record in notification module.
+
+There must be a different module. Please check with email received to teacher.
+│      [14:54] Sunny: cool thank you!
+│      [17:15] Sunny: @Sonali Gaikwad this is the post - <mailto:darrenearley@cpsetanta.ie|darrenearley@cpsetanta.ie> with limited access.
+
+Can we tell who approves it (if it's not <mailto:BERNIEKELLY@cpsetanta.ie|BERNIEKELLY@cpsetanta.ie>? [Attachment(s): Screenshot 2026-05-14 at 12.44.01.png, Screenshot 2026-05-14 at 12.44.20.png, Screenshot 2026-05-14 at 12.44.55.png]
+│      [17:43] Sonali Gaikwad: This has been last modifed/publish by <mailto:gillianmurphy@cpsetanta.ie|gillianmurphy@cpsetanta.ie>
+
+By the way, you can also view this information on notification top right corner [Attachment(s): image.png]
+│      [19:31] Sunny: Thank you Sonali
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (2 replies) ──────────────────────────────────────
+│ [14:00] Lee: from the student profile > Absent section > view > we should be able to change the status here from requested to aborted (similarly to the please check section we can do this)
+@Sonali Gaikwad or @Ayush Kharpuse I think it was one of you that implemented this in YHD > Please Check section.
+Thank you
+@channel [Attachment(s): Screenshot 2026-05-14 at 09.28.52.png]
+│   └─ Replies:
+│      [15:49] Sandeep Jain: Can we add this as P2
+│      [16:11] Lee: yes
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (6 replies) ──────────────────────────────────────
+│ [15:14] Sunny: @Ravindra Chherke @Sandeep Jain
+
+Note from Parents email alerts is currently restricted to 8-4 (school hour) however, some users would like to get it whenever the notes comes in.
+
+Can we have on/off per users' preference? (not urgent)
+│   └─ Replies:
+│      [15:20] Sandeep Jain: Can we add under P2
+│      [16:39] Amatullah Andamanwala: Job: Add User-Level Preference Toggle for Parent Note Email Alert Timing
+Project code: 849
+│      [17:47] Sunny: is it holding it until 9 rather than 8 AM? cc @Sonali Gaikwad @Sandeep Jain [Attachment(s): Screenshot 2026-05-14 at 13.16.23.png]
+│      [18:32] Sonali Gaikwad: @Sunny Cron execution affected due to DST changes. We will update cron execution
+│      [18:54] Sonali Gaikwad: We have updated the execution time. Now it will send at 8 am
+CC: @Ravindra Chherke
+│      [19:24] Sunny: Thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (6 replies) ──────────────────────────────────────
+│ [15:30] Sunny: @channel Joshua Conlon - *De La Salle College (Dundalk) cc @Sonali Gaikwad* 
+
+Can someone check why there's a 05/05 late request in the parent's app but i dont find it in the CMS?
+
+The kid was late for the afternoon on vsware - does our system pick it up automatically? but on the app it's shown as 8:50 AM arrival time.
+
+The parent said they received this alert today 14/05. [Attachment(s): Screenshot 2026-05-14 at 10.55.57.png, image.png, Screenshot 2026-05-14 at 10.57.25.png, Screenshot 2026-05-14 at 10.57.33.png]
+│   └─ Replies:
+│      [15:37] Sandeep Jain: @Sonali Gaikwad
+│      [16:22] Sonali Gaikwad: Hi @Sunny The student was marked as late on VSware and did not use the DSI tablet for sign-in.
+
+During the automatic API import (ARF sync), the process generated an ARF record with the MIS late status on 05/05/2026 at 14:20. The record was last modified on 07/05/2026 at 14:20:52, and the LNR was created on 07/05/2026 at 14:20:52.
+
+It appears that the configured time may be incorrect, as 8:50 corresponds to the AM roll call time. During the automatic API import, the DSI sign-in and arrival time are selected based on the configured roll call time. I will debug this further and work on resolving the issue.
+
+*The LNR was later deleted by <mailto:attendance@delasalle.ie|attendance@delasalle.ie> on 14/05/2026 at 09:41:04.*
+│      [19:52] Sunny: Thank you
+│      [19:53] Sunny: and yes the school do not want that PM LNR to be sent to the parent actually. Now i remember that I told her LNR can be deleted from the CMS.
+│      [19:57] Sunny: @Sonali Gaikwad but how come parent got notified about this today 14/05 though?
+│      [10:55] Sonali Gaikwad: They notified at the day LNR generated through sync process and not yesterday.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #8 (4 replies) ──────────────────────────────────────
+│ [15:59] Lee: @channel James wants to have the attendance calendar (data from tyro vsware) showing in the school apps for parents in Attendance > View Attendance section. Please make job item
+│   └─ Replies:
+│      [16:10] Sandeep Jain: @Ayush Kharpuse @Kumaraswamy R @Sonali Gaikwad
+│      [16:11] Sandeep Jain: What is the priority?
+│      [16:11] Sandeep Jain: P1/P2
+│      [16:11] Lee: p2 but we need to evaluate all p2 soon
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #9 (3 replies) ──────────────────────────────────────
+│ [16:01] Sonali Gaikwad: @Sunny
+The email regarding, issue with the gallery where images removed from the CMS gallery are still visible in the app gallery.
+
+We have identified a bug in the app related to caching. This issue requires a fix on the App side.
+@Kumaraswamy R will work on the app-side changes to resolve the issue.
+As a temporary workaround, users are advised to log out of the app and log back in.
+
+CC: @Sandeep Jain @Ravindra Chherke
+@Krishna Thite Please create FMP job for this.
+│   └─ Replies:
+│      [16:05] Kumaraswamy R: Please create a FMP ticket on my name for this Trello
+https://trello.com/c/NOhveWCL [Preview: [no preview available]]
+│      [16:36] Amatullah Andamanwala: Job: Fix Gallery Image Caching Issue in School App Showing Deleted CMS Images
+Project code: 848
+│      [19:22] Sunny: Thank you Sonali, i've informed the school about this
+└─────────────────────────────────────────────────────────────────────────

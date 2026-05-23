@@ -1,0 +1,200 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-05-12
+Total messages: 19 | Threads: 5 | Standalone: 0
+================================================================================
+
+### 1.a [13:22] — Sunny inquires about a time zone issue for a parent trying to submit PTL abroad.
+**Original message:** Sunny: @channel <mailto:yu_dian@icloud.com|yu_dian@icloud.com> Malahide - Dian (zendesk ticket 55399)
+This parent is trying to submit PTL abroad but cannot. How are we on the time zone issue?
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.b [16:31] — Sunny requests APK for Ennistymon Community School.
+**Original message:** Sunny: @Shruti Kokate
+Can i please get APK for Ennistymon Community School? If it's possible a link so i can share with the parent in email. Thanks!
+Ticket #55305
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti provides the APK link, and Sunny acknowledges it.
+
+### 1.c [17:00] — Lee addresses issues with email confirmation for absent notes and date formats.
+**Original message:** Lee: @channel email confirmation for absent note is not very clear. This parent selected the 6th of May and the 8th of May. In the email it shows 2026-05-08, 2026-05-12. This looks like it's from - to. Lee suggests clearer date formats and questions about date range selection on absent notes.
+**Project Code:** PROJECT 835
+**Thread summary:** Ravindra tags team members, Kumaraswamy confirms range selection is not live yet, Lee requests the changes, and Krishna assigns the project code for the task.
+
+### 1.d [17:23] — Lee asks about the status of Daily Emails functionality.
+**Original message:** Lee: @channel what's the status on Daily Emails? Are they functional if we enable from Access & Permissions?
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ravindra confirms functionality on the Demo App, and Krishna provides a non-project code.
+
+### 1.e [19:43] — Lee requests investigation into a submission issue for Synge Street CBS.
+**Original message:** Lee: @channel please check submitted by parent but when school went to check, it was not there. Lee requests investigation into a submission issue for Synge Street CBS.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ravindra tags team members, Ayush updates Lee that the email was sent from the system due to a quick ARF request, and further investigation is ongoing.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (1)
+  Thread #3 [17:00] — Code(s): PROJECT 835
+    "@channel email confirmation for absent note is not very clear. This parent selec..."
+
+THREADS WITHOUT PROJECT/JOB CODE (4)
+  Thread #1 [13:22] — "@channel <mailto:yu_dian@icloud.com|yu_dian@icloud.com> Malahide - Dian (zendesk..."
+  Thread #2 [16:31] — "@Shruti Kokate
+
+Can i please get APK for ennistymon community school? If it's po..."
+  Thread #4 [17:23] — "@channel what's the status on Daily Emails? Are they functional if we enable fro..."
+  Thread #5 [19:43] — "@channel please check submitted by parent but when school went to check, it was ..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-05-12 (1 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-04-14 15:54)
+  Author  : Ravindra Chherke
+  Message : @Krishna Thite James is asking for this in dashboard. Can you please add it on filemaker. 
+
+@Sandeep Jain Can Tejas work on it?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776162255130089?thread_ts=1776162255.130089&cid=C08LEFNF0BS
+  [36 earlier replies before 2026-05-12 not shown]
+  New replies on 2026-05-12 (7):
+    [16:07] Tejas Mahadik: Hi @Lee,
+
+We have completed the implementation and internal review of the updated App Engagement Overview dashboard, including the newly added engagement/activity graphs.
+
+The latest implementation is currently deployed on QA3. The attached/shared screenshot is from the latest local implementation as we are still testing a few updated labels there. Functionality-wise both are aligned.
+
+The newly added app engagement/activity-related graphs are highlighted in the screenshot.
+
+While reviewing the UI and backend logic together, *we identified a few observations/suggestions mainly from a usability and end-user clarity perspective.*
+
+Some key points from our side:
+1. We are currently testing clearer labels such as:
+    ◦ “Parent App Activity” instead of “Inactive Parents”
+    ◦ “Family App Activity” instead of “Fully Inactive Families”
+Similarly, some legend labels are also being adjusted to better match the actual graph logic being shown.
+
+2. One graph where I am still slightly unsure from a naming/usability perspective is:
+“*Both Guardians on App*”
+Technically the graph is correct, but the donut currently represents both:
+    ◦ families where both guardians are on the app,
+    ◦ and families where only one guardian is on the app.
+So I wanted to check whether there may be a more business-friendly/end-user-friendly label for this graph as well.
+
+3. Currently the dashboard displays 8 graphs together in a single grid view. From a usability perspective, the screen can feel slightly dense for first-time users.
+For example:
+    ◦ family-related graphs currently appear across different areas of the dashboard,
+    ◦ “Families”, “Families (Incoming)”, and the family activity graph are conceptually related but visually separated.
+Potentially grouping related graphs closer together, or introducing slightly more sectional separation/another row, may improve readability and scanning.
+
+4. During implementation we also clarified and aligned the backend logic for the new activity graphs:
+*"Parent App Activity"* = active vs inactive app-user parents within the last 30 days.
+*"Family App Activity"* = if at least one guardian in a family is recently active, the family is treated as *active/partially active*; *only families with no active guardians* are treated as *fully inactive*.
+
+We went with this approach because it felt more meaningful from both engagement and end-user interpretation perspectives.
+
+5. Looking slightly ahead as well:
+currently inactive users open a dedicated *list view,* but if more activity-related drilldowns are added in future, it may eventually make sense to think about a more centralized engagement dashboard or a table that shows  parents, family  or children, otherwise filtering approach in dashboard instead of multiple separate screens/views.
+
+Just to clarify as well :slightly_smiling_face:-  I am definitely not trying to suggest large redesign/rework here. These were mainly observations that came up during testing and discussion from an end-user perspective, and I felt it would be better to raise them early before the dashboard structure becomes more fixed later.
+
+Please let us know your thoughts on:
+• graph naming/labeling,
+• grouping/layout,
+• and overall usability from the end-user perspective.
+Thanks! [Attachment(s): image.png]
+    [16:18] Lee: *On your points:*
+1. *Graph naming*
+    a. Use *“Guardian App Activity”* (instead of _Inactive Parents_)
+    b. Use *“Family App Activity”* (instead of _Fully Inactive Families_)
+2. *“Both Guardians on App”*Rename to *“Guardians on App per Family”* — this better reflects what’s actually being shown
+3. *Layout / grouping*Let’s *leave as is for now* — we can revisit once it’s live and we get real user feedback
+4. *Backend logic*Confirmed — this logic is *correct and aligns with how we want engagement interpreted*
+5. *Future direction Acknowledged* — makes sense longer term, but no changes needed now
+*One additional point:*
+ If we’re using both _“Parent(s)”_ and _“Guardian(s)”_ across the dashboard, we should standardise.
+ Let’s *use “Guardian(s)” consistently* throughout.
+    [16:26] Tejas Mahadik: Got it. Thanks for clarifying.
+    [16:30] Lee: also actually see the way you have used the light blue for active parents and dark blue for inactive, switch it around. Makes more sense that active is in dark blue
+    [16:31] Tejas Mahadik: Alright
+    [16:31] Tejas Mahadik: will do
+    [16:34] Lee: thanks
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [13:22] Sunny: @channel <mailto:yu_dian@icloud.com|yu_dian@icloud.com> Malahide - Dian (zendesk ticket 55399)
+
+This parent is trying to submit PTL abroad but cannot. How are we on the time zone issue? [Attachment(s): image0.jpeg]
+│   └─ Replies:
+│      [19:11] Sunny: cc @Sandeep Jain @Ravindra Chherke
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (2 replies) ──────────────────────────────────────
+│ [16:31] Sunny: @Shruti Kokate
+
+Can i please get APK for ennistymon community school? If it's possible a link so i can share with the parent in email. Thanks!
+
+Ticket #55305
+│   └─ Replies:
+│      [18:53] Shruti Kokate: @Sunny https://loadly.io/t2nVZvtO [Preview: Ennistymon Community School]
+│      [19:11] Sunny: thank u
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (5 replies) ──────────────────────────────────────
+│ [17:00] Lee: @channel email confirmation for absent note is not very clear. This parent selected the 6th of May and the 8th of May. In the email it shows 2026-05-08, 2026-05-12. This looks like it's from - to.
+
+It should be more clear eg:
+> Thank you for submitting your absentee note for:
+> • 6th May 2026
+> • 8th May 2026
+> The note has been submitted to the school.
+Note, the date format too. In ireland, we use DD/MM/YYYY
+
+YYYY/MM/DD is too confusing for users. Please ensure going forward any date formats should be DD/MM/YYYY or like 6th May 2026. We need to update all areas of the system (big job perhaps but necessary). James mentioned this multiple times.
+
+Can this please be done?
+
+Also @Kumaraswamy R is the date range selection on absent note live? Instead of individual days, it's a range selection. Please confirm and make Mount Anville live if not already. Please also do this for all school apps.
+
+Thanks [Attachment(s): IMG_1872.jpeg]
+│   └─ Replies:
+│      [17:18] Ravindra Chherke: @Harshwardhan More @Sonali Gaikwad
+│      [17:57] Kumaraswamy R: @Lee range selection is not live yet. Testing has been completed. I can merge those changes and Shruthi can update the app.
+│      [19:10] Lee: please do, thanks
+│      [19:10] Kumaraswamy R: Sure
+│      [13:12] Krishna Thite: Job : Enhance Absent Note Confirmation Emails & Implement Date Range Selection
+Project Code : 835
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (3 replies) ──────────────────────────────────────
+│ [17:23] Lee: @channel what's the status on Daily Emails? Are they functional if we enable from Access & Permissions? [Attachment(s): Screenshot 2026-05-12 at 12.53.14.png]
+│   └─ Replies:
+│      [17:50] Ravindra Chherke: I think they are. Sonali said it is still working on Demo App.
+│      [19:08] Lee: ok thanks
+│      [13:09] Krishna Thite: Project Code: NA
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (3 replies) ──────────────────────────────────────
+│ [19:43] Lee: @channel please check submitted by parent but when school went to check, it was not there. I cleared filters to find this ARF is not marled as Please Check. Can this be investigated please? Synge Street CBS *Student Name :* Sidiq Obaidy [Attachment(s): Screenshot 2026-05-12 at 15.12.47.png, Screenshot 2026-05-12 at 15.12.59.png]
+│   └─ Replies:
+│      [11:25] Ravindra Chherke: @Harshwardhan More @Ayush Kharpuse
+
+@Sonali Gaikwad
+│      [17:58] Lee: any update on this one?
+│      [20:02] Ayush Kharpuse: Hi @Lee
+
+I have checked the logs, and the email was sent from the system. Most likely, this was triggered by a quick ARF request. I still need to check a few more logs, and once I have more details, I’ll update you further.
+
+Thank you.
+└─────────────────────────────────────────────────────────────────────────

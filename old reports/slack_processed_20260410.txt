@@ -1,0 +1,81 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-10
+Total messages: 2 | Threads: 0 | Standalone: 2
+================================================================================
+
+### 1.a [12:26] — Lee noticed incorrect URL on TM login page
+**Original message:** Morning @channel just noticed on TM login page, the url is incorrect. It should be <http://www.uniqueschools.ie|www.uniqueschools.ie>
+Thannks [Attachment(s): Screenshot 2026-04-10 at 07.56.16.png]
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.b [12:27] — Ravindra shared Microsoft Teams meeting details
+**Original message:** Microsoft Teams meeting details shared.
+Meeting ID: 366 570 159 209 5
+Passcode: Ht7sK7sE
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (0)
+  (none)
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-10 (3 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-04-09 16:58)
+  Author  : Lee
+  Message : @Kritika Wadhwa If payment is Open Payment, should we hide Parents/Guardians or Staff selection?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1775734114072029?thread_ts=1775734114.072029&cid=C08LEFNF0BS
+  [7 earlier replies before 2026-04-10 not shown]
+  New reply on 2026-04-10 (1):
+    [15:03] Krishna Thite: Job : Hide Irrelevant User Selection Options for Open Payments
+Project Code : 754
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-03-27 14:49)
+  Author  : Fernanda
+  Message : @Manish Pathe St Colman's 101 is getting an error trying to upload this file into groups feature
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774603165541119?thread_ts=1774603165.541119&cid=C08LEFNF0BS
+  [20 earlier replies before 2026-04-10 not shown]
+  New reply on 2026-04-10 (1):
+    [15:31] Manish Pathe: The issue occurs when exporting the sheet from Excel, as it includes a BOM, whereas sheets exported from the Numbers application do not.
+
+I have implemented a fix and deployed it to QA2. Once testing is complete, I will make it live and update you accordingly.
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-03-26 19:52)
+  Author  : Fernanda
+  Message : @channel this teacher in Terenure College is not able to see recent PN. he deleted the app, installed it again. I unlinked the profile linked again but still no luck.
+His profile is a teacher/Parent - version of the app is 5.0.17 (31)
+<mailto:paul.hyland@TerenureCollege.ie|paul.hyland@TerenureCollege.ie>
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774534927023559?thread_ts=1774534927.023559&cid=C08LEFNF0BS
+  [10 earlier replies before 2026-04-10 not shown]
+  New reply on 2026-04-10 (1):
+    [11:25] Yashraj Talokar: @Fernanda , @Prajwal Chaudhari is currently testing this. I was on leave and also got tied up with some PP related work which was important, so I couldn’t update you earlier.
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[12:26] Lee: Morning @channel just noticed on TM login page, the url is incorrect. It should be <http://www.uniqueschools.ie|www.uniqueschools.ie>
+Thannks [Attachment(s): Screenshot 2026-04-10 at 07.56.16.png]
+[12:27] Ravindra Chherke: ________________________________________________________________________________
+*Microsoft Teams* <https://aka.ms/JoinTeamsMeeting?omkt=en-US| Need help?>
+<https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yjg0NjFmYTgtMDk5YS00ZDVmLWI4MWItZDk4YTU5Zjg0OTA3%40thread.v2/0?context=%7b%22Tid%22%3a%22d8345441-915c-457d-a241-9bd89ef7c335%22%2c%22Oid%22%3a%2221ffc105-2fd6-4f84-95c6-0d2d3bca77bb%22%7d|Join the meeting now>
+Meeting ID: 366 570 159 209 5
+Passcode: Ht7sK7sE
+
+
+For organizers: <https://teams.microsoft.com/meetingOptions/?organizerId=21ffc105-2fd6-4f84-95c6-0d2d3bca77bb&tenantId=d8345441-915c-457d-a241-9bd89ef7c335&threadId=19_meeting_Yjg0NjFmYTgtMDk5YS00ZDVmLWI4MWItZDk4YTU5Zjg0OTA3@thread.v2&messageId=0&language=en-US|Meeting options>
+
+________________________________________________________________________________ [Preview: Join a meeting in Microsoft Teams - Microsoft Support; Join conversation]

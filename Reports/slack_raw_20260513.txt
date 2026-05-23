@@ -1,0 +1,89 @@
+SLACK RAW EXPORT — 2026-05-13
+Channel: C08LEFNF0BS
+Total messages: 24 | Threads: 5 | Standalone: 1
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [15:10] Lee: Cnoc Mhuire Granard - <mailto:coharaf@gmail.com|coharaf@gmail.com> (parent)
+unable to submit late note, getting the error attached
+@channel [Attachment(s): 16209.jpg]
+│   └─ Replies:
+│      [15:12] Ravindra Chherke: @Ayush Kharpuse
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (13 replies) ──────────────────────────────────────
+│ [16:29] Lee: > Hi Lee,
+> 
+> Please see this one instance of an error with the payment.  
+> 
+> When our office staff set this up they did so without adding users first. They then went back and added the entire student population t the fee with one payment per familty selected. This may be where the issue is arising from
+@channel Payment Item: Sintús Scoile/Voluntary Contribution 2026/27
+School: <https://www.uniqueschoolapp.ie/user|Coláiste an Phiarsaigh >
+Parents are getting errors when trying to pay/checkout.
+
+Can you please check this? [Attachment(s): IMG_6392.png]
+│   └─ Replies:
+│      [16:30] Kritika Wadhwa: checking @Lee
+│      [17:12] Kritika Wadhwa: @Lee can you tell me parent who got this issue?
+│      [17:14] Lee: <mailto:sorcha_ocallaghan@yahoo.ie|sorcha_ocallaghan@yahoo.ie>
+│      [17:17] Kritika Wadhwa: Thanks
+│      [17:36] Kritika Wadhwa: @Lee this item is one per family (Variablre amount) but somehow more then 1 child per family is added to this item. We have to remove one of 2 siblings from the item manually.
+
+We are trying to reproduce the case where this happened
+│      [17:39] Lee: > Dear Gillian 
+>  
+> Thank you for your call this morning. Please find attached screenshot as requested. I put in 205e at the first prompt but when I go to checkout it doubles.
+>  
+> I can call in or pay over the phone if necessary. 
+>  
+> I look forward to hearing from you. 
+>  
+> With kind regards 
+> Stephanie [Attachment(s): Screenshot_20260513_120309.jpg]
+│      [17:39] Lee: check this one too
+│      [17:43] Kritika Wadhwa: this parent also has 2 students added in this shop item thats why its happening
+│      [17:46] Lee: can this be done your end and re-add students correctly as one per family?
+│      [17:53] Kritika Wadhwa: yes i will do
+│      [17:53] Lee: thanks
+│      [19:33] Kritika Wadhwa: @Lee I have fixed this item
+│      [19:35] Lee: thank you Kritika
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [16:34] Sunny: @channel just FYI that we have around 10 parents telling us that they did not get any OTP codes for new build - Colaiste Pobail Setanta. They're all Irish numbers and when I checked Twillio, they're successfully delivered.
+│   └─ Replies:
+│      [19:40] Lee: +5 more parents, seems to be most parents unable to receive the OTP
+
+cc @Ravindra Chherke
+└─────────────────────────────────────────────────────────────────────────
+
+[17:31] Sunny: @channel cc @Sonali Gaikwad
+
+Kindly see a query from the school:
+if a student is Late, but a parent put in an absence note instead of a LATE, can they delete the absence note to allow them to put in the LATE? I’m not talking about when we have sent out a request for an absent note, rather when the parent has submitted it themselves?
+
+if there's an ABS note and the student signs in late on the tablet, will there be 2 notes for the day (both ABS & Late Request)?
+
+┌── THREAD #4 (2 replies) ──────────────────────────────────────
+│ [19:26] Sunny: @channel @Shruti Kokate
+*Scoil Chaitriona 205*
+can you ensure this app is the most up-to-date cc @Lee so parents can update cards for instalments.
+
+@Kritika Wadhwa
+can you tell me that when a parent has more than 1 card attached in stripe, the 2nd instalment will be charging their default card in stripe or the card they paid the 1st instalment with?
+│   └─ Replies:
+│      [19:33] Shruti Kokate: @Sunny Yes,App is updated with change card functionality and mutiple payments also
+│      [09:09] Kritika Wadhwa: @Sunny if they don't change the card from the app then 2nd installment will come out from the card they paid the 1st installment with.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (1 reply) ──────────────────────────────────────
+│ [19:51] Lee: @channel Detention Reminder PN to Parents - add in settings (see screenshot)
+@Krishna Thite @Prajwal Chaudhari please create a job for this. Thanks [Attachment(s): image.png]
+│   └─ Replies:
+│      [13:05] Amatullah Andamanwala: Job: Add Detention Reminder Push Notification Setting for Parents
+Project code: 845
+└─────────────────────────────────────────────────────────────────────────

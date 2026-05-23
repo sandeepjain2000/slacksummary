@@ -1,0 +1,146 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-09
+Total messages: 17 | Threads: 3 | Standalone: 1
+================================================================================
+
+### 1.a [15:50] — Fernanda reports an issue with personal notification not triggering in high school
+**Original message:** Fernanda: @channel detention personal notification is not triggering in the high school
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Vivek points out that the user is a non-app user, Fernanda realizes the error in the selection and thanks Vivek for the clarification.
+
+### 1.b [16:58] — Lee asks about hiding user selection in open payments
+**Original message:** Lee: @Kritika Wadhwa If payment is Open Payment, should we hide Parents/Guardians or Staff selection?
+**Project Code:** PROJECT 754
+**Thread summary:** Kritika clarifies the existing behavior, Lee highlights the confusion, Kritika agrees to hide the selection, and a job is assigned to address the issue.
+
+### 1.c [19:54] — Lee reschedules a meeting for the next day
+**Original message:** Lee: @channel We'll meet at 8am IST tomorrow instead of 9.30am please, thank you
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Lee informs the team of the meeting time change due to Fernanda's appointment, and Sandeep acknowledges the update.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (1)
+  Thread #2 [16:58] — Code(s): PROJECT 754
+    "@Kritika Wadhwa If payment is Open Payment, should we hide Parents/Guardians or ..."
+
+THREADS WITHOUT PROJECT/JOB CODE (2)
+  Thread #1 [15:50] — "@channel detention personal notification is not triggering in the high school"
+  Thread #3 [19:54] — "@channel We'll meet at 8am IST tomorrow instead of 9.30am please, thank you"
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-09 (3 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-04-06 19:29)
+  Author  : Kumaraswamy R
+  Message : Hi @Lee
+
+We’re already displaying the PTL status on the border card with the Roll-call attendance status. So what specifically should be shown here?
+Also, we will be marking the boarder as present automatically if they choose the School Absence option, we'll not mark present and then mark school absence as suggested on the provided screenshot.
+
+Let us know if anything else needed here.
+@Sonali Gaikwad @Ayush Kharpuse @Vivek Jadhav
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1775483953365309?thread_ts=1775483953.365309&cid=C08LEFNF0BS
+  [6 earlier replies before 2026-04-09 not shown]
+  New replies on 2026-04-09 (3):
+    [14:18] Kumaraswamy R: Hi @Lee
+1. This is how the new status labels look in the Roll Call students list (see attached SS). Is this fine?
+2. About showing the same status on Dashboard list and other screens, which roll-call status to consider if there are multiple roll-calls for a given day?
+    a. Currently, the current student status is shown on the Dashboard list (signed in, signed out, off-campus, overdue)
+ [Attachment(s): Simulator Screenshot - iPhone 17 Pro - 2026-04-09 at 14.13.47.png]
+    [14:20] Lee: > 1. This is how the new status labels look in the Roll Call students list (see attached SS). Is this fine?
+Yes, perfect
+> 1. About showing the same status on Dashboard list and other screens, which roll-call status to consider if there are multiple roll-calls for a given day?
+>     a. Currently, the current student status is shown on the Dashboard list (signed in, signed out, off-campus, overdue)
+Latest/most recent roll call
+
+@Kumaraswamy R
+    [15:45] Kumaraswamy R: Thanks, Lee
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-04-02 18:49)
+  Author  : Lee
+  Message : @channel (@Kumaraswamy R)
+for all school apps > side menu > App Help & Support changes:
+
+> New module added to sidebar → *App Help* (add to top of menu underneath *School Office* _- capitalise the 'O' in office_) - when this is clicked, it will direct to this url: https://parenthelp.uniqueschools.ie/hc/en-gb
+> 
+> Rename or Remove the following:
+> App Help and Support → *App Settings & Info* (bottom of menu)
+> 
+> Tour of the App Video → *Remove*
+> Contact App Developer → *Contact Support only* _(Common Issues → Remove)_
+> About App Developer → *About Unique Schools*
+> Rate Application → *Remove*
+> Terms and condition → *Terms & Conditions*
+> Privacy Policy → *Privacy Policy* (no change)
+> Tell a friend → *Remove*
+> Delete cached data → *Fix App Issues (Refresh App Data)*
+> Version number → *Version Number* (no change)
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1775135970713449?thread_ts=1775135970.713449&cid=C08LEFNF0BS
+  [11 earlier replies before 2026-04-09 not shown]
+  New replies on 2026-04-09 (4):
+    [17:31] Kumaraswamy R: Hi @Lee,
+Can we put the App Help link somewhere other than at the top of the side menu?
+Our app opens a specific screen as default based on settings in the CMS. If App Help is only added to parents and staff, it will mess up how the app works for students and the app opens the News Archive by default for students.
+So, can we try one of these two options instead?
+1. Move the App Help link to the bottom of the menu, or
+2. Show it to all users—parents, staff, and students.
+
+    [17:32] Lee: show it for all users then please
+    [17:32] Lee: needs to be up top
+    [17:42] Kumaraswamy R: Noted with thanks.
+@Shruti Kokate, please do the needful.
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-03-20 14:01)
+  Author  : Fernanda
+  Message : @channel why do we show the sent date? it seems a bit confusing
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1773995471861939?thread_ts=1773995471.861939&cid=C08LEFNF0BS
+  [7 earlier replies before 2026-04-09 not shown]
+  New replies on 2026-04-09 (2):
+    [16:05] Shruti Kokate: Hi @Fernanda Just to confirm, you want to remove only the “Sent On” date from ARF and not from the absentee history, correct?
+    [16:12] Fernanda: correct @Shruti Kokate
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [15:50] Fernanda: @channel detention personal notification is not triggering in the high school
+│   └─ Replies:
+│      [15:59] Fernanda: settings are selected [Attachment(s): image.png]
+│      [15:59] Vivek Jadhav: @Fernanda Personal notification was created, but the user is non app user. [Attachment(s): image.png, image.png]
+│      [16:04] Fernanda: oh I see, I added demo rather than demo student
+│      [16:04] Fernanda: thank you Vivek!
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (8 replies) ──────────────────────────────────────
+│ [16:58] Lee: @Kritika Wadhwa If payment is Open Payment, should we hide Parents/Guardians or Staff selection? [Attachment(s): Screenshot 2026-04-09 at 12.24.56.png]
+│   └─ Replies:
+│      [16:59] Kritika Wadhwa: Yes Lee, in open payments there is no student added to the item
+│      [17:00] Lee: perfect, can this be done when you have some time? @Prajwal Chaudhari if you can create job if needed. Thank you both :slightly_smiling_face:
+│      [17:02] Kritika Wadhwa: But Lee when we select "Open Payment" the student selection is already hidden. No ?
+│      [17:02] Kritika Wadhwa:  [Attachment(s): Screenshot 2026-04-09 at 5.02.25 PM.png]
+│      [17:04] Lee: Yeah but this isn't and it's confusing [Attachment(s): image.png]
+│      [17:05] Kritika Wadhwa: ohh okay got it, will hide it
+│      [17:10] Lee: thanks
+│      [15:03] Krishna Thite: Job : Hide Irrelevant User Selection Options for Open Payments
+Project Code : 754
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [19:54] Lee: @channel We'll meet at 8am IST tomorrow instead of 9.30am please, thank you
+│   └─ Replies:
+│      [19:55] Lee: cc @U06UWDU2RU3 Fernanda has a doc appointment at 10 so we've to meet a bit earlier if that's ok
+└─────────────────────────────────────────────────────────────────────────
+
+[19:57] Sandeep Jain: Noted

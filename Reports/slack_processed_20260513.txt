@@ -1,0 +1,388 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-05-13
+Total messages: 24 | Threads: 5 | Standalone: 1
+================================================================================
+
+### 1.a [15:10] — Cnoc Mhuire Granard - Late note submission issue
+**Original message:** Lee: Cnoc Mhuire Granard - <mailto:coharaf@gmail.com|coharaf@gmail.com> (parent) unable to submit late note, getting the error attached @channel
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ravindra Chherke was tagged to address the late note submission issue, but no further replies were made.
+
+### 1.b [16:29] — Payment error investigation at Coláiste an Phiarsaigh
+**Original message:** Lee: Error with payment setup at Coláiste an Phiarsaigh, parents facing issues. Request for investigation.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Kritika Wadhwa investigated the payment error, identified the issue with multiple children per family being added to a single payment item, manually removed one child, and resolved the issue.
+
+### 1.c [16:34] — Issue with OTP codes at Colaiste Pobail Setanta
+**Original message:** Sunny: Several parents at Colaiste Pobail Setanta not receiving OTP codes despite successful delivery. Additional parents reporting the issue.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Lee noted more parents facing OTP issues, with a total of 15 parents affected. Sunny tagged Ravindra Chherke for awareness.
+
+### 1.d [17:31] — Query regarding late notes and absence notes
+**Standalone message:** Sunny: Query about handling late notes and absence notes for students at the school.
+**Thread summary:** The query raised by Sunny was not addressed or resolved in this thread.
+
+### 1.e [19:26] — App update and card charging clarification for Scoil Chaitriona 205
+**Original message:** Sunny: Request for app update confirmation for Scoil Chaitriona 205 and clarification on card charging for multiple payments.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti Kokate confirmed the app update for card functionality, and Kritika Wadhwa clarified that the second installment would be charged to the card used for the first installment if not changed.
+
+### 1.f [19:51] — Detention reminder push notification setup
+**Original message:** Lee: Request for adding Detention Reminder Push Notification setting for parents, job creation needed.
+**Project Code:** PROJECT 845
+**Thread summary:** Amatullah Andamanwala acknowledged the job request to add the detention reminder push notification setting for parents under Project 845.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (1)
+  Thread #5 [19:51] — Code(s): PROJECT 845
+    "@channel Detention Reminder PN to Parents - add in settings (see screenshot)
+@Kr..."
+
+THREADS WITHOUT PROJECT/JOB CODE (4)
+  Thread #1 [15:10] — "Cnoc Mhuire Granard - <mailto:coharaf@gmail.com|coharaf@gmail.com> (parent)
+unab..."
+  Thread #2 [16:29] — "> Hi Lee,
+> 
+> Please see this one instance of an error with the payment.  
+> 
+>..."
+  Thread #3 [16:34] — "@channel just FYI that we have around 10 parents telling us that they did not ge..."
+  Thread #4 [19:26] — "@channel @Shruti Kokate
+*Scoil Chaitriona 205*
+can you ensure this app is the mo..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-05-13 (15 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-05-12 19:43)
+  Author  : Lee
+  Message : @channel please check submitted by parent but when school went to check, it was not there. I cleared filters to find this ARF is not marled as Please Check. Can this be investigated please? Synge Street CBS *Student Name :* Sidiq Obaidy
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778595232461699?thread_ts=1778595232.461699&cid=C08LEFNF0BS
+  New replies on 2026-05-13 (3):
+    [11:25] Ravindra Chherke: @Harshwardhan More @Ayush Kharpuse
+
+@Sonali Gaikwad
+    [17:58] Lee: any update on this one?
+    [20:02] Ayush Kharpuse: Hi @Lee
+
+I have checked the logs, and the email was sent from the system. Most likely, this was triggered by a quick ARF request. I still need to check a few more logs, and once I have more details, I’ll update you further.
+
+Thank you.
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-05-12 17:23)
+  Author  : Lee
+  Message : @channel what's the status on Daily Emails? Are they functional if we enable from Access & Permissions?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778586807660149?thread_ts=1778586807.660149&cid=C08LEFNF0BS
+  [2 earlier replies before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [13:09] Krishna Thite: Project Code: NA
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-05-12 17:00)
+  Author  : Lee
+  Message : @channel email confirmation for absent note is not very clear. This parent selected the 6th of May and the 8th of May. In the email it shows 2026-05-08, 2026-05-12. This looks like it's from - to.
+
+It should be more clear eg:
+> Thank you for submitting your absentee note for:
+> • 6th May 2026
+> • 8th May 2026
+> The note has been submitted to the school.
+Note, the date format too. In ireland, we use DD/MM/YYYY
+
+YYYY/MM/DD is too confusing for users. Please ensure going forward any date formats should be DD/MM/YYYY or like 6th May 2026. We need to update all areas of the system (big job perhaps but necessary). James mentioned this multiple times.
+
+Can this please be done?
+
+Also @Kumaraswamy R is the date range selection on absent note live? Instead of individual days, it's a range selection. Please confirm and make Mount Anville live if not already. Please also do this for all school apps.
+
+Thanks
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778585412488359?thread_ts=1778585412.488359&cid=C08LEFNF0BS
+  [4 earlier replies before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [13:12] Krishna Thite: Job : Enhance Absent Note Confirmation Emails & Implement Date Range Selection
+Project Code : 835
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-05-11 19:42)
+  Author  : Sunny
+  Message : @channel can someone kindly check the social media integration?
+
+when i had a look, the post went to FB & Instagram but not X. https://x.com/mercynewross
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778508742837059?thread_ts=1778508742.837059&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [18:36] Sunny: cc @U06UWDU2RU3
+---------------------------------------------------------------------------
+
+OLD THREAD #5  (originally posted 2026-05-11 16:09)
+  Author  : Lee
+  Message : @Kritika Wadhwa can you check this school? Why no lodgement date or reference in bank reconciliation section?
+It's not just this order, it's many orders in april. School said they did receive it into their bank account
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778495998261149?thread_ts=1778495998.261149&cid=C08LEFNF0BS
+  [9 earlier replies before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [13:27] Krishna Thite: Job : Missing Lodgement Details in Bank Reconciliation
+Project Code : 829
+
+complete
+---------------------------------------------------------------------------
+
+OLD THREAD #6  (originally posted 2026-05-11 15:54)
+  Author  : Manish Pathe
+  Message : @Lee  I have a query regarding picture permission email notification changes
+
+Do you want these changes on new implementation only or old email settings too?
+Will the emails added from email setting will only receive access revoked email only or will receive both for granted and revoked?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778495042895979?thread_ts=1778495042.895979&cid=C08LEFNF0BS
+  [6 earlier replies before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [13:17] Krishna Thite: Job : Picture permission email notification changes
+Project code : 832
+
+complete
+---------------------------------------------------------------------------
+
+OLD THREAD #7  (originally posted 2026-05-11 15:11)
+  Author  : Ayush Kharpuse
+  Message : @Fernanda @Sunny
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778492519995469?thread_ts=1778492519.995469&cid=C08LEFNF0BS
+  [6 earlier replies before 2026-05-13 not shown]
+  New replies on 2026-05-13 (2):
+    [13:30] Krishna Thite: Project Code : Review & Remove Unused DSI Late Sign-In Reason Selection Setting
+Job : 837
+    [14:57] Ayush Kharpuse: No there is no need to do anything in this, this was existing Functionality, In new DSI we're not including it, because its not in use.
+---------------------------------------------------------------------------
+
+OLD THREAD #8  (originally posted 2026-05-11 12:57)
+  Author  : Sunny
+  Message : @channel Can someone please update the app for *Cistercian College Roscrea 660?*
+
+
+*Wriggle* link in the side bar menu to be replaced with Perduko and the following link attached
+_https://www.perduko.com/1to1-devices/cistercian-college-roscrea_
+
+_Under the Shop link in the side bar menu, replace CCR Shop with *"School Uniform"* and the following link attached_ 
+https://www.schooluniformsdirect.ie/secondary/cistercian-college-roscrea
+
+Thank you cc @Shruti Kokate
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778484446780339?thread_ts=1778484446.780339&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [13:31] Krishna Thite: Project Code: NA
+---------------------------------------------------------------------------
+
+OLD THREAD #9  (originally posted 2026-05-08 17:08)
+  Author  : Fernanda
+  Message : @channel can someone confirm for me, Ennistymon, school received an email to say picture has been revoked, but when looking in the dashboard is showing as granted. just want to make sure the parent updated back to granted
+
+Maximillian Bierka 3B
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778240290979389?thread_ts=1778240290.979389&cid=C08LEFNF0BS
+  [8 earlier replies before 2026-05-13 not shown]
+  New replies on 2026-05-13 (3):
+    [13:48] Amatullah Andamanwala: Job: Photo Permission Revoked Email Mismatch for Ennistymon Community School
+Project code: 838
+    [13:58] Manish Pathe: CC: @Lee @Sunny
+    [14:27] Lee: all good, mark as complete. Thanks Manish
+---------------------------------------------------------------------------
+
+OLD THREAD #10  (originally posted 2026-05-07 19:51)
+  Author  : Sunny
+  Message : Sutton Park - Aelana Shafrizan @channel
+
+Can someone check the signatures of the Abs and Late for this student's attendance? We can see the signature of PTL but not the other two. They're investigating if this student is submitting the notes by herself.
+
+I need get back to the school (Sue) tomorrow
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778163666298309?thread_ts=1778163666.298309&cid=C08LEFNF0BS
+  [10 earlier replies before 2026-05-13 not shown]
+  New replies on 2026-05-13 (2):
+    [12:59] Krishna Thite: Job : Display Signatures for Absence and Late Notes in CMS/YHD
+Project Code : 834
+    [13:02] Lee: @Krishna Thite only display in YHD, no need to display in cms
+---------------------------------------------------------------------------
+
+OLD THREAD #11  (originally posted 2026-05-07 17:06)
+  Author  : Sunny
+  Message : @channel @Kritika Wadhwa
+St Mary's New Ross
+
+Can you kindly check why the codes are missing for these 2 payments when exporting?
+
+"I printed my April receipts report and noticed that two of the transactions in the summary report don't have a nominal code beside them, line 761 and 769. Do you know why this would be as they have to have a code when they're set up?"
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778153776573299?thread_ts=1778153776.573299&cid=C08LEFNF0BS
+  [5 earlier replies before 2026-05-13 not shown]
+  New replies on 2026-05-13 (2):
+    [11:37] Kritika Wadhwa: This is now fixed @Sunny
+    [15:47] Amatullah Andamanwala: Job: Missing Nominal Codes in Exported April Receipts Report – St Mary’s New Ross
+Project code: 840
+
+complete
+---------------------------------------------------------------------------
+
+OLD THREAD #12  (originally posted 2026-05-06 19:09)
+  Author  : Ayush Kharpuse
+  Message : Hi @Lee,
+
+This task has been completed and successfully tested on qa server by Prajwal. We are now ready to deploy it to the live environment.
+I have attached the test cases, could you please review them?
+<https://uniquepublishing.sharepoint.com/:x:/s/SchoolApp/IQCntY0zsXWMRpVLV85VjsaOAUD2ML3UEMZOOtTZg1Lsa1I?e=OtBL74|Tyro - Auto Pick Up Non-DSI Late Sign in.xlsx>
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778074786579159?thread_ts=1778074786.579159&cid=C08LEFNF0BS
+  [18 earlier replies before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [13:22] Krishna Thite: Job : Tyro - Auto Pick Up Non-DSI Late Sign in
+Checking class 2+3 for validation where ARF sent on class 1
+Project code : 621
+
+complete
+---------------------------------------------------------------------------
+
+OLD THREAD #13  (originally posted 2026-04-29 12:40)
+  Author  : Lee
+  Message : > Hi James,
+> 
+> I’ve attached screenshots here from the Team Manager app.
+> 
+> Yesterday, I was bringing students to athletics and marked the attendance on the app — 9 out of 10 were present. I set the time from 8:55 to 3:50 and saved it, but for some reason it only saved as 8:55 to 9:55.
+> 
+> Later that evening, I tried to update it, but it keeps reverting back to 9:55. It seems like it won’t allow the event to go on for longer than an hour.
+> 
+> Because of this, the students are showing as absent after 9:55 on the roll and VSware.
+> 
+> Any idea what might be causing this, or how I can fix it?
+> 
+> Thanks,
+> Martin 
+> Mercy College, Roscommon
+See attached screen recording. I replicated the issue. @channel please check
+
+cc @Sunny @Fernanda
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1777446624396629?thread_ts=1777446624.396629&cid=C08LEFNF0BS
+  [62 earlier replies before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [13:05] Krishna Thite: Job : Fix PM Writeback Logic Using Roll Call Time Instead of Static Closing Time
+Project Code : 812
+
+Complete
+---------------------------------------------------------------------------
+
+OLD THREAD #14  (originally posted 2026-04-28 18:31)
+  Author  : Sunny
+  Message : @channel St Clement's - Achill Island Outdoor Adventure TY Trip
+
+Can you check why some payments are shown as €237.26 and some are €240?
+
+Order ID 1316549 - show €237.26 in the payment and €240 in Orders - can you check why they're different? cc @Kritika Wadhwa
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1777381293123229?thread_ts=1777381293.123229&cid=C08LEFNF0BS
+  [6 earlier replies before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [15:45] Kritika Wadhwa: This is fixed @Sunny
+---------------------------------------------------------------------------
+
+OLD THREAD #15  (originally posted 2026-04-28 16:42)
+  Author  : Sunny
+  Message : @channel Can you please add a staff to a payment? School cannot add staff to it as there's no Teacher Staff filter when adding.
+
+Social Committee 25/26 40 euros
+add 	Maureen O'Shea
+
+Many thanks @Kritika Wadhwa
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1777374759422729?thread_ts=1777374759.422729&cid=C08LEFNF0BS
+  [23 earlier replies before 2026-05-13 not shown]
+  New reply on 2026-05-13 (1):
+    [13:16] Krishna Thite: Job : Investigate Incorrect Shop Payment User Type & Add Staff Filter Support
+Project code : 836
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [15:10] Lee: Cnoc Mhuire Granard - <mailto:coharaf@gmail.com|coharaf@gmail.com> (parent)
+unable to submit late note, getting the error attached
+@channel [Attachment(s): 16209.jpg]
+│   └─ Replies:
+│      [15:12] Ravindra Chherke: @Ayush Kharpuse
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (13 replies) ──────────────────────────────────────
+│ [16:29] Lee: > Hi Lee,
+> 
+> Please see this one instance of an error with the payment.  
+> 
+> When our office staff set this up they did so without adding users first. They then went back and added the entire student population t the fee with one payment per familty selected. This may be where the issue is arising from
+@channel Payment Item: Sintús Scoile/Voluntary Contribution 2026/27
+School: <https://www.uniqueschoolapp.ie/user|Coláiste an Phiarsaigh >
+Parents are getting errors when trying to pay/checkout.
+
+Can you please check this? [Attachment(s): IMG_6392.png]
+│   └─ Replies:
+│      [16:30] Kritika Wadhwa: checking @Lee
+│      [17:12] Kritika Wadhwa: @Lee can you tell me parent who got this issue?
+│      [17:14] Lee: <mailto:sorcha_ocallaghan@yahoo.ie|sorcha_ocallaghan@yahoo.ie>
+│      [17:17] Kritika Wadhwa: Thanks
+│      [17:36] Kritika Wadhwa: @Lee this item is one per family (Variablre amount) but somehow more then 1 child per family is added to this item. We have to remove one of 2 siblings from the item manually.
+
+We are trying to reproduce the case where this happened
+│      [17:39] Lee: > Dear Gillian 
+>  
+> Thank you for your call this morning. Please find attached screenshot as requested. I put in 205e at the first prompt but when I go to checkout it doubles.
+>  
+> I can call in or pay over the phone if necessary. 
+>  
+> I look forward to hearing from you. 
+>  
+> With kind regards 
+> Stephanie [Attachment(s): Screenshot_20260513_120309.jpg]
+│      [17:39] Lee: check this one too
+│      [17:43] Kritika Wadhwa: this parent also has 2 students added in this shop item thats why its happening
+│      [17:46] Lee: can this be done your end and re-add students correctly as one per family?
+│      [17:53] Kritika Wadhwa: yes i will do
+│      [17:53] Lee: thanks
+│      [19:33] Kritika Wadhwa: @Lee I have fixed this item
+│      [19:35] Lee: thank you Kritika
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [16:34] Sunny: @channel just FYI that we have around 10 parents telling us that they did not get any OTP codes for new build - Colaiste Pobail Setanta. They're all Irish numbers and when I checked Twillio, they're successfully delivered.
+│   └─ Replies:
+│      [19:40] Lee: +5 more parents, seems to be most parents unable to receive the OTP
+
+cc @Ravindra Chherke
+└─────────────────────────────────────────────────────────────────────────
+
+[17:31] Sunny: @channel cc @Sonali Gaikwad
+
+Kindly see a query from the school:
+if a student is Late, but a parent put in an absence note instead of a LATE, can they delete the absence note to allow them to put in the LATE? I’m not talking about when we have sent out a request for an absent note, rather when the parent has submitted it themselves?
+
+if there's an ABS note and the student signs in late on the tablet, will there be 2 notes for the day (both ABS & Late Request)?
+
+┌── THREAD #4 (2 replies) ──────────────────────────────────────
+│ [19:26] Sunny: @channel @Shruti Kokate
+*Scoil Chaitriona 205*
+can you ensure this app is the most up-to-date cc @Lee so parents can update cards for instalments.
+
+@Kritika Wadhwa
+can you tell me that when a parent has more than 1 card attached in stripe, the 2nd instalment will be charging their default card in stripe or the card they paid the 1st instalment with?
+│   └─ Replies:
+│      [19:33] Shruti Kokate: @Sunny Yes,App is updated with change card functionality and mutiple payments also
+│      [09:09] Kritika Wadhwa: @Sunny if they don't change the card from the app then 2nd installment will come out from the card they paid the 1st installment with.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (1 reply) ──────────────────────────────────────
+│ [19:51] Lee: @channel Detention Reminder PN to Parents - add in settings (see screenshot)
+@Krishna Thite @Prajwal Chaudhari please create a job for this. Thanks [Attachment(s): image.png]
+│   └─ Replies:
+│      [13:05] Amatullah Andamanwala: Job: Add Detention Reminder Push Notification Setting for Parents
+Project code: 845
+└─────────────────────────────────────────────────────────────────────────

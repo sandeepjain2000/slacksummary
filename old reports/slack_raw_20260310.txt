@@ -1,0 +1,50 @@
+[13:53] Fernanda: @Ravindra Chherke languages Polish & Ukranian - what does it need to activate for a school?
+[13:55] Ravindra Chherke: @Fernanda You would need to enable this from admin control.
+[13:58] Fernanda: does it need an app update?
+[14:31] Sunny: @channel Hi @Kritika Wadhwa
+
+Can you kindly check the Bank Reconciliation for *Meánscoil Iognáid Ris (Naas) 442* in *Sept* *2025*?
+
+Their lodgements in Stripe is *220,286.36* but in the excel, it shows *220,370.98*
+
+*Can you check why there's discrepancy? Many thanks!*
+[14:35] Sandeep Jain: Kritika will check in the evening
+[14:54] Fernanda: @Sonali Gaikwad what happened in this case?
+
+Student Ellie Reynolds, Magh Ene. Two ARF, one sent and please checked and the other as NO. student was marked absent in the PM roll call
+[15:05] Kritika Wadhwa: Will check @Sunny
+[15:09] Sunny: @channel *Picture permission - Ennistymon Community School*
+
+Can you check why staff got revoke email alert but the student is YES on picture permission? Which one is correct info?
+[15:10] Sonali Gaikwad: @Fernanda AM ARF created by AFM team by sheet import process
+and it got please check and cancelled by automatic  ARF sync process as PRESENT found on VSware session.
+
+But on Vsware session PM was absent so ARF generated for the PM session through automatic ARF sync process.
+
+If she is absent then we should send that ARF to parent.
+[15:13] Fernanda: but who should be sending this to the parent? is it not automatic?
+[15:17] Fernanda: @channel @Shruti Kokate can you please test this
+When you get a chance, I was wondering if you could take a look at our news section please? We are having some issues when we press 'Save' with some news items publishing and some are going to drafts and then people aren't realising that they are not published until either someone mentions it them or they see draft the next time they log in.
+[15:30] Sonali Gaikwad: Sending is not automatic. AFM team usually sends it.
+[15:31] Sunny: St. Joseph’s Secondary School (Castlebar) reported the same as they deleted a notification but still can view it in the app. Had to log out and back in to resolve this but most users wont do so. *cc @Kumaraswamy R* 
+[15:56] Manish Pathe: Hi @Sunny I checked the code and did not find any issues. After verifying the record at the database level, I found that the scenario is as follows:
+the parent first selected "*I do not consent*", which triggered the revocation email to be sent to the principal. Later, the parent changed the selection to "*I consent*". However, with the current functionality, the picture permission approval email is not sent to the principal when the parent changes the consent back to "I consent".
+[16:35] Fernanda: @Ravindra Chherke does the app need to be updated? or just ticking in admin control is enough?
+[16:36] Ravindra Chherke: @Fernanda I think all the app would have been updated by now.
+
+@Kumaraswamy R @Shruti Kokate Can you please confirm.
+[16:41] Kumaraswamy R: Hi @Fernanda,
+The app update is not required for this change. The apps are already been updated with this feature.
+Thanks.
+[17:14] Fernanda: @Kritika Wadhwa james is offering clients the option to pass on all the fees to parents with the transaction at point of checkout (2.5% + 25 cent (+vat)) can you confirm you can implement this per school base
+[17:43] Kritika Wadhwa: Hi @Fernanda, I will check and let you know
+[18:32] Fernanda: @Ravindra Chherke can you please provide some guidance on this. Colaiste Bhride Carnew posted a notification about a missing student, that has since been found. The notification was deleted from the CMS, but still appearing in some parents' app. This is causing distress among the parents. Can you please advise if you can force to remove from everyone's device?
+[18:34] Ravindra Chherke: @Fernanda We can update the flags and timestamp which will force refresh the list.
+
+@Sonali Gaikwad @Kumaraswamy R @Ayush Kharpuse
+Can you please look into it asap.
+[19:20] Kumaraswamy R: Hi @Fernanda,
+The issue has been identified and fixed on the application side. However, the changes require an app update to take effect. I'll coordinate with @Shruti Kokate to submit the update, which should take 1-2 days depending on App Store approval timelines.
+Thanks.
+[19:29] U0AL1QV3B4Z: @U0AL1QV3B4Z has joined the channel
+[20:23] Sunny: @channel why when a teacher unpublished an item, it became Pending.

@@ -1,0 +1,223 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-03-26
+Total messages: 40 | Threads: 8 | Standalone: 0
+================================================================================
+
+### 1.a [13:12] — Ayush Kharpuse inquires about prioritizing relationships in MIS syncing for Tyro
+**Original message:** @Lee Regarding MIS syncing in Tyro.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ayush lists relationship types in Tyro, asks about prioritizing them. Fernanda suggests prioritizing Mother, Father, and Other relationships over additional types like Step parents and siblings.
+
+### 1.b [14:07] — Fernanda requests updating Malahide & Portmarnock from VSware to Tyro
+**Original message:** @Shruti Kokate can you please update Malahide & Portmarnock from VSware to Tyro in the main app tomorrow afternoon.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti confirms the update to Tyro.
+
+### 1.c [15:09] — Sonali Gaikwad reports attendance writeback setting issue to Fernanda
+**Original message:** @Fernanda The school's attendance writeback setting is set to off. [Attachment(s): image.png]
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sonali informs Fernanda about the attendance writeback setting being off.
+
+### 1.d [16:53] — Fernanda and Sonali troubleshoot student mapping issue at Sandford Park
+**Original message:** @Sonali Gaikwad can you please check the lates for this student didn't map with WB? Sandford Park
+**Project Code:** PROJECT 721
+**Thread summary:** Sonali identifies a validation error, suggests re-triggering WB, and advises updating department ID. Fernanda updates the student ID and resolves the issue.
+
+### 1.e [19:52] — Fernanda seeks help for a teacher unable to view recent PN at Terenure College
+**Original message:** @channel this teacher in Terenure College is not able to see recent PN. he deleted the app, installed it again. I unlinked the profile linked again but still no luck.
+**Project Code:** PROJECT 717
+**Thread summary:** Sandeep tags Yashraj for assistance. Prajwal provides a Trello link for tracking the issue.
+
+### 1.f [20:52] — Fernanda reports a parent facing issues submitting attendance notes at Mount Anville
+**Original message:** @channel Parent is trying to submit attendance note from April 14 to May 22 and is getting bad request - Mount Anville
+**Project Code:** PROJECT 716
+**Thread summary:** Kumaraswamy explains the error due to exceeding the date submission limit. Ayush increases the limit to 50 dates.
+
+### 1.g [21:02] — Fernanda requests updating an open payment display issue
+**Original message:** @Kritika Wadhwa open payment says Due on (DATE) but is displaying the date it was created. can this be updated ASAP
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Fernanda assigns tasks to team members but later decides not to update immediately.
+
+### 1.h [21:23] — Fernanda asks for a note removal from parent for CBC Cork 124
+**Original message:** @Shruti Kokate can you please remove the note from parent for CBC Cork 124 main app
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti removes the note from the app as requested by Fernanda, with no immediate action needed for CMS and admin app.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (3)
+  Thread #4 [16:53] — Code(s): PROJECT 721
+    "@Sonali Gaikwad can you please check the lates for this student didnt map with W..."
+  Thread #5 [19:52] — Code(s): PROJECT 717
+    "@channel this teacher in Terenure College is not able to see recent PN. he delet..."
+  Thread #6 [20:52] — Code(s): PROJECT 716
+    "@channel Parent is trying to submit attendance note from April 14 to may 22 and ..."
+
+THREADS WITHOUT PROJECT/JOB CODE (5)
+  Thread #1 [13:12] — "@Lee Regarding MIS syncing in Tyro."
+  Thread #2 [14:07] — "@Shruti Kokate can you please update Malahide & Portmarnock from VSware to Tyro ..."
+  Thread #3 [15:09] — "This message was deleted."
+  Thread #7 [21:02] — "@Kritika Wadhwa open payment says Due on (DATE) but is displaying the date it wa..."
+  Thread #8 [21:23] — "@Shruti Kokate can you please remove the note from parent for CBC cork 124 main ..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-03-26 (3 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-03-25 19:53)
+  Author  : Lee
+  Message : Loreto Abbey are getting PM ARF, they only want AM ARF.
+It's coming through Auto API, can we disable for PM for this school?
+@channel @Sonali Gaikwad
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774448635599849?thread_ts=1774448635.599849&cid=C08LEFNF0BS
+  [3 earlier replies before 2026-03-26 not shown]
+  New reply on 2026-03-26 (1):
+    [10:57] Sonali Gaikwad: @Lee I believe the AFM team should not send the generated ARF through an automated API.
+
+The automation will generate the ARF based on the school’s session settings
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-03-25 14:12)
+  Author  : Lee
+  Message : @Harshwardhan More Can we have an option to create a group in Team Manager from a Team?
+Something like the screenshot or if you have a better idea.
+This is useful for creating payments based off the team
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774428141699249?thread_ts=1774428141.699249&cid=C08LEFNF0BS
+  [3 earlier replies before 2026-03-26 not shown]
+  New reply on 2026-03-26 (1):
+    [13:15] Harshwardhan More: @Lee Yup, I can make it happen.
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-03-20 18:34)
+  Author  : Fernanda
+  Message : @channel mount temple
+late unauthorised should move to vsware as Late unexplained, is that correct?
+@Sonali Gaikwad @Lee @Sunny
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774011865802679?thread_ts=1774011865.802679&cid=C08LEFNF0BS
+  [10 earlier replies before 2026-03-26 not shown]
+  New replies on 2026-03-26 (12):
+    [16:15] Fernanda: @Sonali Gaikwad sorry to be a pain, do you know when this error started to happen? more or less?
+    [16:24] SYSTEM: *<slack://user?team=T06UTJTKVUM&id=U0701K0LL9X|@Sonali Gaikwad> created a card* [Preview: [no preview available]]
+    [16:25] Sandeep Jain: @Prajwal Chaudhari
+    [16:27] Sonali Gaikwad: @Fernanda the revalidation cron job was not initially configured to exclude parent unauthorized notes.
+    [16:32] Fernanda: meaning?
+    [16:34] Sonali Gaikwad: When parent mark unauthorised note it triggers writeback in the process of the revalidation job which runs at 4 PM.
+    [16:35] Fernanda: sorry, i understand that. the school is asking when this problem started to run at 4pm, so she can check notes from the date to ensure its all corrected
+    [16:41] Sonali Gaikwad: We deployed this feature on 14th Jan 2026
+    [16:45] Prajwal Chaudhari: Project code :- 714
+Project title :- Prevent Late unauthorised Writeback in revalidation cron
+    [16:46] Fernanda: thank you!!!
+    [18:07] Fernanda: @Sonali Gaikwad not sure how you are managing the other schools to be updated, but if you can do Sandford Park after as they flagged this issue today
+    [18:28] Sonali Gaikwad: @Fernanda I have retriggered the late notes for this school.
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [13:12] Ayush Kharpuse: @Lee Regarding MIS syncing in Tyro.
+│   └─ Replies:
+│      [13:12] Ayush Kharpuse: Tyro Relationship type - Student
+MOTHER,
+FATHER,
+STEP_FATHER,
+STEP_MOTHER,
+GRAND_MOTHER,
+GRAND_FATHER,
+SIBLING,
+AUNTY,
+OTHER,
+│      [13:13] Ayush Kharpuse: I checked a school and found multiple relationships between students and their associated parents. In which manner should I prioritize them?
+│      [14:58] Lee: @Fernanda hey, any idea here?
+│      [15:00] Fernanda: Mother, Father, Other. I don't think we should go adding Step father/mother, grandfather, sibling etc
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (1 reply) ──────────────────────────────────────
+│ [14:07] Fernanda: @Shruti Kokate can you please update Malahide & Portmarnock from VSware to Tyro in the main app tomorrow afternoon.
+│   └─ Replies:
+│      [19:33] Shruti Kokate: @Fernanda Updated to Tyro
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [15:09] USLACKBOT: This message was deleted.
+│   └─ Replies:
+│      [15:32] Sonali Gaikwad: @Fernanda The school's attendance writeback setting is set to off. [Attachment(s): image.png]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (9 replies) ──────────────────────────────────────
+│ [16:53] Fernanda: @Sonali Gaikwad can you please check the lates for this student didnt map with WB? Sandford Park [Attachment(s): image.png]
+│   └─ Replies:
+│      [17:12] Sonali Gaikwad: The error shows from wonde is - Validation has failed.
+Can you re-trigger the WB from CMS old report?
+│      [17:17] Fernanda: I resent failed WB from late tab - 48 in total, just now
+│      [19:48] Fernanda: hasn't mapped across yet @Sonali Gaikwad
+│      [10:51] Sonali Gaikwad: @Fernanda
+Please note that her department ID differs from what is currently entered in CMS. Kindly update the same using VSware and confirm once completed.
+
+Additionally, I will need to remove her existing student mapping so that it can be reassigned correctly with the updated details [Attachment(s): image.png]
+│      [17:14] Prajwal Chaudhari: https://trello.com/c/dDPRD9gE [Preview: [no preview available]]
+│      [17:17] Prajwal Chaudhari: Project Code :- 721
+Project Name :- Check attendance records for student at Sandford Park
+│      [17:57] Fernanda: @Sonali Gaikwad I updated the student ID
+│      [18:03] Sonali Gaikwad: @Fernanda You can run student mapping now
+│      [18:13] Fernanda: worked, thank you Sonali!
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (3 replies) ──────────────────────────────────────
+│ [19:52] Fernanda: @channel this teacher in Terenure College is not able to see recent PN. he deleted the app, installed it again. I unlinked the profile linked again but still no luck.
+His profile is a teacher/Parent - version of the app is 5.0.17 (31)
+<mailto:paul.hyland@TerenureCollege.ie|paul.hyland@TerenureCollege.ie> [Attachment(s): image001.png]
+│   └─ Replies:
+│      [19:57] Sandeep Jain: @Yashraj Talokar
+│      [13:21] Prajwal Chaudhari: https://trello.com/c/46HZ6yOZ [Preview: [no preview available]]
+│      [13:27] Prajwal Chaudhari: Project code :- 717
+Project Name :-  Teacher Unable to View Recent PN in App issue for Terenure College teacher
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (8 replies) ──────────────────────────────────────
+│ [20:52] Fernanda: @channel Parent is trying to submit attendance note from April 14 to may 22 and is getting bad request - Mount anville [Attachment(s): File.jpg]
+│   └─ Replies:
+│      [20:54] Sandeep Jain: @Kumaraswamy R
+│      [11:42] Kumaraswamy R: @Shruti Kokate can you please check if you can reproduce this?
+│      [11:49] Shruti Kokate: @Kumaraswamy R I am able to reproduce  [Attachment(s): IMG_1891.png]
+│      [11:50] Sandeep Jain: @Prajwal Chaudhari
+│      [12:00] Prajwal Chaudhari: https://trello.com/c/H8Q6dj1m [Preview: [no preview available]]
+│      [12:08] Prajwal Chaudhari: Project Code :- 716
+Project name :- Issue with attendance note submission at Mount Anville
+│      [12:10] Kumaraswamy R: Hi @Fernanda,
+There is a limit set on backend for maximum 25 dates. In the above scenario the parent is trying to submit 29 dates at once. Hence seeing an error.
+
+@Ayush Kharpuse, please check on this.
+│      [14:34] Ayush Kharpuse: Hi @Shruti Kokate @Prajwal Chaudhari
+
+I have increased the limit to 50 please check it now.
+deployed on qa2.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (4 replies) ──────────────────────────────────────
+│ [21:02] Fernanda: @Kritika Wadhwa open payment says Due on (DATE) but is displaying the date it was crated. can this be updated ASAP [Attachment(s): image.png]
+│   └─ Replies:
+│      [21:06] Fernanda: @Sandeep Jain
+│      [21:22] Sandeep Jain: @Prajwal Chaudhari
+│      [23:01] Fernanda: do not update. i'll get back to you on it
+│      [10:38] Kritika Wadhwa: Ok @Fernanda
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #8 (2 replies) ──────────────────────────────────────
+│ [21:23] Fernanda: @Shruti Kokate can you please remove the note from parent for CBC cork 124 main app
+│   └─ Replies:
+│      [10:57] Shruti Kokate: @Fernanda It has been removed from the app . Do you also want it to be removed from the CMS and admin app?
+│      [13:08] Fernanda: not for now, as parents might still submit it
+└─────────────────────────────────────────────────────────────────────────

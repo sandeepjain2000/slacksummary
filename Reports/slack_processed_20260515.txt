@@ -1,0 +1,324 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-05-15
+Total messages: 59 | Threads: 4 | Standalone: 4
+================================================================================
+
+### 1.a [14:07] — Urgent fix for unresponsive buttons in DSI app on Android tablets
+**Original message:** Sunny: @Kumaraswamy R urgent - DSI - Unresponsive buttons in Home Screen on Android tablets  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Kumaraswamy R confirms fix pushed for review, estimated time for live deployment, and need for app reinstallation. Updates provided on app versions for Android and iOS.
+
+### 1.b [14:50] — KW updates
+**Standalone message:** Sandeep Jain: KW updates  
+**Thread summary:** Sepa DD in testing, all other issues resolved except one in testing.
+
+### 1.c [15:00] — Query on disabled variable amount when multiple payments enabled
+**Original message:** Lee: @Kritika Wadhwa why is variable amount disabled when multiple payments is enabled  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Discussion on enabling variable amount for multiple payments, request to create FMP job, and plan to discuss further.
+
+### 1.d [17:53] — Update app link from vsware to tryo on sidebar menu
+**Original message:** Lee: @channel please update link in app from vsware to tryo on sidebar menu https://app.tyro.school/dashboard  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Change request acknowledged and implemented by Shruti Kokate for St. Colman's CC Midleton app.
+
+### 1.e [18:15] — New build issue with suspension code override
+**Original message:** Sunny: @channel new build - Coláiste Pobail Setanta  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Sonali Gaikwad discusses the issue of suspension code override, proposes solutions like block codes, school-wise settings, and clarifies writeback logic. Further discussion on specific codes, writeback behavior, and potential scenarios.
+
+---
+
+Unresolved issue: Clarification needed on the impact of parent's attendance notes overriding suspension code.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (4)
+  Thread #1 [14:07] — "@Kumaraswamy R urgent - DSI - Unresponsive buttons in Home Screen on Android tab..."
+  Thread #2 [15:00] — "@Kritika Wadhwa why is variable amount disabled when multiple payments is enable..."
+  Thread #3 [17:53] — "@channel please update link in app from vsware to tryo on sidebar menu https://a..."
+  Thread #4 [18:15] — "@channel new build - Coláiste Pobail Setanta
+
+School reported that their suspens..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-05-15 (6 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-05-14 15:30)
+  Author  : Sunny
+  Message : @channel Joshua Conlon - *De La Salle College (Dundalk) cc @Sonali Gaikwad* 
+
+Can someone check why there's a 05/05 late request in the parent's app but i dont find it in the CMS?
+
+The kid was late for the afternoon on vsware - does our system pick it up automatically? but on the app it's shown as 8:50 AM arrival time.
+
+The parent said they received this alert today 14/05.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778752836289669?thread_ts=1778752836.289669&cid=C08LEFNF0BS
+  [5 earlier replies before 2026-05-15 not shown]
+  New reply on 2026-05-15 (1):
+    [10:55] Sonali Gaikwad: They notified at the day LNR generated through sync process and not yesterday.
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-05-14 13:48)
+  Author  : Sunny
+  Message : @channel
+
+A bit urgent as parent would like to pay
+<mailto:katewise@cpsetanta.ie|S>t Paul's College - payment: 1st Year Trip to Alive Outside Killruddery Estate 21st May 26
+
+School set up the limit to 100, 95 paid by app, 4 paid by link and 1 refunded.
+It seems that the 1 refunded one is still taking up the space. Can this be rectify so the parent can pay? Thank you! @Kritika Wadhwa
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778746685396469?thread_ts=1778746685.396469&cid=C08LEFNF0BS
+  [9 earlier replies before 2026-05-15 not shown]
+  New replies on 2026-05-15 (3):
+    [11:29] Kritika Wadhwa: Hi @Lee, I have deployed the fix
+    [11:31] Kritika Wadhwa: But in case of "Multiple Payments" turned on, if the user has paid once and then that order gets refunded the shopuser status doesnt get updated to refunded it remains "Ongoing" so then the refunded space will not free up
+    [11:33] Lee: ok that's fine, thank you Kritika
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-05-12 17:00)
+  Author  : Lee
+  Message : @channel email confirmation for absent note is not very clear. This parent selected the 6th of May and the 8th of May. In the email it shows 2026-05-08, 2026-05-12. This looks like it's from - to.
+
+It should be more clear eg:
+> Thank you for submitting your absentee note for:
+> • 6th May 2026
+> • 8th May 2026
+> The note has been submitted to the school.
+Note, the date format too. In ireland, we use DD/MM/YYYY
+
+YYYY/MM/DD is too confusing for users. Please ensure going forward any date formats should be DD/MM/YYYY or like 6th May 2026. We need to update all areas of the system (big job perhaps but necessary). James mentioned this multiple times.
+
+Can this please be done?
+
+Also @Kumaraswamy R is the date range selection on absent note live? Instead of individual days, it's a range selection. Please confirm and make Mount Anville live if not already. Please also do this for all school apps.
+
+Thanks
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778585412488359?thread_ts=1778585412.488359&cid=C08LEFNF0BS
+  [5 earlier replies before 2026-05-15 not shown]
+  New reply on 2026-05-15 (1):
+    [12:34] Shruti Kokate: Hi @Lee *Mount Anville app is* updated with date range selection
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-05-07 15:11)
+  Author  : Sunny
+  Message : @channel cc @Ravindra Chherke @Sandeep Jain
+
+Two requests from JMM:
+
+• please update the pop up message of PN from teachers to "IMPORTANT - Tap to read! 
+• *St. Colmcille's Community School* - they want all the PN sent from teachers to have the Unread Email Alerts (24h) turned on by default. We used to have that settings in the old PN. Can we have that in the current PN as well? so that the school can turn that on from their end if they want it on by default. 
+Many thanks!
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778146892391049?thread_ts=1778146892.391049&cid=C08LEFNF0BS
+  [9 earlier replies before 2026-05-15 not shown]
+  New replies on 2026-05-15 (6):
+    [12:25] Sonali Gaikwad: @Sunny We have deployed the following changes on LIVE.
+• Please update the pop up message of PN from teachers to "School Message - Tap to read !"
+• Added option on PN list to resend PN to unread users - (send the push alert only when both parents have not read the PN)
+CC: @Ravindra Chherke @Sandeep Jain [Attachment(s): image.png]
+    [12:35] Lee: @Sonali Gaikwad great however there should be a confirmation popup before send "are you sure...." Yes, Cancel
+
+It should not send straight away. This should be for most actions across the system especially when it comes to notifying parents
+    [12:38] Sonali Gaikwad: @Vivek Jadhav
+    [13:14] Vivek Jadhav: @Lee Confirmation popup added.
+    [13:18] Lee: Thanks Vivek
+    [13:20] Amatullah Andamanwala: Job: Enhance PN Notification Settings and Add Confirmation Popup for Resend Actions
+Project code: 854
+---------------------------------------------------------------------------
+
+OLD THREAD #5  (originally posted 2026-05-06 19:09)
+  Author  : Sunny
+  Message : @Yashraj Talokar @channel
+
+Can you kindly check what this issue is?
+
+St Gerard's regarding Past Pupil:
+_I am just emailing as I am having difficulty. I just posted a message to a specific year group and when I went to do another Year specific message, it is not letting me and this is appearing as the only option, but even if I click it, it doesn't come up with any further steps._
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778074748978829?thread_ts=1778074748.978829&cid=C08LEFNF0BS
+  [13 earlier replies before 2026-05-15 not shown]
+  New replies on 2026-05-15 (4):
+    [17:23] Sunny: @Yashraj Talokar this "Select Year Group" - is this to send alerts to those year group?
+
+I believe the teacher wanted to edit a published news and wanted to add more Year to it but it's only showing "Select Al" without any other year.
+    [17:58] Yashraj Talokar: @Sunny, Yes it is related to "Select Year Group", it is not showing up in the edit because we don't store anywhere to which year group it was sent, We can do this, but it will take little time, can I do it after enrolment is complete or is it urgent?
+    [18:19] Sunny: not urgent at all
+    [18:19] Sunny: thank you
+---------------------------------------------------------------------------
+
+OLD THREAD #6  (originally posted 2026-04-21 14:18)
+  Author  : Sunny
+  Message : @channel Molly Ryan (4E) - *St. Paul’s Secondary School (Monasterevin)*
+
+Can you check why 30/03/2026-06/04/2026 when it's school's holiday but we have OTH codes in the CMS? cc @Harshwardhan More Thank you!!
+
+ps. This school do not have ABS Writeback. AFM Team is updating manually.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776761321913229?thread_ts=1776761321.913229&cid=C08LEFNF0BS
+  [17 earlier replies before 2026-05-15 not shown]
+  New replies on 2026-05-15 (2):
+    [15:27] Sunny: @Harshwardhan More I forwarded wonde's response to school and advise them to contact vsware then
+    [15:27] Sunny: thanks for taking care for this
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[13:27] Sandeep Jain: Deployments of Week
+
+
+*Sonali Gaikwad*
+822 - Resend PN to unread job with push (JMM) text change - LIVE
+
+*Tejas*
+763 - App engagement dashboard changes - QA3 and Staging
+
+*Ayush Kharpuse*
+136 - Boarder BE /FE - PTL submission from the Parent side to the Boarders - LIVE
+
+*Shruti Kokate*
+App Updates:
+134 - CCFET Morrison’s Island Campus: Student ID Changes ready for release.
+2837 - Mount Anville: The date range selection update has been released.
+
+*Kritika Wadhwa*
+Duplicate Student Assignment Causing One-Per-Family Payment Checkout Errors – Coláiste an Phiarsaigh - 843
+Fix Payment Limit Count Not Updating After Refund – St Paul’s College Trip Payment - 852
+Missing Nominal Codes in Exported April Receipts Report – St Mary’s New Ross - 840
+
+*Shubham Dixit*
+St. Mary's Holy Faith Secondary School, Glasnevin - website deployment
+
+*Manish Pathe*
+832 - Picture permission email notification changes - LIVE
+833 - Supplier logins change password functionality correction - QA3
+
+*Vivek Jadhav*
+Added option on PN list to resend PN to unread users - LIVE
+767 - Add Approve Action and Enable Direct Sign Out - QA3
+
+┌── THREAD #1 (18 replies) ──────────────────────────────────────
+│ [14:07] Sunny: @Kumaraswamy R urgent - DSI - Unresponsive buttons in Home Screen on Android tablets
+
+If this is fixed, can you please push it to live asap as school is shouting at us.
+│   └─ Replies:
+│      [14:08] Kumaraswamy R: I've already pushed the fix for the review. Once its approved I'll publish the app
+│      [14:09] Sunny: okay please let me know when that's done
+│      [14:09] Sunny: how long will it take
+│      [14:09] Sunny: does the school have to reinstall the app?
+│      [14:09] Kumaraswamy R: Normally it will take about 4 hours on Android and 8 hours on iOS.
+│      [14:09] Kumaraswamy R: Yes, they have to re-install
+│      [14:09] Sunny: 4 hours from now?
+│      [14:10] Sunny: (i will say to the school
+│      [14:13] Sunny: give me or @Lee a shout when it's ready so we will call the school, thanks Kumar
+│      [14:14] Kumaraswamy R: Yes, sure
+│      [14:52] Kumaraswamy R: Hi @Lee, @Sunny,
+The DSI app is live on Google Play Store. Schools can now update their app to version *1.6.2(32).*
+iOS app is still on review
+│      [15:23] Sunny: Thank you1
+│      [19:13] Kumaraswamy R: @Lee @Sunny,
+DSI iOS updated app is published on App Store.
+│      [14:51] Sunny: ios didnt have any issue right? will the school got prompt automatically to update it?
+│      [15:01] Kumaraswamy R: No Sunny, iOS didn't had any issue.
+│      [15:02] Kumaraswamy R: App update pop-up is not implemented yet.
+│      [12:46] Sunny: okay but it's on the list right? (pop up
+│      [12:47] Kumaraswamy R: Yes, its on the TO-DO list
+└─────────────────────────────────────────────────────────────────────────
+
+[14:50] Sandeep Jain: KW updates
+Sepa DD is in testing
+Rest all issues are Resolved (and one in Testing)
+[14:56] Sandeep Jain: (She will not be in call)
+
+┌── THREAD #2 (4 replies) ──────────────────────────────────────
+│ [15:00] Lee: @Kritika Wadhwa why is variable amount disabled when multiple payments is enabled [Attachment(s): IMG_20260515_101953.jpg]
+│   └─ Replies:
+│      [15:05] Shruti Kokate: Hi @Lee Initially, James mentioned that multiple payments are supported only for standard full payments, which is why this option is disabled for other item types. https://trello.com/c/fbsHt8ln
+│      [15:31] Lee: Add to board variable amount should be enabled too
+│      [16:03] Lee: @Kritika Wadhwa @Shruti Kokate add job please and we can discuss this as per James 
+
+School scoil chatriona
+│      [10:26] Kritika Wadhwa: @Krishna Thite Please create FMP job for this
+└─────────────────────────────────────────────────────────────────────────
+
+[15:29] Sandeep Jain: <https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG|Weekly Review - new features | Meeting-Join | Microsoft Teams> [Preview: Join meeting on Teams]
+
+┌── THREAD #3 (3 replies) ──────────────────────────────────────
+│ [17:53] Lee: @channel please update link in app from vsware to tryo on sidebar menu https://app.tyro.school/dashboard
+Title should be "Tyro"
+Thank you
+*St. Colman's CC Midleton app id* 327 [Preview: Tyro]
+│   └─ Replies:
+│      [17:54] Ravindra Chherke: @Shruti Kokate
+│      [18:12] Shruti Kokate: *@Lee St. Colman's CC Midleton* changed to Tyro from VSware.
+│      [18:13] Lee: thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (26 replies) ──────────────────────────────────────
+│ [18:15] Sunny: @channel new build - Coláiste Pobail Setanta
+
+School reported that their suspension code is overridden by the parents' absence notes which it shouldn't be.
+
+Is there a way not to override this code cc @Sonali Gaikwad [Attachment(s): Screenshot 2026-05-15 at 13.44.16.png]
+│   └─ Replies:
+│      [18:42] Sonali Gaikwad: @Sunny Currently, there is no logic in place to prevent WB on suspension codes or any other codes.
+
+If an absence note is submitted with a reason, shouldn’t that code be WB’d to VSware as the reason for the absence?
+
+If the school wants this behavior, we would need to modify the existing logic. Should this change apply only to this school, or should it be implemented for all schools?
+│      [19:09] Ravindra Chherke: Rather than hardcoding,  I think we can have list negative code or block code. If we find those code then we don't overwrite. @Sonali Gaikwad What do you think.
+│      [19:10] Ravindra Chherke: Don't we overwirte only unexplained ones.
+│      [19:13] Sonali Gaikwad: There are scenarios where we already override the present code, and this is controlled through a separate setting.
+Yes, we are currently overwriting the unexplained code.
+
+We can create a school-wise block code list to prevent specific codes from being overwritten.
+│      [13:05] Sunny: @Sonali Gaikwad this should be apply to all schools though as we shouldnt be overwriting SUS cc @Lee
+│      [13:06] Sunny: once the negative/block code is set up, do we need to add "suspension" code into Wonde dashboard for each school?
+│      [13:09] Sonali Gaikwad: We will need to prepare a separate page where block codes can be added for each school.
+
+The setup should be school-wise, similar to how we have configured the other attendance code mappings. Each school should have its own corresponding block code mapping configuration..
+│      [13:10] Lee: is that really necessary? Why can't the WB only work if it detects abs unexplained/present code? They are already mapped. If any other code, then just do not WB. I really don't think it's necessary to set up another section of codes per school
+│      [13:13] Sonali Gaikwad: Let me check and verify first. I'll get back to you
+│      [14:25] Sonali Gaikwad: @Lee @Sunny In Absentee WB, we are writebacking only on the ABS code and empty session that is configured on the Wonde/Tyro dashboard.
+
+In Late WB, we are writebacking on:
+• ABS
+• Empty session
+• PRESENT (only when the “Overwrite Present Code” setting is enabled)
+Apologies for the confusion created earlier.
+│      [14:31] Sunny: i see, so for this school's case,
+
+Is it because i accidentally added SUS code there under wonde dashboard so it got overridden?
+│      [14:32] Sunny:  [Attachment(s): Screenshot 2026-05-18 at 10.01.51.png]
+│      [14:32] Sunny: if i remove this, then our ABS WB won't override any more suspension code?
+│      [14:43] Sonali Gaikwad: @Harshwardhan More Could you please clarify what purpose this screen’s code is used for?
+
+@Sunny We are using only mapping screens code to WB. The screen where we map ill to ill, fam to family, etc
+│      [14:54] Sunny: I see @Sonali Gaikwad you meant "Attendance Code"
+
+I added SUS code to *Absentee Attendance Code* and now I've deleted it. [Attachment(s): Screenshot 2026-05-18 at 10.23.54.png]
+│      [14:56] Harshwardhan More: @Sunny @Sunny This screen used to handpick absentee attendance codes from all attendance codes for calculating attendance summary like attendance calendar, cumulative counts, consecutive counts, etc.
+│      [15:24] Sunny: I see, then it's not affected actually
+│      [15:27] Sunny: @Sonali Gaikwad in this case, our abs WB is still overwriting codes like Suspension which it shouldn't then.
+│      [15:30] Sonali Gaikwad: Writeback only happen when there is an ABS code present on the session.
+
+I am not sure what you mean actually.
+│      [15:33] Sunny: school said that parent's attendance notes are overwriting their SUSpension code
+│      [15:33] Sunny: which it shouldnt be
+│      [15:39] Sonali Gaikwad: When the school marks a suspension code on VSware and the writeback happens within a short time difference (around 30 minutes to 1 hour), this issue can occur due to a delay in the Wonde session data.
+
+In such cases, the school may have already marked the suspension code, but while fetching the existing session data, we may still receive the ABS code from Wonde. As a result, the writeback happens on the ABS code.
+
+Do you have any time when did they mark suspension on VSware?
+│      [16:25] Sunny: no but i think the school will try to mark the sus code a day ahead to avoid students getting arf
+│      [16:27] Sunny: if the code is SUS in wonde when fetching data (school updated vsware in advance) and let's say parents somehow send in an Absence Note in advance saying Other reason with further details suspension, will Other code be updated to VSware?
+│      [16:32] Sonali Gaikwad: We are doing WB on if ABS code found on session.
+│      [16:34] Sunny: ok thanks Sonali
+└─────────────────────────────────────────────────────────────────────────

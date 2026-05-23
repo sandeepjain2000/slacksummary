@@ -1,0 +1,379 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-03-27
+Total messages: 61 | Threads: 7 | Standalone: 3
+================================================================================
+
+### 1.a [13:20] — Ayush Kharpuse shared documents related to syncing MIS info from Tyro on Trello
+**Original message:** Hi @Lee @Sunny @Fernanda
+
+I have added some documents and diagrams related to syncing MIS information from Tyro, to the Trello board. Please have a look.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ayush shared documents on Trello for syncing MIS info from Tyro.
+
+---
+
+### 1.b [14:01] — Fernanda reported an issue with parent notes duplication at Mount Temple
+**Original message:** @channel Mount Temple - note from parent is getting multiple duplications sent a test just now and its the same for my demo student
+**Project Code:** PROJECT 718
+**Thread summary:** Fernanda reported an issue with parent notes duplication at Mount Temple, leading to a discussion on investigating and resolving the problem.
+
+---
+
+### 1.c [14:35] — Lee asked to check late note discrepancy at Presentation Brothers Cork
+**Original message:** @channel Presentation Brothers Cork, staff received late note email but there is no late note in CMS, can you please check this?
+**Project Code:** PROJECT 719
+**Thread summary:** Sonali identified a late note created and deleted by a parent, leading to a decision to send an email to the school when a late note is deleted.
+
+---
+
+### 1.d [14:49] — Fernanda reported an error with file upload at St Colman's 101
+**Original message:** @Manish Pathe St Colman's 101 is getting an error trying to upload this file into groups feature
+**Project Code:** PROJECT 724, PROJECT 101
+**Thread summary:** Fernanda reported errors in file uploads at St Colman's 101, leading to investigation and resolution by Manish and Prajwal.
+
+---
+
+### 1.e [15:20] — Fernanda asked Sonali to investigate parent registration issues at St Brigid's Presentation
+**Original message:** @Sonali Gaikwad can you please see if you find anything that could be causing the issue for parents? Incoming students have been added and are getting error message on registration...
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Fernanda reported parent registration issues at St Brigid's Presentation, Sonali identified a sync issue, and resolved it by refreshing parents.
+
+---
+
+### 1.f [16:07] — Lee requested updates on mobile responsiveness and wording for Boarder Web
+**Original message:** @Ayush Kharpuse @channel If you can share with Vivek please. Thank you...
+**Project Code:** PROJECT 720
+**Thread summary:** Sandeep confirmed completion of updates on mobile responsiveness and wording for Boarder Web.
+
+---
+
+### 1.g [16:18] — Lee asked to check payment error for St Mary's Nenagh
+**Original message:** @channel error when trying to pay fee for St Mary's Nenagh, can this be checked please?
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Fernanda resolved a payment issue for St Mary's Nenagh by unblocking their Stripe account.
+
+---
+
+Standalone message:
+- [14:56] Sandeep Jain shared a link for the Weekly Review meeting on Teams.
+
+Unresolved issues:
+- Absence Request Automation Issue (Project 674) is still in progress.
+- Investigation and resolution of the file upload error at St Colman's 101 (Project 724) is ongoing.
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (4)
+  Thread #2 [14:01] — Code(s): PROJECT 718
+    "@channel Mount Temple - note from parent is getting multiple duplications
+sent a..."
+  Thread #3 [14:35] — Code(s): PROJECT 719
+    "@channel Presentation Brothers Cork, staff received late note email but there is..."
+  Thread #4 [14:49] — Code(s): PROJECT 724, PROJECT 101
+    "@Manish Pathe St Colman's 101 is getting an error trying to upload this file int..."
+  Thread #6 [16:07] — Code(s): PROJECT 720
+    "@Ayush Kharpuse @channel
+If you can share with Vivek please. Thank you
+
+1st scre..."
+
+THREADS WITHOUT PROJECT/JOB CODE (3)
+  Thread #1 [13:20] — "Hi @Lee @Sunny @Fernanda
+
+I have added some documents and diagrams related to sy..."
+  Thread #5 [15:20] — "@Sonali Gaikwad can you please see if you find anything that could be causing th..."
+  Thread #7 [16:18] — "@channel error when trying to pay fee for St Mary's Nenagh, can this be checked ..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-03-27 (11 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-03-26 21:23)
+  Author  : Fernanda
+  Message : @Shruti Kokate can you please remove the note from parent for CBC cork 124 main app
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774540383151529?thread_ts=1774540383.151529&cid=C08LEFNF0BS
+  New replies on 2026-03-27 (2):
+    [10:57] Shruti Kokate: @Fernanda It has been removed from the app . Do you also want it to be removed from the CMS and admin app?
+    [13:08] Fernanda: not for now, as parents might still submit it
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-03-26 21:02)
+  Author  : Fernanda
+  Message : @Kritika Wadhwa open payment says Due on (DATE) but is displaying the date it was crated. can this be updated ASAP
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774539155970909?thread_ts=1774539155.970909&cid=C08LEFNF0BS
+  [3 earlier replies before 2026-03-27 not shown]
+  New reply on 2026-03-27 (1):
+    [10:38] Kritika Wadhwa: Ok @Fernanda
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-03-26 20:52)
+  Author  : Fernanda
+  Message : @channel Parent is trying to submit attendance note from April 14 to may 22 and is getting bad request - Mount anville
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774538527041259?thread_ts=1774538527.041259&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-03-27 not shown]
+  New replies on 2026-03-27 (7):
+    [11:42] Kumaraswamy R: @Shruti Kokate can you please check if you can reproduce this?
+    [11:49] Shruti Kokate: @Kumaraswamy R I am able to reproduce  [Attachment(s): IMG_1891.png]
+    [11:50] Sandeep Jain: @Prajwal Chaudhari
+    [12:00] Prajwal Chaudhari: https://trello.com/c/H8Q6dj1m [Preview: [no preview available]]
+    [12:08] Prajwal Chaudhari: Project Code :- 716
+Project name :- Issue with attendance note submission at Mount Anville
+    [12:10] Kumaraswamy R: Hi @Fernanda,
+There is a limit set on backend for maximum 25 dates. In the above scenario the parent is trying to submit 29 dates at once. Hence seeing an error.
+
+@Ayush Kharpuse, please check on this.
+    [14:34] Ayush Kharpuse: Hi @Shruti Kokate @Prajwal Chaudhari
+
+I have increased the limit to 50 please check it now.
+deployed on qa2.
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-03-26 19:52)
+  Author  : Fernanda
+  Message : @channel this teacher in Terenure College is not able to see recent PN. he deleted the app, installed it again. I unlinked the profile linked again but still no luck.
+His profile is a teacher/Parent - version of the app is 5.0.17 (31)
+<mailto:paul.hyland@TerenureCollege.ie|paul.hyland@TerenureCollege.ie>
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774534927023559?thread_ts=1774534927.023559&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-03-27 not shown]
+  New replies on 2026-03-27 (2):
+    [13:21] Prajwal Chaudhari: https://trello.com/c/46HZ6yOZ [Preview: [no preview available]]
+    [13:27] Prajwal Chaudhari: Project code :- 717
+Project Name :-  Teacher Unable to View Recent PN in App issue for Terenure College teacher
+---------------------------------------------------------------------------
+
+OLD THREAD #5  (originally posted 2026-03-26 16:53)
+  Author  : Fernanda
+  Message : @Sonali Gaikwad can you please check the lates for this student didnt map with WB? Sandford Park
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774524183922479?thread_ts=1774524183.922479&cid=C08LEFNF0BS
+  [3 earlier replies before 2026-03-27 not shown]
+  New replies on 2026-03-27 (6):
+    [10:51] Sonali Gaikwad: @Fernanda
+Please note that her department ID differs from what is currently entered in CMS. Kindly update the same using VSware and confirm once completed.
+
+Additionally, I will need to remove her existing student mapping so that it can be reassigned correctly with the updated details [Attachment(s): image.png]
+    [17:14] Prajwal Chaudhari: https://trello.com/c/dDPRD9gE [Preview: [no preview available]]
+    [17:17] Prajwal Chaudhari: Project Code :- 721
+Project Name :- Check attendance records for student at Sandford Park
+    [17:57] Fernanda: @Sonali Gaikwad I updated the student ID
+    [18:03] Sonali Gaikwad: @Fernanda You can run student mapping now
+    [18:13] Fernanda: worked, thank you Sonali!
+---------------------------------------------------------------------------
+
+OLD THREAD #6  (originally posted 2026-03-26 14:07)
+  Author  : Fernanda
+  Message : @Shruti Kokate can you please update Malahide & Portmarnock from VSware to Tyro in the main app tomorrow afternoon.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774514266973339?thread_ts=1774514266.973339&cid=C08LEFNF0BS
+  New reply on 2026-03-27 (1):
+    [19:33] Shruti Kokate: @Fernanda Updated to Tyro
+---------------------------------------------------------------------------
+
+OLD THREAD #7  (originally posted 2026-03-26 13:12)
+  Author  : Ayush Kharpuse
+  Message : @Lee Regarding MIS syncing in Tyro.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774510933812059?thread_ts=1774510933.812059&cid=C08LEFNF0BS
+  [2 earlier replies before 2026-03-27 not shown]
+  New replies on 2026-03-27 (2):
+    [14:58] Lee: @Fernanda hey, any idea here?
+    [15:00] Fernanda: Mother, Father, Other. I don't think we should go adding Step father/mother, grandfather, sibling etc
+---------------------------------------------------------------------------
+
+OLD THREAD #8  (originally posted 2026-03-25 20:29)
+  Author  : Sunny
+  Message : @channel Can you please check the incoming 2026 status for *St. Brigid's Presentation Secondary School (Killarney)?*
+
+*There are 137 incoming students but why only 26 users there in app engagement?*
+
+School reported a few parents said they cannot register.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774450798742899?thread_ts=1774450798.742899&cid=C08LEFNF0BS
+  [5 earlier replies before 2026-03-27 not shown]
+  New replies on 2026-03-27 (3):
+    [17:26] Prajwal Chaudhari: https://trello.com/c/WakEtS3Q [Preview: [no preview available]]
+    [17:27] Prajwal Chaudhari: Project Code :- 723
+Project Name :-  Investigate registration issues for St. Brigid's Presentation Secondary School
+    [17:45] Fernanda: SORTED - Sonali resolved
+---------------------------------------------------------------------------
+
+OLD THREAD #9  (originally posted 2026-03-25 15:02)
+  Author  : Fernanda
+  Message : @channel this is happening more and more, where the school deletes a notification and gets stressed that parents are still seeing.
+Can you please delete this message from Meanscoil Naas app, school deleted from notification, but still visible for parents.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774431123610459?thread_ts=1774431123.610459&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-03-27 not shown]
+  New reply on 2026-03-27 (1):
+    [13:41] Fernanda: any update on this?
+---------------------------------------------------------------------------
+
+OLD THREAD #10  (originally posted 2026-03-25 15:00)
+  Author  : Lee
+  Message : @channel What's the status on boarders app/web? NFC cards have arrived, can I test on the current boarders app @Kumaraswamy R?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774431052758419?thread_ts=1774431052.758419&cid=C08LEFNF0BS
+  [44 earlier replies before 2026-03-27 not shown]
+  New reply on 2026-03-27 (1):
+    [14:59] Lee: skip creating altogether
+---------------------------------------------------------------------------
+
+OLD THREAD #11  (originally posted 2026-03-12 15:39)
+  Author  : Fernanda
+  Message : @Ravindra Chherke can we add a link to Rafters app in Holy Family SS similar to what we have done for Debitrak in Sandford park?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1773310148984859?thread_ts=1773310148.984859&cid=C08LEFNF0BS
+  [36 earlier replies before 2026-03-27 not shown]
+  New reply on 2026-03-27 (1):
+    [12:57] Shruti Kokate: @Fernanda App is live
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[11:35] Sandeep Jain: *Deployments/deliverables this week:*
+
+*Ayush Kharpuse*
+• *714* – Prevent Late Unauthorised Writeback in Revalidation Cron (Tyro) → *LIVE*
+*Manish Pathe*
+• *611* – Picture Permission in Access and Permission Notification Email → *LIVE*
+*Sanket*
+• *400* – Launched Assumption Secondary School, Walkinstown → *Complete*
+• *490* – Web Build – Presentation Miltown Update → *Development*
+• *651* – Web Build – St Bricin’s College → *Testing*
+*Sonali Gaikwad*
+• *675* – Permission to Leave Update Not Flagged → *QA*
+• *674* – Absence Request Automation Issue → *In Progress*
+• *714* – Prevent Late Unauthorised Writeback in Revalidation Cron → *LIVE*
+*Tejas*
+• *Detention Setting Bug Fix* → *QA2*
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [13:20] Ayush Kharpuse: Hi @Lee @Sunny @Fernanda
+
+I have added some documents and diagrams related to syncing MIS information from Tyro, to the Trello board. Please have a look.
+│   └─ Replies:
+│      [13:21] Ayush Kharpuse: https://trello.com/c/rnEIheC4
+
+cc: @Ravindra Chherke @Sandeep Jain [Preview: [no preview available]]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (6 replies) ──────────────────────────────────────
+│ [14:01] Fernanda: @channel Mount Temple - note from parent is getting multiple duplications
+sent a test just now and its the same for my demo student [Attachment(s): image.png]
+│   └─ Replies:
+│      [14:02] Fernanda: seems to be for all schools. can you look into this @Sandeep Jain
+│      [14:06] Sandeep Jain: @Harshwardhan More @Yashraj Talokar
+│      [14:07] Sandeep Jain: @Shruti Kokate Please test in QA
+│      [14:09] Sandeep Jain: Harsh is looking into it
+│      [14:38] Prajwal Chaudhari: https://trello.com/c/cZlSO9CM [Preview: [no preview available]]
+│      [14:45] Prajwal Chaudhari: Project Code :- 718
+Project Name :- Issue with Mount Temple parent notes duplication
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (9 replies) ──────────────────────────────────────
+│ [14:35] Lee: @channel Presentation Brothers Cork, staff received late note email but there is no late note in CMS, can you please check this? [Attachment(s): Screenshot 2026-03-27 at 09.04.28.png]
+│   └─ Replies:
+│      [14:41] Sandeep Jain: @Sonali Gaikwad
+│      [14:55] Sonali Gaikwad: @Lee Late note created by parent <mailto:bejoyphilip@gmail.com|bejoyphilip@gmail.com> at 2026-03-27 07:48:28 and later deleted at 2026-03-27 08:19:55
+│      [14:59] Lee: deleted by parent yes?
+│      [15:00] Lee: if deleted, we should send another email informing the school
+│      [15:00] Sonali Gaikwad: Yes
+│      [15:00] Lee: can this be put in place?
+│      [15:02] Sonali Gaikwad: @Prajwal Chaudhari add it in FMP
+Send an email to the school when a late note is deleted by a parent
+│      [16:17] Prajwal Chaudhari: https://trello.com/c/VIjMv7uN [Preview: [no preview available]]
+│      [16:21] Prajwal Chaudhari: Project code :- 719
+Project name :- Send an email to the school when a late note is deleted by a parent
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (11 replies) ──────────────────────────────────────
+│ [14:49] Fernanda: @Manish Pathe St Colman's 101 is getting an error trying to upload this file into groups feature [Attachment(s): h2.csv]
+│   └─ Replies:
+│      [15:01] Manish Pathe: @Fernanda Can you please provide the error that they are getting
+│      [15:09] Fernanda: I tried to submit twice, and once I got 500 error, and other was something about header incorrect
+│      [17:12] Fernanda: @Manish Pathe
+*Failed!* Invalid header format.
+when i use csv utf 8
+
+internal server error for csv comma delimited
+and same for csv ms dos
+│      [17:55] Prajwal Chaudhari: https://trello.com/c/YkafkZPa [Preview: [no preview available]]
+│      [18:00] Prajwal Chaudhari: Project Code :- 724
+Project Name:- Investigate and resolve file upload error in St Colman's 101
+│      [18:08] Manish Pathe: @Fernanda Could you please download the same file that you have shared and try once it is working fine
+│      [18:18] Manish Pathe: Also, could you screen record it this time if it still shows an error?
+│      [18:28] Fernanda: worked now, few students failed, but worked
+│      [18:28] Fernanda: what was the error @Manish Pathe?
+│      [18:31] Manish Pathe: There was no issues with the file that you have shared.
+│      [18:31] Manish Pathe: It will work fine if the sheet's csv encoding is utf-8
+└─────────────────────────────────────────────────────────────────────────
+
+[14:56] Sandeep Jain: <https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG|Weekly Review - new features | Meeting-Join | Microsoft Teams> [Preview: Join meeting on Teams]
+
+┌── THREAD #5 (13 replies) ──────────────────────────────────────
+│ [15:20] Fernanda: @Sonali Gaikwad can you please see if you find anything that could be causing the issue for parents?
+Incoming students have been added and are getting error message on registration
+
+When checking the number is correct for the parent.
+
+When I look in the MIS list, it shows as 5 not registered for primary contact, however, does not seem to be the case, could this be related?
+│   └─ Replies:
+│      [15:20] Fernanda: school, St Brigid's Presentation
+│      [15:20] Fernanda:  [Attachment(s): image.png]
+│      [15:20] Fernanda:  [Attachment(s): students-39.csv]
+│      [15:21] Fernanda: but when exported its showing 117 primary contact non app user
+│      [15:21] Fernanda: not sure if should be someone else looking into it, feel free to tag someone else
+│      [16:10] Sonali Gaikwad: What issue parent facing during registration for incoming 2026?
+can you share any screenshot?
+│      [17:04] Fernanda: its saying their number is not in the database, when it is
+│      [17:05] Fernanda:  [Attachment(s): image.png]
+│      [17:07] Fernanda:  [Attachment(s): image.png]
+│      [17:07] Fernanda: if you can look into this now @Sonali Gaikwad the school is getting overwhelmed with parents calling them
+│      [17:11] Sonali Gaikwad: @Fernanda Sheet has been imported, but the team member hasn't clicked the refresh button to sync parents, so the sync wasn't triggered.
+I'll check with Ayushi now.
+│      [17:11] Fernanda: thank you
+│      [17:19] Sonali Gaikwad: The parents are now refreshed correctly.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (3 replies) ──────────────────────────────────────
+│ [16:07] Lee: @Ayush Kharpuse @channel
+If you can share with Vivek please. Thank you
+
+1st screenshot, it's not mobile responsive :smile:
+
+2nd screenshot, some wording updates:
+• Email Setting > Email Notifications
+• Notification Dispatch Time > Late Sign In Notification
+• Set the time when email notifications are dispatched daily. > Emails will only be sent for students who sign in late after this time, and are sent immediately at sign-in.
+• Enable notification dispatch > Enable Notification
+• Boarder Manager Email > Boarder Manager Emails
+• Add or manage email addresses for boarder managers. > Add or manage the email addresses that will receive notifications. [Attachment(s): Screenshot 2026-03-27 at 10.26.34.png, Screenshot 2026-03-27 at 10.33.56.png]
+│   └─ Replies:
+│      [16:10] Sandeep Jain: Done
+│      [16:54] Prajwal Chaudhari: https://trello.com/c/52rYFJIC [Preview: [no preview available]]
+│      [17:01] Prajwal Chaudhari: Project Code :- 720
+Project Code :- Update mobile responsiveness and wording on Boarder Web
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (8 replies) ──────────────────────────────────────
+│ [16:18] Lee: @channel error when trying to pay fee for St Mary's Nenagh, can this be checked please? [Attachment(s): IMG_1102.png]
+│   └─ Replies:
+│      [16:18] Kritika Wadhwa: Checking
+│      [16:51] Fernanda: no need @Kritika Wadhwa
+│      [16:51] Fernanda: @Lee their stripe account is blocked
+│      [16:52] Fernanda: let me have a look
+│      [16:58] Fernanda: uploaded the document, its in review
+│      [17:10] Fernanda: @Lee I will let you know when its up running again so you can inform the parent
+│      [17:48] Fernanda: payment back running
+│      [18:16] Lee: thanks
+└─────────────────────────────────────────────────────────────────────────
+
+[16:44] Sonali Gaikwad: @Sunny @Fernanda @Lee
+Below change is deployed on LIVE
+1. Permission to Leave Update Not Flagged 

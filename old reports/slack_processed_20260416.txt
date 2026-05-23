@@ -1,0 +1,252 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-16
+Total messages: 31 | Threads: 5 | Standalone: 0
+================================================================================
+
+### 1.a [13:27] — Sunny requests a search bar for student names in the Boarder's app Report tab
+**Original message:** Sunny: @channel @Kumaraswamy R  
+I was checking the Boarder's app and noticed the Report tab should have a search bar for student name - Both on the dashboard in the app and web!  
+ps. Lee is out today for meetings  
+**Project Code:** PROJECT 771  
+**Thread summary:** Kumaraswamy R explains the search bar wasn't on the approved wireframe but can be added in Phase 2. Lee acknowledges the request, and Kumaraswamy notes it down. Krishna Thite assigns the job to add student name search functionality.
+
+### 1.b [13:31] — Lee reports anomalies list issue and requests checks for schools
+**Original message:** Lee: @channel in a meeting now, anomalies list is blank, please check asap  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Fernanda identifies Mean Scoil Mhuire 534 as a school needing immediate attention. Sandeep Jain and Harshwardhan More confirm they are checking.
+
+### 1.c [13:49] — Sunny asks for April attendance issue investigation at St Louis High School
+**Original message:** Sunny: @channel St louis high school 182  
+Can you check why April's attendance isn't showing in CMS (Calendar view). one example: Selam Ines Kobech 1L  
+**Project Code:** PROJECT 772  
+**Thread summary:** Sandeep Jain shares related issues, and Harshwardhan More confirms the problem is fixed. Krishna Thite assigns a job to fix the missing April attendance data.
+
+### 1.d [16:03] — Sunny inquires about a cash payment date mismatch at St. Mary's New Ross
+**Original message:** Sunny: @channel Kayla Walsh - St. Mary's New Ross  
+Can you tell me why this 100 eur cash is different date on the Find Student and Cash payment page? cc @Kritika Wadhwa  
+**Project Code:** PROJECT 773  
+**Thread summary:** Kritika Wadhwa agrees to investigate the date mismatch, and Krishna Thite assigns a job for further investigation.
+
+### 1.e [16:52] — Sunny raises a query about adding a group filter under teacher payment for St Flannan's
+**Original message:** Sunny: @channel St Flannan's - shop teacher group  
+a teacher created a group of teacher wanted to add a teacher payment in shop but there's no "group" filter under teacher payment. Is it okay to have the group there too under teacher setup? cc @Fernanda  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Kritika Wadhwa explains the current functionality and potential effort needed to implement the group filter. Sunny decides it might not be worth implementing now but suggests considering it in future builds.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (3)
+  Thread #1 [13:27] — Code(s): PROJECT 771
+    "@channel @Kumaraswamy R
+
+I was checking the Boarder's app and noticed the Report..."
+  Thread #3 [13:49] — Code(s): PROJECT 772
+    "@channel St louis high school 182
+
+Can you check why April's attendance isn't sh..."
+  Thread #4 [16:03] — Code(s): PROJECT 773
+    "@channel Kayla Walsh - St. Mary's New Ross
+
+Can you tell me why this 100 eur cas..."
+
+THREADS WITHOUT PROJECT/JOB CODE (2)
+  Thread #2 [13:31] — "@channel in a meeting now, anomalies list is blank, please check asap"
+  Thread #5 [16:52] — "@channel St Flannan's - shop teacher group
+
+a teacher created a group of teacher..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-16 (7 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-04-15 19:00)
+  Author  : Lee
+  Message : Aoife Walsh
+(4, 4A)
+Mercy Roscommon, no data showing for april, please check
+@channel This seems to be april issue with wonde maybe
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776259830550899?thread_ts=1776259830.550899&cid=C08LEFNF0BS
+  [4 earlier replies before 2026-04-16 not shown]
+  New replies on 2026-04-16 (2):
+    [17:47] Harshwardhan More: @Lee For Mercy College, Roscommon, Wonde did not provide data for the first 15 days of April and only started supplying data from April 15 onwards. I have revalidated and updated the system to reflect data from the 15th onward. It’s likely that the school was on holiday during the first half of April, as this pattern appears across many students in that school.
+    [18:07] Harshwardhan More: @Krishna Thite Please create an FMP job for this, mark it as complete, and share the job details here. Thanks.
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-04-15 16:27)
+  Author  : Lee
+  Message : @channel I've asked this before.
+anywhere in YHD when we select all on a list, we must scroll to the bottom to load all records.
+Example: page loads 10 records initially but the list is 200 records.
+When we select all without scrolling to load all 200 records, we only select the first 10.
+This is confusing for users.
+When we select all, it must select all. Not select all that is currently loaded.
+This is basic UX and needs to be fixed.
+It's a bug.
+@Sandeep Jain please create FM project as P1
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776250672055809?thread_ts=1776250672.055809&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-04-16 not shown]
+  New replies on 2026-04-16 (3):
+    [11:50] Krishna Thite: Job : Fix “Select All” Functionality to Include All Records (Not Just Loaded Items)
+Project Code : 769
+    [17:25] Vivek Jadhav: @Lee I see two possible approaches for this update:
+1. Display a message like ‘Only loaded records are selected.’ *(quick fix)*
+2. Instead of loading all records (performance impact), implement logical “Select All” (filter-based) so all matching records are selected without fetching all data. (It will take around 8–10 days of effort for both frontend and backend. assuming the changes apply to all modules.)
+Let me know if you have any other suggestions.
+
+cc: @Sandeep Jain @Ravindra Chherke @Harshwardhan More
+    [19:46] Lee: Option 2
+
+This is pretty standard UX across the board so should have been implemented from the beginning.
+
+We'll speak about it tomorrow
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-04-15 14:18)
+  Author  : Sunny
+  Message : @channel urgent for the school - *Mount Temple Comprehensive cc @Kritika Wadhwa* 
+
+*Can you please export the transaction history from 01/01/2025-31/12/2025 for this school?*
+*getting this error:* 
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776242892065809?thread_ts=1776242892.065809&cid=C08LEFNF0BS
+  [7 earlier replies before 2026-04-16 not shown]
+  New replies on 2026-04-16 (3):
+    [11:36] Krishna Thite: Job : Enable Full-Year Transaction Export Capability from Backend
+Project Code : 766
+    [13:28] Sunny: @Kritika Wadhwa once you got a year's report out, you can send to James cc me as James is now in contact with the school thanks!
+    [13:29] Kritika Wadhwa: Ok Sunny
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-04-15 13:44)
+  Author  : Sunny
+  Message : @channel *Marist College 713*
+
+I have sent out onboarding SMS to them on 30/03/26 so they still had plus SMS credit, however today it's minus 541. I checked the SMS report and there are 91 SMS sent since the end of March. Can you check why they go so minus after just two weeks of time? Thank you!
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776240898211629?thread_ts=1776240898.211629&cid=C08LEFNF0BS
+  [2 earlier replies before 2026-04-16 not shown]
+  New reply on 2026-04-16 (1):
+    [11:44] Krishna Thite: Job : Investigate Incorrect SMS Credit Deduction Leading to Negative Balance
+Project Code : 768
+---------------------------------------------------------------------------
+
+OLD THREAD #5  (originally posted 2026-04-15 13:24)
+  Author  : Lee
+  Message : @channel Note signed out list - Add the Approve button from the PTL tab. Also Sign Out button should allow sign out for pending PTL too. We should not need to approve and then sign out.
+Thanks
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776239695970159?thread_ts=1776239695.970159&cid=C08LEFNF0BS
+  [3 earlier replies before 2026-04-16 not shown]
+  New reply on 2026-04-16 (1):
+    [11:39] Krishna Thite: Job : Add Approve Action and Enable Direct Sign Out for Pending PTL Items
+Project Code :767
+---------------------------------------------------------------------------
+
+OLD THREAD #6  (originally posted 2026-04-14 16:27)
+  Author  : Fernanda
+  Message : @Kritika Wadhwa
+can you confirm Ardscoil Mhuire Limerick is updated with the change card feature?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776164230172469?thread_ts=1776164230.172469&cid=C08LEFNF0BS
+  [8 earlier replies before 2026-04-16 not shown]
+  New replies on 2026-04-16 (2):
+    [10:50] Shruti Kokate: @Fernanda I’ve updated some schools. I will release them today and share the list of updated schools with you.
+    [17:15] Shruti Kokate: In *School Details* sheet, there is a tab named *Change_Card* where you can see the apps with the Change Card functionality added.
+---------------------------------------------------------------------------
+
+OLD THREAD #7  (originally posted 2026-03-26 19:52)
+  Author  : Fernanda
+  Message : @channel this teacher in Terenure College is not able to see recent PN. he deleted the app, installed it again. I unlinked the profile linked again but still no luck.
+His profile is a teacher/Parent - version of the app is 5.0.17 (31)
+<mailto:paul.hyland@TerenureCollege.ie|paul.hyland@TerenureCollege.ie>
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774534927023559?thread_ts=1774534927.023559&cid=C08LEFNF0BS
+  [14 earlier replies before 2026-04-16 not shown]
+  New replies on 2026-04-16 (4):
+    [14:44] Fernanda: @Yashraj Talokar can you please deploy this asap
+    [14:46] Yashraj Talokar: @Fernanda We had deployed this morning, it was giving 500 error to some users as @Prajwal Chaudhari reported, I’m checking the cause and fix this asap
+    [14:53] Yashraj Talokar: @Fernanda I know this is taking longer than expected, but even a small change is impacting other areas. That’s why I asked Prajwal to test it thoroughly. Also, some issues are only appearing in production and not in QA, which is adding to the delay.
+    [14:58] Fernanda: i can understand that @Yashraj Talokar but its coming to the 3rd week now.
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [13:27] Sunny: @channel @Kumaraswamy R
+
+I was checking the Boarder's app and noticed the Report tab should have a search bar for student name - Both on the dashboard in the app and web!
+ps. Lee is out today for meetings [Attachment(s): IMG_1219.png]
+│   └─ Replies:
+│      [13:29] Kumaraswamy R: Hi @Sunny,
+The search bar was not on the approved wireframe hence it wasn't implemented.
+If it is needed we can add it as feature in Phase 2
+│      [13:30] Lee: yes that's fine Kumar, just make note of it please
+│      [13:39] Kumaraswamy R: Noted
+│      [18:25] Krishna Thite: Job : Add Student Name Search Functionality in Boarders App Report Tab
+Project Code : 771
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (5 replies) ──────────────────────────────────────
+│ [13:31] Lee: @channel in a meeting now, anomalies list is blank, please check asap
+│   └─ Replies:
+│      [13:31] Lee: check for cnoc mhuire too please
+│      [13:36] Fernanda: the school that needs to be checked ASAP is Mean Scoil Mhuire 534 @Sandeep Jain
+│      [13:36] Lee: sorry forgot to add school
+│      [13:38] Sandeep Jain: Asking Team to check
+│      [13:48] Harshwardhan More: Checking
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (10 replies) ──────────────────────────────────────
+│ [13:49] Sunny: @channel St louis high school 182
+
+Can you check why April's attendance isn't showing in CMS (Calendar view). one example: Selam Ines Kobech 1L [Attachment(s): Screenshot 2026-04-16 at 09.16.58.png, Screenshot 2026-04-16 at 09.17.05.png]
+│   └─ Replies:
+│      [13:51] Sandeep Jain: @Harshwardhan More
+│      [13:57] Sandeep Jain: https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776259830550899
+
+Is it a related issue?
+@Harshwardhan More [Preview: [April 15th, 2026 6:30 AM] lee: Aoife Walsh
+(4, 4A)
+Mercy Roscommon, no data showing for april, please check
+<!channel> This seems to be april issue with wonde maybe]
+│      [14:19] Sunny: seems like it yes
+│      [14:20] Sunny: please let us know when this is fixed then! thanks
+│      [14:20] Harshwardhan More: Yes I'll let you know
+│      [17:51] Harshwardhan More: @Sunny This is same case like below:
+https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776259830550899
+
+It is fixed though. Thanks.
+│      [18:07] Harshwardhan More: @Krishna Thite Please create an FMP job for this, mark it as complete, and share the job details here. Thanks.
+│      [18:29] Krishna Thite: Job : Fix Missing April Attendance Data in CMS Calendar View
+Project Code : 772
+│      [19:15] Sunny: @Harshwardhan More this is complete?
+│      [19:19] Harshwardhan More: Yes
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (2 replies) ──────────────────────────────────────
+│ [16:03] Sunny: @channel Kayla Walsh - St. Mary's New Ross
+
+Can you tell me why this 100 eur cash is different date on the Find Student and Cash payment page? cc @Kritika Wadhwa [Attachment(s): Screenshot 2026-04-16 at 11.32.17.png, Screenshot 2026-04-16 at 11.32.21.png]
+│   └─ Replies:
+│      [16:04] Kritika Wadhwa: I will check and let you know @Sunny
+│      [18:32] Krishna Thite: Job : Investigate Date Mismatch for Cash Payments Across Screens
+Project Code : 773
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (5 replies) ──────────────────────────────────────
+│ [16:52] Sunny: @channel St Flannan's - shop teacher group
+
+a teacher created a group of teacher wanted to add a teacher payment in shop but there's no "group" filter under teacher payment. Is it okay to have the group there too under teacher setup? cc  @Fernanda [Attachment(s): Screenshot 2026-04-16 at 12.18.57.png, Screenshot 2026-04-16 at 12.20.37.png]
+│   └─ Replies:
+│      [11:54] Kritika Wadhwa: @Sunny, As per current functionality, both teachers and students can be added to the same group, so we do not have any group-level filter at the moment.
+However, we can implement this, but it will require some effort. In cases where a group contains both teachers and students, we would need to apply logic to display only teachers accordingly.
+│      [12:05] Sunny: Thanks Kritika for checking - will check with dublin team and let you know if we need to implement it thanks
+│      [12:06] Kritika Wadhwa: Okay Sunny
+│      [12:13] Sunny: might not worth it to implement but can you keep in mind in the new build of the shop
+│      [12:13] Kritika Wadhwa: okay
+└─────────────────────────────────────────────────────────────────────────

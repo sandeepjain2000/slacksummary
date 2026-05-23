@@ -1,0 +1,90 @@
+SLACK RAW EXPORT — 2026-05-08
+Channel: C08LEFNF0BS
+Total messages: 42 | Threads: 3 | Standalone: 5
+================================================================================
+
+
+┌── THREAD #1 (17 replies) ──────────────────────────────────────
+│ [11:28] Fernanda: @channel Did you release an update? Its causing trouble to users, can you look asap. few support queries coming in
+
+Schools so far
+Rosemont
+Colaiste Iascaigh
+St Clare's Comp
+│   └─ Replies:
+│      [11:29] Fernanda: @Shruti Kokate
+│      [11:29] Shruti Kokate: checking
+│      [11:35] Shruti Kokate: @Fernanda can you please check now
+│      [11:36] Fernanda: i'll have to ask few users
+│      [11:36] Shruti Kokate: okk
+│      [13:17] Fernanda: @Shruti Kokate st clare's seems to have still some issue with apple
+│      [13:18] Fernanda: can you look asap please @Shruti Kokate
+│      [13:19] Shruti Kokate: St Clare’s Comprehensive right?
+│      [13:19] Fernanda: yes
+│      [13:19] Fernanda: 494
+│      [13:21] Shruti Kokate: I have reverted the changes, so it should be working now.can you confirm?
+│      [13:22] Shruti Kokate: You can check it on your iPhone device if you have the app installed.
+│      [13:24] Fernanda: i do, but the teacher was still with an issue
+│      [13:24] Fernanda: i'll call the school again
+│      [13:24] Shruti Kokate: Okay
+│      [14:33] Fernanda: still the same for iphone - St Clare's comp
+│      [14:38] Shruti Kokate: Have they closed and reopened the app?
+└─────────────────────────────────────────────────────────────────────────
+
+[11:59] Sandeep Jain: *Deployments*:
+Kumaraswamy
+
+764 -> Investigate iPhone app freeze on login for Past Pupil app (requires close/reopen) >> Deployed Live
+371 -> ETB Microsoft SSO on Administrators App >> Released to QA
+789 -> Remove “Noted By” Tick Boxes from Admin App >> Released to QA
+
+Ayush Kharpuse
+621 - Tyro - Auto Pick Up Non-DSI Late Sign in >> Deployed on Live
+799 - Loreto Foxrock app edit >> Deployed on QA (edited) Kumaraswamy
+[13:57] Sandeep Jain: <https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG|Weekly Review - new features | Meeting-Join | Microsoft Teams> [Preview: Join meeting on Teams]
+[14:01] Lee: We'll be on shortly
+
+┌── THREAD #2 (9 replies) ──────────────────────────────────────
+│ [14:36] Sunny: @Harshwardhan More - please respond to wonde (st Paul's Monasterevin)
+
+<mailto:admin@stpaulsmonasterevin.ie|admin@stpaulsmonasterevin.ie> Janet Dolye (office) is the school's contact
+│   └─ Replies:
+│      [12:52] Sunny: @Harshwardhan More morning Harsh, feel free to reply to wonde and cc the school. Here is the screenshot from vsware in case you'd like to attach in the email to show that they're blank. [Attachment(s): Screenshot 2026-05-11 at 08.21.46.png]
+│      [12:54] Harshwardhan More: @Sunny I've already mailed to Wonde on Friday.
+│      [12:55] Sunny: yeah and they responded after you
+│      [12:55] Sunny: asking to copy the school in
+│      [12:56] Sunny:  [Attachment(s): Screenshot 2026-05-11 at 08.26.07.png]
+│      [12:59] Harshwardhan More: @Sunny It was received from another contact, so I thought it was a different person. Anyway, I’ll ask them to add the school contact in CC, okay?
+│      [13:37] Sunny: i think they wanted you to cc the school in
+│      [13:37] Sunny: hahha
+│      [13:38] Sunny: ok i saw your reply there
+└─────────────────────────────────────────────────────────────────────────
+
+[16:01] U06UWDU2RU3: St. Mary’s Holy Faith Secondary School (Glasnevin)
+[16:07] Sunny: this is the Compass ID (example: DDIL38) [Attachment(s): Screenshot 2026-05-08 at 11.34.00.png, Screenshot 2026-05-08 at 11.34.30.png]
+
+┌── THREAD #3 (8 replies) ──────────────────────────────────────
+│ [17:08] Fernanda: @channel can someone confirm for me, Ennistymon, school received an email to say picture has been revoked, but when looking in the dashboard is showing as granted. just want to make sure the parent updated back to granted
+
+Maximillian Bierka 3B
+│   └─ Replies:
+│      [17:08] Fernanda: @Sandeep Jain
+│      [11:29] Manish Pathe: @Fernanda Didn't they receive an email when the parent approved the picture permission again?
+
+Could you please share a few details about it, such as:
+• The email ID that received the email
+• The time the email was received(A SS would be better)
+CC: @Sandeep Jain
+│      [12:12] Fernanda: <mailto:karen.guerin@ennistymoncs.ie|karen.guerin@ennistymoncs.ie> [Attachment(s): image.png, image.png]
+│      [13:21] Fernanda: @Manish Pathe
+│      [13:40] Manish Pathe: <mailto:karen.guerin@ennistymoncs.ie|karen.guerin@ennistymoncs.ie>
+
+The user is neither a principal nor a deputy principal, and have not been added in the email settings as well.
+│      [13:49] Fernanda: <mailto:Karen.ONeill@ennistymoncs.ie|Karen.ONeill@ennistymoncs.ie> was the email that received the alert
+│      [13:58] Fernanda: what I need to check is why the email saying was revoked when is showing granted. not wether why she received the email @Manish Pathe
+│      [15:06] Manish Pathe: We checked the email logs(On sendgrid) for the user(<mailto:Karen.ONeill@ennistymoncs.ie|Karen.ONeill@ennistymoncs.ie>) for 06-05-2025. The user received two emails: one for access revocation and another likely for access being granted again. Upon checking the database, we confirmed that only this student’s access was modified on that date, so there is no possibility that the second email was meant for another student.
+
+It appears that the parent first revoked the access and then immediately updated it to grant access again.
+
+Could you please ask the user to confirm whether they received the email regarding the access grant? [Attachment(s): Image 11-05-26 at 2.52 PM.png, Screenshot 2026-05-11 at 2.58.00 PM.png]
+└─────────────────────────────────────────────────────────────────────────

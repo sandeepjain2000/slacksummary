@@ -1,0 +1,35 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-11
+Total messages: 1 | Threads: 0 | Standalone: 1
+================================================================================
+
+### 1.a [12:58] — Article link shared
+**Original message:** 
+Ravindra Chherke shared: 
+https://timesofindia.indiatimes.com/technology/tech-news/explained-why-anthropics-claude-mythos-is-scaring-the-company-so-much-that-it-has-decided-to-not-release-it-to-public/articleshow/130159775.cms [Preview: Claude Mythos: Explained: Why Anthropic's Claude Mythos is scaring the company so much that it has decided to not release it to public | - The Times of India]
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (0)
+  (none)
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-11 (0 found, lookback: 30 days)
+================================================================================
+
+No old threads had new activity on this date.
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[12:58] Ravindra Chherke: 
+https://timesofindia.indiatimes.com/technology/tech-news/explained-why-anthropics-claude-mythos-is-scaring-the-company-so-much-that-it-has-decided-to-not-release-it-to-public/articleshow/130159775.cms [Preview: Claude Mythos: Explained: Why Anthropic's Claude Mythos is scaring the company so much that it has decided to not release it to public | - The Times of India]

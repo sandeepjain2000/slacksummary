@@ -1,0 +1,101 @@
+SLACK RAW EXPORT — 2026-05-11
+Channel: C08LEFNF0BS
+Total messages: 34 | Threads: 6 | Standalone: 3
+================================================================================
+
+[05:50] Krishna Thite: Job: Upgrade Password Encryption/Hashing Algorithm
+Project Code : 823
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [12:57] Sunny: @channel Can someone please update the app for *Cistercian College Roscrea 660?*
+
+
+*Wriggle* link in the side bar menu to be replaced with Perduko and the following link attached
+_https://www.perduko.com/1to1-devices/cistercian-college-roscrea_
+
+_Under the Shop link in the side bar menu, replace CCR Shop with *"School Uniform"* and the following link attached_ 
+https://www.schooluniformsdirect.ie/secondary/cistercian-college-roscrea
+
+Thank you cc @Shruti Kokate [Preview: Cistercian College Roscrea; Cistercian College, Roscrea - School Uniforms Direct Ireland]
+│   └─ Replies:
+│      [13:12] Shruti Kokate: @Sunny • CCR Shop has been changed to the School Uniform link
+• *Perduko* added in sidebar
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (6 replies) ──────────────────────────────────────
+│ [15:11] Ayush Kharpuse: @Fernanda @Sunny [Attachment(s): Screencast from 2026-05-11 15-06-32.webm, schools-dsi-reason.csv]
+│   └─ Replies:
+│      [15:12] Ayush Kharpuse: do we need this setting?
+This setting is used only in the DSI web application. For the schools included in the list, it enables reason selection when a student wants to sign in late.
+│      [15:12] Lee: I'm unsure @Fernanda @Sunny maybe yous might know who uses this
+│      [15:30] Sunny: i didnt know this exits
+│      [15:31] Sunny: on the list, mostly are new builds - so i guess the initial setup has enabled that for them which is unnecessary
+│      [15:38] Fernanda: i dont think we do, no
+│      [15:44] Ayush Kharpuse: ok, so we can remove this, Right? as its not in use.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (6 replies) ──────────────────────────────────────
+│ [15:54] Manish Pathe: @Lee  I have a query regarding picture permission email notification changes
+
+Do you want these changes on new implementation only or old email settings too?
+Will the emails added from email setting will only receive access revoked email only or will receive both for granted and revoked? [Attachment(s): Screenshot 2026-05-11 at 3.49.35 PM.png, Screenshot 2026-05-11 at 3.41.25 PM.png]
+│   └─ Replies:
+│      [16:08] Lee: > Do you want these changes on new implementation only or old email settings too?
+yes
+> Will the emails added from email setting will only receive access revoked email only or will receive both for granted and revoked?
+revoked only
+│      [12:14] Manish Pathe: @Lee This change has been deployed to qa3 and Prajwal is testing it, once the testing is done we will deploy it to live.
+
+CC: @Prajwal Chaudhari
+│      [15:25] Prajwal Chaudhari: @Manish Pathe @Lee
+I have completed the testing.
+│      [15:27] Manish Pathe: @Lee This is deployed to live.
+│      [15:30] Lee: thank you
+│      [15:36] Manish Pathe: https://trello.com/c/RPW73rOh [Preview: [no preview available]]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (9 replies) ──────────────────────────────────────
+│ [16:09] Lee: @Kritika Wadhwa can you check this school? Why no lodgement date or reference in bank reconciliation section?
+It's not just this order, it's many orders in april. School said they did receive it into their bank account [Attachment(s): Screenshot 2026-05-11 at 11.38.39.png]
+│   └─ Replies:
+│      [16:42] Kritika Wadhwa: yes i will check
+│      [12:12] Ravindra Chherke: @Kritika Wadhwa Any update on this.
+│      [12:23] Kritika Wadhwa: Lodgements are there in the DB for April but not shown in the dashboard and reports i am checking why
+│      [13:47] Kritika Wadhwa: @Lee as i can see there are only 5 orders placed in April. Right?
+
+and except order: 1352479
+Which other Order's lodgement is missing ?
+│      [14:13] Lee: ah ok it is only this one sorry
+│      [16:02] Kritika Wadhwa: This is fixed @Lee, Lodgement for 6th may were not updated in the DB thats why this order had isue
+│      [16:06] Lee: it's fixed yeah?
+│      [16:06] Kritika Wadhwa: yes fixed
+│      [16:07] Lee: thank you
+└─────────────────────────────────────────────────────────────────────────
+
+[18:19] Fernanda: @channel I’m signing off today as I’m heading off on maternity leave.
+If you need to confirm anything regarding my clients/queries, please tag both Sunny and Lee and they’ll be happy to help.
+Thank you all, and wishing you the very best! :wave::skin-tone-3:
+
+┌── THREAD #5 (1 reply) ──────────────────────────────────────
+│ [19:42] Sunny: @channel can someone kindly check the social media integration?
+
+when i had a look, the post went to FB & Instagram but not X. https://x.com/mercynewross [Attachment(s): Screenshot 2026-05-11 at 15.00.10.png, Screenshot 2026-05-11 at 15.00.16.png]
+│   └─ Replies:
+│      [12:11] Ravindra Chherke: @Sunny X now requires payment for using their api. Sharon knows about it. Can you please check with her.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (2 replies) ──────────────────────────────────────
+│ [19:43] Vivek Jadhav: @Lee This is an estimate for updating the “Select All” functionality to include all records, not just the currently loaded items.
+cc: @Ravindra Chherke @Sandeep Jain @Harshwardhan More [Attachment(s): Select 'All' Update.xlsx]
+│   └─ Replies:
+│      [19:45] Lee: Surely it can be completed quicker than 232 hours. Should use AI to help with this
+
+@Yashraj Talokar & @Harshwardhan More have access to Anti gravity & Cursor paid versions
+│      [19:51] Vivek Jadhav: @Lee This will include all modules in the Yearheads dashboard. We also need to assess the impact of bulk updates on the server and database. We’ll discuss this further and provide additional details or updates as needed.
+└─────────────────────────────────────────────────────────────────────────
+
+[20:01] U0B2Z4F74K0: @U0B2Z4F74K0 has joined the channel

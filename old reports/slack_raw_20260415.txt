@@ -1,0 +1,135 @@
+SLACK RAW EXPORT — 2026-04-15
+Channel: C08LEFNF0BS
+Total messages: 50 | Threads: 7 | Standalone: 1
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [13:03] Fernanda: @Sonali Gaikwad can you please see if there was a prl inputted for Tarra Strydom in dominican taylor's hill then later deleted for the 13th?
+│   └─ Replies:
+│      [13:11] Sonali Gaikwad: There is no PTL for her on 13th
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (4 replies) ──────────────────────────────────────
+│ [13:24] Lee: @channel Note signed out list - Add the Approve button from the PTL tab. Also Sign Out button should allow sign out for pending PTL too. We should not need to approve and then sign out.
+Thanks
+│   └─ Replies:
+│      [13:25] Lee:  [Attachment(s): Screenshot 2026-04-15 at 08.54.49.png]
+│      [13:46] Ravindra Chherke: @Vivek Jadhav
+│      [17:43] Vivek Jadhav: https://trello.com/c/obTVHggW [Preview: [no preview available]]
+│      [11:39] Krishna Thite: Job : Add Approve Action and Enable Direct Sign Out for Pending PTL Items
+Project Code :767
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (3 replies) ──────────────────────────────────────
+│ [13:44] Sunny: @channel *Marist College 713*
+
+I have sent out onboarding SMS to them on 30/03/26 so they still had plus SMS credit, however today it's minus 541. I checked the SMS report and there are 91 SMS sent since the end of March. Can you check why they go so minus after just two weeks of time? Thank you! [Attachment(s): Screenshot 2026-04-15 at 09.12.13.png, Screenshot 2026-04-15 at 09.12.34.png, Screenshot 2026-04-15 at 09.12.49.png]
+│   └─ Replies:
+│      [13:46] Ravindra Chherke: @Kritika Wadhwa
+│      [13:48] Kritika Wadhwa: Checking
+│      [11:44] Krishna Thite: Job : Investigate Incorrect SMS Credit Deduction Leading to Negative Balance
+Project Code : 768
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (10 replies) ──────────────────────────────────────
+│ [14:18] Sunny: @channel urgent for the school - *Mount Temple Comprehensive cc @Kritika Wadhwa* 
+
+*Can you please export the transaction history from 01/01/2025-31/12/2025 for this school?*
+*getting this error:*  [Attachment(s): Screenshot 2026-04-15 at 09.46.17.png]
+│   └─ Replies:
+│      [14:25] Kritika Wadhwa: checking
+│      [14:49] Kritika Wadhwa: @Sunny Arey you trying to export transaction history of whole 2025 (1 year) ?
+│      [15:46] Sunny: yes
+│      [15:47] Sunny: is it possible?
+│      [15:48] Kritika Wadhwa: Not actually there is so much data in a year and importing it all together is not possible for now, We have to import it by 1 or 2 month
+│      [15:59] Sunny: just checked with james he said we still need the ability to do so though (from back end)
+│      [16:03] Kritika Wadhwa: Okay let me check
+│      [11:36] Krishna Thite: Job : Enable Full-Year Transaction Export Capability from Backend
+Project Code : 766
+│      [13:28] Sunny: @Kritika Wadhwa once you got a year's report out, you can send to James cc me as James is now in contact with the school thanks!
+│      [13:29] Kritika Wadhwa: Ok Sunny
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (14 replies) ──────────────────────────────────────
+│ [15:07] Lee: Why was there no ARF sent for this student (Jonathan Creighton Twomey) yesterday? Student was marked abs at 9:27am and we sent ARF at 10:31am.
+Please check @channel
+Wesley College [Attachment(s): Screenshot 2026-04-15 at 10.35.36.png, image.png, Screenshot 2026-04-15 at 10.36.24.png]
+│   └─ Replies:
+│      [15:25] Sonali Gaikwad: @Lee We received A927577385 during AFM team fetch at 2026-04-15 09:34:28.
+This code is not added as unexplained code.
+
+it indicates Late code. [Attachment(s): image.png, image.png]
+│      [15:32] Lee: why did we fetch at 9:34am when we sent arf at 10:31am?
+fetching at this time is too early. I'll speak with AFM team, thanks
+│      [15:34] Sonali Gaikwad: wait
+│      [15:34] Sonali Gaikwad: let me check if it is UTC time or dublin team. i given time directly frm DB
+│      [15:34] Sonali Gaikwad: apologies
+│      [15:37] Lee: ok waiting thanks
+│      [15:43] Sonali Gaikwad: We are saving UTC means we got it at 10:34.
+You can verify with AFM team as well.
+│      [15:49] Lee: They fetched at 10:31am not 10:34am.
+
+Regardless, why are we getting Late code instead of ABS? No late sign in for this student yesterday
+
+Also what's going on with student profile @Harshwardhan More [Attachment(s): Screenshot 2026-04-15 at 11.18.03.png, Screenshot 2026-04-15 at 11.18.29.png]
+│      [15:50] Sonali Gaikwad: I have attached the code description in above screenshot
+│      [16:17] Lee: yeah but they were marked absent at 9.27am, so we should have gotten absent. Can you check with wonde?
+│      [16:40] Sonali Gaikwad: @Lee I was supposed to review the data for April 14; however, there are no session details available for him in the ARF fetch table—neither present nor absent/late.
+
+Apologies for the confusion earlier. I had mistakenly checked today’s session data instead.
+│      [17:04] Lee: Ok we need to check for April 14 then, why there is no data with wonde
+│      [17:09] Sonali Gaikwad: AFM team fetch shows count 254 as present and  28 and absent at 10:30.
+
+There might be delay in some student data
+│      [17:15] Lee: Ok I've asked afm team to manually fetch
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (4 replies) ──────────────────────────────────────
+│ [16:27] Lee: @channel I've asked this before.
+anywhere in YHD when we select all on a list, we must scroll to the bottom to load all records.
+Example: page loads 10 records initially but the list is 200 records.
+When we select all without scrolling to load all 200 records, we only select the first 10.
+This is confusing for users.
+When we select all, it must select all. Not select all that is currently loaded.
+This is basic UX and needs to be fixed.
+It's a bug.
+@Sandeep Jain please create FM project as P1
+│   └─ Replies:
+│      [16:49] Sandeep Jain: Noted
+│      [11:50] Krishna Thite: Job : Fix “Select All” Functionality to Include All Records (Not Just Loaded Items)
+Project Code : 769
+│      [17:25] Vivek Jadhav: @Lee I see two possible approaches for this update:
+1. Display a message like ‘Only loaded records are selected.’ *(quick fix)*
+2. Instead of loading all records (performance impact), implement logical “Select All” (filter-based) so all matching records are selected without fetching all data. (It will take around 8–10 days of effort for both frontend and backend. assuming the changes apply to all modules.)
+Let me know if you have any other suggestions.
+
+cc: @Sandeep Jain @Ravindra Chherke @Harshwardhan More
+│      [19:46] Lee: Option 2
+
+This is pretty standard UX across the board so should have been implemented from the beginning.
+
+We'll speak about it tomorrow
+└─────────────────────────────────────────────────────────────────────────
+
+[16:40] Krishna Thite: Job : Fix Forbidden 765and Persisting Deleted PDF Attachment in Notifications
+Project : 765
+
+┌── THREAD #7 (6 replies) ──────────────────────────────────────
+│ [19:00] Lee: Aoife Walsh
+(4, 4A)
+Mercy Roscommon, no data showing for april, please check
+@channel This seems to be april issue with wonde maybe [Attachment(s): Screenshot 2026-04-15 at 14.29.09.png]
+│   └─ Replies:
+│      [19:08] Sandeep Jain: @Sonali Gaikwad
+│      [19:09] Sonali Gaikwad: @Harshwardhan More
+│      [19:10] Harshwardhan More: I'll resolve issues related to calendar by tomorrow. Thanks.
+│      [19:38] Lee: thanks
+│      [17:47] Harshwardhan More: @Lee For Mercy College, Roscommon, Wonde did not provide data for the first 15 days of April and only started supplying data from April 15 onwards. I have revalidated and updated the system to reflect data from the 15th onward. It’s likely that the school was on holiday during the first half of April, as this pattern appears across many students in that school.
+│      [18:07] Harshwardhan More: @Krishna Thite Please create an FMP job for this, mark it as complete, and share the job details here. Thanks.
+└─────────────────────────────────────────────────────────────────────────

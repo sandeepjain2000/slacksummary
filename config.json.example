@@ -1,0 +1,7 @@
+{
+  "slack_token": "xoxb-your-slack-bot-token",
+  "channel_id": "C0000000000",
+  "openai_api_key": "sk-your-openai-key",
+  "sender_email": "you@example.com",
+  "recipient_email": "recipient@example.com"
+}

@@ -1,0 +1,423 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-03-30
+Total messages: 109 | Threads: 7 | Standalone: 0
+================================================================================
+
+### 1.a [12:29] — Tejas Mahadik requests feedback on PTL info note placement
+**Original message:** @Sunny @Lee  Hello,
+I've added this info note on PTL's add side sheet as requested. Can you please have a look and let me know if this is fine and I can deploy it to Live?
+**Project Code:** PROJECT 734
+**Thread summary:** Tejas adjusts the placement of the info note based on feedback from Sunny and Lee. They discuss potential issues with showing student names and existing PTLs. Tejas deploys the changes after resolving concerns.
+
+### 1.b [15:00] — Lee seeks solutions for merging duplicate student profiles
+**Original message:** @channel Colaiste Eammann Ris
+School office have been adding many duplicate student profiles. See screenshot. They are adding with Tyro ID. We need to identify and merge all of these profiles. I'm not sure what the best way to do this is. Open to suggestions.
+**Project Code:** PROJECT 727
+**Thread summary:** Lee discusses the issue of duplicate student profiles with Sonali. They work on identifying duplicates and restoring accidentally deleted students. Manish helps in restoring the deleted students and their associated data.
+
+### 1.c [16:26] — Lee requests a fix for autosave popup blocking submit button
+**Original message:** small request @channel for PN, currently the autosave popup blocks the submit button. Can you suggest a fix for this and implement? (also ensure this is taken into consideration for other modules when we deploy news/notifications on YHD). Perhaps @Amatullah Andamanwala can provide some insight with UX expertise.
+**Project Code:** PROJECT 733
+**Thread summary:** Amatullah provides insights on fixing the autosave popup issue and hover sensitivity on the main dashboard menu. Recommendations are made for improvements. Lee confirms the fixes and assigns implementation responsibilities.
+
+### 1.d [16:33] — Lee inquires about ARF not being auto-cancelled for a student
+**Original message:** @channel Student Naoise O'Connor was initially marked Absent and then updated to School Activity. Why wasn't the ARF cancelled automatically? @Sonali Gaikwad. The school said they changed to School Activity within 7 days of the 3rd March. Can you check logs? I will then abort ARF manually. Thank you School: St Brigids Killarney
+**Project Code:** PROJECT 735
+**Thread summary:** Sonali explains a bug fix related to ARFs not being marked correctly. Lee acknowledges the resolution and confirms no further action is needed.
+
+### 1.e [16:51] — Lee seeks clarification on refund email content
+**Original message:** @Kritika Wadhwa Hello! See screenshot, is this what the refund email still looks like? If so, question is: What does it display if it's a partial refund? School complained to say if they refund partially, it does not state it clearly the refund amount. It states cost of item but not actually how much is refunded. Can you please confirm? Thank you
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Kritika confirms the content of the partial refund email and clarifies the display of refunded amounts. Lee acknowledges the response.
+
+### 1.f [17:21] — Lee requests assistance with consecutive counts for a school
+**Original message:** @channel @Tejas Mahadik consecutive counts blank for Colaiste Mhuire Cabra, can you please check
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Tejas investigates the issue with consecutive counts for a school and requests password assistance from Lee.
+
+### 1.g [17:23] — Lee addresses Irish language translation issue
+**Original message:** @channel @Ravindra Chherke The system should only translate the interface labels, not the actual message content written by the school. I thought this was resolved? For Irish language, we should only translate the app/menu items etc, not the content of Notifications/News/PNs etc.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Lee discusses the Irish language translation issue with Ravindra and Kumaraswamy. They confirm ongoing checks to ensure only interface labels are translated.
+
+--- 
+
+This summary covers all threads and standalone messages from the Slack conversations on March 30, 2026.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (4)
+  Thread #1 [12:29] — Code(s): PROJECT 734
+    "@Sunny @Lee  Hello,
+I've added this info note on PTL's add side sheet as request..."
+  Thread #2 [15:00] — Code(s): PROJECT 727
+    "@channel Colaiste Eammann Ris
+School office have been adding many duplicate stud..."
+  Thread #3 [16:26] — Code(s): PROJECT 733
+    "small request @channel for PN, currently the autosave popup blocks the submit bu..."
+  Thread #4 [16:33] — Code(s): PROJECT 735
+    "@channel Student Naoise O'Connor was initially marked Absent and then updated to..."
+
+THREADS WITHOUT PROJECT/JOB CODE (3)
+  Thread #5 [16:51] — "@Kritika Wadhwa Hello!
+
+See screenshot, is this what the refund email still look..."
+  Thread #6 [17:21] — "@channel @Tejas Mahadik consecutive counts blank for Colaiste Mhuire Cabra, can ..."
+  Thread #7 [17:23] — "@channel @Ravindra Chherke
+•	Irish language translation issue:
+The system should..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-03-30 (7 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-03-27 14:01)
+  Author  : Fernanda
+  Message : @channel Mount Temple - note from parent is getting multiple duplications
+sent a test just now and its the same for my demo student
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774600283166529?thread_ts=1774600283.166529&cid=C08LEFNF0BS
+  [6 earlier replies before 2026-03-30 not shown]
+  New replies on 2026-03-30 (2):
+    [12:08] Ravindra Chherke: @Harshwardhan More @Shruti Kokate Any update on this. This is critical.
+    [13:37] Harshwardhan More: @Fernanda This issue has been fixed & deployed to LIVE.
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-03-26 20:52)
+  Author  : Fernanda
+  Message : @channel Parent is trying to submit attendance note from April 14 to may 22 and is getting bad request - Mount anville
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774538527041259?thread_ts=1774538527.041259&cid=C08LEFNF0BS
+  [8 earlier replies before 2026-03-30 not shown]
+  New replies on 2026-03-30 (5):
+    [11:38] Ayush Kharpuse: @Fernanda Sorry, I forget to inform you, the absentee submission limit is increased on live server as well.
+    [11:38] Ayush Kharpuse: @Prajwal Chaudhari could you please confirm it.
+    [12:17] Ravindra Chherke: @Ayush Kharpuse Errors should be user friendly.
+
+@Prajwal Chaudhari Test it asap. Test with 50 days.  Our WAF might block request if  request is too large.
+    [12:39] Ayush Kharpuse: @Ravindra Chherke This message is populated from the mobile app side. @Kumaraswamy R will explain batter.
+    [12:54] Prajwal Chaudhari: @Ayush Kharpuse @Ravindra Chherke
+I have verified the rate limit absentee note submissions work correctly for up to 50 days. For durations above 50 days, a ‘Bad Request’ error message is displayed
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-03-26 19:52)
+  Author  : Fernanda
+  Message : @channel this teacher in Terenure College is not able to see recent PN. he deleted the app, installed it again. I unlinked the profile linked again but still no luck.
+His profile is a teacher/Parent - version of the app is 5.0.17 (31)
+<mailto:paul.hyland@TerenureCollege.ie|paul.hyland@TerenureCollege.ie>
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774534927023559?thread_ts=1774534927.023559&cid=C08LEFNF0BS
+  [3 earlier replies before 2026-03-30 not shown]
+  New replies on 2026-03-30 (2):
+    [12:20] Ravindra Chherke: @Yashraj Talokar Any update on this?
+    [12:21] Yashraj Talokar: I'm debugging this.
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-03-26 16:53)
+  Author  : Fernanda
+  Message : @Sonali Gaikwad can you please check the lates for this student didnt map with WB? Sandford Park
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774524183922479?thread_ts=1774524183.922479&cid=C08LEFNF0BS
+  [9 earlier replies before 2026-03-30 not shown]
+  New reply on 2026-03-30 (1):
+    [12:25] Ravindra Chherke: @Prajwal Chaudhari  @Sonali Gaikwad
+
+If issues are simple and resolved quickly then close the trello card. Keep the trello workspace clean.
+---------------------------------------------------------------------------
+
+OLD THREAD #5  (originally posted 2026-03-25 15:02)
+  Author  : Fernanda
+  Message : @channel this is happening more and more, where the school deletes a notification and gets stressed that parents are still seeing.
+Can you please delete this message from Meanscoil Naas app, school deleted from notification, but still visible for parents.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774431123610459?thread_ts=1774431123.610459&cid=C08LEFNF0BS
+  [2 earlier replies before 2026-03-30 not shown]
+  New replies on 2026-03-30 (3):
+    [12:39] Ravindra Chherke: @Kumaraswamy R @Sonali Gaikwad @Shruti Kokate
+    [12:51] Shruti Kokate: @Fernanda Updating the app
+    [12:58] Fernanda: let me know when complete and I will ask the school to check, thank you @Shruti Kokate
+---------------------------------------------------------------------------
+
+OLD THREAD #6  (originally posted 2026-03-25 15:00)
+  Author  : Lee
+  Message : @channel What's the status on boarders app/web? NFC cards have arrived, can I test on the current boarders app @Kumaraswamy R?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774431052758419?thread_ts=1774431052.758419&cid=C08LEFNF0BS
+  [45 earlier replies before 2026-03-30 not shown]
+  New replies on 2026-03-30 (4):
+    [13:05] Ravindra Chherke: @Lee @Sonali Gaikwad @Ayush Kharpuse
+
+The roll call functionality is for the house.
+
+*Can you confirm what happens in this scenario.*
+
+If a student is present in the house but is sick and unable to attend school, how should the manager mark attendance?
+	•	If marked absent, the student is absent in both house and school.
+	•	*If marked present (but sick), then student is present at the house and at school as well (no write-back).* 
+
+
+However, in reality, the student is present in the house but absent from school due to illness.
+    [13:09] Lee: Hmm that's a good point
+    [13:32] Lee: we need 3 dots option beside the Present button with option Present (Sick). If Present (Sick) option is selected, it should give the same options that Absent gives (same popup modal with options to select reasons etc and send notification to parent).
+
+Hope this makes sense
+
+@Ravindra Chherke @Kumaraswamy R @Vivek Jadhav
+
+You can thank Ravindra for this extra work :smile: [Attachment(s): Screenshot 2026-03-30 at 08.59.44.png]
+    [14:14] Lee: @Ravindra Chherke @Sandeep Jain @Kumaraswamy R @Vivek Jadhav [Attachment(s): Screen Recording 2026-03-30 at 09.42.28.mov]
+---------------------------------------------------------------------------
+
+OLD THREAD #7  (originally posted 2026-03-24 15:17)
+  Author  : Fernanda
+  Message : @Sonali Gaikwad Wesley college
+in manage ARF page its saying that its confirmed ABS, however in the Attendance is saying requested, so I cannot cancel the request. any advice?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774345655753449?thread_ts=1774345655.753449&cid=C08LEFNF0BS
+  [8 earlier replies before 2026-03-30 not shown]
+  New replies on 2026-03-30 (2):
+    [13:23] Ravindra Chherke: @Sonali Gaikwad We should find why this happend.
+    [14:16] Sonali Gaikwad: @Ravindra Chherke ARF screen says confirmed ABS therefore absent report show the absentee with requested status.
+
+We are not allowing to cancel/delete the ARF if it is not in requested/no status.
+
+Teacher had already taken action that student is confirmed ABS on please check requested by parent.
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (29 replies) ──────────────────────────────────────
+│ [12:29] Tejas Mahadik: @Sunny @Lee  Hello,
+I've added this info note on PTL's add side sheet as requested.
+Can you please have a look and let me know if this is fine and I can deploy it to Live? [Attachment(s): image.png]
+│   └─ Replies:
+│      [12:44] Sunny: @Tejas Mahadik I wonder this message - can it be under 'Students List" and after "No data" [Attachment(s): unknown file]
+│      [12:44] Sunny:  [Attachment(s): Screenshot 2026-03-30 at 08.13.32.png]
+│      [12:44] Sunny: so they see that message after searching the student (rather than having to hover to the i icon to know
+│      [12:45] Tejas Mahadik: yeah, okay
+│      [12:45] Tejas Mahadik: That's better
+│      [12:45] Tejas Mahadik: I'll do that
+│      [13:01] Tejas Mahadik: @Sunny Does this work? [Attachment(s): image.png]
+│      [13:02] Tejas Mahadik: By default we'll show No data, only when searched and student doesn't appear it will show that note there.
+│      [14:02] Sunny: yeah it's good
+│      [14:04] Sunny: Lee actually brought up a good point: why dont we not show the student's name and with a flag that the student already has the PTL.
+
+There was a reason why you omit those students with existing PTL right?
+│      [14:52] Tejas Mahadik: I think the reasons it was that the duplications of PTL used to happen earlier, so we had done this. I'm not so sure as it's been long since implemented that, will have to look into the logic again.
+│      [15:08] Sunny: sure you can push it to live with what you have now and later you can look at that
+│      [15:23] Tejas Mahadik: I just verified it in the code, it will overwrite the existing PTL if we have the students shown in the list instead of filtering out. either overwriting or PTL record duplication may happen, I think current one is safest option.
+│      [15:27] Sunny: cool thank you!
+│      [15:31] Tejas Mahadik: will try to make it live soon
+│      [16:09] Tejas Mahadik: @Sunny I did deploy this on QA2 just now, but I missed one thing again:sweat_smile:
+when user selects the year/class from filter and all students are shown within that filter, the student will still not be shown, then at that time the note won't be visible and user may confuse as to why the student he's looking for is not visible in the list.
+
+What do I do?
+
+Sorry for overlooking this
+│      [16:16] Sunny: then can you just add an i icon next to "Student List" with that message
+│      [16:17] Sunny: i suppose most staff will use the student search bar so it should be fine
+│      [16:18] Tejas Mahadik: oh
+│      [16:18] Tejas Mahadik: got it
+│      [16:19] Sunny: i was thinking more next to that highlighted "Students List" [Attachment(s): Screenshot 2026-03-30 at 11.48.43.png]
+│      [16:19] Tejas Mahadik: yep. got it
+│      [16:19] Sunny: unless you have a better way to show that message
+│      [16:19] Sunny: cool :slightly_smiling_face: thanks
+│      [16:20] Lee: also keep the message underneath "No Data"
+│      [16:20] Tejas Mahadik: okay
+│      [18:45] Tejas Mahadik: @Lee @Sunny @Fernanda
+The change is Live. Please take a look. [Attachment(s): image.png]
+│      [19:02] Sunny: great!
+│      [12:01] Krishna Thite: Job : Improve Visibility of PTL Info Message in Student List (Search + Filter Scenarios)
+Project Code : 734
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (28 replies) ──────────────────────────────────────
+│ [15:00] Lee: @channel Colaiste Eammann Ris
+School office have been adding many duplicate student profiles. See screenshot. They are adding with Tyro ID.
+We need to identify and merge all of these profiles. I'm not sure what the best way to do this is.
+Open to suggestions.
+Thank you [Attachment(s): Screenshot 2026-03-30 at 10.29.26.png]
+│   └─ Replies:
+│      [15:07] Sonali Gaikwad: @Lee, I'll add information on student id that which ID to put in this box. It will be based on our school mapping.
+│      [15:09] Lee: OK, thanks Sonali
+
+But how can we solve the current duplicate students. I believe there are many that need to be merged
+│      [15:09] SYSTEM: *<slack://user?team=T06UTJTKVUM&id=U0701K0LL9X|@Sonali Gaikwad> created a card* [Preview: [no preview available]]
+│      [15:10] Sonali Gaikwad: We need to do manually on db level
+│      [15:10] Lee: OK I'll try to identify duplicates and provide a list
+│      [15:25] Lee: @Sonali Gaikwad I just accidentally deleted some students from this school mis list. Can you restore them? If possible check logs and restore as I cannot remember all the names.
+
+One name was *Larissa Trindade* 
+│      [15:25] Lee: apologies
+│      [15:27] Sonali Gaikwad: :flushed:
+│      [15:27] Sonali Gaikwad: how many?
+│      [15:28] Lee: maybe like 5 or 6
+│      [15:28] Lee: not too many
+│      [15:28] Lee: let me try get the names
+│      [15:30] Lee: Katie	O Connell
+Jakub	zafar
+Guido	Berardelli
+Giulietta Sara	Scalabrino
+Ethaen Daniel	Camotim
+Eshaan	Camotim
+Emma	Bertossi
+Duccio	Firmati
+Cian	Oleary
+Anton	Hauber
+│      [15:30] Lee: slightly more than I thought
+│      [15:32] Sonali Gaikwad: 14 students trashed
+│      [15:38] Sonali Gaikwad: FYI. Delete action also removes the student from these modules Groups, Chat groups, Consent forms(not submitted), Shop(upaid), Personal notification.
+1. If student is an app user then he/she will get unlinked
+2. Their parent will also get unlinked if no other active child is present in the school
+│      [15:39] Sonali Gaikwad: @Manish Pathe Please restore the students for Colaiste Eammann Ris school deleted recently.
+│      [16:25] Manish Pathe: @Lee Would you like me to establish the linking for students and parents?
+│      [16:27] Lee: yes please, thanks Manish
+│      [16:33] Krishna Thite: Job : MIS student - show student id column to refer from MIS dashboard
+Project code : 727
+│      [17:58] Sonali Gaikwad: @Lee, please see if this works for school. Added in tooltip and and input text box placeholder [Attachment(s): image.png]
+│      [18:06] Lee: it should be PPOD/Dept ID but yes this would work for schools if it picks up which ID to use
+Should only need placeholder, can remove the tooltip
+│      [18:07] Lee: it should say "Please use Dept/PPOD ID" or "Please use VSware ID"
+│      [18:09] Sonali Gaikwad: It will show the name whichever we have mapped the school in wonde and tyro dashboard
+│      [18:09] Lee: perfect
+│      [21:21] Manish Pathe: @Lee All 14 deleted students have been retained, along with their associated linking and deleted data for the following modules:
+• Groups, 
+• Consent Forms (not submitted), 
+• Shop (unpaid), 
+• Personal Notifications. 
+Notice Board data has been deleted from Firebase and cannot be restored.
+
+CC: @Sonali Gaikwad
+│      [12:07] Sonali Gaikwad: @Lee, The change to add a placeholder for student ID is live now.
+│      [12:40] Lee: thanks both
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (16 replies) ──────────────────────────────────────
+│ [16:26] Lee: small request @channel for PN, currently the autosave popup blocks the submit button. Can you suggest a fix for this and implement? (also ensure this is taken into consideration for other modules when we deploy news/notifications on YHD).
+
+Perhaps @Amatullah Andamanwala can provide some insight with UX expertise.
+
+Thank you [Attachment(s): Screenshot 2026-03-30 at 11.55.00.png]
+│   └─ Replies:
+│      [16:35] Amatullah Andamanwala: Yes, I will look into it and will provide the insights
+Although, it only blocks it for a few seconds
+│      [16:37] Lee: I know yeah lol but still, it's annoying
+│      [16:41] Amatullah Andamanwala: Okay, I will look into it
+│      [17:15] Lee: also another thing to look at please:
+
+Main Dashboard menu hover sensitivity
+ The dropdown is too easy to deactivate. When I open the menu and move the cursor diagonally toward an item, the dropdown often disappears before I can select anything.
+It may be worth investigating whether a small hover-out delay or forgiving transition zone could be added, so that if the user briefly moves off the dropdown by mistake and immediately moves back, the menu stays open. See attached video. [Attachment(s): Screen Recording 2026-03-30 at 12.36.38.mov]
+│      [17:15] Lee: neither item is urgent btw
+│      [17:15] Lee: but both are very quick fixes
+│      [18:34] Amatullah Andamanwala: Okay, no problem 
+will look into both the items 
+│      [10:47] Amatullah Andamanwala: @Lee For the hover dropdown issue
+
+The recommended fix is: Add a *150–300ms hover-out delay* so the dropdown doesn’t close instantly when the cursor briefly leaves. At the same time, introduce a *small invisible buffer zone* between the main menu and submenu that keeps the dropdown active when the cursor is moving toward it.
+*Result:* The menu feels stable and forgiving, allowing natural cursor movement without accidental closures, no UI redesign needed.
+│      [11:42] Prajwal Chaudhari: https://trello.com/c/mr9LUtId [Preview: [no preview available]]
+│      [11:46] Amatullah Andamanwala: @Lee and for the Autosave pop up issue
+
+recommended fix:
+Option 1: Inline Feedback (Preferred for Stability)
+-Display autosave status *within the layout* (e.g., near the form title or section header) instead of a floating popup.
+-Eliminates overlap risk entirely and keeps feedback contextual and non-intrusive.
+
+Option 2: Top-Right Toast (Standardized Pattern)
+-Move autosave message to the *top-right corner* as a lightweight toast.
+-Keeps it visible but *away from CTAs*, ensuring zero interference with user actions.
+│      [11:48] Krishna Thite: Project Code : 733
+Job : Fix autosave popup issue blocking submit button in PN
+│      [12:42] Lee: replied on Trello for autosave pop up
+
+&
+
+> The recommended fix is: Add a *150–300ms hover-out delay* so the dropdown doesn’t close instantly when the cursor briefly leaves. At the same time, introduce a *small invisible buffer zone* between the main menu and submenu that keeps the dropdown active when the cursor is moving toward it.
+> *Result:* The menu feels stable and forgiving, allowing natural cursor movement without accidental closures, no UI redesign needed.
+Yes, this will be perfect @Amatullah Andamanwala
+│      [12:42] Lee: Can you implement @Amatullah Andamanwala or should @Sandeep Jain assign to someone else?
+│      [12:43] Sandeep Jain: @Amatullah Andamanwala
+│      [12:44] Sandeep Jain: But for coding @Vivek Jadhav
+│      [12:45] Amatullah Andamanwala: Okay, I will implement.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (4 replies) ──────────────────────────────────────
+│ [16:33] Lee: @channel Student Naoise O'Connor was initially marked Absent and then updated to School Activity. Why wasn't the ARF cancelled automatically? @Sonali Gaikwad
+The school said they changed to School Activity within 7 days of the 3rd March. Can you check logs? I will then abort ARF manually. Thank you
+School: St Brigids Killarney [Attachment(s): Screenshot 2026-03-30 at 12.01.38.png, Screenshot 2026-03-30 at 12.01.32.png]
+│   └─ Replies:
+│      [16:39] Sonali Gaikwad: @Lee There was a bug which was fixed on 25th March(refer the slack thread).
+https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774425484765509?thread_ts=1774348636.449329&cid=C08LEFNF0BS [Preview: [March 25th, 2026 12:58 AM] sonali: <@U07B4RD1ED6> We have implemented the fix and completed the sync process for this school. The ARFs are now correctly marked as "YES MIS."
+Additionally, during this run, two new ARFs were created for students dated March 24. Please refer to the screenshot below for details.
+
+For your reference, the created date and time for these two records will appear as *2026-03-25 06:36:12*.]
+│      [16:44] Lee: I see, thank you
+│      [12:08] Krishna Thite: Job : ARF Not Auto-Cancelled When Attendance Updated to School Activity (Pre-Fix Data Issue)
+Project code : 735
+│      [12:40] Lee: no need for fm job @Krishna Thite
+
+@Sonali Gaikwad said issue is resolved
+
+Thanks
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (6 replies) ──────────────────────────────────────
+│ [16:51] Lee: @Kritika Wadhwa Hello!
+
+See screenshot, is this what the refund email still looks like?
+
+If so, question is:
+
+What does it display if it's a partial refund? School complained to say if they refund partially, it does not state it clearly the refund amount. It states cost of item but not actually how much is refunded. Can you please confirm? Thank you [Attachment(s): Screenshot 2026-03-30 at 12.20.41.png]
+│   └─ Replies:
+│      [16:52] Kritika Wadhwa: Sure @Lee, will check and let you know
+│      [16:54] Lee: thank you
+│      [17:02] Kritika Wadhwa: @Lee this is the partial refund email and we show the refunded amount here. [Attachment(s): Screenshot 2026-03-30 at 12.24.15.png]
+│      [17:03] Lee: ok thank you Kritika, that's fine
+│      [17:03] Kritika Wadhwa: You're Welcome
+│      [12:08] Krishna Thite: No project needed in FMP
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (13 replies) ──────────────────────────────────────
+│ [17:21] Lee: @channel @Tejas Mahadik consecutive counts blank for Colaiste Mhuire Cabra, can you please check [Attachment(s): Screenshot 2026-03-30 at 12.51.16.png]
+│   └─ Replies:
+│      [17:22] Tejas Mahadik: Yes
+│      [17:59] Tejas Mahadik: @Lee The password seem to have changed. Can you provide password to this one?
+<mailto:attendance-colaistemuirecobh@uniqueschools.ie|attendance-colaistemuirecobh@uniqueschools.ie>
+│      [18:02] Lee: it's not cobh
+│      [18:02] Lee: it's cabra
+│      [18:02] Lee: *<mailto:appsupport-colaistemhuirecabra@uniqueschools.ie|appsupport-colaistemhuirecabra@uniqueschools.ie>*
+│      [18:03] Lee: https://eu.onetimesecret.com/secret/1e8e044f3ortj0dzgfzaychdllpentk [Preview: Onetime Secret]
+│      [18:03] Tejas Mahadik: oh sorry
+│      [18:03] Tejas Mahadik: Thanks
+│      [18:15] Tejas Mahadik: There are no absentees today in this school, that's why no count shown. [Attachment(s): image.png]
+│      [18:16] Lee: yeah but if we change date range, it should show no? Or is logic limited to today absences only?
+│      [18:17] Tejas Mahadik: yes, the date range should include today within it, and there should be absentees including today backwards till start of academic year
+│      [18:17] Lee: understood, thank you for confirming Tejas
+│      [12:09] Krishna Thite: No project needed in FMP
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (6 replies) ──────────────────────────────────────
+│ [17:23] Lee: @channel @Ravindra Chherke
+•	Irish language translation issue:
+The system should only translate the interface labels, not the actual message content written by the school.
+I thought this was resolved? For Irish language, we should only translate the app/menu items etc, not the content of Notifications/News/PNs etc.
+│   └─ Replies:
+│      [17:25] Ravindra Chherke: @Kumaraswamy R 
+│      [11:21] Kumaraswamy R: Hi @Lee,
+Is this for all the schools or for a particular school?
+│      [12:43] Lee: I believe it applies to all schools but Colaiste Mhuire Cabra is the one who complained
+│      [12:43] Lee: Hi btw :slightly_smiling_face:
+│      [12:48] Kumaraswamy R: Okay, the translations are currently being done at server end and fetched accordingly as per the user's language preference on the app.
+But there's a special validation for Irish language where it shows the original notification and not the translated one.
+@Yashraj Talokar and @Shruti Kokate are currently checking this on QA2.
+They will provide an update on this ASAP.
+│      [12:50] Lee: > But there's a special validation for Irish language where it shows the original notification and not the translated one.
+Correct, school said this is not happening and it is translating. I'll await feedback, thank you
+└─────────────────────────────────────────────────────────────────────────

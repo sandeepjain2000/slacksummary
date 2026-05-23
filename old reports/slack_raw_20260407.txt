@@ -1,0 +1,43 @@
+SLACK RAW EXPORT — 2026-04-07
+Channel: C08LEFNF0BS
+Total messages: 14 | Threads: 2 | Standalone: 0
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [15:15] Tejas Mahadik: @channel
+Hi, The web ticketing system is deployed on QA2. Kindly have a look.
+
+CC: @Sandeep Jain, @Ravindra Chherke
+│   └─ Replies:
+│      [15:16] Tejas Mahadik: You can find it here [Attachment(s): image.png]
+│      [15:16] Tejas Mahadik: URL- https://webticketdev.uniqueschoolapp.ie/
+
+for Client side, web updates module enabled for school 2 and 28 as of now. You can add it for other schools by adding *Web Updates* in Additional Features from Admin control account.
+
+• Internal accounts:
+<mailto:admin@uniqueschools.ie|admin@uniqueschools.ie>
+<mailto:dev@uniqueschools.ie|dev@uniqueschools.ie>
+<mailto:reviewer@uniqueschools.ie|reviewer@uniqueschools.ie>
+
+
+these are test accounts added. [Preview: Web-Ticketing]
+│      [15:20] Tejas Mahadik: This is an early build, and there are some open issues that we’ve identified during testing, so we’ll be fixing them in the near future.
+│      [15:22] Tejas Mahadik: Password
+https://pwpush.com/p/3htqmldwflir/r [Preview: Password Pusher]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (8 replies) ──────────────────────────────────────
+│ [18:22] Lee: @channel TUSLA Notifications > Send TUSLA PN > Send button not visible. Issue is with the text, text should wrap, full text should be visible and send/submit button should show [Attachment(s): Screenshot 2026-04-07 at 13.50.51.png]
+│   └─ Replies:
+│      [18:35] Sandeep Jain: @Vivek Jadhav
+│      [18:43] Harshwardhan More: @Lee Which school is this?
+│      [18:44] Lee: North Wicklow ETSS
+│      [19:02] Harshwardhan More: https://trello.com/c/ZIyDRAxP [Preview: [no preview available]]
+│      [19:02] Harshwardhan More: @Lee The issue has been fixed and deployed to LIVE.
+│      [19:03] Lee: thanks Harsh, but it's splitting words at the end of lines. Please check SS [Attachment(s): Screenshot 2026-04-07 at 14.33.22.png]
+│      [19:25] Harshwardhan More: @Lee I'll check this.
+│      [11:02] Krishna Thite: Job : Fix Text Wrapping and Send Button Visibility in TUSLA Notifications Screen
+Project code : 752
+└─────────────────────────────────────────────────────────────────────────

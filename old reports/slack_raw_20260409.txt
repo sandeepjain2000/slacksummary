@@ -1,0 +1,38 @@
+SLACK RAW EXPORT — 2026-04-09
+Channel: C08LEFNF0BS
+Total messages: 17 | Threads: 3 | Standalone: 1
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [15:50] Fernanda: @channel detention personal notification is not triggering in the high school
+│   └─ Replies:
+│      [15:59] Fernanda: settings are selected [Attachment(s): image.png]
+│      [15:59] Vivek Jadhav: @Fernanda Personal notification was created, but the user is non app user. [Attachment(s): image.png, image.png]
+│      [16:04] Fernanda: oh I see, I added demo rather than demo student
+│      [16:04] Fernanda: thank you Vivek!
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (8 replies) ──────────────────────────────────────
+│ [16:58] Lee: @Kritika Wadhwa If payment is Open Payment, should we hide Parents/Guardians or Staff selection? [Attachment(s): Screenshot 2026-04-09 at 12.24.56.png]
+│   └─ Replies:
+│      [16:59] Kritika Wadhwa: Yes Lee, in open payments there is no student added to the item
+│      [17:00] Lee: perfect, can this be done when you have some time? @Prajwal Chaudhari if you can create job if needed. Thank you both :slightly_smiling_face:
+│      [17:02] Kritika Wadhwa: But Lee when we select "Open Payment" the student selection is already hidden. No ?
+│      [17:02] Kritika Wadhwa:  [Attachment(s): Screenshot 2026-04-09 at 5.02.25 PM.png]
+│      [17:04] Lee: Yeah but this isn't and it's confusing [Attachment(s): image.png]
+│      [17:05] Kritika Wadhwa: ohh okay got it, will hide it
+│      [17:10] Lee: thanks
+│      [15:03] Krishna Thite: Job : Hide Irrelevant User Selection Options for Open Payments
+Project Code : 754
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [19:54] Lee: @channel We'll meet at 8am IST tomorrow instead of 9.30am please, thank you
+│   └─ Replies:
+│      [19:55] Lee: cc @U06UWDU2RU3 Fernanda has a doc appointment at 10 so we've to meet a bit earlier if that's ok
+└─────────────────────────────────────────────────────────────────────────
+
+[19:57] Sandeep Jain: Noted

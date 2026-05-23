@@ -1,0 +1,460 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-17
+Total messages: 51 | Threads: 8 | Standalone: 1
+================================================================================
+
+### 1.a [11:19] — Boarder system deployment update
+**Original message:** Ayush Kharpuse: Hi @channel @Lee @Sunny @Fernanda
+
+The Boarder system has been deployed on live. The website is available and fully functional, the Android mobile app link has been shared on the Trello board, and the iOS app is available on TestFlight. Once the build is ready, we will deploy it to live.
+
+website: https://boarders.uniqueschoolapp.ie
+Trello: https://trello.com/c/4vCZaAWe
+
+Thank you
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Lee inquires about enabling the system for Wesley College, to which Ayush confirms it's available for all schools and provides instructions. Lee seeks further clarification on enabling Boarders and granting access to staff, which Ayush explains step by step. The thread ends with instructions on how to proceed.
+
+### 1.b [12:47] — CMS performance issue
+**Original message:** Sunny: @channel the CMS is very slow today even after clearing the caches (i've already deleted browsing data before recording this). Can you please check why? Lee got an application error message from YHD.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Various team members discuss a slow CMS issue, potential database-related causes, and errors in the School App. After some troubleshooting and fixes, the issue is resolved within the thread.
+
+### 1.c [13:10] — Standard error screens implementation
+**Original message:** Lee: When we have an app issue like this, we need to show proper error screens all over the system with a message. This should be standard.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Lee requests the implementation of standardized error screens, leading to a discussion on creating error screens with branding and proper messages. The thread ends with the team working on designing and refining the error screens.
+
+### 1.d [13:36] — Issue with late request feature
+**Original message:** Lee: Add late request is not working @channel get this error
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Lee reports an issue with the late request feature, prompting a quick acknowledgment from team members to check and resolve the problem.
+
+### 1.e [14:28] — Demo student addition issue
+**Original message:** Lee: @Vivek Jadhav @channel @Ayush Kharpuse Wesley trying to add a demo student, please check
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Vivek acknowledges the issue and suggests a temporary solution. Lee later updates that the issue was resolved by changing details. A question about flagging bugs is raised, leading to a discussion on the best way to report issues effectively.
+
+### 1.f [16:26] — Saturday availability in Evening Study
+**Original message:** Lee: How easy is it to make Saturday available in Evening Study? Some schools will have sessions on Saturdays when it's close to exam time. Is this an easy update? @channel
+**Project Code:** PROJECT 778
+**Thread summary:** Tejas checks the feasibility, and Vivek confirms the addition of Saturday to the schedule on QA2 for testing and deployment. A job is created to enable the Saturday option in the Evening Study schedule.
+
+### 1.g [17:50] — App crash investigation for card addition
+**Original message:** Fernanda: @Kritika Wadhwa parent is trying to add a card but app is crashing
+**Project Code:** PROJECT 779
+**Thread summary:** Kritika investigates the app crash during card addition, seeking device details and OS version. The discussion involves troubleshooting the crash on the stripe page and determining if it's related to the app or stripe integration.
+
+### 1.h [18:15] — News tab enablement request
+**Original message:** Sunny: @channel Can you ensure that News is enabled for Malahide Community School 2899? both app and cms cc @Shruti Kokate
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti confirms the addition of the News tab for Malahide Community School, addressing the request made by Sunny.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (2)
+  Thread #6 [16:26] — Code(s): PROJECT 778
+    "How easy is it to make Saturday available in Evening Study? Some schools will ha..."
+  Thread #7 [17:50] — Code(s): PROJECT 779
+    "@Kritika Wadhwa parent is trying to add a card but app is crashing
+<mailto:ethel..."
+
+THREADS WITHOUT PROJECT/JOB CODE (6)
+  Thread #1 [11:19] — "Hi @channel @Lee @Sunny @Fernanda
+
+The Boarder system has been deployed on live...."
+  Thread #2 [12:47] — "@channel the CMS is very slow today even after clearing the caches (i've already..."
+  Thread #3 [13:10] — "When we have an app issue like this, we need to show proper error screens all ov..."
+  Thread #4 [13:36] — "Add late request is not working @channel get this error"
+  Thread #5 [14:28] — "@Vivek Jadhav @channel @Ayush Kharpuse Wesley trying to add demo student, please..."
+  Thread #8 [18:15] — "@channel Can you ensure that News is enabled for Malahide Community School 2899?..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-17 (6 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-04-16 16:52)
+  Author  : Sunny
+  Message : @channel St Flannan's - shop teacher group
+
+a teacher created a group of teacher wanted to add a teacher payment in shop but there's no "group" filter under teacher payment. Is it okay to have the group there too under teacher setup? cc  @Fernanda
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776338523453909?thread_ts=1776338523.453909&cid=C08LEFNF0BS
+  New replies on 2026-04-17 (5):
+    [11:54] Kritika Wadhwa: @Sunny, As per current functionality, both teachers and students can be added to the same group, so we do not have any group-level filter at the moment.
+However, we can implement this, but it will require some effort. In cases where a group contains both teachers and students, we would need to apply logic to display only teachers accordingly.
+    [12:05] Sunny: Thanks Kritika for checking - will check with dublin team and let you know if we need to implement it thanks
+    [12:06] Kritika Wadhwa: Okay Sunny
+    [12:13] Sunny: might not worth it to implement but can you keep in mind in the new build of the shop
+    [12:13] Kritika Wadhwa: okay
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-04-14 19:32)
+  Author  : Lee
+  Message : @channel can we increase the character count in Detention Manager > Settings > Reasons > Description & When adding student to detention > Description
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776175376231579?thread_ts=1776175376.231579&cid=C08LEFNF0BS
+  [12 earlier replies before 2026-04-17 not shown]
+  New replies on 2026-04-17 (3):
+    [12:10] Sunny: how long will the testing be? Can we expect it to be live next week? (just wanna inform the school
+    [12:10] Sunny: @Tejas Mahadik
+    [12:12] Tejas Mahadik: @Lee yeah, maybe next week.
+
+There are some more bug fixes in detention reported by Prajwal while testing so will fix them too.
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-04-14 17:11)
+  Author  : Sunny
+  Message : @channel cc @Kumaraswamy R
+
+iphone users when they log into the past pupil app, it's always just frozen and they think the app isn't working. Even though after i close and reopen again it's working fine but that's not feasible for schools. Can you look into that?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776166912020779?thread_ts=1776166912.020779&cid=C08LEFNF0BS
+  [32 earlier replies before 2026-04-17 not shown]
+  New reply on 2026-04-17 (1):
+    [18:48] Kumaraswamy R: Hi @Sunny @Lee,
+
+Please test the new build on the TestFlight *2.2.1 (24)*
+and let me know the results.
+Thanks
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-04-14 15:54)
+  Author  : Ravindra Chherke
+  Message : @Krishna Thite James is asking for this in dashboard. Can you please add it on filemaker. 
+
+@Sandeep Jain Can Tejas work on it?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776162255130089?thread_ts=1776162255.130089&cid=C08LEFNF0BS
+  [21 earlier replies before 2026-04-17 not shown]
+  New replies on 2026-04-17 (4):
+    [13:12] Tejas Mahadik: https://trello.com/c/QpwvjUpX [Preview: [no preview available]]
+    [13:13] Lee: when I click on student name to go to profile. Probably related to system crash issue so I will check again soon [Attachment(s): Screenshot 2026-04-17 at 08.43.05.png]
+    [13:18] Tejas Mahadik: @Lee Yes this is issue, Shruti faced it while testing too. will fix it if it's from this feature, because it seems that this occurs on many pages on Qa2
+    [13:23] Lee: cool, yes that's good though, I like the set up
+---------------------------------------------------------------------------
+
+OLD THREAD #5  (originally posted 2026-04-14 15:17)
+  Author  : Lee
+  Message : @channel
+Niamh O'Hare
+(3, 3C)
+Portumna Community School
+Showing ABS in the PM on YHD Student Profile
+Showing ILL in the PM on VSware
+24th February
+I have revalidated attendance via wonde dashboard.
+Still same issue
+Can you please check?
+Thanks
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776160036028029?thread_ts=1776160036.028029&cid=C08LEFNF0BS
+  [5 earlier replies before 2026-04-17 not shown]
+  New reply on 2026-04-17 (1):
+    [11:26] Lee: Do not mark as complete until it's resolved. We can wait until Monday. Please ensure to check this Monday to see if Wonde updated the data and if not, reach out to them. Thanks
+---------------------------------------------------------------------------
+
+OLD THREAD #6  (originally posted 2026-04-13 15:12)
+  Author  : Lee
+  Message : @Ravindra Chherke Hi :slightly_smiling_face: The timing issue is back again, PTL screen in YHD. Correct time is showing in the view modal, incorrect time showing on the list.
+Can you please have the team fix this and ensure everywhere else is fixed. Thanks
+cc @Sandeep Jain @Fernanda @Sunny
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776073375437519?thread_ts=1776073375.437519&cid=C08LEFNF0BS
+  [24 earlier replies before 2026-04-17 not shown]
+  New replies on 2026-04-17 (3):
+    [11:44] Sunny: @Harshwardhan More can you please check again this one-hour different timing issue for PTL. The issue is still there for *St Paul’s Secondary School Monasterevin  (PTL for yesterday 16/04)* [Attachment(s): Screenshot 2026-04-17 at 07.10.25.png]
+    [12:49] Sunny: cc @Ravindra Chherke @Sandeep Jain
+    [15:35] Sunny: today is the same: [Attachment(s): Screenshot 2026-04-17 at 11.05.16.png]
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (6 replies) ──────────────────────────────────────
+│ [11:19] Ayush Kharpuse: Hi @channel @Lee @Sunny @Fernanda
+
+The Boarder system has been deployed on live. The website is available and fully functional, the Android mobile app link has been shared on the Trello board, and the iOS app is available on TestFlight. Once the build is ready, we will deploy it to live.
+
+website: https://boarders.uniqueschoolapp.ie
+Trello: https://trello.com/c/4vCZaAWe
+
+Thank you [Preview: Boarders; [no preview available]]
+│   └─ Replies:
+│      [11:20] Ayush Kharpuse: You can use the same login.
+<mailto:boardermanager.2@uniqueschools.ie|boardermanager.2@uniqueschools.ie>
+│      [11:24] Lee: can we make live for wesley college? Thanks Ayush
+│      [11:30] Ayush Kharpuse: @Lee  yes, The website is available for all schools. We can enable it for them from the admin control. Since the mobile version hasn’t been deployed yet, you can share the links with them.
+│      [11:33] Lee: Thanks, do I just enable boarders in Additional Features? Is there anything else? What is Boarding - [HTML] in Modules?
+│      [11:34] Lee: also do I need to give any access to staff?
+│      [11:36] Ayush Kharpuse: 1. Enable it from the Admin control
+2. Add Teacher as Boarder Manager from the access and permissions.
+3. Login in Boarders App/Web. [Attachment(s): image.png, image.png]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (16 replies) ──────────────────────────────────────
+│ [12:47] Sunny: @channel the CMS is very slow today even after clearing the caches (i've already deleted browsing data before recording this). Can you please check why? Lee got application error message from YHD. [Attachment(s): Screen Recording 2026-04-17 at 08.15.19.mov]
+│   └─ Replies:
+│      [12:49] Ravindra Chherke: This seems to be due to database.
+
+@Yashraj Talokar Looks like PN is causing this
+
+```SELECT `t` . * , `t` . `id` AS `id` , `r` . `send_to` AS `send_to_user` , `r` . `published` AS `user_published` , GROUP_CONCAT ( CASE WHEN `r` . `student_firstname` = ? AND `r` . `student_lastname` = ? THEN ? ELSE `CONCAT` ( `r` . `student_firstname` , ? , `r` . `student_lastname` , ? , `r` . `year` , ? , `r` . `class` ) END SEPARATOR ? ) AS `children_name` FROM `yii_private_notification` `t` RIGHT JOIN `yii_private_notification_users` `r` ON `r` . `notification_id` = `t` . `id` WHERE ( `r` . `t```
+
+│      [12:49] Yashraj Talokar: yes deployed fix
+│      [12:49] Ravindra Chherke:  [Attachment(s): Screenshot 2026-04-17 at 12.49.33 PM.png]
+│      [12:54] Fernanda: 500 server error
+│      [12:54] Sunny: It seems that School App is having issue too - I'm having an error message when trying to access Galway ETSS App. cc @Ravindra Chherke @Sandeep Jain [Attachment(s): Screenshot 2026-04-17 at 08.22.43.png]
+│      [12:54] Sunny:  [Attachment(s): IMG_1223.png]
+│      [12:55] Sunny: other school apps are just spinning
+│      [12:56] Lee:  [Attachment(s): image.png]
+│      [12:58] Lee: when we have an app issue like this, we need to show proper screens with a message. Something like:
+
+*Oops — something didn’t go as planned*
+We’re aware of this and are working to get things back on track as quickly as possible.
+Thanks for your patience — please try again shortly.
+
+With our branding and logo
+
+cc @Ravindra Chherke @Sandeep Jain
+│      [13:03] Sunny: school shared this screenshot [Attachment(s): image.png]
+│      [13:05] Lee: above ss is from YHD, they can login now but YHD not accessible
+│      [13:06] Ravindra Chherke: Please wait for 10 min. Yash is reverting the chagnes.
+│      [13:18] Ravindra Chherke: Should be OK now.
+│      [13:21] Fernanda: not back yet, need to be back before 9
+│      [13:22] Fernanda: just opened for me. but extremelly slow
+│      [13:23] Lee: fine for me now
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (5 replies) ──────────────────────────────────────
+│ [13:10] Lee: When we have an app issue like this, we need to show proper error screens all over the system (500, 504, etc etc)  with a message.
+*We are getting many unnecessary phone calls and emails about this.*
+This should be standard. Something like:
+
+*Oops — something didn’t go as planned*
+
+We’re aware of this and are working to get things back on track as quickly as possible.
+Thanks for your patience — please try again shortly.
+
+With our branding and logo
+
+cc @Ravindra Chherke @Sandeep Jain@channel
+
+@Krishna Thite @Prajwal Chaudhari Please create a job for this
+│   └─ Replies:
+│      [13:24] Sandeep Jain: @Amatullah Andamanwala
+│      [16:08] Lee: something like this @Amatullah Andamanwala
+Include our logo of course, yellow background too similar to <http://uniqueschoolapp.ie|uniqueschoolapp.ie> login page [Attachment(s): unique-schools-500-error.html]
+│      [16:09] Amatullah Andamanwala: Something like this?
+we can tweak it according to our requirement [Attachment(s): error screen.html]
+│      [16:10] Lee: yes, but include error reference eg 500, 401 etc
+Also no need for "Go to Home" button, just have retry and center it
+
+Thanks
+│      [11:35] Amatullah Andamanwala: @Lee Hello,
+Can you check these and let me know if any changes are needed. [Attachment(s): error screen 2.html, error screen.html]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (2 replies) ──────────────────────────────────────
+│ [13:36] Lee: Add late request is not working @channel get this error [Attachment(s): Screenshot 2026-04-17 at 09.06.11.png]
+│   └─ Replies:
+│      [13:37] Ravindra Chherke: @Vivek Jadhav  @Harshwardhan More 
+│      [15:36] Lee: check asap please
+└─────────────────────────────────────────────────────────────────────────
+
+[13:58] Sandeep Jain:  [Preview: [April 17th, 2026 1:02 PM] sandeep: <https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG|Weekly Review - new features | Meeting-Join | Microsoft Teams>]
+
+┌── THREAD #5 (2 replies) ──────────────────────────────────────
+│ [14:28] Lee: @Vivek Jadhav @channel @Ayush Kharpuse Wesley trying to add demo student, please check [Attachment(s): image.png]
+│   └─ Replies:
+│      [14:32] Vivek Jadhav: @Lee We’ll fix this soon. For now, refreshing the page and adding them again should work.
+│      [14:39] Lee: Hi Lee,
+
+Sorry for another email so soon!
+
+I got sorted by changing the details to just numbers for the id.
+
+For flagging bugs etc, what is the best way to go about this so that it is best for you to look at them. It has crashed on me a couple of times and the error is pasted below but I don't want to be emailing you any time so am I best maybe to make a word document and add in anything?
+
+Thank you
+Enda
+
+com.facebook.react.common.JavascriptException: Error: Attempted to navigate before mounting the Root Layout component. Ensure the Root Layout component is rendering a Slot, or other navigator on the first render.
+
+This error is located at:
+  at RootComponent (address at index.android.bundle:1:2375916)
+  at QueryClientProvider (address at index.android.bundle:1:2079829)
+  at RootLayout (<anonymous>)
+  at Suspense (<anonymous>)
+  at Route (address at index.android.bundle:1:1880144)
+  at BaseRoute (address at index.android.bundle:1:1887038)
+  at StaticContainer (address at index.android.bundle:1:1761044)
+  at EnsureSingleNavigator (address at index.android.bundle:1:1707677)
+  at SceneView (address at index.android.bundle:1:1758832)
+  at PreventRemoveProvider (address at index.android.bundle:1:1739131)
+  at NavigationStateListenerProvider (address at index.android.bundle:1:1766379)
+  at NavigationContent (address at index.android.bundle:1:1755924)
+  at anonymous (address at index.android.bundle:1:1755827)
+  at Content (address at index.android.bundle:1:2000265)
+  at RNCSafeAreaProvider (<anonymous>)
+  at SafeAreaProvider (address at index.android.bundle:1:1262519)
+  at LinkPreviewContextProvider (address at index.android.bundle:1:1911095)
+  at anonymous (address at index.android.bundle:1:1999162)
+  at ThemeProvider (address at index.android.bundle:1:1709837)
+  at EnsureSingleNavigator (address at index.android.bundle:1:1707677)
+  at BaseNavigationContainer (address at index.android.bundle:1:1686401)
+  at NavigationContainerInner (address at index.android.bundle:1:2002125)
+  at ContextNavigator (address at index.android.bundle:1:1999391)
+  at ExpoRoot (address at index.android.bundle:1:1999034)
+  at App (<anonymous>)
+  at RCTView (<anonymous>)
+  at View (address at index.android.bundle:1:496156)
+  at AppContainer (address at index.android.bundle:1:495484), stack:
+assertIsReady@1:1920952
+linkTo@1:1922069
+replace@1:1921398
+anonymous@1:2312127
+anonymous@1:2312521
+commitHookEffectListMount@1:287140
+recursivelyTraverseReconnectPassiveEffects@1:294178
+recursivelyTraverseReconnectPassiveEffects@1:293863
+recursivelyTraverseReconnectPassiveEffects@1:294169
+recursivelyTraverseReconnectPassiveEffects@1:294169
+commitPassiveMountOnFiber@1:293008
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293243
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293629
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293687
+recursivelyTraversePassiveMountEffects@1:292762
+commitPassiveMountOnFiber@1:293454
+flushPassiveEffects@1:302952
+anonymous@1:301622
+
+ at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)
+ at com.facebook.jni.NativeRunnable.run(Native Method)
+ at android.os.Handler.handleCallback(Handler.java:1029)
+ at android.os.Handler.dispatchMessage(Handler.java:107)
+ at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+ at android.os.Looper.loopOnce(Looper.java:267)
+ at android.os.Looper.loop(Looper.java:360)
+ at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+ at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+ at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+ at java.lang.Thread.run(Thread.java:1119)
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (4 replies) ──────────────────────────────────────
+│ [16:26] Lee: How easy is it to make Saturday available in Evening Study? Some schools will have sessions on Saturdays when it's close to exam time. Is this an easy update? @channel
+Ennistymon Community School - Karen
+│   └─ Replies:
+│      [17:15] Tejas Mahadik: Checking
+│      [17:51] Lee: thanks
+│      [18:49] Vivek Jadhav: @Lee Saturday has been added to the list on QA2. We’ll test it and deploy it live on Monday.
+│      [12:03] Krishna Thite: Job : Enable Saturday Option in Evening Study Schedule
+Project Code : 778
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (6 replies) ──────────────────────────────────────
+│ [17:50] Fernanda: @Kritika Wadhwa parent is trying to add a card but app is crashing
+<mailto:ethelanne.moloney@gmail.com|ethelanne.moloney@gmail.com> - St. Mary's Secondary School, New Ross [Attachment(s): 1000036898.mp4]
+│   └─ Replies:
+│      [18:00] Kritika Wadhwa: checking
+│      [18:32] Ravindra Chherke: @Fernanda Can you please share the device details. Is the same school app working on other android phones?
+│      [18:32] Ravindra Chherke: Also the OS version of android
+│      [18:32] Ravindra Chherke: @Kumaraswamy R
+│      [18:33] Ravindra Chherke: It is crashing on stripe page so not really sure if this is our issue or stripe.
+│      [12:06] Krishna Thite: Job : Investigate App Crash During Card Addition (Stripe Integration)
+Project Code : 779
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #8 (1 reply) ──────────────────────────────────────
+│ [18:15] Sunny: @channel Can you ensure that News is enabled for Malahide Community School 2899? both app and cms cc @Shruti Kokate
+│   └─ Replies:
+│      [18:28] Shruti Kokate: News tab added @Sunny
+└─────────────────────────────────────────────────────────────────────────

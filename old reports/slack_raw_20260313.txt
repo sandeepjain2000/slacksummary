@@ -1,0 +1,99 @@
+SLACK RAW EXPORT — 2026-03-13
+Channel: C08LEFNF0BS
+Total messages: 31 | Threads: 5 | Standalone: 1
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [12:42] Lee: Morning @channel Let's have the meeting at 10am IST today please. I have a Zoom at 9.30am. Thanks
+│   └─ Replies:
+│      [13:15] Sandeep Jain: Noted
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (4 replies) ──────────────────────────────────────
+│ [12:46] Lee: @Sonali Gaikwad Can you Cull all Please Check requests up until 14th February for *Pobalscoil Chorca Dhuibhne*
+*Thanks*
+│   └─ Replies:
+│      [12:57] Sonali Gaikwad: @Lee Done
+│      [13:01] Lee: thank you
+│      [13:56] Lee: Can you do the same for The Intermediate School up. until 9th March please @Sonali Gaikwad
+│      [10:53] Sonali Gaikwad: @Lee Done
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [13:22] Sandeep Jain: *Harsh*
+• TUSLA PN Preview text overflowing
+• School Activity Writeback Fix
+• Group-based student filtering in Team Manager
+*Sanket*
+• Presmiltown School – Beta ready
+*Kritika Wadhwa*
+• 504 – Multiple payments – Ready to deploy
+*Kumaraswamy*
+• DSI app late ticket printing – Released for testing
+*Ayush Kharpuse*
+• 662 – Improve File viewing in news module Embedded/iFrame (WP sharing) – Live
+• 136 – Create Boarders PTL to School PTL – QA
+*Vivek Jadhav*
+• 628 – PTL Attendance Count Reset Issue in Student Profile – Live
+• 641 – Add unapproved PTLs to “not signed out” list – Live
+• 631 – Add “Show All” feature under PTL tab in Attendance Overview – QA
+• 413 – Boarder web updates – Wireframe
+
+│   └─ Replies:
+│      [14:32] Vivek Jadhav: 1. 628 - PTL Attendance Count Reset Issue in Student Profile - LIVE
+2. 641 - Add unapproved PTLs to 'not signed out' list - LIVE
+3. 631 - Add 'Show All' feature under PTL tab in Attendance Overview - QA
+4. 413 - Boarder web updates discussed in the last Friday call - wireframe
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (9 replies) ──────────────────────────────────────
+│ [14:39] Lee: @Tejas Mahadik please share updated wireframe for web ticketing system, I'd like to see from the client view. Thanks
+│   └─ Replies:
+│      [14:46] Lee: I've a meeting in 15 mins, so please share before then
+
+cc @Sandeep Jain @Ravindra Chherke
+│      [14:53] Tejas Mahadik: @Lee Can I share the existing wireframe, the one that was previously shared with you?  As the changes we discussed were to be considered at the time of development.
+│      [14:55] Lee: yeah I just need client view
+│      [14:56] Tejas Mahadik: okay
+│      [14:56] Lee: add request page
+│      [14:56] Lee: thanks
+│      [14:56] Tejas Mahadik: https://web-ticket-three.vercel.app/
+│      [14:56] Lee: perfect thank you
+│      [15:02] Tejas Mahadik: welcome :innocent:
+└─────────────────────────────────────────────────────────────────────────
+
+[15:26] Sandeep Jain: <https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yjg0NjFmYTgtMDk5YS00ZDVmLWI4MWItZDk4YTU5Zjg0OTA3%40thread.v2/0?context=%7b%22Tid%22%3a%22d8345441-915c-457d-a241-9bd89ef7c335%22%2c%22Oid%22%3a%2221ffc105-2fd6-4f84-95c6-0d2d3bca77bb%22%7d|Weekly Review - new features | Meeting-Join | Microsoft Teams> [Preview: Join conversation]
+
+┌── THREAD #5 (10 replies) ──────────────────────────────────────
+│ [16:36] Lee: @Ayush Kharpuse very strange, please take a look.
+
+Student signed in on the 4th March and again on the 12th March
+
+On Tyro, it is showing the sign in for the AM as 12:59 for the 12th March
+It should be the 4th March 12:59 as per the sign in
+
+Please check this [Attachment(s): image.png, Screenshot 2026-03-13 at 11.05.34.png]
+│   └─ Replies:
+│      [16:37] Lee: can we hop on a call quickly? @Ayush Kharpuse
+│      [16:38] Lee: wait sorry I confused myself, let's have a call though please
+│      [16:40] Ayush Kharpuse: @Lee Sure
+│      [16:45] Lee:  [Attachment(s): Screenshot 2026-03-13 at 11.15.02.png]
+│      [18:08] Ayush Kharpuse: @Lee
+There are two different records for the same day for this student, and the parent has authorised the PM session note, which overrides the AM session as well.
+
+As you know, the current functionality is that if a student is late in the PM session and is Unexplained in the AM session, the AM session is overridden with the reason submitted by the parent.
+
+The current scenario is:
+1. First, the student arrived late in the AM session. An AM LNR was sent to the parent, and the student was marked as Late Unexplained in the AM session through WB.
+2. Then the student was late again in the PM session. A PM LNR was sent to the parent, and the student was marked as Late Unexplained in the PM session through WB.
+3. Later, the parent authorised only the PM session note. As a result, the statuses became: Late Explained in the PM session, Late Explained in the last class, Late Lesson Explained in all the unexplained classes, and Explained Absence in the AM session. [Attachment(s): Screenshot 2026-03-13 at 5.54.42 PM.png, Screenshot 2026-03-13 at 5.53.00 PM.png]
+│      [13:40] Lee: Thanks for the breakdown Ayush, much appreciated. I did not realise student signed in late AM too
+│      [13:43] Lee:  [Attachment(s): image.png]
+│      [13:44] Lee: if there is an AM & PM late sign in, we should not overwrite AM with the PM sign in information. Is this possible?
+│      [13:58] Ayush Kharpuse: Let me think about it. It’s possible, but it’s logically difficult to handle.
+│      [14:01] Lee: cool, thanks Ayush. Any questions, let me know
+└─────────────────────────────────────────────────────────────────────────

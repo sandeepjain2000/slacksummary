@@ -1,0 +1,157 @@
+SLACK RAW EXPORT — 2026-05-15
+Channel: C08LEFNF0BS
+Total messages: 59 | Threads: 4 | Standalone: 4
+================================================================================
+
+[13:27] Sandeep Jain: Deployments of Week
+
+
+*Sonali Gaikwad*
+822 - Resend PN to unread job with push (JMM) text change - LIVE
+
+*Tejas*
+763 - App engagement dashboard changes - QA3 and Staging
+
+*Ayush Kharpuse*
+136 - Boarder BE /FE - PTL submission from the Parent side to the Boarders - LIVE
+
+*Shruti Kokate*
+App Updates:
+134 - CCFET Morrison’s Island Campus: Student ID Changes ready for release.
+2837 - Mount Anville: The date range selection update has been released.
+
+*Kritika Wadhwa*
+Duplicate Student Assignment Causing One-Per-Family Payment Checkout Errors – Coláiste an Phiarsaigh - 843
+Fix Payment Limit Count Not Updating After Refund – St Paul’s College Trip Payment - 852
+Missing Nominal Codes in Exported April Receipts Report – St Mary’s New Ross - 840
+
+*Shubham Dixit*
+St. Mary's Holy Faith Secondary School, Glasnevin - website deployment
+
+*Manish Pathe*
+832 - Picture permission email notification changes - LIVE
+833 - Supplier logins change password functionality correction - QA3
+
+*Vivek Jadhav*
+Added option on PN list to resend PN to unread users - LIVE
+767 - Add Approve Action and Enable Direct Sign Out - QA3
+
+┌── THREAD #1 (18 replies) ──────────────────────────────────────
+│ [14:07] Sunny: @Kumaraswamy R urgent - DSI - Unresponsive buttons in Home Screen on Android tablets
+
+If this is fixed, can you please push it to live asap as school is shouting at us.
+│   └─ Replies:
+│      [14:08] Kumaraswamy R: I've already pushed the fix for the review. Once its approved I'll publish the app
+│      [14:09] Sunny: okay please let me know when that's done
+│      [14:09] Sunny: how long will it take
+│      [14:09] Sunny: does the school have to reinstall the app?
+│      [14:09] Kumaraswamy R: Normally it will take about 4 hours on Android and 8 hours on iOS.
+│      [14:09] Kumaraswamy R: Yes, they have to re-install
+│      [14:09] Sunny: 4 hours from now?
+│      [14:10] Sunny: (i will say to the school
+│      [14:13] Sunny: give me or @Lee a shout when it's ready so we will call the school, thanks Kumar
+│      [14:14] Kumaraswamy R: Yes, sure
+│      [14:52] Kumaraswamy R: Hi @Lee, @Sunny,
+The DSI app is live on Google Play Store. Schools can now update their app to version *1.6.2(32).*
+iOS app is still on review
+│      [15:23] Sunny: Thank you1
+│      [19:13] Kumaraswamy R: @Lee @Sunny,
+DSI iOS updated app is published on App Store.
+│      [14:51] Sunny: ios didnt have any issue right? will the school got prompt automatically to update it?
+│      [15:01] Kumaraswamy R: No Sunny, iOS didn't had any issue.
+│      [15:02] Kumaraswamy R: App update pop-up is not implemented yet.
+│      [12:46] Sunny: okay but it's on the list right? (pop up
+│      [12:47] Kumaraswamy R: Yes, its on the TO-DO list
+└─────────────────────────────────────────────────────────────────────────
+
+[14:50] Sandeep Jain: KW updates
+Sepa DD is in testing
+Rest all issues are Resolved (and one in Testing)
+[14:56] Sandeep Jain: (She will not be in call)
+
+┌── THREAD #2 (4 replies) ──────────────────────────────────────
+│ [15:00] Lee: @Kritika Wadhwa why is variable amount disabled when multiple payments is enabled [Attachment(s): IMG_20260515_101953.jpg]
+│   └─ Replies:
+│      [15:05] Shruti Kokate: Hi @Lee Initially, James mentioned that multiple payments are supported only for standard full payments, which is why this option is disabled for other item types. https://trello.com/c/fbsHt8ln
+│      [15:31] Lee: Add to board variable amount should be enabled too
+│      [16:03] Lee: @Kritika Wadhwa @Shruti Kokate add job please and we can discuss this as per James 
+
+School scoil chatriona
+│      [10:26] Kritika Wadhwa: @Krishna Thite Please create FMP job for this
+└─────────────────────────────────────────────────────────────────────────
+
+[15:29] Sandeep Jain: <https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG|Weekly Review - new features | Meeting-Join | Microsoft Teams> [Preview: Join meeting on Teams]
+
+┌── THREAD #3 (3 replies) ──────────────────────────────────────
+│ [17:53] Lee: @channel please update link in app from vsware to tryo on sidebar menu https://app.tyro.school/dashboard
+Title should be "Tyro"
+Thank you
+*St. Colman's CC Midleton app id* 327 [Preview: Tyro]
+│   └─ Replies:
+│      [17:54] Ravindra Chherke: @Shruti Kokate
+│      [18:12] Shruti Kokate: *@Lee St. Colman's CC Midleton* changed to Tyro from VSware.
+│      [18:13] Lee: thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (26 replies) ──────────────────────────────────────
+│ [18:15] Sunny: @channel new build - Coláiste Pobail Setanta
+
+School reported that their suspension code is overridden by the parents' absence notes which it shouldn't be.
+
+Is there a way not to override this code cc @Sonali Gaikwad [Attachment(s): Screenshot 2026-05-15 at 13.44.16.png]
+│   └─ Replies:
+│      [18:42] Sonali Gaikwad: @Sunny Currently, there is no logic in place to prevent WB on suspension codes or any other codes.
+
+If an absence note is submitted with a reason, shouldn’t that code be WB’d to VSware as the reason for the absence?
+
+If the school wants this behavior, we would need to modify the existing logic. Should this change apply only to this school, or should it be implemented for all schools?
+│      [19:09] Ravindra Chherke: Rather than hardcoding,  I think we can have list negative code or block code. If we find those code then we don't overwrite. @Sonali Gaikwad What do you think.
+│      [19:10] Ravindra Chherke: Don't we overwirte only unexplained ones.
+│      [19:13] Sonali Gaikwad: There are scenarios where we already override the present code, and this is controlled through a separate setting.
+Yes, we are currently overwriting the unexplained code.
+
+We can create a school-wise block code list to prevent specific codes from being overwritten.
+│      [13:05] Sunny: @Sonali Gaikwad this should be apply to all schools though as we shouldnt be overwriting SUS cc @Lee
+│      [13:06] Sunny: once the negative/block code is set up, do we need to add "suspension" code into Wonde dashboard for each school?
+│      [13:09] Sonali Gaikwad: We will need to prepare a separate page where block codes can be added for each school.
+
+The setup should be school-wise, similar to how we have configured the other attendance code mappings. Each school should have its own corresponding block code mapping configuration..
+│      [13:10] Lee: is that really necessary? Why can't the WB only work if it detects abs unexplained/present code? They are already mapped. If any other code, then just do not WB. I really don't think it's necessary to set up another section of codes per school
+│      [13:13] Sonali Gaikwad: Let me check and verify first. I'll get back to you
+│      [14:25] Sonali Gaikwad: @Lee @Sunny In Absentee WB, we are writebacking only on the ABS code and empty session that is configured on the Wonde/Tyro dashboard.
+
+In Late WB, we are writebacking on:
+• ABS
+• Empty session
+• PRESENT (only when the “Overwrite Present Code” setting is enabled)
+Apologies for the confusion created earlier.
+│      [14:31] Sunny: i see, so for this school's case,
+
+Is it because i accidentally added SUS code there under wonde dashboard so it got overridden?
+│      [14:32] Sunny:  [Attachment(s): Screenshot 2026-05-18 at 10.01.51.png]
+│      [14:32] Sunny: if i remove this, then our ABS WB won't override any more suspension code?
+│      [14:43] Sonali Gaikwad: @Harshwardhan More Could you please clarify what purpose this screen’s code is used for?
+
+@Sunny We are using only mapping screens code to WB. The screen where we map ill to ill, fam to family, etc
+│      [14:54] Sunny: I see @Sonali Gaikwad you meant "Attendance Code"
+
+I added SUS code to *Absentee Attendance Code* and now I've deleted it. [Attachment(s): Screenshot 2026-05-18 at 10.23.54.png]
+│      [14:56] Harshwardhan More: @Sunny @Sunny This screen used to handpick absentee attendance codes from all attendance codes for calculating attendance summary like attendance calendar, cumulative counts, consecutive counts, etc.
+│      [15:24] Sunny: I see, then it's not affected actually
+│      [15:27] Sunny: @Sonali Gaikwad in this case, our abs WB is still overwriting codes like Suspension which it shouldn't then.
+│      [15:30] Sonali Gaikwad: Writeback only happen when there is an ABS code present on the session.
+
+I am not sure what you mean actually.
+│      [15:33] Sunny: school said that parent's attendance notes are overwriting their SUSpension code
+│      [15:33] Sunny: which it shouldnt be
+│      [15:39] Sonali Gaikwad: When the school marks a suspension code on VSware and the writeback happens within a short time difference (around 30 minutes to 1 hour), this issue can occur due to a delay in the Wonde session data.
+
+In such cases, the school may have already marked the suspension code, but while fetching the existing session data, we may still receive the ABS code from Wonde. As a result, the writeback happens on the ABS code.
+
+Do you have any time when did they mark suspension on VSware?
+│      [16:25] Sunny: no but i think the school will try to mark the sus code a day ahead to avoid students getting arf
+│      [16:27] Sunny: if the code is SUS in wonde when fetching data (school updated vsware in advance) and let's say parents somehow send in an Absence Note in advance saying Other reason with further details suspension, will Other code be updated to VSware?
+│      [16:32] Sonali Gaikwad: We are doing WB on if ABS code found on session.
+│      [16:34] Sunny: ok thanks Sonali
+└─────────────────────────────────────────────────────────────────────────

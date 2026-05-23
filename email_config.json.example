@@ -1,0 +1,5 @@
+{
+  "profiles": {
+    "you@example.com": "your-gmail-app-password"
+  }
+}

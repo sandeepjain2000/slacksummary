@@ -1,0 +1,110 @@
+SLACK RAW EXPORT — 2026-03-20
+Channel: C08LEFNF0BS
+Total messages: 32 | Threads: 7 | Standalone: 2
+================================================================================
+
+
+┌── THREAD #1 (5 replies) ──────────────────────────────────────
+│ [13:30] Sunny: @channel good morning guys cc @Fernanda
+
+Can you please update this screenshot in the App as the current one parent wont understand what it means.
+
+*"You have an unexplained absence recorded for this day. Please complete the absence form in the app."*
+
+*Options:*
+*Cancel            |            Complete Absence*
+
+
+The 'Complete Absence' button needs to link to that ARF in Attention Please so that the parent can reply to it. [Attachment(s): Screenshot 2026-03-19 at 15.13.47.png]
+│   └─ Replies:
+│      [13:53] Ravindra Chherke: @Sunny This is a different scenario you are looking at in the screenshot.
+
+Parent has already submitted ARF but now they want to submit the Late note for the same student for same day.
+
+We don't allow that because there would have been a writeback to mis system.
+
+@Ayush Kharpuse @Sonali Gaikwad Please confirm this.
+│      [13:56] Sunny: can you check if this is what happened?
+
+The parent has already got the Absence Request Forms (ARF) at 10:32 today so when she tried to submit a late note at 11:10, the system said that there is already an absence note in place and ARF cannot be cancelled.
+
+The student later signed in at 11:22 so this ARF transformed into a Late Request. The parent can now go to Attention Please and respond to this late request. (rather than submitting a new Late Note)
+│      [14:01] Sonali Gaikwad: yes correct @Sunny student has signed in through DSI, Parent should have taken action on LNR
+│      [14:02] Sunny: so can we just change the wording for the pop up and have a button to direct them to either outstanding ARF or late request (in this case) so they can complete it
+│      [14:02] Sunny: rather than not knowing what to do and have to contact us and the school
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (4 replies) ──────────────────────────────────────
+│ [14:01] Fernanda: @channel why do we show the sent date? it seems a bit confusing [Attachment(s): image.png]
+│   └─ Replies:
+│      [14:14] Ravindra Chherke: @Kumaraswamy R
+│      [14:41] Kumaraswamy R: Hi @Fernanda,
+The "Sent on" date label has been present on the ARF since the beginning and and it displays the ARF created date.
+Does it need to be removed?
+│      [14:44] Fernanda: please Kumar, no need to show the parent what day was sent
+│      [14:55] Kumaraswamy R: Noted :+1:
+└─────────────────────────────────────────────────────────────────────────
+
+[14:57] Sandeep Jain: https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG [Preview: Join meeting on Teams]
+[15:45] Sunny: @channel Can someone check this - <mailto:sarahnewcombe@msletb.ie|sarahnewcombe@msletb.ie> has full access and added to Attendance module. Why can she view all the note from parents when she shouldn't be? [Attachment(s): Screenshot 2026-03-20 at 10.14.24.png, Screenshot 2026-03-20 at 10.14.50.png, Screenshot 2026-03-20 at 10.14.41.png]
+
+┌── THREAD #3 (2 replies) ──────────────────────────────────────
+│ [16:30] Fernanda: @Shruti Kokate can you please add the Order History tab for st gerard's shop ASAP
+│   └─ Replies:
+│      [16:30] Fernanda: this MUST be included if they are using the shop
+│      [16:39] Shruti Kokate: added @Fernanda
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (7 replies) ──────────────────────────────────────
+│ [18:05] Sunny: @Kritika Wadhwa can you check why this payment - Junior Ski trip Deposit 2025 in Limerick ETSS
+
+the dashboard shows 32 refunds but if i use the filter to search, it shows me 31 records. When exporting to excel there are 32 records. [Attachment(s): Screenshot 2026-03-20 at 12.30.29.png, Screenshot 2026-03-20 at 12.30.38.png, list_users_03201234.csv]
+│   └─ Replies:
+│      [18:06] Sunny: i just noticed now - one is partial refund
+│      [18:08] Sunny: is this partially refund actually with the full amount 150 eur? [Attachment(s): Screenshot 2026-03-20 at 12.37.55.png, Screenshot 2026-03-20 at 12.38.03.png]
+│      [18:31] Kritika Wadhwa: i am checking
+│      [19:01] Kritika Wadhwa: @Sunny In refund section in "Manage shop items" list we show both partial & full refunds thats why you see 32 out of which 1 is partial and 31 are full refund
+│      [19:02] Kritika Wadhwa: and the partial refund is of 75 Euro [Attachment(s): Screenshot 2026-03-20 at 7.02.19 PM.png]
+│      [19:02] Kritika Wadhwa: in the refunded amount column there should be 75 not 0 - i am checking this
+│      [19:03] Sunny: cool thank u
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (1 reply) ──────────────────────────────────────
+│ [18:34] Fernanda: @channel mount temple
+late unauthorised should move to vsware as Late unexplained, is that correct?
+@Sonali Gaikwad @Lee @Sunny [Attachment(s): image.png]
+│   └─ Replies:
+│      [19:18] Sonali Gaikwad: @Fernanda When a parent marks a note as unauthorized, the system does not perform a writeback, and the status remains as “late unexplained.”
+
+However, upon reviewing this student’s logs, a writeback occurred at 4:00 PM during the revalidation process.
+
+We will debug this scenario and will update you.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (2 replies) ──────────────────────────────────────
+│ [18:55] Sunny: @Kritika Wadhwa
+
+Deposit - 2025/2026 1st Year end of year school tour (Scoil Pol)
+
+Khemii Yelysei
+
+Can you please remove this student from the Opt out (5) page as he's paid in cash. The opt out number should be 4 rather than 5. Thank you! [Attachment(s): Screenshot 2026-03-20 at 13.22.03.png, Screenshot 2026-03-20 at 13.24.02.png]
+│   └─ Replies:
+│      [18:56] Kritika Wadhwa: okay, will fix
+│      [19:03] Sunny: thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (2 replies) ──────────────────────────────────────
+│ [19:20] Ravindra Chherke: @Shruti Kokate [Preview: [March 20th, 2026 7:02 PM] fernanda: <!channel> can someone add the calendar for loreto crumlin asap
+
+<https://loretocrumlin.ie/>]
+│   └─ Replies:
+│      [19:22] Ravindra Chherke: @Fernanda Do you want any change in the app?
+│      [19:32] Lee: hold for now, school may not be a client anymore. We will confirm Monday
+Thanks
+└─────────────────────────────────────────────────────────────────────────

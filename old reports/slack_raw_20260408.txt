@@ -1,0 +1,40 @@
+SLACK RAW EXPORT — 2026-04-08
+Channel: C08LEFNF0BS
+Total messages: 14 | Threads: 2 | Standalone: 0
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [13:01] Fernanda: @Harshwardhan More Malahide & Portmarnock has moved to tyro, I added the link and the codes, can you please confirm if its working?
+│   └─ Replies:
+│      [13:07] Ravindra Chherke: @Ayush Kharpuse Can you please check this
+│      [13:13] Ayush Kharpuse: Checking..
+│      [13:19] Ayush Kharpuse: @Fernanda @Ravindra Chherke Fetching data from the API using the current token is working fine.
+I haven’t checked WB yet because there is no attendance available for the school in Tyro. Once I have some data, I will try to verify WB using the same attendance code.
+│      [13:42] Fernanda: thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (8 replies) ──────────────────────────────────────
+│ [14:10] Fernanda: @channel can someone look into this, Marist college
+saying they are -433 sms when trying to send one, but in the app engagement it shows that they have +170 sms [Attachment(s): image.png, image.png]
+│   └─ Replies:
+│      [15:23] Kritika Wadhwa: I guess the SMS balance calculation is not correct in App Engagment.
+
+@Harshwardhan More @Vivek Jadhav can you compare it with CMS
+│      [15:33] Fernanda: it is weird Kritika because last week sunny sent out sms for their incoming with no problems, now its -433 its a big difference
+│      [15:56] Kritika Wadhwa: @Fernanda Can you check the report and let me know if you think there is some issue there in numbers?
+
+also for the reminder SMS the balqnce go in negative.
+
+i am also checking if there is any issue in calculation
+│      [19:08] Harshwardhan More: @Fernanda This is fixed and deployed to LIVE.
+│      [19:10] Harshwardhan More: @Krishna Thite Could you please create an FMP job for this, mark it as completed, and share the job details here? Thanks!
+│      [19:34] Fernanda: what do you mean its fixed @Harshwardhan More? how did the system sllow to send out sms if they were negative?
+│      [19:39] Kritika Wadhwa: Negative balance is allowed @Fernanda the reminder SMS
+
+Harsh has fixed SMS balance calculation in app engagement
+│      [19:49] Harshwardhan More: Hi @Fernanda, sorry if my earlier message wasn’t clear about what was fixed.
+I’ve corrected the SMS calculation in the App Engagement Overview tab and Personal Notification 2.0. Earlier, OTP usage (including OTP and Temporary OTP) was not included in the SMS balance, even though it was accounted for in the CMS.
+This has now been fixed, and OTP calculations are included as expected. The SMS balance for Yearheads dashboard is now fully aligned with the CMS.
+└─────────────────────────────────────────────────────────────────────────

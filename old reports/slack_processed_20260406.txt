@@ -1,0 +1,80 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-06
+Total messages: 6 | Threads: 1 | Standalone: 0
+================================================================================
+
+### 1.a [19:29] — Kumaraswamy R: Hi @Lee
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Kumaraswamy asks Lee for clarification on what should be displayed on the border card regarding PTL status and Roll-call attendance status. Lee suggests showing a different colored badge for "School Absence" and confirms the automatic marking of boarders as present if they choose the School Absence option. Vivek seeks clarification on how to display "School Absence" status. Lee confirms the display preference and requests consistency across screens. Prajwal inquires about implementing a validation for absence reasons in the Boarder App and Boarder Web, to which Lee agrees.
+
+---
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (1)
+  Thread #1 [19:29] — "Hi @Lee
+
+We’re already displaying the PTL status on the border card with the Rol..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-06 (2 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-03-25 15:02)
+  Author  : Fernanda
+  Message : @channel this is happening more and more, where the school deletes a notification and gets stressed that parents are still seeing.
+Can you please delete this message from Meanscoil Naas app, school deleted from notification, but still visible for parents.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774431123610459?thread_ts=1774431123.610459&cid=C08LEFNF0BS
+  [8 earlier replies before 2026-04-06 not shown]
+  New replies on 2026-04-06 (2):
+    [13:11] Shruti Kokate: App is updated @Fernanda
+    [15:18] Sonali Gaikwad: @Fernanda The notification time is updated to 6/4/26 9am
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-03-10 15:17)
+  Author  : Fernanda
+  Message : @channel @Shruti Kokate can you please test this
+When you get a chance, I was wondering if you could take a look at our news section please? We are having some issues when we press 'Save' with some news items publishing and some are going to drafts and then people aren't realising that they are not published until either someone mentions it them or they see draft the next time they log in.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1773136075006509?thread_ts=1773136075.006509&cid=C08LEFNF0BS
+  [9 earlier replies before 2026-04-06 not shown]
+  New replies on 2026-04-06 (2):
+    [11:34] Prajwal Chaudhari: https://trello.com/c/NE7xeXqG [Preview: [no preview available]]
+    [11:47] Krishna Thite: Job : Investigate Inconsistent Save Behavior in News Section (Publishing vs Draft)
+Project Code : 749
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (5 replies) ──────────────────────────────────────
+│ [19:29] Kumaraswamy R: Hi @Lee
+
+We’re already displaying the PTL status on the border card with the Roll-call attendance status. So what specifically should be shown here?
+Also, we will be marking the boarder as present automatically if they choose the School Absence option, we'll not mark present and then mark school absence as suggested on the provided screenshot.
+
+Let us know if anything else needed here.
+@Sonali Gaikwad @Ayush Kharpuse @Vivek Jadhav [Attachment(s): Simulator Screenshot - iPhone 17 Pro - 2026-04-06 at 19.26.03.png, image (1).png]
+│   └─ Replies:
+│      [12:19] Lee: Morning @Kumaraswamy R
+
+> We’re already displaying the PTL status on the border card with the Roll-call attendance status. So what specifically should be shown here?
+Can we show another badge (different colour) with "School Absence"?
+
+> Also, we will be marking the boarder as present automatically if they choose the School Absence option, we'll not mark present and then mark school absence as suggested on the provided screenshot.
+That's perfect
+│      [12:30] Vivek Jadhav: @Lee do you want the "School Absence" along with Present status or just School Absence with Present button highlighted?
+│      [12:39] Lee: "School Absence" along with Present status please
+Also, this should be the same on the dashboard and other screens once roll is taken, thank you team
+│      [13:26] Prajwal Chaudhari: Hii @Lee
+In the Parent App absentee module, when a parent submits an absence with “Other” as the reason, there is a validation that requires an Further Description
+I have a question should this validation also be implemented in the Boarder App and Boarder Web when a student is marked absent with “Other” as the reason? [Attachment(s): image.png, Recording_20260407_132737.mp4]
+│      [13:29] Lee: yes please @Prajwal Chaudhari thank you
+└─────────────────────────────────────────────────────────────────────────

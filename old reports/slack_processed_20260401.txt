@@ -1,0 +1,59 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-01
+Total messages: 2 | Threads: 1 | Standalone: 0
+================================================================================
+
+### 1.a [12:48] — Sunny's morning message
+**Original message:** Sunny: morning! @channel
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.b [13:36] — Sandeep mentions Sonali Gaikwad
+**Original message:** Sandeep Jain: @Sonali Gaikwad
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (1)
+  Thread #1 [12:48] — "morning! @channel
+
+Here’s an example of a parent who has all years/classes showi..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-01 (1 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-03-30 17:23)
+  Author  : Lee
+  Message : @channel @Ravindra Chherke
+•	Irish language translation issue:
+The system should only translate the interface labels, not the actual message content written by the school.
+I thought this was resolved? For Irish language, we should only translate the app/menu items etc, not the content of Notifications/News/PNs etc.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774871635640159?thread_ts=1774871635.640159&cid=C08LEFNF0BS
+  [6 earlier replies before 2026-04-01 not shown]
+  New reply on 2026-04-01 (1):
+    [14:09] Krishna Thite: Job : Fix Irish Language Translation to Exclude User-Generated Content (Notifications/News/PNs)
+Project code : 741
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [12:48] Sunny: morning! @channel
+
+Here’s an example of a parent who has all years/classes showing in admincontrol: <mailto:juliemcrean@hotmail.com|juliemcrean@hotmail.com> registered in 2023 for St Angela’s.
+
+I remember we discussed this in relation to the rollover issue. Not sure if you need an example right now but sharing this in case it’s helpful. [Attachment(s): Screenshot 2026-04-01 at 08.16.09.png]
+│   └─ Replies:
+│      [13:36] Sandeep Jain: @Sonali Gaikwad
+└─────────────────────────────────────────────────────────────────────────

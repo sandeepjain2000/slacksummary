@@ -1,0 +1,96 @@
+SLACK RAW EXPORT — 2026-03-12
+Channel: C08LEFNF0BS
+Total messages: 31 | Threads: 7 | Standalone: 1
+================================================================================
+
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [14:54] Sunny: Hi @Sonali Gaikwad a work item from Lee's meeting
+
+Can you please Cull all outstanding “Please Checks” up to 04/03/2026 for *Terenure College 190. Many thanks!*
+│   └─ Replies:
+│      [16:16] Sonali Gaikwad: @Sunny DOne
+│      [16:46] Sunny: Thank you @Sonali Gaikwad
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (5 replies) ──────────────────────────────────────
+│ [15:39] Fernanda: @Ravindra Chherke can we add a link to Rafters app in Holy Family SS similar to what we have done for Debitrak in Sandford park?
+│   └─ Replies:
+│      [15:41] Fernanda: https://apps.apple.com/ie/app/rafters-food-services/id6742403042 [Preview: Rafters Food Services App - App Store]
+│      [15:42] Fernanda: https://play.google.com/store/apps/details?id=com.rafters&pcampaignid=web_share [Preview: Rafters Food Services - Apps on Google Play]
+│      [16:17] Ravindra Chherke: @Kumaraswamy R
+│      [17:04] Kumaraswamy R: Hi @Fernanda
+We would require the Rafters app scheme url like the one had for Debitrak `<debitrak21://debitrak21.com/StartupChecks>`
+│      [17:45] Fernanda: will ask the school
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [16:19] Ravindra Chherke: @Sonali Gaikwad @Ayush Kharpuse @Manish Pathe [Preview: [March 12th, 2026 2:12 PM] sunny: Hi <@U070C8EGH18> &amp; <@U06V082KT7F> just bring to your attention re this 2 issues that email alerts &amp; cms status are not aligned. (Picture permission &amp; Please check)]
+│   └─ Replies:
+│      [16:30] Manish Pathe: The picture permission email issue has been resolved & described in the thread:-
+
+https://unique-schools.slack.com/archives/C08LEFNF0BS/p1773309904560389?thread_ts=1773135550.342099&cid=C08LEFNF0BS [Preview: [March 12th, 2026 3:05 AM] sunny: that's great thank you Manish!!]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (2 replies) ──────────────────────────────────────
+│ [16:37] Harshwardhan More: @Lee @Sunny
+
+https://trello.com/c/1AI5a7Zk [Preview: [no preview available]]
+│   └─ Replies:
+│      [16:49] Sandeep Jain: @Lee @Sunny
+Can we discuss at the start of call tomorrow? [Attachment(s): image.png]
+│      [16:50] Sunny: cc @Fernanda
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (7 replies) ──────────────────────────────────────
+│ [17:10] Sunny: Hi @channel Gallery empty - *St. Andrew’s College*
+
+Can someone check why there are a few notifications with galleries created but now they seems empty? Did the school or someone delete the images or something is wrong with our system? Thank you! [Attachment(s): Screenshot 2026-03-12 at 11.37.00.png, Screenshot 2026-03-12 at 11.36.52.png, Screenshot 2026-03-12 at 11.36.03.png, Screenshot 2026-03-12 at 11.35.46.png]
+│   └─ Replies:
+│      [17:34] Ravindra Chherke: @Sonali Gaikwad
+│      [17:35] Sonali Gaikwad: @Sunny It was marked trashed on 11th Feb
+│      [17:35] Sunny: the images?
+│      [17:37] Sonali Gaikwad: yes the images marked trashed
+│      [17:37] Sunny: can you find out whcih users trashed it?
+│      [17:37] Sunny: was it trashed from the cloud cam or from the gallery page?
+│      [18:18] Sonali Gaikwad: They has been deleted from cloud cam as well. But we can not track who deleted. We are hard delete db reference when we delete image. and same pop-up alert we show on cloud cam -> image delete
+
+Image can be deleted from only cloud cam and not from any other modules image popup.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (2 replies) ──────────────────────────────────────
+│ [17:32] Sunny: @channel @Sonali Gaikwad please check with work experience code - St. Gerard's School - Seán O'Neill
+
+Hi Sonali, this school requested why this parent got ARF when it's Work Experience (WE)ode. I believe it was ABS when we sent out the ARF. One question: If in Wonde Dashboard, we add a code for present - WE. Will the sweep back cancelled this outstanding please check? [Attachment(s): Screenshot 2026-03-12 at 11.54.21.png, Screenshot 2026-03-12 at 11.59.42.png, Screenshot 2026-03-12 at 11.54.30.png]
+│   └─ Replies:
+│      [18:41] Sonali Gaikwad: We are only generating ARF if we found Unexplained abs on session. Do not map present against multiple codes.
+
+I will add a fix to consider all notes except late, present as explained notes. I'll update you on this
+│      [20:33] Sunny: in this case, this requested arf will be cancelled automatically if it's any codes other than abs?
+
+Only abs code we should trigger ARF. If not, there shouldnt be ARF
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (4 replies) ──────────────────────────────────────
+│ [19:09] Lee: @channel HELLO
+If no location is entered when creating a detention, the PN sent to parents when adding the student to detention is as per the screenshot.
+It states "at Not Specified"
+It should just not include this if nothing is entered in the location. So it should be like:
+"... has been assigned to a detention on 13-03-2026 from 12:52 to..."
+Only if there is something entered in the location, it should show in the message.
+Thanks [Attachment(s): Screenshot 2026-03-12 at 13.36.38.png]
+│   └─ Replies:
+│      [19:15] Sandeep Jain: @Vivek Jadhav
+│      [19:19] Vivek Jadhav: https://trello.com/c/U3qPfM4x [Preview: [no preview available]]
+│      [19:19] Vivek Jadhav: @Lee We will fix it asap.
+│      [19:26] Lee: thanks Vivek
+└─────────────────────────────────────────────────────────────────────────
+
+[20:39] Lee: @channel ongoing issue for this school, students marked school activity on vsware are receiving ARF
+Can you please investigate [Attachment(s): Screenshot 2026-03-12 at 15.08.44.png]

@@ -1,0 +1,231 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-05-11
+Total messages: 34 | Threads: 6 | Standalone: 3
+================================================================================
+
+### 1.a [12:57] — Request to update app for Cistercian College Roscrea 660
+**Original message:** Sunny: @channel Can someone please update the app for *Cistercian College Roscrea 660?* ... [details provided]
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti Kokate confirms changes made to the sidebar menu as requested.
+
+### 1.b [15:11] — Discussion on a specific setting in the DSI web application
+**Original message:** Ayush Kharpuse: @Fernanda @Sunny
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Team discusses a setting used in the DSI web application, concludes it can be removed as it's not in use.
+
+### 1.c [15:54] — Query about picture permission email notification changes
+**Original message:** Manish Pathe: @Lee I have a query regarding picture permission email notification changes ... [details provided]
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Lee confirms changes to be applied to both new and old implementations, testing completed, and deployment to live environment.
+
+### 1.d [16:09] — Investigation into missing lodgement dates in bank reconciliation section
+**Original message:** Lee: @Kritika Wadhwa can you check this school? Why no lodgement date or reference in bank reconciliation section? ... [details provided]
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Kritika investigates missing lodgement dates, identifies and fixes the issue related to a specific order.
+
+### 1.e [19:42] — Request to check social media integration
+**Original message:** Sunny: @channel can someone kindly check the social media integration? ... [details provided]
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ravindra Chherke informs Sunny about X requiring payment for API usage, suggesting to check with Sharon.
+
+### 1.f [19:43] — Estimate for updating "Select All" functionality
+**Original message:** Vivek Jadhav: @Lee This is an estimate for updating the “Select All” functionality to include all records, not just the currently loaded items. ... [details provided]
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Lee suggests using AI to expedite the completion, additional details and impact assessment to be discussed further.
+
+Unresolved: None.
+
+Note: Fernanda announced maternity leave, delegating queries to Sunny and Lee.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (6)
+  Thread #1 [12:57] — "@channel Can someone please update the app for *Cistercian College Roscrea 660?*..."
+  Thread #2 [15:11] — "@Fernanda @Sunny"
+  Thread #3 [15:54] — "@Lee  I have a query regarding picture permission email notification changes
+
+Do..."
+  Thread #4 [16:09] — "@Kritika Wadhwa can you check this school? Why no lodgement date or reference in..."
+  Thread #5 [19:42] — "@channel can someone kindly check the social media integration?
+
+when i had a lo..."
+  Thread #6 [19:43] — "@Lee This is an estimate for updating the “Select All” functionality to include ..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-05-11 (3 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-05-08 17:08)
+  Author  : Fernanda
+  Message : @channel can someone confirm for me, Ennistymon, school received an email to say picture has been revoked, but when looking in the dashboard is showing as granted. just want to make sure the parent updated back to granted
+
+Maximillian Bierka 3B
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778240290979389?thread_ts=1778240290.979389&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-05-11 not shown]
+  New replies on 2026-05-11 (7):
+    [11:29] Manish Pathe: @Fernanda Didn't they receive an email when the parent approved the picture permission again?
+
+Could you please share a few details about it, such as:
+• The email ID that received the email
+• The time the email was received(A SS would be better)
+CC: @Sandeep Jain
+    [12:12] Fernanda: <mailto:karen.guerin@ennistymoncs.ie|karen.guerin@ennistymoncs.ie> [Attachment(s): image.png, image.png]
+    [13:21] Fernanda: @Manish Pathe
+    [13:40] Manish Pathe: <mailto:karen.guerin@ennistymoncs.ie|karen.guerin@ennistymoncs.ie>
+
+The user is neither a principal nor a deputy principal, and have not been added in the email settings as well.
+    [13:49] Fernanda: <mailto:Karen.ONeill@ennistymoncs.ie|Karen.ONeill@ennistymoncs.ie> was the email that received the alert
+    [13:58] Fernanda: what I need to check is why the email saying was revoked when is showing granted. not wether why she received the email @Manish Pathe
+    [15:06] Manish Pathe: We checked the email logs(On sendgrid) for the user(<mailto:Karen.ONeill@ennistymoncs.ie|Karen.ONeill@ennistymoncs.ie>) for 06-05-2025. The user received two emails: one for access revocation and another likely for access being granted again. Upon checking the database, we confirmed that only this student’s access was modified on that date, so there is no possibility that the second email was meant for another student.
+
+It appears that the parent first revoked the access and then immediately updated it to grant access again.
+
+Could you please ask the user to confirm whether they received the email regarding the access grant? [Attachment(s): Image 11-05-26 at 2.52 PM.png, Screenshot 2026-05-11 at 2.58.00 PM.png]
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-05-08 14:36)
+  Author  : Sunny
+  Message : @Harshwardhan More - please respond to wonde (st Paul's Monasterevin)
+
+<mailto:admin@stpaulsmonasterevin.ie|admin@stpaulsmonasterevin.ie> Janet Dolye (office) is the school's contact
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778231190217169?thread_ts=1778231190.217169&cid=C08LEFNF0BS
+  New replies on 2026-05-11 (9):
+    [12:52] Sunny: @Harshwardhan More morning Harsh, feel free to reply to wonde and cc the school. Here is the screenshot from vsware in case you'd like to attach in the email to show that they're blank. [Attachment(s): Screenshot 2026-05-11 at 08.21.46.png]
+    [12:54] Harshwardhan More: @Sunny I've already mailed to Wonde on Friday.
+    [12:55] Sunny: yeah and they responded after you
+    [12:55] Sunny: asking to copy the school in
+    [12:56] Sunny:  [Attachment(s): Screenshot 2026-05-11 at 08.26.07.png]
+    [12:59] Harshwardhan More: @Sunny It was received from another contact, so I thought it was a different person. Anyway, I’ll ask them to add the school contact in CC, okay?
+    [13:37] Sunny: i think they wanted you to cc the school in
+    [13:37] Sunny: hahha
+    [13:38] Sunny: ok i saw your reply there
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-05-07 19:51)
+  Author  : Sunny
+  Message : Sutton Park - Aelana Shafrizan @channel
+
+Can someone check the signatures of the Abs and Late for this student's attendance? We can see the signature of PTL but not the other two. They're investigating if this student is submitting the notes by herself.
+
+I need get back to the school (Sue) tomorrow
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778163666298309?thread_ts=1778163666.298309&cid=C08LEFNF0BS
+  [2 earlier replies before 2026-05-11 not shown]
+  New replies on 2026-05-11 (8):
+    [17:51] Sunny: do we not show the signature now in the cms for abs notes? cc @Lee
+    [17:52] Sunny: (school would like to know all the signatures for all the attendance notes) in order to investigate on this kid
+    [17:55] Sunny: @Sonali Gaikwad checked with Fernanda - please display the signature also for Abs and Late notes just like the PTL cc @Ravindra Chherke
+    [18:20] Sonali Gaikwad: @Sunny It was hidden on purpose 2 years ago. I remember that James requested to hide it due to GDPR.
+    [18:40] Sunny: but ptl it's fine not to hide(?
+    [18:41] Sonali Gaikwad: Not sure if it was added in YHD. but it was there on CMS - old reports.
+
+PTL signature visibility has been implemented recently in YHD
+    [19:37] Lee: should also be there for absent and late @Sandeep Jain can you create a FM job please
+    [19:38] Lee: or @Krishna Thite please, thanks
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[05:50] Krishna Thite: Job: Upgrade Password Encryption/Hashing Algorithm
+Project Code : 823
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [12:57] Sunny: @channel Can someone please update the app for *Cistercian College Roscrea 660?*
+
+
+*Wriggle* link in the side bar menu to be replaced with Perduko and the following link attached
+_https://www.perduko.com/1to1-devices/cistercian-college-roscrea_
+
+_Under the Shop link in the side bar menu, replace CCR Shop with *"School Uniform"* and the following link attached_ 
+https://www.schooluniformsdirect.ie/secondary/cistercian-college-roscrea
+
+Thank you cc @Shruti Kokate [Preview: Cistercian College Roscrea; Cistercian College, Roscrea - School Uniforms Direct Ireland]
+│   └─ Replies:
+│      [13:12] Shruti Kokate: @Sunny • CCR Shop has been changed to the School Uniform link
+• *Perduko* added in sidebar
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (6 replies) ──────────────────────────────────────
+│ [15:11] Ayush Kharpuse: @Fernanda @Sunny [Attachment(s): Screencast from 2026-05-11 15-06-32.webm, schools-dsi-reason.csv]
+│   └─ Replies:
+│      [15:12] Ayush Kharpuse: do we need this setting?
+This setting is used only in the DSI web application. For the schools included in the list, it enables reason selection when a student wants to sign in late.
+│      [15:12] Lee: I'm unsure @Fernanda @Sunny maybe yous might know who uses this
+│      [15:30] Sunny: i didnt know this exits
+│      [15:31] Sunny: on the list, mostly are new builds - so i guess the initial setup has enabled that for them which is unnecessary
+│      [15:38] Fernanda: i dont think we do, no
+│      [15:44] Ayush Kharpuse: ok, so we can remove this, Right? as its not in use.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (6 replies) ──────────────────────────────────────
+│ [15:54] Manish Pathe: @Lee  I have a query regarding picture permission email notification changes
+
+Do you want these changes on new implementation only or old email settings too?
+Will the emails added from email setting will only receive access revoked email only or will receive both for granted and revoked? [Attachment(s): Screenshot 2026-05-11 at 3.49.35 PM.png, Screenshot 2026-05-11 at 3.41.25 PM.png]
+│   └─ Replies:
+│      [16:08] Lee: > Do you want these changes on new implementation only or old email settings too?
+yes
+> Will the emails added from email setting will only receive access revoked email only or will receive both for granted and revoked?
+revoked only
+│      [12:14] Manish Pathe: @Lee This change has been deployed to qa3 and Prajwal is testing it, once the testing is done we will deploy it to live.
+
+CC: @Prajwal Chaudhari
+│      [15:25] Prajwal Chaudhari: @Manish Pathe @Lee
+I have completed the testing.
+│      [15:27] Manish Pathe: @Lee This is deployed to live.
+│      [15:30] Lee: thank you
+│      [15:36] Manish Pathe: https://trello.com/c/RPW73rOh [Preview: [no preview available]]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (9 replies) ──────────────────────────────────────
+│ [16:09] Lee: @Kritika Wadhwa can you check this school? Why no lodgement date or reference in bank reconciliation section?
+It's not just this order, it's many orders in april. School said they did receive it into their bank account [Attachment(s): Screenshot 2026-05-11 at 11.38.39.png]
+│   └─ Replies:
+│      [16:42] Kritika Wadhwa: yes i will check
+│      [12:12] Ravindra Chherke: @Kritika Wadhwa Any update on this.
+│      [12:23] Kritika Wadhwa: Lodgements are there in the DB for April but not shown in the dashboard and reports i am checking why
+│      [13:47] Kritika Wadhwa: @Lee as i can see there are only 5 orders placed in April. Right?
+
+and except order: 1352479
+Which other Order's lodgement is missing ?
+│      [14:13] Lee: ah ok it is only this one sorry
+│      [16:02] Kritika Wadhwa: This is fixed @Lee, Lodgement for 6th may were not updated in the DB thats why this order had isue
+│      [16:06] Lee: it's fixed yeah?
+│      [16:06] Kritika Wadhwa: yes fixed
+│      [16:07] Lee: thank you
+└─────────────────────────────────────────────────────────────────────────
+
+[18:19] Fernanda: @channel I’m signing off today as I’m heading off on maternity leave.
+If you need to confirm anything regarding my clients/queries, please tag both Sunny and Lee and they’ll be happy to help.
+Thank you all, and wishing you the very best! :wave::skin-tone-3:
+
+┌── THREAD #5 (1 reply) ──────────────────────────────────────
+│ [19:42] Sunny: @channel can someone kindly check the social media integration?
+
+when i had a look, the post went to FB & Instagram but not X. https://x.com/mercynewross [Attachment(s): Screenshot 2026-05-11 at 15.00.10.png, Screenshot 2026-05-11 at 15.00.16.png]
+│   └─ Replies:
+│      [12:11] Ravindra Chherke: @Sunny X now requires payment for using their api. Sharon knows about it. Can you please check with her.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (2 replies) ──────────────────────────────────────
+│ [19:43] Vivek Jadhav: @Lee This is an estimate for updating the “Select All” functionality to include all records, not just the currently loaded items.
+cc: @Ravindra Chherke @Sandeep Jain @Harshwardhan More [Attachment(s): Select 'All' Update.xlsx]
+│   └─ Replies:
+│      [19:45] Lee: Surely it can be completed quicker than 232 hours. Should use AI to help with this
+
+@Yashraj Talokar & @Harshwardhan More have access to Anti gravity & Cursor paid versions
+│      [19:51] Vivek Jadhav: @Lee This will include all modules in the Yearheads dashboard. We also need to assess the impact of bulk updates on the server and database. We’ll discuss this further and provide additional details or updates as needed.
+└─────────────────────────────────────────────────────────────────────────
+
+[20:01] U0B2Z4F74K0: @U0B2Z4F74K0 has joined the channel

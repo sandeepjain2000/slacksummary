@@ -1,0 +1,209 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-03-19
+Total messages: 67 | Threads: 8 | Standalone: 2
+================================================================================
+
+---
+
+## 1. ISSUES REPORTED
+
+### Alerts Not Triggering in Demo App
+- **Description:** Alerts are not being triggered in the demo app.
+- **Reported by:** Fernanda at 15:32
+- **Current status:** Resolved
+- **Resolution:** Shruti Kokate updated the push certificate, and it should work now.
+
+### Old Notifications Issue
+- **Description:** Old notifications are still appearing in 2025.
+- **Reported by:** Sunny at 15:39
+- **Current status:** Resolved
+- **Resolution:** Shruti Kokate confirmed that the issue has been fixed.
+
+### Anomalies List Blank for Sutton Park School
+- **Description:** Anomalies list is blank for Sutton Park School.
+- **Reported by:** Lee at 15:44
+- **Current status:** Unresolved
+
+### Error Message for St Joseph Castlebar App
+- **Description:** Error message in St Joseph Castlebar app, parents unable to update.
+- **Reported by:** Sunny at 15:51
+- **Current status:** In-progress
+- **Next step:** Ravindra Chherke to check if the issue is with one parent or multiple.
+
+### Incorrect Absence Count for Malahide Community School
+- **Description:** Student showing 6 days absence instead of 4.
+- **Reported by:** Lee at 16:36
+- **Current status:** Unresolved
+
+### Late Counts Data Discrepancy for St. Louis High School
+- **Description:** Discrepancy in late counts data for St. Louis High School.
+- **Reported by:** Sunny at 18:03
+- **Current status:** In-progress
+- **Next step:** Vivek Jadhav and Priya Chherke investigating the issue.
+
+### App Page Update for Loreto Crumlin
+- **Description:** Loreto Crumlin moving to Tyro, update main app page.
+- **Reported by:** Fernanda at 18:20
+- **Current status:** Resolved
+- **Resolution:** Shruti Kokate will update the main app page from VSware to Tyro.
+
+### Attendance Module Removal for CBC Cork 124
+- **Description:** Request to remove attendance module from CBC Cork 124 app.
+- **Reported by:** Fernanda at 19:22
+- **Current status:** Unresolved
+
+## 2. TASKS ASSIGNED
+
+### Notes Retrieval and Deletion Task
+- **Task:** Share all notes from parent for James Brady Kelly in excel format and delete them from the backend.
+- **Assigned by:** Lee
+- **Assigned to:** Manish Pathe
+- **Status:** Completed
+
+## 3. DECISIONS MADE
+
+- No specific decisions or conclusions reached during the discussions.
+
+## 4. OPEN QUESTIONS (Unanswered)
+
+- **Anomalies List for Sutton Park School:** Lee asked for the anomalies list to be checked for Sutton Park School at 15:44.
+
+## 5. KEY DISCUSSION HIGHLIGHTS
+
+- Shruti Kokate resolved the issue with alerts not triggering in the demo app by updating the push certificate.
+- Manish Pathe shared late notes from parents for James Brady Kelly and deleted them from the backend as requested by Lee.
+- Vivek Jadhav and Priya Chherke are investigating the discrepancy in late counts data for St. Louis High School.
+- Fernanda requested updates for Loreto Crumlin and CBC Cork 124 apps, which were acknowledged by Shruti Kokate.
+
+--- 
+
+This summary provides a detailed overview of the reported issues, assigned tasks, decisions made, open questions, and key discussion highlights from the Slack messages on 2026-03-19.
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [15:32] Fernanda: @channel alerts are not being triggered in the demo app. can you look at @Ravindra Chherke
+│   └─ Replies:
+│      [15:36] Shruti Kokate: checking
+│      [16:01] Shruti Kokate: @Fernanda It should work now—I’ve updated the push certificate.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (3 replies) ──────────────────────────────────────
+│ [15:38] Fernanda:  [Attachment(s): ScreenRecording_03-19-2026 10-06-39_1.MP4]
+│   └─ Replies:
+│      [15:39] Sunny: @Shruti Kokate so the issue is still there after the update - i can still see old notifications in 2025
+│      [15:39] Shruti Kokate: Ok @Sunny i will check again
+│      [16:24] Shruti Kokate: @Sunny now it will work
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [15:44] Lee: @channel Anomalies list is blank for Sutton Park School, can this be check please
+│   └─ Replies:
+│      [15:53] Sandeep Jain: @Harshwardhan More
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (3 replies) ──────────────────────────────────────
+│ [15:51] Sunny: @channel cc @Shruti Kokate
+
+What kind of error message is this? St Joseph castlebar (parents trying to update the app)
+
+Is it internet issue? The wifi bar seems alright. [Attachment(s): image.png]
+│   └─ Replies:
+│      [15:55] Ravindra Chherke: @Kumaraswamy R Can you check apis are working?
+│      [16:14] Kumaraswamy R: Checking
+│      [17:27] Ravindra Chherke: @Sunny Is this issue with one parent or multiple?
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (25 replies) ──────────────────────────────────────
+│ [16:12] Lee: @channel for St Paul's College - Student James Brady Kelly (1P)
+Can you please share in excel format all Notes from parent from Jan 1st 2026 until now
+And once you share them, please delete them from the backend. There should be no trace of the messages.
+Thank you
+│   └─ Replies:
+│      [16:12] Sandeep Jain: @Manish Pathe
+│      [16:40] Manish Pathe:  [Attachment(s): Late_note_James_Brady_Kelly.xlsx]
+│      [16:41] Manish Pathe: https://us.onetimesecret.com/secret/1ju9y3csyblj1bf784q926jg0bn84yx26z88wjubbjby6xbpdax999rxshgoni [Preview: us.onetimesecret.com]
+│      [16:43] Manish Pathe: The link above is for the password for the excel file hence it contains contact numbers and personal emails
+│      [16:43] Lee: is this just late notes?
+│      [16:44] Manish Pathe: Will share other records too
+│      [16:44] Lee: just need notes from parent
+│      [16:44] Lee: no attendance
+│      [16:44] Lee: just NFP
+│      [16:44] Lee: do not delete anything other than NFP please
+│      [16:45] Manish Pathe: Yes this is just not from parent
+│      [16:45] Manish Pathe: Sure, I will just trash these three records that I have shared with you
+│      [16:46] Manish Pathe: from note from parent.
+│      [16:47] Manish Pathe: The records has been trashed
+│      [16:48] Lee: name of the file is late note though [Attachment(s): Screenshot 2026-03-19 at 11.18.36.png]
+│      [16:48] Lee: is it late or NFP?
+│      [16:49] Manish Pathe: Appologies it should be not from parent
+│      [16:51] Manish Pathe:  [Attachment(s): Screenshot 2026-03-19 at 4.51.07 PM.png]
+│      [16:59] Lee: cool thank you
+│      [16:59] Lee: it's the name of the file yes?
+│      [17:08] Lee: @Manish Pathe
+│      [17:08] Lee: I don't want to open the file due to password
+│      [17:15] Manish Pathe: I have shared password too in onetime share
+│      [17:16] Manish Pathe: https://us.onetimesecret.com/secret/7sko2gj8jzzwtb8s7qu9unsuqqh51kebkdoeizcmemhym627qempndqgw1nnek [Preview: us.onetimesecret.com]
+│      [17:16] Lee: all good thanks
+└─────────────────────────────────────────────────────────────────────────
+
+[16:36] Lee: @channel for Malahide Community School, student is showing 6 days absence. It should 4 total.
+For March 12th & 13th, we are not taking into account the PM so it counts as full day. Can you please check this? Thanks [Attachment(s): Screenshot 2026-03-19 at 10.57.06.png, Screenshot 2026-03-19 at 10.56.59.png, Screenshot 2026-03-19 at 10.56.55.png, Screenshot 2026-03-19 at 10.56.47.png, Screenshot 2026-03-19 at 10.56.42.png]
+
+┌── THREAD #6 (21 replies) ──────────────────────────────────────
+│ [18:03] Sunny: @channel @Vivek Jadhav
+
+St. Louis High School would like to know their late counts for each month.
+
+I was trying to use app activity dashboard for it but the data shows differently for the same month.
+
+Is there a better way i can get the data in a monthly basis? [Attachment(s): Screenshot 2026-03-19 at 12.20.08.png]
+│   └─ Replies:
+│      [18:07] Sandeep Jain: @Priya Chherke Please Validate
+│      [18:39] Vivek Jadhav: @Sunny  You’ve shared two screenshots with different date ranges. When the date range is changed, it can take some time for the data to load due to large data volume. I’ve attached a screenshot reflecting the same data as in your images.
+Please verify this on your end and let me know. I assume you’re checking on https://dashboard.uniqueschoolapp.ie [Attachment(s): image.png, image.png]
+│      [18:42] Sunny: hahah lemme reshare
+│      [18:42] Sunny:  [Attachment(s): Screenshot 2026-03-19 at 12.20.08.png]
+│      [18:43] Vivek Jadhav: Can we have quick call?
+│      [18:43] Sunny: lee is in a zoom call
+│      [18:43] Sunny: so might not be a good time
+│      [18:44] Sunny: i was trying to work out such list per month for the school [Attachment(s): Screenshot 2026-03-19 at 13.13.58.png]
+│      [18:44] Sunny: but just it shows me 2 datas so i wasnt sure which one is correct
+│      [18:44] Sunny: i asked the teacher to check from YH Dashboard Late list for the number (so for now it's fine
+│      [18:45] Vivek Jadhav: ok, can you share video with full screen after changing the date range?
+│      [18:45] Sunny: ok i will check again then
+│      [18:46] Sunny: can there be a way that i can get the data per month and then there's a total for Year to Date
+│      [18:46] Sunny: just like the App opens counts
+│      [18:48] Sunny: here is the video [Attachment(s): Screen Recording 2026-03-19 at 13.16.28.mov]
+│      [18:48] Sunny: if i go back a month to check the data again then it's wrong
+│      [18:48] Vivek Jadhav:  [Attachment(s): 20260319-1317-21.9516766.mp4]
+│      [18:49] Sunny: yeah your video is fine, please check mine :slightly_smiling_face:
+│      [18:54] Vivek Jadhav: Yes, in your video showing the last filter data, it seems something may have gone wrong. I’ll check it and let you know. For now, it might work after a refresh you can try that.
+│      [18:58] Vivek Jadhav: @Priya Chherke Can you recreate this?
+│      [18:59] Priya Chherke: Yes, checking
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (1 reply) ──────────────────────────────────────
+│ [18:20] Fernanda: @Shruti Kokate Loreto Crumlin is moving to Tyro. Can you please update the main app page from VSware to Tyro tomorrow
+│   └─ Replies:
+│      [18:22] Shruti Kokate: @Fernanda Okay, I’ll update tomorrow morning.
+└─────────────────────────────────────────────────────────────────────────
+
+[19:22] Fernanda: @Shruti Kokate another update for tomorrow. CBC Cork 124, please remove attendance module from their app tomorrow morning thanks
+
+┌── THREAD #8 (1 reply) ──────────────────────────────────────
+│ [20:28] Sunny: @Yashraj Talokar cc @Ravindra Chherke @Sandeep Jain
+
+Can you tell me how to check who has pressed "*rsvp"* for an event in USAlumni App?
+│   └─ Replies:
+│      [20:31] Sunny: for an past evetns
+└─────────────────────────────────────────────────────────────────────────

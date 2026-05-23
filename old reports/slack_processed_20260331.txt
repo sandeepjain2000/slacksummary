@@ -1,0 +1,240 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-03-31
+Total messages: 14 | Threads: 3 | Standalone: 1
+================================================================================
+
+### 1.a [13:47] — Sunny initiates a thread about Compass login details
+**Original message:** Sunny: Hi @Ravindra Chherke
+This is the compass login
+https://stmaryshfcglasnevin-ie.compass.education
+https://nz.onetimesecret.com/secret/f8u22fu8b0p4ovpt501ikndmqupjy6rx4chqbgol3i44ldv79a9rci742a9ank
+Please use VPN when logging in as Compass has history of users login history and location.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ravindra Chherke mentions not having VPN and plans to ask the data entry team for assistance. No further replies.
+
+### 1.b [14:50] — Lee requests an update for a school's shop link and title
+**Original message:** Lee: https://platform.payzone.ie/customer/11417/product-list
+@channel for Presentation Brothers College, Cork, can you please update the Shop link and title from "Easy Payments Plus - Easypayments" to "Payzone - Payments" Use link above please, thank you
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti Kokate confirms the update of the link and title, providing a screenshot. Lee acknowledges the completion of the task.
+
+### 1.c [18:06] — Sunny raises concerns about SMS sending issues
+**Original message:** Sunny: @channel Hi guys,
+Just wanted to let you know that this happened twice to me that I've ticked both Primary & Secondary contact when sending out SMS for incoming parents. There are more than 200 SMS required and the SMS balance is 947
+However, after pressing submit, I clicked into Edit to see, only Primary contact is ticked. Not sure if secondary contact got SMS or not. Now it shows 123 SMS required and the SMS balance is still 947.
+Can you check why the SMS credit remains the same 947 and why secondary got unticked?
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sandeep Jain tags Sonali Gaikwad. Sonali confirms that SMS was sent to both contacts and mentions investigating the issue. Sunny notes discrepancies in SMS balance. Sonali acknowledges a bug affecting SMS balance display and promises to investigate. After fixing the issues, Sonali confirms the resolution, and Sunny verifies the correction.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (3)
+  Thread #1 [13:47] — "Hi @Ravindra Chherke
+
+This is the compass login
+https://stmaryshfcglasnevin-ie.c..."
+  Thread #2 [14:50] — "https://platform.payzone.ie/customer/11417/product-list
+
+@channel for Presentati..."
+  Thread #3 [18:06] — "@channel Hi guys,
+
+Just wanted to let you know that this happened twice to me th..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-03-31 (8 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-03-30 17:21)
+  Author  : Lee
+  Message : @channel @Tejas Mahadik consecutive counts blank for Colaiste Mhuire Cabra, can you please check
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774871505659059?thread_ts=1774871505.659059&cid=C08LEFNF0BS
+  [12 earlier replies before 2026-03-31 not shown]
+  New reply on 2026-03-31 (1):
+    [12:09] Krishna Thite: No project needed in FMP
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-03-30 16:51)
+  Author  : Lee
+  Message : @Kritika Wadhwa Hello!
+
+See screenshot, is this what the refund email still looks like?
+
+If so, question is:
+
+What does it display if it's a partial refund? School complained to say if they refund partially, it does not state it clearly the refund amount. It states cost of item but not actually how much is refunded. Can you please confirm? Thank you
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774869719483279?thread_ts=1774869719.483279&cid=C08LEFNF0BS
+  [5 earlier replies before 2026-03-31 not shown]
+  New reply on 2026-03-31 (1):
+    [12:08] Krishna Thite: No project needed in FMP
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-03-30 16:33)
+  Author  : Lee
+  Message : @channel Student Naoise O'Connor was initially marked Absent and then updated to School Activity. Why wasn't the ARF cancelled automatically? @Sonali Gaikwad
+The school said they changed to School Activity within 7 days of the 3rd March. Can you check logs? I will then abort ARF manually. Thank you
+School: St Brigids Killarney
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774868601749639?thread_ts=1774868601.749639&cid=C08LEFNF0BS
+  [2 earlier replies before 2026-03-31 not shown]
+  New replies on 2026-03-31 (2):
+    [12:08] Krishna Thite: Job : ARF Not Auto-Cancelled When Attendance Updated to School Activity (Pre-Fix Data Issue)
+Project code : 735
+    [12:40] Lee: no need for fm job @Krishna Thite
+
+@Sonali Gaikwad said issue is resolved
+
+Thanks
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-03-30 16:26)
+  Author  : Lee
+  Message : small request @channel for PN, currently the autosave popup blocks the submit button. Can you suggest a fix for this and implement? (also ensure this is taken into consideration for other modules when we deploy news/notifications on YHD).
+
+Perhaps @Amatullah Andamanwala can provide some insight with UX expertise.
+
+Thank you
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774868212189969?thread_ts=1774868212.189969&cid=C08LEFNF0BS
+  [7 earlier replies before 2026-03-31 not shown]
+  New replies on 2026-03-31 (9):
+    [10:47] Amatullah Andamanwala: @Lee For the hover dropdown issue
+
+The recommended fix is: Add a *150–300ms hover-out delay* so the dropdown doesn’t close instantly when the cursor briefly leaves. At the same time, introduce a *small invisible buffer zone* between the main menu and submenu that keeps the dropdown active when the cursor is moving toward it.
+*Result:* The menu feels stable and forgiving, allowing natural cursor movement without accidental closures, no UI redesign needed.
+    [11:42] Prajwal Chaudhari: https://trello.com/c/mr9LUtId [Preview: [no preview available]]
+    [11:46] Amatullah Andamanwala: @Lee and for the Autosave pop up issue
+
+recommended fix:
+Option 1: Inline Feedback (Preferred for Stability)
+-Display autosave status *within the layout* (e.g., near the form title or section header) instead of a floating popup.
+-Eliminates overlap risk entirely and keeps feedback contextual and non-intrusive.
+
+Option 2: Top-Right Toast (Standardized Pattern)
+-Move autosave message to the *top-right corner* as a lightweight toast.
+-Keeps it visible but *away from CTAs*, ensuring zero interference with user actions.
+    [11:48] Krishna Thite: Project Code : 733
+Job : Fix autosave popup issue blocking submit button in PN
+    [12:42] Lee: replied on Trello for autosave pop up
+
+&
+
+> The recommended fix is: Add a *150–300ms hover-out delay* so the dropdown doesn’t close instantly when the cursor briefly leaves. At the same time, introduce a *small invisible buffer zone* between the main menu and submenu that keeps the dropdown active when the cursor is moving toward it.
+> *Result:* The menu feels stable and forgiving, allowing natural cursor movement without accidental closures, no UI redesign needed.
+Yes, this will be perfect @Amatullah Andamanwala
+    [12:42] Lee: Can you implement @Amatullah Andamanwala or should @Sandeep Jain assign to someone else?
+    [12:43] Sandeep Jain: @Amatullah Andamanwala
+    [12:44] Sandeep Jain: But for coding @Vivek Jadhav
+    [12:45] Amatullah Andamanwala: Okay, I will implement.
+---------------------------------------------------------------------------
+
+OLD THREAD #5  (originally posted 2026-03-30 15:00)
+  Author  : Lee
+  Message : @channel Colaiste Eammann Ris
+School office have been adding many duplicate student profiles. See screenshot. They are adding with Tyro ID.
+We need to identify and merge all of these profiles. I'm not sure what the best way to do this is.
+Open to suggestions.
+Thank you
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774863037006889?thread_ts=1774863037.006889&cid=C08LEFNF0BS
+  [26 earlier replies before 2026-03-31 not shown]
+  New replies on 2026-03-31 (2):
+    [12:07] Sonali Gaikwad: @Lee, The change to add a placeholder for student ID is live now.
+    [12:40] Lee: thanks both
+---------------------------------------------------------------------------
+
+OLD THREAD #6  (originally posted 2026-03-30 12:29)
+  Author  : Tejas Mahadik
+  Message : @Sunny @Lee  Hello,
+I've added this info note on PTL's add side sheet as requested.
+Can you please have a look and let me know if this is fine and I can deploy it to Live?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774853945338749?thread_ts=1774853945.338749&cid=C08LEFNF0BS
+  [28 earlier replies before 2026-03-31 not shown]
+  New reply on 2026-03-31 (1):
+    [12:01] Krishna Thite: Job : Improve Visibility of PTL Info Message in Student List (Search + Filter Scenarios)
+Project Code : 734
+---------------------------------------------------------------------------
+
+OLD THREAD #7  (originally posted 2026-03-26 19:52)
+  Author  : Fernanda
+  Message : @channel this teacher in Terenure College is not able to see recent PN. he deleted the app, installed it again. I unlinked the profile linked again but still no luck.
+His profile is a teacher/Parent - version of the app is 5.0.17 (31)
+<mailto:paul.hyland@TerenureCollege.ie|paul.hyland@TerenureCollege.ie>
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774534927023559?thread_ts=1774534927.023559&cid=C08LEFNF0BS
+  [5 earlier replies before 2026-03-31 not shown]
+  New replies on 2026-03-31 (2):
+    [18:08] Fernanda: any update @Yashraj Talokar?
+    [19:36] Yashraj Talokar: Hi @Fernanda, I’ve identified the issue. I’ll test the fix first, and if everything works as expected, we can proceed. It seems to occur in certain cases where the user is both a teacher and a secondary parent. I’ll get this tested tomorrow and keep you updated.
+---------------------------------------------------------------------------
+
+OLD THREAD #8  (originally posted 2026-03-25 15:02)
+  Author  : Fernanda
+  Message : @channel this is happening more and more, where the school deletes a notification and gets stressed that parents are still seeing.
+Can you please delete this message from Meanscoil Naas app, school deleted from notification, but still visible for parents.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774431123610459?thread_ts=1774431123.610459&cid=C08LEFNF0BS
+  [5 earlier replies before 2026-03-31 not shown]
+  New replies on 2026-03-31 (2):
+    [18:08] Fernanda: is it completed @Shruti Kokate?
+    [18:09] Shruti Kokate: App is In review @Fernanda 
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [13:47] Sunny: Hi @Ravindra Chherke
+
+This is the compass login
+https://stmaryshfcglasnevin-ie.compass.education
+
+https://nz.onetimesecret.com/secret/f8u22fu8b0p4ovpt501ikndmqupjy6rx4chqbgol3i44ldv79a9rci742a9ank
+
+Please use VPN when logging in as Compass has history of users login history and location. [Preview: [March 31st, 2026 9:13 AM] ravindra: Are you referring to the attendance calendar when you mention the Compass calendar?
+
+Do you have access to the Compass portal so our team can also view the data there?
+
+I noticed that Compass is available through Wonde as well, but it seems to provide attendance data at the session level only (not at the lesson level), and writeback functionality isn’t available. If we with wonde then data structure will be same as vsware schools.
+
+I’ll ask the team to review it in more detail.  For the complete fields I think we would need to connect school's compass account to wonde.; nz.onetimesecret.com]
+│   └─ Replies:
+│      [13:50] Ravindra Chherke: We don't have vpn, Will ask data entry team. They can show us.
+└─────────────────────────────────────────────────────────────────────────
+
+[14:49] Sunny: @channel do we have issues with foreign numbers for school app otp? +48 Polish number doesn't seem to be working for incoming parents. [Attachment(s): Screenshot 2026-03-31 at 10.17.55.png]
+
+┌── THREAD #2 (2 replies) ──────────────────────────────────────
+│ [14:50] Lee: https://platform.payzone.ie/customer/11417/product-list
+
+@channel for Presentation Brothers College, Cork, can you please update the Shop link and title
+from "Easy Payments Plus - Easypayments"
+to "Payzone - Payments"
+Use link above please, thank you
+│   └─ Replies:
+│      [14:58] Shruti Kokate: @Lee The link has been added also title has been updated. [Attachment(s): Screenshot_2026-03-31-14-59-01-22_f93a5cbc21259e4ca22ca790a654bd9d.jpg]
+│      [14:59] Lee: thank you!
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (7 replies) ──────────────────────────────────────
+│ [18:06] Sunny: @channel Hi guys,
+
+Just wanted to let you know that this happened twice to me that I've ticked both Primary & Secondary contact when sending out SMS for incoming parents. There are more than 200 SMS required and the SMS balance is 947
+
+However, after pressing submit, i clicked into Edit to see, only Primary contact is ticked. Not sure if secondary contact got SMS or not. Now it shows 123 SMS required and the SMS balance is still 947.
+
+Can you check why the SMS credit remains the same 947 and why secondary got unticked? [Attachment(s): Screenshot 2026-03-31 at 13.32.14.png]
+│   └─ Replies:
+│      [18:06] Sandeep Jain: @Sonali Gaikwad
+│      [18:45] Sonali Gaikwad: @Fernanda The SMS has been sent to both the primary and secondary contacts. You may also verify this in the SMS report.
+
+We are currently investigating why the secondary contact checkbox was not displayed as selected.
+│      [18:49] Sunny: i see that in the sms report - 229. However, the SMS credit isn't lower yet
+│      [18:51] Sonali Gaikwad: @Sunny, we have identified a bug affecting the total SMS balance display. It should currently show as 718, and we are actively investigating the issue.
+│      [18:51] Sunny: Thank you Sonali!
+│      [19:26] Sonali Gaikwad: @Fernanda @Sunny We have fixed both issues. Please verify.
+│      [19:35] Sunny: it's correct now, thanks for fixing it Sonali
+└─────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,265 @@
+import json
+import re
+import html
+import pandas as pd
+from datetime import datetime, timedelta
+from slack_sdk import WebClient
+from openai import OpenAI
+import os
+
+# -------------------------
+# Load configuration
+# -------------------------
+
+with open("config.json") as f:
+    config = json.load(f)
+
+SLACK_TOKEN = config["slack_token"]
+CHANNEL_ID = config["channel_id"]
+OPENAI_API_KEY = config["openai_api_key"]
+
+client = WebClient(token=SLACK_TOKEN)
+openai_client = OpenAI(api_key=OPENAI_API_KEY)
+
+# -------------------------
+# Load Slack IDs from Excel
+# -------------------------
+
+def load_slack_ids_from_excel():
+    """Load Slack member IDs from Excel file"""
+    try:
+        df = pd.read_excel("SlackIds.xlsx")
+        # Create mapping dictionary
+        id_mapping = {}
+        for _, row in df.iterrows():
+            if pd.notna(row['Name']) and pd.notna(row['Slack members id']):
+                id_mapping[row['Slack members id']] = row['Name']
+        print(f"Loaded {len(id_mapping)} user mappings from Excel")
+        return id_mapping
+    except Exception as e:
+        print(f"Error loading Excel file: {e}")
+        return {}
+
+# Load the mapping
+EXCEL_ID_MAPPING = load_slack_ids_from_excel()
+
+# -------------------------
+# Time range (full day)
+# -------------------------
+
+now = datetime.now()
+start_of_day = now.replace(hour=0, minute=0, second=0, microsecond=0)
+end_of_day = start_of_day + timedelta(days=1)
+
+oldest_ts = start_of_day.timestamp()
+latest_ts = end_of_day.timestamp()
+
+# -------------------------
+# Username cache
+# -------------------------
+
+user_cache = {}
+
+def get_username(user_id):
+    """Get username from cache, Slack API, or Excel mapping"""
+    if user_id in user_cache:
+        return user_cache[user_id]
+    
+    # First check Excel mapping
+    if user_id in EXCEL_ID_MAPPING:
+        name = EXCEL_ID_MAPPING[user_id]
+        user_cache[user_id] = name
+        return name
+    
+    # If not in Excel, try Slack API
+    try:
+        user = client.users_info(user=user_id)
+        name = user["user"]["real_name"]
+        user_cache[user_id] = name
+        return name
+    except:
+        name = user_id
+        user_cache[user_id] = name
+        return name
+
+# -------------------------
+# Clean Slack formatting
+# -------------------------
+
+def clean_text(text):
+    """Clean Slack text formatting and replace mentions"""
+    if not text:
+        return ""
+    
+    text = html.unescape(text)
+    
+    # Replace mentions
+    matches = re.findall(r"<@([A-Z0-9]+)>", text)
+    for uid in matches:
+        username = get_username(uid)
+        text = text.replace(f"<@{uid}>", f"@{username}")
+    
+    # Replace channel mentions
+    text = text.replace("<!channel>", "@channel")
+    text = text.replace("<!here>", "@here")
+    text = text.replace("<!everyone>", "@everyone")
+    
+    # Replace URLs (simplify Slack's URL format)
+    url_matches = re.findall(r"<(http[^|>]+)(?:\|[^>]+)?>", text)
+    for url in url_matches:
+        text = text.replace(f"<{url}>", url)
+    
+    return text
+
+# -------------------------
+# Collect messages
+# -------------------------
+
+print("Collecting messages from Slack...")
+all_messages = []
+cursor = None
+
+while True:
+    response = client.conversations_history(
+        channel=CHANNEL_ID,
+        oldest=oldest_ts,
+        latest=latest_ts,
+        limit=200,
+        cursor=cursor
+    )
+    
+    messages = response["messages"]
+    
+    for message in messages:
+        all_messages.append(message)
+        
+        # Fetch thread replies
+        if message.get("reply_count", 0) > 0:
+            try:
+                replies = client.conversations_replies(
+                    channel=CHANNEL_ID,
+                    ts=message["ts"]
+                )
+                for reply in replies["messages"][1:]:  # Skip parent message
+                    all_messages.append(reply)
+            except Exception as e:
+                print(f"Error fetching replies for message {message['ts']}: {e}")
+    
+    cursor = response.get("response_metadata", {}).get("next_cursor")
+    if not cursor:
+        break
+
+print(f"Collected {len(all_messages)} messages")
+
+# -------------------------
+# Sort chronologically
+# -------------------------
+
+all_messages.sort(key=lambda x: float(x["ts"]))
+
+# -------------------------
+# Prepare raw text output
+# -------------------------
+
+raw_output = []
+for message in all_messages:
+    ts = float(message["ts"])
+    dt = datetime.fromtimestamp(ts).strftime("%H:%M")
+    text = clean_text(message.get("text", ""))
+    user_id = message.get("user")
+    
+    if user_id:
+        username = get_username(user_id)
+    else:
+        username = "SYSTEM"
+    
+    raw_output.append(f"[{dt}] {username}: {text}")
+
+raw_text = "\n".join(raw_output)
+
+# -------------------------
+# Save raw text to file
+# -------------------------
+
+timestamp_str = now.strftime("%Y%m%d")
+raw_filename = f"slack_raw_{timestamp_str}.txt"
+with open(raw_filename, "w", encoding="utf-8") as f:
+    f.write(raw_text)
+print(f"Raw output saved to {raw_filename}")
+
+# -------------------------
+# Generate summary using OpenAI
+# -------------------------
+
+def generate_summary(messages_text):
+    """Generate summary using OpenAI API"""
+    
+    prompt = f"""Analyze the following Slack messages from today and provide a comprehensive summary focusing on:
+
+1. ISSUES REPORTED:
+   - List all problems, bugs, or issues mentioned
+   - Include who reported them and any relevant details
+
+2. TASKS ASSIGNED:
+   - List all tasks that were assigned to team members
+   - Include who assigned the task and who it was assigned to
+
+3. QUESTIONS NEEDING RESPONSE:
+   - List all open questions that haven't been answered
+   - Include who asked the question
+
+Format the summary with clear headings and bullet points. Be concise but comprehensive.
+
+Here are the messages:
+
+{messages_text}
+"""
+    
+    try:
+        response = openai_client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant that summarizes Slack conversations."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.3,
+            max_tokens=1000
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"Error generating summary: {e}")
+        return "Error generating summary. Please check OpenAI API key and try again."
+
+print("Generating summary using OpenAI...")
+summary = generate_summary(raw_text)
+
+# -------------------------
+# Save processed summary to file
+# -------------------------
+
+processed_filename = f"slack_processed_{timestamp_str}.txt"
+with open(processed_filename, "w", encoding="utf-8") as f:
+    f.write("=" * 80 + "\n")
+    f.write("SLACK MESSAGES SUMMARY\n")
+    f.write(f"Date: {now.strftime('%Y-%m-%d')}\n")
+    f.write("=" * 80 + "\n\n")
+    f.write(summary)
+    f.write("\n\n" + "=" * 80 + "\n")
+    f.write("RAW MESSAGES\n")
+    f.write("=" * 80 + "\n\n")
+    f.write(raw_text)
+
+print(f"Processed summary saved to {processed_filename}")
+
+# -------------------------
+# Display summary in console
+# -------------------------
+
+print("\n" + "=" * 80)
+print("SUMMARY")
+print("=" * 80)
+print(summary)
+print("\n" + "=" * 80)
+print(f"Files created:")
+print(f"  - {raw_filename}")
+print(f"  - {processed_filename}")

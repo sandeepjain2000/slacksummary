@@ -1,0 +1,152 @@
+SLACK RAW EXPORT — 2026-03-27
+Channel: C08LEFNF0BS
+Total messages: 61 | Threads: 7 | Standalone: 3
+================================================================================
+
+[11:35] Sandeep Jain: *Deployments/deliverables this week:*
+
+*Ayush Kharpuse*
+• *714* – Prevent Late Unauthorised Writeback in Revalidation Cron (Tyro) → *LIVE*
+*Manish Pathe*
+• *611* – Picture Permission in Access and Permission Notification Email → *LIVE*
+*Sanket*
+• *400* – Launched Assumption Secondary School, Walkinstown → *Complete*
+• *490* – Web Build – Presentation Miltown Update → *Development*
+• *651* – Web Build – St Bricin’s College → *Testing*
+*Sonali Gaikwad*
+• *675* – Permission to Leave Update Not Flagged → *QA*
+• *674* – Absence Request Automation Issue → *In Progress*
+• *714* – Prevent Late Unauthorised Writeback in Revalidation Cron → *LIVE*
+*Tejas*
+• *Detention Setting Bug Fix* → *QA2*
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [13:20] Ayush Kharpuse: Hi @Lee @Sunny @Fernanda
+
+I have added some documents and diagrams related to syncing MIS information from Tyro, to the Trello board. Please have a look.
+│   └─ Replies:
+│      [13:21] Ayush Kharpuse: https://trello.com/c/rnEIheC4
+
+cc: @Ravindra Chherke @Sandeep Jain [Preview: [no preview available]]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (6 replies) ──────────────────────────────────────
+│ [14:01] Fernanda: @channel Mount Temple - note from parent is getting multiple duplications
+sent a test just now and its the same for my demo student [Attachment(s): image.png]
+│   └─ Replies:
+│      [14:02] Fernanda: seems to be for all schools. can you look into this @Sandeep Jain
+│      [14:06] Sandeep Jain: @Harshwardhan More @Yashraj Talokar
+│      [14:07] Sandeep Jain: @Shruti Kokate Please test in QA
+│      [14:09] Sandeep Jain: Harsh is looking into it
+│      [14:38] Prajwal Chaudhari: https://trello.com/c/cZlSO9CM [Preview: [no preview available]]
+│      [14:45] Prajwal Chaudhari: Project Code :- 718
+Project Name :- Issue with Mount Temple parent notes duplication
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (9 replies) ──────────────────────────────────────
+│ [14:35] Lee: @channel Presentation Brothers Cork, staff received late note email but there is no late note in CMS, can you please check this? [Attachment(s): Screenshot 2026-03-27 at 09.04.28.png]
+│   └─ Replies:
+│      [14:41] Sandeep Jain: @Sonali Gaikwad
+│      [14:55] Sonali Gaikwad: @Lee Late note created by parent <mailto:bejoyphilip@gmail.com|bejoyphilip@gmail.com> at 2026-03-27 07:48:28 and later deleted at 2026-03-27 08:19:55
+│      [14:59] Lee: deleted by parent yes?
+│      [15:00] Lee: if deleted, we should send another email informing the school
+│      [15:00] Sonali Gaikwad: Yes
+│      [15:00] Lee: can this be put in place?
+│      [15:02] Sonali Gaikwad: @Prajwal Chaudhari add it in FMP
+Send an email to the school when a late note is deleted by a parent
+│      [16:17] Prajwal Chaudhari: https://trello.com/c/VIjMv7uN [Preview: [no preview available]]
+│      [16:21] Prajwal Chaudhari: Project code :- 719
+Project name :- Send an email to the school when a late note is deleted by a parent
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (11 replies) ──────────────────────────────────────
+│ [14:49] Fernanda: @Manish Pathe St Colman's 101 is getting an error trying to upload this file into groups feature [Attachment(s): h2.csv]
+│   └─ Replies:
+│      [15:01] Manish Pathe: @Fernanda Can you please provide the error that they are getting
+│      [15:09] Fernanda: I tried to submit twice, and once I got 500 error, and other was something about header incorrect
+│      [17:12] Fernanda: @Manish Pathe
+*Failed!* Invalid header format.
+when i use csv utf 8
+
+internal server error for csv comma delimited
+and same for csv ms dos
+│      [17:55] Prajwal Chaudhari: https://trello.com/c/YkafkZPa [Preview: [no preview available]]
+│      [18:00] Prajwal Chaudhari: Project Code :- 724
+Project Name:- Investigate and resolve file upload error in St Colman's 101
+│      [18:08] Manish Pathe: @Fernanda Could you please download the same file that you have shared and try once it is working fine
+│      [18:18] Manish Pathe: Also, could you screen record it this time if it still shows an error?
+│      [18:28] Fernanda: worked now, few students failed, but worked
+│      [18:28] Fernanda: what was the error @Manish Pathe?
+│      [18:31] Manish Pathe: There was no issues with the file that you have shared.
+│      [18:31] Manish Pathe: It will work fine if the sheet's csv encoding is utf-8
+└─────────────────────────────────────────────────────────────────────────
+
+[14:56] Sandeep Jain: <https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG|Weekly Review - new features | Meeting-Join | Microsoft Teams> [Preview: Join meeting on Teams]
+
+┌── THREAD #5 (13 replies) ──────────────────────────────────────
+│ [15:20] Fernanda: @Sonali Gaikwad can you please see if you find anything that could be causing the issue for parents?
+Incoming students have been added and are getting error message on registration
+
+When checking the number is correct for the parent.
+
+When I look in the MIS list, it shows as 5 not registered for primary contact, however, does not seem to be the case, could this be related?
+│   └─ Replies:
+│      [15:20] Fernanda: school, St Brigid's Presentation
+│      [15:20] Fernanda:  [Attachment(s): image.png]
+│      [15:20] Fernanda:  [Attachment(s): students-39.csv]
+│      [15:21] Fernanda: but when exported its showing 117 primary contact non app user
+│      [15:21] Fernanda: not sure if should be someone else looking into it, feel free to tag someone else
+│      [16:10] Sonali Gaikwad: What issue parent facing during registration for incoming 2026?
+can you share any screenshot?
+│      [17:04] Fernanda: its saying their number is not in the database, when it is
+│      [17:05] Fernanda:  [Attachment(s): image.png]
+│      [17:07] Fernanda:  [Attachment(s): image.png]
+│      [17:07] Fernanda: if you can look into this now @Sonali Gaikwad the school is getting overwhelmed with parents calling them
+│      [17:11] Sonali Gaikwad: @Fernanda Sheet has been imported, but the team member hasn't clicked the refresh button to sync parents, so the sync wasn't triggered.
+I'll check with Ayushi now.
+│      [17:11] Fernanda: thank you
+│      [17:19] Sonali Gaikwad: The parents are now refreshed correctly.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (3 replies) ──────────────────────────────────────
+│ [16:07] Lee: @Ayush Kharpuse @channel
+If you can share with Vivek please. Thank you
+
+1st screenshot, it's not mobile responsive :smile:
+
+2nd screenshot, some wording updates:
+• Email Setting > Email Notifications
+• Notification Dispatch Time > Late Sign In Notification
+• Set the time when email notifications are dispatched daily. > Emails will only be sent for students who sign in late after this time, and are sent immediately at sign-in.
+• Enable notification dispatch > Enable Notification
+• Boarder Manager Email > Boarder Manager Emails
+• Add or manage email addresses for boarder managers. > Add or manage the email addresses that will receive notifications. [Attachment(s): Screenshot 2026-03-27 at 10.26.34.png, Screenshot 2026-03-27 at 10.33.56.png]
+│   └─ Replies:
+│      [16:10] Sandeep Jain: Done
+│      [16:54] Prajwal Chaudhari: https://trello.com/c/52rYFJIC [Preview: [no preview available]]
+│      [17:01] Prajwal Chaudhari: Project Code :- 720
+Project Code :- Update mobile responsiveness and wording on Boarder Web
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (8 replies) ──────────────────────────────────────
+│ [16:18] Lee: @channel error when trying to pay fee for St Mary's Nenagh, can this be checked please? [Attachment(s): IMG_1102.png]
+│   └─ Replies:
+│      [16:18] Kritika Wadhwa: Checking
+│      [16:51] Fernanda: no need @Kritika Wadhwa
+│      [16:51] Fernanda: @Lee their stripe account is blocked
+│      [16:52] Fernanda: let me have a look
+│      [16:58] Fernanda: uploaded the document, its in review
+│      [17:10] Fernanda: @Lee I will let you know when its up running again so you can inform the parent
+│      [17:48] Fernanda: payment back running
+│      [18:16] Lee: thanks
+└─────────────────────────────────────────────────────────────────────────
+
+[16:44] Sonali Gaikwad: @Sunny @Fernanda @Lee
+Below change is deployed on LIVE
+1. Permission to Leave Update Not Flagged 

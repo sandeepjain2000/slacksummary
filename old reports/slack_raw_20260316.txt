@@ -1,0 +1,91 @@
+SLACK RAW EXPORT — 2026-03-16
+Channel: C08LEFNF0BS
+Total messages: 34 | Threads: 5 | Standalone: 1
+================================================================================
+
+[14:09] Sunny:  [Preview: [March 16th, 2026 8:39 AM] lee: <@U06UG0JCJF9>
+
+<@U070C8EGH18>
+
+mis wonde was down on Friday so no WB was working from this time. Why did this happen? A lot of schools complaining.]
+
+┌── THREAD #1 (13 replies) ──────────────────────────────────────
+│ [14:46] Sunny: @channel
+
+Can you please cull all please check and anomalies for *Coláiste Iósaef until March 13th?* 
+
+*Many thanks!* cc @Sonali Gaikwad
+│   └─ Replies:
+│      [15:14] Sonali Gaikwad: @Sunny Please checks are done
+
+what do you mean by anomalies?
+│      [15:15] Sunny: can you mark them all "Acknowledged"?
+│      [15:15] Sonali Gaikwad: which module?
+│      [15:18] Sunny: this tab [Attachment(s): Screenshot 2026-03-16 at 09.47.47.png]
+│      [15:46] Sonali Gaikwad: @Harshwardhan More
+│      [15:47] Harshwardhan More: @Sunny @Sonali Gaikwad Roger that
+│      [15:48] Harshwardhan More: @Sunny From start of year to 13th march right?
+│      [15:51] Sunny: yeah
+│      [15:53] Sunny: i just noticed that - i can mark it from my end too
+│      [15:54] Harshwardhan More: Yes, ofc.
+│      [15:54] Harshwardhan More: Its feature that teacher can acknowledge anomalies.
+│      [15:58] Sunny: i will mark them then
+│      [15:58] Sunny: thanks!!
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (2 replies) ──────────────────────────────────────
+│ [14:48] Lee: > I am currently in detention and the Detention Manager is working really well.
+> How do we edit the notification templates to include an Irish version of the message?
+@channel Hi :slightly_smiling_face:
+Every single templated message should be editable by the school. Similar to the Enrolment, where we can go to Communications > Templates and edit there.
+Detention/Evening Study templates, ARF Notifications, Late Notifications, PTL Notifications, everything should be editable from PN Templates.
+
+I'm going to tell the school this is not possible currently, but it should be. Can this be added as P2 @Sandeep Jain @Prajwal Chaudhari
+Thanks
+│   └─ Replies:
+│      [16:03] Krishna Thite: Enable editable notification templates in the system so that schools can modify automated messages
+677
+│      [20:13] Lee: thanks @Krishna Thite
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (7 replies) ──────────────────────────────────────
+│ [20:40] Lee: @channel Strange glitch here, when we add student Hugo Dillon (Blackrock Educate Together Secondary School), to a PN, the teacher Emily Brady gets added too. When we remove Emily, the secondary contact is removed also.
+
+Please investigate. Thank you [Attachment(s): pn_glitch.mov]
+│   └─ Replies:
+│      [20:41] Sandeep Jain: @Ayush Kharpuse
+│      [18:37] Ayush Kharpuse: @Vivek Jadhav could you please check this.
+│      [13:14] Vivek Jadhav: @Lee We discovered that the teacher ID and secondary parent ID are identical, even though both are being used as unique identifiers. This appears to be a very rare case, so we need to investigate it further and identify a suitable workaround. This may take some time. Thanks!
+
+cc: @Ravindra Chherke @Sandeep Jain @Yashraj Talokar
+│      [13:16] Vivek Jadhav: https://trello.com/c/OqaDnt3O [Preview: [no preview available]]
+│      [13:52] Lee: Hi @Vivek Jadhav can we manually change one of the IDs from the backend for now? School needs to send PN to this family
+│      [14:42] Sandeep Jain: @Vivek Jadhav please discuss with @Sonali Gaikwad / @Yashraj Talokar
+│      [16:42] Lee: Any update on this one?
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (2 replies) ──────────────────────────────────────
+│ [20:41] Sunny: @Kumaraswamy R question from St. Paul’s Secondary School (Monasterevin)
+
+They said when students sign in late on the tablet, it used to tell them that there is a late note in place but not anymore. Now it's showing as below. Do we used to have different pop up when they's a late note or not in the system? Is it easy to get this feature back? cc @Sandeep Jain [Attachment(s): Stieg Nisson, you have successfully signed.PNG]
+│   └─ Replies:
+│      [11:05] Kumaraswamy R: Hi @Sunny,
+I will check and update
+│      [14:22] Kumaraswamy R: Hi @Sunny,
+There is no changes on the app regarding this. @Ayush Kharpuse can take a look in the backend implementation and provide further info.
+
+As of now the messages are directly coming from the API response.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (4 replies) ──────────────────────────────────────
+│ [21:00] Lee: @Kritika Wadhwa please check this tomorrow, thank you (Salesian Secondary College) [Attachment(s): image001.png]
+│   └─ Replies:
+│      [10:38] Kritika Wadhwa: checking @Lee
+│      [10:57] Kritika Wadhwa: can you pplease tell the item name @Lee?
+│      [15:18] Lee: this is sorted now, no need to check. Thanks Kritika
+│      [15:50] Kritika Wadhwa: Thanks Lee
+└─────────────────────────────────────────────────────────────────────────

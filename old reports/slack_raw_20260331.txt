@@ -1,0 +1,59 @@
+SLACK RAW EXPORT — 2026-03-31
+Channel: C08LEFNF0BS
+Total messages: 14 | Threads: 3 | Standalone: 1
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [13:47] Sunny: Hi @Ravindra Chherke
+
+This is the compass login
+https://stmaryshfcglasnevin-ie.compass.education
+
+https://nz.onetimesecret.com/secret/f8u22fu8b0p4ovpt501ikndmqupjy6rx4chqbgol3i44ldv79a9rci742a9ank
+
+Please use VPN when logging in as Compass has history of users login history and location. [Preview: [March 31st, 2026 9:13 AM] ravindra: Are you referring to the attendance calendar when you mention the Compass calendar?
+
+Do you have access to the Compass portal so our team can also view the data there?
+
+I noticed that Compass is available through Wonde as well, but it seems to provide attendance data at the session level only (not at the lesson level), and writeback functionality isn’t available. If we with wonde then data structure will be same as vsware schools.
+
+I’ll ask the team to review it in more detail.  For the complete fields I think we would need to connect school's compass account to wonde.; nz.onetimesecret.com]
+│   └─ Replies:
+│      [13:50] Ravindra Chherke: We don't have vpn, Will ask data entry team. They can show us.
+└─────────────────────────────────────────────────────────────────────────
+
+[14:49] Sunny: @channel do we have issues with foreign numbers for school app otp? +48 Polish number doesn't seem to be working for incoming parents. [Attachment(s): Screenshot 2026-03-31 at 10.17.55.png]
+
+┌── THREAD #2 (2 replies) ──────────────────────────────────────
+│ [14:50] Lee: https://platform.payzone.ie/customer/11417/product-list
+
+@channel for Presentation Brothers College, Cork, can you please update the Shop link and title
+from "Easy Payments Plus - Easypayments"
+to "Payzone - Payments"
+Use link above please, thank you
+│   └─ Replies:
+│      [14:58] Shruti Kokate: @Lee The link has been added also title has been updated. [Attachment(s): Screenshot_2026-03-31-14-59-01-22_f93a5cbc21259e4ca22ca790a654bd9d.jpg]
+│      [14:59] Lee: thank you!
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (7 replies) ──────────────────────────────────────
+│ [18:06] Sunny: @channel Hi guys,
+
+Just wanted to let you know that this happened twice to me that I've ticked both Primary & Secondary contact when sending out SMS for incoming parents. There are more than 200 SMS required and the SMS balance is 947
+
+However, after pressing submit, i clicked into Edit to see, only Primary contact is ticked. Not sure if secondary contact got SMS or not. Now it shows 123 SMS required and the SMS balance is still 947.
+
+Can you check why the SMS credit remains the same 947 and why secondary got unticked? [Attachment(s): Screenshot 2026-03-31 at 13.32.14.png]
+│   └─ Replies:
+│      [18:06] Sandeep Jain: @Sonali Gaikwad
+│      [18:45] Sonali Gaikwad: @Fernanda The SMS has been sent to both the primary and secondary contacts. You may also verify this in the SMS report.
+
+We are currently investigating why the secondary contact checkbox was not displayed as selected.
+│      [18:49] Sunny: i see that in the sms report - 229. However, the SMS credit isn't lower yet
+│      [18:51] Sonali Gaikwad: @Sunny, we have identified a bug affecting the total SMS balance display. It should currently show as 718, and we are actively investigating the issue.
+│      [18:51] Sunny: Thank you Sonali!
+│      [19:26] Sonali Gaikwad: @Fernanda @Sunny We have fixed both issues. Please verify.
+│      [19:35] Sunny: it's correct now, thanks for fixing it Sonali
+└─────────────────────────────────────────────────────────────────────────

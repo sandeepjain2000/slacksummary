@@ -1,0 +1,15 @@
+[13:27] Fernanda: @channel can someone check why notifications are going multiple times? St Joseph's Castlebar
+[13:31] Sandeep Jain: @Shruti Kokate is checking
+[13:34] Shruti Kokate: @Fernanda The notification was modified, which may cause users to receive alerts multiple times
+[13:53] Sunny: @Kritika Wadhwa this is a similar case that the failed one doesnt show in stripe. In this case, the instalment will continue to attempt charging for another 3 times?
+[14:23] Sunny: @Kritika Wadhwa Not sure if this is raised to your attention before.
+
+Recently there are some incoming parents contacted us and said when they proceed to pay, it shows 00 EUR and their card is not saved in the system. Can you check on that when you have time? Thank you cc @Sandeep Jain @Ravindra Chherke
+[14:24] Kritika Wadhwa: i will check @Sunny
+[20:25] Sunny: @channel Please check record not visible but got an email - *Coláiste Cholmcille*
+
+*Student Name :* Emily Colton
+11 Mar 2026
+
+Can you check why i dont see outstanding please check for this kid but school received the please check alert?
+[20:32] Sandeep Jain: @Ayush Kharpuse @Sonali Gaikwad

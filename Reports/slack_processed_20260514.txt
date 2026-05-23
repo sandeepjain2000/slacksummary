@@ -1,0 +1,330 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-05-14
+Total messages: 58 | Threads: 9 | Standalone: 0
+================================================================================
+
+### 1.a [11:37] — Ayush Kharpuse informs about Boarder PTL change
+**Original message:** Hi @Lee  
+**Project Code:** PROJECT 136  
+**Thread summary:** Ayush notifies Lee about the live change where PTLs from parents of boarders will be sent to the Boarder Manager. Lee acknowledges the update.
+
+### 1.b [12:56] — Lee requests investigation on Year Heads sync
+**Original message:** @channel add job to investigate the following: Can we pull Year Heads from VSware/Tyro? So that our Access & Permissions assigned users are updated automatically each year.  
+**Project Code:** PROJECT 844  
+**Thread summary:** Lee asks for an investigation into syncing Year Heads from VSware/Tyro for automatic user updates. Amatullah assigns it as a project.
+
+### 1.c [13:48] — Urgent payment issue at St. Paul's College
+**Original message:** A parent needs to pay urgently for a trip, but a refunded payment is causing issues. Urgent resolution requested.  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Lee escalates an urgent payment issue to Kritika, who fixes it on the QA server. Discussion includes including cash payments in limits and handling refunded orders.
+
+### 1.d [13:58] — Investigation on pending email alert at Colaiste Pobail Setanta
+**Original message:** A pending email alert issue is raised at Colaiste Pobail Setanta.  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Sunny requests investigation into a pending email alert issue. Sonali provides guidance on checking the notification details.
+
+### 1.e [14:00] — Request to change status in student profile
+**Original message:** Request to enable changing status in the Absent section of student profiles.  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Lee requests the ability to change status in the Absent section. Sandeep suggests adding it as a P2 task, which Lee agrees to.
+
+### 1.f [15:14] — User-level preference toggle for Parent Note Email Alert Timing
+**Original message:** Request to add a user-level preference toggle for Parent Note Email Alert Timing.  
+**Project Code:** PROJECT 849  
+**Thread summary:** Sunny requests a feature to allow users to set preferences for note email alerts. Sandeep suggests adding it under P2, and Sonali updates the execution time for the alerts.
+
+### 1.g [15:30] — Investigation on late request discrepancy at De La Salle College
+**Original message:** Investigation into a late request discrepancy at De La Salle College.  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Sonali explains the cause of the discrepancy in late requests, involving VSware and the automatic API import process. The issue is resolved, and the LNR is deleted.
+
+### 1.h [15:59] — Job request for attendance calendar in school apps
+**Original message:** Request to display the attendance calendar in the school apps for parents.  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Lee requests the addition of the attendance calendar in the school apps. Sandeep inquires about the priority, and Lee assigns it as P2.
+
+### 1.i [16:01] — Fix for gallery image caching issue in school app
+**Original message:** Notification about a bug in the app related to caching of gallery images.  
+**Project Code:** PROJECT 848  
+**Thread summary:** Sonali identifies a bug in the app related to image caching and assigns Kumaraswamy to work on the fix. Temporary workaround suggested until the issue is resolved.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (4)
+  Thread #1 [11:37] — Code(s): PROJECT 136
+    "Hi @Lee
+
+The Boarder PTL change is now live. If a student is in the boarders and..."
+  Thread #2 [12:56] — Code(s): PROJECT 844
+    "@channel add job to investigate the following: Can we pull Year Heads from VSwar..."
+  Thread #6 [15:14] — Code(s): PROJECT 849
+    "@Ravindra Chherke @Sandeep Jain
+
+Note from Parents email alerts is currently res..."
+  Thread #9 [16:01] — Code(s): PROJECT 848
+    "@Sunny
+The email regarding, issue with the gallery where images removed from the..."
+
+THREADS WITHOUT PROJECT/JOB CODE (5)
+  Thread #3 [13:48] — "@channel
+
+A bit urgent as parent would like to pay
+<mailto:katewise@cpsetanta.ie..."
+  Thread #4 [13:58] — "@channel *Colaiste Pobail Setanta - pending email alert*
+
+Can someone check *wha..."
+  Thread #5 [14:00] — "from the student profile > Absent section > view > we should be able to change t..."
+  Thread #7 [15:30] — "@channel Joshua Conlon - *De La Salle College (Dundalk) cc @Sonali Gaikwad* 
+
+Ca..."
+  Thread #8 [15:59] — "@channel James wants to have the attendance calendar (data from tyro vsware) sho..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-05-14 (5 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-05-13 19:51)
+  Author  : Lee
+  Message : @channel Detention Reminder PN to Parents - add in settings (see screenshot)
+@Krishna Thite @Prajwal Chaudhari please create a job for this. Thanks
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778682060051749?thread_ts=1778682060.051749&cid=C08LEFNF0BS
+  New reply on 2026-05-14 (1):
+    [13:05] Amatullah Andamanwala: Job: Add Detention Reminder Push Notification Setting for Parents
+Project code: 845
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-05-13 19:26)
+  Author  : Sunny
+  Message : @channel @Shruti Kokate
+*Scoil Chaitriona 205*
+can you ensure this app is the most up-to-date cc @Lee so parents can update cards for instalments.
+
+@Kritika Wadhwa
+can you tell me that when a parent has more than 1 card attached in stripe, the 2nd instalment will be charging their default card in stripe or the card they paid the 1st instalment with?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778680576629219?thread_ts=1778680576.629219&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-05-14 not shown]
+  New replies on 2026-05-14 (2):
+    [09:09] Kritika Wadhwa: @Sunny if they don't change the card from the app then 2nd installment will come out from the card they paid the 1st installment with.
+    [13:24] Amatullah Andamanwala: Project code: NA
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-05-13 16:29)
+  Author  : Lee
+  Message : > Hi Lee,
+> 
+> Please see this one instance of an error with the payment.  
+> 
+> When our office staff set this up they did so without adding users first. They then went back and added the entire student population t the fee with one payment per familty selected. This may be where the issue is arising from
+@channel Payment Item: Sintús Scoile/Voluntary Contribution 2026/27
+School: <https://www.uniqueschoolapp.ie/user|Coláiste an Phiarsaigh >
+Parents are getting errors when trying to pay/checkout.
+
+Can you please check this?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778669991095079?thread_ts=1778669991.095079&cid=C08LEFNF0BS
+  [13 earlier replies before 2026-05-14 not shown]
+  New reply on 2026-05-14 (1):
+    [13:21] Amatullah Andamanwala: Job: Duplicate Student Assignment Causing One-Per-Family Payment Checkout Errors – Coláiste an Phiarsaigh
+Project code: 843
+
+complete
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-05-13 15:10)
+  Author  : Lee
+  Message : Cnoc Mhuire Granard - <mailto:coharaf@gmail.com|coharaf@gmail.com> (parent)
+unable to submit late note, getting the error attached
+@channel
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778665240635849?thread_ts=1778665240.635849&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-05-14 not shown]
+  New replies on 2026-05-14 (3):
+    [13:28] Lee: any update here?
+    [15:20] Ayush Kharpuse: @Lee  We were unable to reproduce the issue. We tested the submission in the test app, and it is working fine.
+We are still investigating the issue and will update you if we find anything.
+    [15:25] Lee: thanks
+---------------------------------------------------------------------------
+
+OLD THREAD #5  (originally posted 2026-05-12 13:22)
+  Author  : Sunny
+  Message : @channel <mailto:yu_dian@icloud.com|yu_dian@icloud.com> Malahide - Dian (zendesk ticket 55399)
+
+This parent is trying to submit PTL abroad but cannot. How are we on the time zone issue?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778572353253049?thread_ts=1778572353.253049&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-05-14 not shown]
+  New replies on 2026-05-14 (4):
+    [14:03] Amatullah Andamanwala: Job: Investigate PTL Submission Failure Abroad Due to Time Zone Handling – Malahide (Zendesk #55399)
+Project code: 846
+    [14:21] Sunny: someone is looking after this?
+    [14:26] Ravindra Chherke: @Sunny The quick fix would be to just ask School to add PTL.
+
+The bigger Timezone task would fix this but team is busy in all these minor issue and are not able to start the timezone task.
+
+@Kumaraswamy R @Sonali Gaikwad @Ayush Kharpuse
+We must start this task asap so we can finish it in June and all apps can be updated in July. Or we will again stuck in time issues for another year.
+    [14:27] Sunny: Thanks for the update Ravindra!
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [11:37] Ayush Kharpuse: Hi @Lee
+
+The Boarder PTL change is now live. If a student is in the boarders and a parent submits a PTL, the PTL will be sent to the Boarder Manager.
+│   └─ Replies:
+│      [11:40] Ayush Kharpuse: Here are the responses shown to parents when a student is in the boarders and they try to submit a PTL. [Attachment(s): image.png, image.png]
+│      [12:51] Lee: great
+│      [12:51] Lee: thanks Ayush
+│      [14:34] Ayush Kharpuse: @Amatullah Andamanwala this is part of project - 136, which is already marked Completed.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (1 reply) ──────────────────────────────────────
+│ [12:56] Lee: @channel add job to investigate the following: Can we pull Year Heads from VSware/Tyro? So that our Access & Permissions assigned users are updated automatically each year.
+│   └─ Replies:
+│      [13:03] Amatullah Andamanwala: Job: Investigate Automatic Year Head Sync from VSware/Tyro for Access & Permissions
+Project code: 844
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (12 replies) ──────────────────────────────────────
+│ [13:48] Sunny: @channel
+
+A bit urgent as parent would like to pay
+<mailto:katewise@cpsetanta.ie|S>t Paul's College - payment: 1st Year Trip to Alive Outside Killruddery Estate 21st May 26
+
+School set up the limit to 100, 95 paid by app, 4 paid by link and 1 refunded.
+It seems that the 1 refunded one is still taking up the space. Can this be rectify so the parent can pay? Thank you! @Kritika Wadhwa
+│   └─ Replies:
+│      [17:04] Lee: @Kritika Wadhwa can you look at this asap please?
+
+it's happening for the below payments. Needs to be resolved asap urgently please [Attachment(s): Screenshot 2026-05-14 at 12.32.44.png, Screenshot 2026-05-14 at 12.31.42.png]
+│      [17:04] Lee: also should not happen going forward so logic must be changed
+│      [17:07] Kritika Wadhwa: I am looking @Lee @Sunny
+│      [18:46] Kritika Wadhwa: I have fixed it on QA server and Shruti is testing it.
+
+one question:
+As of now cash payments are not included in Limits, is that ok?
+
+@Lee @Sunny
+│      [18:47] Lee: they should be included to prevent over selling
+│      [18:48] Kritika Wadhwa: Okay
+│      [18:49] Lee: but if you can deploy the fix first and then look at this isssue after please
+│      [18:50] Kritika Wadhwa: Yes i will do that way
+│      [18:50] Lee: thank you Kritika
+│      [11:29] Kritika Wadhwa: Hi @Lee, I have deployed the fix
+│      [11:31] Kritika Wadhwa: But in case of "Multiple Payments" turned on, if the user has paid once and then that order gets refunded the shopuser status doesnt get updated to refunded it remains "Ongoing" so then the refunded space will not free up
+│      [11:33] Lee: ok that's fine, thank you Kritika
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (11 replies) ──────────────────────────────────────
+│ [13:58] Sunny: @channel *Colaiste Pobail Setanta - pending email alert*
+
+Can someone check *what notification item was pending* as <mailto:BERNIEKELLY@cpsetanta.ie|BERNIEKELLY@cpsetanta.ie> got an email yesterday 13/05/2026 saying there's one pending but she didn't seem to find it.
+I had a look and other posts published yesterday were posted by full limited users. [Attachment(s): Screenshot 2026-05-14 at 09.26.12.png, Screenshot 2026-05-14 at 09.25.57.png]
+│   └─ Replies:
+│      [14:37] Sonali Gaikwad: @Sunny The email itself mention the module name and title of the notification.
+│      [14:46] Sunny: i cannot know that from SendGird right?
+│      [14:47] Sonali Gaikwad: no
+│      [14:48] Sunny: i see
+│      [14:48] Sunny: possible to check from your end that if there was any post pending or being deleted though?
+│      [14:49] Sunny: (just before i get back to the school asking for the content of that email alert
+│      [14:52] Sonali Gaikwad: i can't see any deleted or pending record in notification module.
+
+There must be a different module. Please check with email received to teacher.
+│      [14:54] Sunny: cool thank you!
+│      [17:15] Sunny: @Sonali Gaikwad this is the post - <mailto:darrenearley@cpsetanta.ie|darrenearley@cpsetanta.ie> with limited access.
+
+Can we tell who approves it (if it's not <mailto:BERNIEKELLY@cpsetanta.ie|BERNIEKELLY@cpsetanta.ie>? [Attachment(s): Screenshot 2026-05-14 at 12.44.01.png, Screenshot 2026-05-14 at 12.44.20.png, Screenshot 2026-05-14 at 12.44.55.png]
+│      [17:43] Sonali Gaikwad: This has been last modifed/publish by <mailto:gillianmurphy@cpsetanta.ie|gillianmurphy@cpsetanta.ie>
+
+By the way, you can also view this information on notification top right corner [Attachment(s): image.png]
+│      [19:31] Sunny: Thank you Sonali
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (2 replies) ──────────────────────────────────────
+│ [14:00] Lee: from the student profile > Absent section > view > we should be able to change the status here from requested to aborted (similarly to the please check section we can do this)
+@Sonali Gaikwad or @Ayush Kharpuse I think it was one of you that implemented this in YHD > Please Check section.
+Thank you
+@channel [Attachment(s): Screenshot 2026-05-14 at 09.28.52.png]
+│   └─ Replies:
+│      [15:49] Sandeep Jain: Can we add this as P2
+│      [16:11] Lee: yes
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (6 replies) ──────────────────────────────────────
+│ [15:14] Sunny: @Ravindra Chherke @Sandeep Jain
+
+Note from Parents email alerts is currently restricted to 8-4 (school hour) however, some users would like to get it whenever the notes comes in.
+
+Can we have on/off per users' preference? (not urgent)
+│   └─ Replies:
+│      [15:20] Sandeep Jain: Can we add under P2
+│      [16:39] Amatullah Andamanwala: Job: Add User-Level Preference Toggle for Parent Note Email Alert Timing
+Project code: 849
+│      [17:47] Sunny: is it holding it until 9 rather than 8 AM? cc @Sonali Gaikwad @Sandeep Jain [Attachment(s): Screenshot 2026-05-14 at 13.16.23.png]
+│      [18:32] Sonali Gaikwad: @Sunny Cron execution affected due to DST changes. We will update cron execution
+│      [18:54] Sonali Gaikwad: We have updated the execution time. Now it will send at 8 am
+CC: @Ravindra Chherke
+│      [19:24] Sunny: Thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (6 replies) ──────────────────────────────────────
+│ [15:30] Sunny: @channel Joshua Conlon - *De La Salle College (Dundalk) cc @Sonali Gaikwad* 
+
+Can someone check why there's a 05/05 late request in the parent's app but i dont find it in the CMS?
+
+The kid was late for the afternoon on vsware - does our system pick it up automatically? but on the app it's shown as 8:50 AM arrival time.
+
+The parent said they received this alert today 14/05. [Attachment(s): Screenshot 2026-05-14 at 10.55.57.png, image.png, Screenshot 2026-05-14 at 10.57.25.png, Screenshot 2026-05-14 at 10.57.33.png]
+│   └─ Replies:
+│      [15:37] Sandeep Jain: @Sonali Gaikwad
+│      [16:22] Sonali Gaikwad: Hi @Sunny The student was marked as late on VSware and did not use the DSI tablet for sign-in.
+
+During the automatic API import (ARF sync), the process generated an ARF record with the MIS late status on 05/05/2026 at 14:20. The record was last modified on 07/05/2026 at 14:20:52, and the LNR was created on 07/05/2026 at 14:20:52.
+
+It appears that the configured time may be incorrect, as 8:50 corresponds to the AM roll call time. During the automatic API import, the DSI sign-in and arrival time are selected based on the configured roll call time. I will debug this further and work on resolving the issue.
+
+*The LNR was later deleted by <mailto:attendance@delasalle.ie|attendance@delasalle.ie> on 14/05/2026 at 09:41:04.*
+│      [19:52] Sunny: Thank you
+│      [19:53] Sunny: and yes the school do not want that PM LNR to be sent to the parent actually. Now i remember that I told her LNR can be deleted from the CMS.
+│      [19:57] Sunny: @Sonali Gaikwad but how come parent got notified about this today 14/05 though?
+│      [10:55] Sonali Gaikwad: They notified at the day LNR generated through sync process and not yesterday.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #8 (4 replies) ──────────────────────────────────────
+│ [15:59] Lee: @channel James wants to have the attendance calendar (data from tyro vsware) showing in the school apps for parents in Attendance > View Attendance section. Please make job item
+│   └─ Replies:
+│      [16:10] Sandeep Jain: @Ayush Kharpuse @Kumaraswamy R @Sonali Gaikwad
+│      [16:11] Sandeep Jain: What is the priority?
+│      [16:11] Sandeep Jain: P1/P2
+│      [16:11] Lee: p2 but we need to evaluate all p2 soon
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #9 (3 replies) ──────────────────────────────────────
+│ [16:01] Sonali Gaikwad: @Sunny
+The email regarding, issue with the gallery where images removed from the CMS gallery are still visible in the app gallery.
+
+We have identified a bug in the app related to caching. This issue requires a fix on the App side.
+@Kumaraswamy R will work on the app-side changes to resolve the issue.
+As a temporary workaround, users are advised to log out of the app and log back in.
+
+CC: @Sandeep Jain @Ravindra Chherke
+@Krishna Thite Please create FMP job for this.
+│   └─ Replies:
+│      [16:05] Kumaraswamy R: Please create a FMP ticket on my name for this Trello
+https://trello.com/c/NOhveWCL [Preview: [no preview available]]
+│      [16:36] Amatullah Andamanwala: Job: Fix Gallery Image Caching Issue in School App Showing Deleted CMS Images
+Project code: 848
+│      [19:22] Sunny: Thank you Sonali, i've informed the school about this
+└─────────────────────────────────────────────────────────────────────────

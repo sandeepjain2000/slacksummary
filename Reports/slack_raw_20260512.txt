@@ -1,0 +1,76 @@
+SLACK RAW EXPORT — 2026-05-12
+Channel: C08LEFNF0BS
+Total messages: 19 | Threads: 5 | Standalone: 0
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [13:22] Sunny: @channel <mailto:yu_dian@icloud.com|yu_dian@icloud.com> Malahide - Dian (zendesk ticket 55399)
+
+This parent is trying to submit PTL abroad but cannot. How are we on the time zone issue? [Attachment(s): image0.jpeg]
+│   └─ Replies:
+│      [19:11] Sunny: cc @Sandeep Jain @Ravindra Chherke
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (2 replies) ──────────────────────────────────────
+│ [16:31] Sunny: @Shruti Kokate
+
+Can i please get APK for ennistymon community school? If it's possible a link so i can share with the parent in email. Thanks!
+
+Ticket #55305
+│   └─ Replies:
+│      [18:53] Shruti Kokate: @Sunny https://loadly.io/t2nVZvtO [Preview: Ennistymon Community School]
+│      [19:11] Sunny: thank u
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (5 replies) ──────────────────────────────────────
+│ [17:00] Lee: @channel email confirmation for absent note is not very clear. This parent selected the 6th of May and the 8th of May. In the email it shows 2026-05-08, 2026-05-12. This looks like it's from - to.
+
+It should be more clear eg:
+> Thank you for submitting your absentee note for:
+> • 6th May 2026
+> • 8th May 2026
+> The note has been submitted to the school.
+Note, the date format too. In ireland, we use DD/MM/YYYY
+
+YYYY/MM/DD is too confusing for users. Please ensure going forward any date formats should be DD/MM/YYYY or like 6th May 2026. We need to update all areas of the system (big job perhaps but necessary). James mentioned this multiple times.
+
+Can this please be done?
+
+Also @Kumaraswamy R is the date range selection on absent note live? Instead of individual days, it's a range selection. Please confirm and make Mount Anville live if not already. Please also do this for all school apps.
+
+Thanks [Attachment(s): IMG_1872.jpeg]
+│   └─ Replies:
+│      [17:18] Ravindra Chherke: @Harshwardhan More @Sonali Gaikwad
+│      [17:57] Kumaraswamy R: @Lee range selection is not live yet. Testing has been completed. I can merge those changes and Shruthi can update the app.
+│      [19:10] Lee: please do, thanks
+│      [19:10] Kumaraswamy R: Sure
+│      [13:12] Krishna Thite: Job : Enhance Absent Note Confirmation Emails & Implement Date Range Selection
+Project Code : 835
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (3 replies) ──────────────────────────────────────
+│ [17:23] Lee: @channel what's the status on Daily Emails? Are they functional if we enable from Access & Permissions? [Attachment(s): Screenshot 2026-05-12 at 12.53.14.png]
+│   └─ Replies:
+│      [17:50] Ravindra Chherke: I think they are. Sonali said it is still working on Demo App.
+│      [19:08] Lee: ok thanks
+│      [13:09] Krishna Thite: Project Code: NA
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (3 replies) ──────────────────────────────────────
+│ [19:43] Lee: @channel please check submitted by parent but when school went to check, it was not there. I cleared filters to find this ARF is not marled as Please Check. Can this be investigated please? Synge Street CBS *Student Name :* Sidiq Obaidy [Attachment(s): Screenshot 2026-05-12 at 15.12.47.png, Screenshot 2026-05-12 at 15.12.59.png]
+│   └─ Replies:
+│      [11:25] Ravindra Chherke: @Harshwardhan More @Ayush Kharpuse
+
+@Sonali Gaikwad
+│      [17:58] Lee: any update on this one?
+│      [20:02] Ayush Kharpuse: Hi @Lee
+
+I have checked the logs, and the email was sent from the system. Most likely, this was triggered by a quick ARF request. I still need to check a few more logs, and once I have more details, I’ll update you further.
+
+Thank you.
+└─────────────────────────────────────────────────────────────────────────

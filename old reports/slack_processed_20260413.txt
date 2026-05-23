@@ -1,0 +1,293 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-13
+Total messages: 84 | Threads: 10 | Standalone: 0
+================================================================================
+
+### 1.a [12:17] — Ayush Kharpuse informs about Instagram reshare option in Live CMS
+**Original message:** Ayush Kharpuse: Hi @Lee @Sunny @Fernanda The reshare option for Instagram has been added to the Live CMS. Please check it.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Lee acknowledges the update, expressing gratitude.
+
+### 1.b [13:01] — Sunny requests a new build release for a meeting with a school
+**Original message:** Sunny: @Shruti Kokate cc @Sandeep Jain @Ravindra Chherke can you please release this new build! JMM has a meeting with this school this morning!
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti confirms the release, shares app store links, and Sunny expresses gratitude.
+
+### 1.c [13:36] — Urgent request to fix schools' WB issue
+**Original message:** Sunny: Kindly look into this urgently as many schools WB isn't working. @channel
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sonali Gaikwad confirms the MIS server is back, resolving the issue.
+
+### 1.d [15:12] — Timing issue in YHD's PTL screen
+**Original message:** Lee: @Ravindra Chherke Hi :slightly_smiling_face: The timing issue is back again, PTL screen in YHD...
+**Project Code:** PROJECT 758
+**Thread summary:** Various team members discuss and resolve the timing issue in the PTL screen, implementing a fix urgently.
+
+### 1.e [15:28] — Login credentials issue for boarders
+**Original message:** Lee: @Kumaraswamy R do you know login for boarders? This ones not working
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Kumaraswamy R acknowledges the issue, provides a solution, and the problem is resolved.
+
+### 1.f [15:30] — Request for boarders login credentials
+**Original message:** Lee: @channel I've a boarders meeting with Wesley now, anyone know the credentials? Thanks
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ayush Kharpuse provides the login credentials needed.
+
+### 1.g [16:17] — Tweaks needed for boarders web and app
+**Original message:** Lee: @channel some tweaks for boarders web and app...
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Kumaraswamy R agrees to handle the tweaks, and Vivek is informed for further assistance if needed.
+
+### 1.h [16:22] — Issue with Mount Carmel's deletion access
+**Original message:** Fernanda: @channel Mount Carmel, why is not allowing to delete? I thought we had agreed to allow them to do so.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Fernanda seeks assistance with Mount Carmel's deletion access.
+
+### 1.i [16:41] — Update needed for Mount Temple moving to Tyro
+**Original message:** Fernanda: @Shruti Kokate mount temple is moving to tyro, please update the main app from vsware to tyro on Friday 17th
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti Kokate confirms the update for Mount Temple's move to Tyro.
+
+### 1.j [17:21] — Issue with mapping for CBS Thurles
+**Original message:** Sunny: @Sonali Gaikwad i triggered mapping for CBS Thurles one hour ago...
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sonali Gaikwad resolves the mapping issue for CBS Thurles after server downtime, providing guidance on correcting department IDs.
+
+---
+
+**Unresolved Issues:**
+- None
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (1)
+  Thread #4 [15:12] — Code(s): PROJECT 758
+    "@Ravindra Chherke Hi :slightly_smiling_face: The timing issue is back again, PTL..."
+
+THREADS WITHOUT PROJECT/JOB CODE (9)
+  Thread #1 [12:17] — "Hi @Lee @Sunny @Fernanda
+
+The reshare option for Instagram has been added to the..."
+  Thread #2 [13:01] — "@Shruti Kokate cc @Sandeep Jain @Ravindra Chherke can you please release this ne..."
+  Thread #3 [13:36] — "Kindly look into this urgently as many schools WB isn't working. @channel"
+  Thread #5 [15:28] — "@Kumaraswamy R do you know login for boarders? This ones not working"
+  Thread #6 [15:30] — "@channel I've a boarders meeting with Wesley now, anyone know the credentials? T..."
+  Thread #7 [16:17] — "@channel some tweaks for boarders web and app
+After student is marked "School Ab..."
+  Thread #8 [16:22] — "@channel Mount Carmel, why is not allowing to delete? I thought we had agreed to..."
+  Thread #9 [16:41] — "@Shruti Kokate mount temple is moving to tyro, please update the main app from v..."
+  Thread #10 [17:21] — "@Sonali Gaikwad i triggered mapping for CBS Thurles one hour ago. It seems to ha..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-13 (2 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-03-30 17:23)
+  Author  : Lee
+  Message : @channel @Ravindra Chherke
+•	Irish language translation issue:
+The system should only translate the interface labels, not the actual message content written by the school.
+I thought this was resolved? For Irish language, we should only translate the app/menu items etc, not the content of Notifications/News/PNs etc.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774871635640159?thread_ts=1774871635.640159&cid=C08LEFNF0BS
+  [7 earlier replies before 2026-04-13 not shown]
+  New replies on 2026-04-13 (4):
+    [12:40] Lee: @Yashraj Talokar Morning - see example of translation issue.
+App is still translating the content of the notification (title+description).
+Please ensure it does not translate this data. Menu items etc can be translated but content should not be. Only for Irish language. Other languages are fine to translate everything.
+Thanks [Attachment(s): 18214.jpg, Screenshot 2026-04-13 at 08.08.09.png]
+    [12:42] Lee: This is quite urgent @Yashraj Talokar so please take a look asap.
+    [14:12] Yashraj Talokar: @Lee Can you please check again?
+    [14:26] Lee: seems to be working now for me. I asked the school to check. Did you make a change?
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-03-25 15:02)
+  Author  : Fernanda
+  Message : @channel this is happening more and more, where the school deletes a notification and gets stressed that parents are still seeing.
+Can you please delete this message from Meanscoil Naas app, school deleted from notification, but still visible for parents.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774431123610459?thread_ts=1774431123.610459&cid=C08LEFNF0BS
+  [10 earlier replies before 2026-04-13 not shown]
+  New replies on 2026-04-13 (4):
+    [14:19] Fernanda: @Shruti Kokate @Sonali Gaikwad notification still visible in the app
+    [14:30] Shruti Kokate: @Fernanda It looks like this might be due to cached data in the app. Please log out and log in again to see if they are still visible.
+    [14:32] Fernanda: i cant ask all users to. logout and login again
+    [14:37] Kumaraswamy R: Hi @Fernanda 
+Since we've updated the app with a fix for this bug, for this one time, users will need to re-login to sync their app to the latest data and remove any cached News/Notifications. Moving forward, the app will handle this automatically
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (1 reply) ──────────────────────────────────────
+│ [12:17] Ayush Kharpuse: Hi @Lee @Sunny @Fernanda
+
+The reshare option for Instagram has been added to the Live CMS. Please check it. [Attachment(s): image.png]
+│   └─ Replies:
+│      [13:05] Lee: Great, thanks Ayush
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (10 replies) ──────────────────────────────────────
+│ [13:01] Sunny: @Shruti Kokate cc @Sandeep Jain @Ravindra Chherke can you please release this new build! JMM has a meeting with this school this morning! [Attachment(s): Screenshot 2026-04-13 at 08.30.16.png]
+│   └─ Replies:
+│      [13:01] Shruti Kokate: Sure @Sunny
+│      [13:17] Shruti Kokate: App is released @Sunny
+│      [13:17] Sunny: cool!
+│      [13:17] Sunny: do i need to wait for it to appear on app store?
+│      [13:17] Shruti Kokate: Yes
+│      [13:18] Shruti Kokate: I will share links
+│      [13:18] Shruti Kokate: Appstore:https://apps.apple.com/in/app/col%C3%A1iste-pobail-setanta/id6760345348
+Coláiste Pobail Setanta [Preview: Coláiste Pobail Setanta App - App Store]
+│      [13:18] Shruti Kokate: Playstore:https://play.google.com/store/apps/details?id=ie.uniqueschools.colaistepobailsetanta&pcampaignid=web_share [Preview: Coláiste Pobail Setanta - Apps on Google Play]
+│      [13:26] Sunny: thank you!
+│      [14:53] Sunny: cc @Fernanda
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [13:36] Sunny: Kindly look into this urgently as many schools WB isn't working. @channel [Preview: [April 13th, 2026 8:58 AM] riyanshu: <@U0701K0LL9X> <@U07B4RD1ED6> <@U06UG0JCJF9> <@U06UPT2J0F8>
+
+Write back is not working for Many Schools
+
+<!channel> Kindly Give names in thread]
+│   └─ Replies:
+│      [13:43] Sonali Gaikwad: MIS server is back now. Please check
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (27 replies) ──────────────────────────────────────
+│ [15:12] Lee: @Ravindra Chherke Hi :slightly_smiling_face: The timing issue is back again, PTL screen in YHD. Correct time is showing in the view modal, incorrect time showing on the list.
+Can you please have the team fix this and ensure everywhere else is fixed. Thanks
+cc @Sandeep Jain @Fernanda @Sunny [Attachment(s): image.png]
+│   └─ Replies:
+│      [15:13] Ravindra Chherke: @Harshwardhan More @Ayush Kharpuse @Sonali Gaikwad
+│      [15:16] Lee: sorry example school here is The High School (APP ID 322)
+│      [15:34] Fernanda: lots of schools calling actually :slightly_smiling_face:
+│      [16:07] Sunny: *Malahide & Portmarnock ETSS (Tyro)* just called also. Please let us know when it's fixed cc *@Ayush Kharpuse* for now, school will update themselves.
+│      [16:31] Sunny: example if you need: Josh Foran
+YHD 14:00
+click into 13:00
+Tyro 12:00 [Attachment(s): Screenshot 2026-04-13 at 12.00.19.png, Screenshot 2026-04-13 at 12.00.11.png]
+│      [16:56] Sunny: Eureka - Anna Sherlock (as an example) [Attachment(s): Screenshot 2026-04-13 at 12.24.23.png]
+│      [17:28] Sunny: cc @Ravindra Chherke @Sandeep Jain this is urgent as schools are complaining. Any update so far? (PTL wrong time issue)
+│      [17:39] Sandeep Jain: Team is discussing this
+│      [17:40] Lee: need a quick fix urgently, all schools are calling. Implement quick fix now and then we can fix issue in full later. We need this fixed within the next 20 minutes
+│      [17:43] Vivek Jadhav: Working on it
+│      [17:58] Vivek Jadhav: @Lee @Sunny It's fixed.
+
+cc: @Ravindra Chherke @Sandeep Jain
+│      [17:59] Lee: temporary fix or overall fix? Will it happen again when clocks change? :smile:
+│      [17:59] Harshwardhan More: Overall
+│      [18:01] Lee: perfect thanks everyone
+│      [18:10] Ayush Kharpuse: @Sunny For Malahide & Portmarnock ETSS (Tyro)s WB, this is happening for 12 because we are performing WB on classes that end after the student sign-in/out time. As you can see in the screenshot, the end time is 13:05, which is why it is also affected. [Attachment(s): image.png]
+│      [19:40] Lee: When school actions a Please Check from YHD, the time is 1 hour behind. See screenshot of PN sent to parent says 8:05am when it should have been 9:05am.
+Aslo WB to VSware comment section says 8:05am instead of 9:05am.
+
+Can you please check to ensure this is fixed? Thanks
+@Harshwardhan More @Vivek Jadhav @Sonali Gaikwad @Ayush Kharpuse [Attachment(s): Screenshot 2026-04-13 at 15.08.20.png]
+│      [19:40] Lee:  [Attachment(s): image.png]
+│      [11:46] Ravindra Chherke: @Harshwardhan More @Ayush Kharpuse @Sonali Gaikwad Please check this asap
+
+cc @Sandeep Jain
+│      [14:40] Sunny: Another school also reported this - Coláiste Cholmcille, please let us know when this is fixed (please check - mark as late timing)
+│      [18:28] Ravindra Chherke: @Harshwardhan More @Vivek Jadhav
+
+Issue reported by teacher.
+> Can I check why is the app running an hour behind? 
+> When we sign the students out, it shows an hour less than the actual time.
+ [Attachment(s): image.png]
+│      [19:36] Harshwardhan More: @Lee This has been fixed to Live. However it will be reflected to newly created LNRs only.
+│      [19:37] Lee: OK that's fine then. Thanks Harsh
+│      [21:01] Krishna Thite: Job :Fix Time Mismatch Issue Across YHD (PTL, Notifications, and Workflows)
+Project Code : 758
+│      [15:13] Sunny: did a test, the timing is good now in PTL list
+│      [11:44] Sunny: @Harshwardhan More can you please check again this one-hour different timing issue for PTL. The issue is still there for *St Paul’s Secondary School Monasterevin  (PTL for yesterday 16/04)* [Attachment(s): Screenshot 2026-04-17 at 07.10.25.png]
+│      [12:49] Sunny: cc @Ravindra Chherke @Sandeep Jain
+│      [15:35] Sunny: today is the same: [Attachment(s): Screenshot 2026-04-17 at 11.05.16.png]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (22 replies) ──────────────────────────────────────
+│ [15:28] Lee: @Kumaraswamy R do you know login for boarders? This ones not working [Attachment(s): Screenshot 2026-04-13 at 10.57.54.png]
+│   └─ Replies:
+│      [15:30] Ravindra Chherke: @Vivek Jadhav @Ayush Kharpuse @Sonali Gaikwad @Prajwal Chaudhari
+│      [15:33] Kumaraswamy R: @Lee I too use the same creds. Same issue with me also.
+@Ayush Kharpuse @Sonali Gaikwad has this user been deleted?
+│      [15:35] Sonali Gaikwad: We have switched the QA DB.
+│      [15:35] Sonali Gaikwad: We will fix it
+│      [15:39] Lee: need login now
+│      [15:39] Lee: I'm on the call and need to show the school
+│      [15:40] Sonali Gaikwad: you can login now
+│      [15:41] Sonali Gaikwad: <mailto:boardermanager.2@uniqueschools.ie|boardermanager.2@uniqueschools.ie>
+12345678
+│      [15:47] Sonali Gaikwad: We were working on a database upgrade on QA. We have reverted the change now.
+│      [16:01] Lee: thanks, done meeting now
+│      [16:01] Lee: @Kumaraswamy R can we enable boarders for Wesley and send them beta apk file for testing?
+│      [16:04] Kumaraswamy R: For Android we can share the apk directly vis mega link. For iOS we need to add their apple id to the tester's list for TestFlight's access
+│      [16:07] Lee: apk only is fine for testing, they have an android
+│      [16:09] Kumaraswamy R: You can share this
+App Builds:
+Android - Boarders-1.0.0(7) - https://mega.nz/folder/YwYwXDhQ#e64UKVczBisZEY2nLpPsCw/file/R95xXaLZ
+│      [16:15] Lee: and can we enable boarders for their school so it's their own data and not our qa test school app?
+│      [16:15] Kumaraswamy R: @Ayush Kharpuse can you help on this
+│      [17:30] Ayush Kharpuse: @Lee To enable it for their own data, we need to release the Boarder on Live. Only after that, they will be able to use it.
+│      [17:35] Lee: Ok, let's do this please just for Wesley. Admincontrol > Additonal Modules > OFF by default for all schools and enable for Wesley.
+Is that right?
+│      [17:43] Ayush Kharpuse: Yes, we'll discuss & deploy this ASAP, and inform you.
+│      [17:43] Lee: thank you
+│      [17:54] Kumaraswamy R: @Lee once the Live deployment is done, I'll release the live apps for Android and iOS. Current apps connect to dev server
+│      [17:55] Lee: ok, cool, thanks
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (1 reply) ──────────────────────────────────────
+│ [15:30] Lee: @channel I've a boarders meeting with Wesley now, anyone know the credentials? Thanks
+│   └─ Replies:
+│      [15:35] Ayush Kharpuse: <mailto:boardermanager.2@uniqueschools.ie|boardermanager.2@uniqueschools.ie>
+12345678
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (2 replies) ──────────────────────────────────────
+│ [16:17] Lee: @channel some tweaks for boarders web and app
+After student is marked "School Absence" we should show the badge on every screen. I think this is already in the app but not the web.
+Also in the app "School Absence" looks weird and is cut off, please see screenshot @Kumaraswamy R [Attachment(s): image.png, Screenshot 2026-04-13 at 11.23.55.png]
+│   └─ Replies:
+│      [16:18] Kumaraswamy R: Yeah, I'll handle this
+│      [16:23] Lee: if you cannot handle the web version issue, please let Vivek know when he is back in tomorrow. Thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #8 (1 reply) ──────────────────────────────────────
+│ [16:22] Fernanda: @channel Mount Carmel, why is not allowing to delete? I thought we had agreed to allow them to do so.
+
+trying to delete the unpublished one [Attachment(s): image.png]
+│   └─ Replies:
+│      [12:39] Fernanda: @Sandeep Jain @Ravindra Chherke
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #9 (1 reply) ──────────────────────────────────────
+│ [16:41] Fernanda: @Shruti Kokate mount temple is moving to tyro, please update the main app from vsware to tyro on Friday 17th
+│   └─ Replies:
+│      [16:54] Shruti Kokate: Okay, I will add it on Friday.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #10 (8 replies) ──────────────────────────────────────
+│ [17:21] Sunny: @Sonali Gaikwad i triggered mapping for CBS Thurles one hour ago. It seems to have only one school on the queue list. However, it is still "waiting" - can you check if this is working fine? [Attachment(s): Screenshot 2026-04-13 at 12.50.22.png]
+│   └─ Replies:
+│      [17:53] Sonali Gaikwad: @Sunny,You can check now. The issue was caused by MIS server downtime earlier this morning and has since been resolved.
+│      [19:23] Sunny: @Sonali Gaikwad Wonde Dashboard seems fine now; however, *CBS Thurles* reported that the Calendar Attendance isn't correct for *James Verling.* I noticed the student has a wrong Dept ID, I've updated to the correct one, triggered mapping and revalidation. However, the calendar still seems wrong compared to vsware. in CMS, it seems to be another student's attendance record. cc @Harshwardhan More@Ravindra Chherke @Sandeep Jain [Attachment(s): Screenshot 2026-04-13 at 14.51.11.png, Screenshot 2026-04-13 at 14.49.32.png, Screenshot 2026-04-13 at 14.49.49.png, Screenshot 2026-04-13 at 14.52.47.png, Screenshot 2026-04-13 at 14.52.55.png]
+│      [19:37] Sonali Gaikwad: @Sunny The wrong department id had assigned to Tymofii Viktorov.
+ You would need to delete mapping for this student also. and run mapping again. So it will map correct with James verling
+│      [19:59] Sunny: how do i delete mapping?
+│      [19:59] Sunny: i've only just updated to the correct id now [Attachment(s): Screenshot 2026-04-13 at 15.29.05.png]
+│      [20:01] Sonali Gaikwad: There is an option on wonde mis dashboard under view student list. You can search a student and click on 3 dots. There is button delete student mapping.
+│      [20:04] Sunny: i've done that
+│      [20:04] Sunny: will check tmr if it's working fine
+└─────────────────────────────────────────────────────────────────────────

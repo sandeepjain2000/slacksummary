@@ -1,0 +1,30 @@
+SLACK RAW EXPORT — 2026-04-06
+Channel: C08LEFNF0BS
+Total messages: 6 | Threads: 1 | Standalone: 0
+================================================================================
+
+
+┌── THREAD #1 (5 replies) ──────────────────────────────────────
+│ [19:29] Kumaraswamy R: Hi @Lee
+
+We’re already displaying the PTL status on the border card with the Roll-call attendance status. So what specifically should be shown here?
+Also, we will be marking the boarder as present automatically if they choose the School Absence option, we'll not mark present and then mark school absence as suggested on the provided screenshot.
+
+Let us know if anything else needed here.
+@Sonali Gaikwad @Ayush Kharpuse @Vivek Jadhav [Attachment(s): Simulator Screenshot - iPhone 17 Pro - 2026-04-06 at 19.26.03.png, image (1).png]
+│   └─ Replies:
+│      [12:19] Lee: Morning @Kumaraswamy R
+
+> We’re already displaying the PTL status on the border card with the Roll-call attendance status. So what specifically should be shown here?
+Can we show another badge (different colour) with "School Absence"?
+
+> Also, we will be marking the boarder as present automatically if they choose the School Absence option, we'll not mark present and then mark school absence as suggested on the provided screenshot.
+That's perfect
+│      [12:30] Vivek Jadhav: @Lee do you want the "School Absence" along with Present status or just School Absence with Present button highlighted?
+│      [12:39] Lee: "School Absence" along with Present status please
+Also, this should be the same on the dashboard and other screens once roll is taken, thank you team
+│      [13:26] Prajwal Chaudhari: Hii @Lee
+In the Parent App absentee module, when a parent submits an absence with “Other” as the reason, there is a validation that requires an Further Description
+I have a question should this validation also be implemented in the Boarder App and Boarder Web when a student is marked absent with “Other” as the reason? [Attachment(s): image.png, Recording_20260407_132737.mp4]
+│      [13:29] Lee: yes please @Prajwal Chaudhari thank you
+└─────────────────────────────────────────────────────────────────────────

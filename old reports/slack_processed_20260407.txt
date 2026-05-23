@@ -1,0 +1,172 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-07
+Total messages: 14 | Threads: 2 | Standalone: 0
+================================================================================
+
+### 1.a [15:15] — Web ticketing system deployment on QA2
+**Original message:** Tejas Mahadik: @channel  
+Hi, The web ticketing system is deployed on QA2. Kindly have a look.  
+CC: @Sandeep Jain, @Ravindra Chherke  
+**Project Code:** NO PROJECT CODE  
+**Thread summary:** Tejas shared that the web ticketing system is deployed on QA2, providing a URL and details for client-side updates. Mentioned open issues to be fixed in the future.
+
+### 1.b [18:22] — Issue with TUSLA Notifications send button visibility
+**Original message:** Lee: @channel TUSLA Notifications > Send TUSLA PN > Send button not visible. Issue is with the text, text should wrap, full text should be visible and send/submit button should show  
+**Project Code:** PROJECT 752  
+**Thread summary:** Lee reported an issue with the send button visibility in TUSLA Notifications. Harshwardhan confirmed fixing the issue and deploying it to LIVE but Lee mentioned a new problem with text wrapping and visibility, attaching a screenshot for reference. Krishna assigned the job with project code 752 to fix the text wrapping and send button visibility. Harshwardhan agreed to check the new issue.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (1)
+  Thread #2 [18:22] — Code(s): PROJECT 752
+    "@channel TUSLA Notifications > Send TUSLA PN > Send button not visible. Issue is..."
+
+THREADS WITHOUT PROJECT/JOB CODE (1)
+  Thread #1 [15:15] — "@channel
+Hi, The web ticketing system is deployed on QA2. Kindly have a look.
+
+C..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-07 (6 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-04-06 19:29)
+  Author  : Kumaraswamy R
+  Message : Hi @Lee
+
+We’re already displaying the PTL status on the border card with the Roll-call attendance status. So what specifically should be shown here?
+Also, we will be marking the boarder as present automatically if they choose the School Absence option, we'll not mark present and then mark school absence as suggested on the provided screenshot.
+
+Let us know if anything else needed here.
+@Sonali Gaikwad @Ayush Kharpuse @Vivek Jadhav
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1775483953365309?thread_ts=1775483953.365309&cid=C08LEFNF0BS
+  New replies on 2026-04-07 (5):
+    [12:19] Lee: Morning @Kumaraswamy R
+
+> We’re already displaying the PTL status on the border card with the Roll-call attendance status. So what specifically should be shown here?
+Can we show another badge (different colour) with "School Absence"?
+
+> Also, we will be marking the boarder as present automatically if they choose the School Absence option, we'll not mark present and then mark school absence as suggested on the provided screenshot.
+That's perfect
+    [12:30] Vivek Jadhav: @Lee do you want the "School Absence" along with Present status or just School Absence with Present button highlighted?
+    [12:39] Lee: "School Absence" along with Present status please
+Also, this should be the same on the dashboard and other screens once roll is taken, thank you team
+    [13:26] Prajwal Chaudhari: Hii @Lee
+In the Parent App absentee module, when a parent submits an absence with “Other” as the reason, there is a validation that requires an Further Description
+I have a question should this validation also be implemented in the Boarder App and Boarder Web when a student is marked absent with “Other” as the reason? [Attachment(s): image.png, Recording_20260407_132737.mp4]
+    [13:29] Lee: yes please @Prajwal Chaudhari thank you
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-03-30 16:26)
+  Author  : Lee
+  Message : small request @channel for PN, currently the autosave popup blocks the submit button. Can you suggest a fix for this and implement? (also ensure this is taken into consideration for other modules when we deploy news/notifications on YHD).
+
+Perhaps @Amatullah Andamanwala can provide some insight with UX expertise.
+
+Thank you
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774868212189969?thread_ts=1774868212.189969&cid=C08LEFNF0BS
+  [16 earlier replies before 2026-04-07 not shown]
+  New replies on 2026-04-07 (2):
+    [12:52] Vivek Jadhav: @Lee This has been updated based on above discussion and deployed to live. Thanks.
+
+cc: @Sandeep Jain @Amatullah Andamanwala @Shruti Kokate
+    [12:58] Lee: thank you
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-03-27 14:49)
+  Author  : Fernanda
+  Message : @Manish Pathe St Colman's 101 is getting an error trying to upload this file into groups feature
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774603165541119?thread_ts=1774603165.541119&cid=C08LEFNF0BS
+  [14 earlier replies before 2026-04-07 not shown]
+  New replies on 2026-04-07 (3):
+    [12:38] Fernanda: couldn't record for chrome, but happened the same
+    [12:38] Fernanda:  [Attachment(s): st colman's issue.mov]
+    [19:21] Manish Pathe: You need to use the standard CSV option when exporting from Excel, as it already encodes the file in UTF-8. The issue with the "CSV UTF-8 (Comma-delimited) (.csv)" format is that it adds invisible extra characters at the beginning of the header (called a byte order mark, or BOM). This causes an invalid header issue because the code compares the header as a string. [Attachment(s): Screenshot 2026-04-07 at 6.56.25 PM.png]
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-03-26 19:52)
+  Author  : Fernanda
+  Message : @channel this teacher in Terenure College is not able to see recent PN. he deleted the app, installed it again. I unlinked the profile linked again but still no luck.
+His profile is a teacher/Parent - version of the app is 5.0.17 (31)
+<mailto:paul.hyland@TerenureCollege.ie|paul.hyland@TerenureCollege.ie>
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774534927023559?thread_ts=1774534927.023559&cid=C08LEFNF0BS
+  [7 earlier replies before 2026-04-07 not shown]
+  New replies on 2026-04-07 (2):
+    [13:29] Fernanda: @Yashraj Talokar any update?
+    [13:32] Yashraj Talokar: @Fernanda, I had deployed the fix,  but after testing on production we encountered other bug, so I had revert the change, so I am fixing the other bug which is actually little difficult to handle. I will fix this soon.
+---------------------------------------------------------------------------
+
+OLD THREAD #5  (originally posted 2026-03-25 15:00)
+  Author  : Lee
+  Message : @channel What's the status on boarders app/web? NFC cards have arrived, can I test on the current boarders app @Kumaraswamy R?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1774431052758419?thread_ts=1774431052.758419&cid=C08LEFNF0BS
+  [50 earlier replies before 2026-04-07 not shown]
+  New reply on 2026-04-07 (1):
+    [12:22] Lee: Hi @Sonali Gaikwad
+
+Title:
+ [Student Name] marked absent from school on [Date]
+Message:
+ [Student Name] (Year [Year], Class [Class]) was marked absent on [Date].
+Your student is Present in the boarding house but absent from school.
+The Boarding Manager has provided the following information:
+Reason: [ILL / HOL / FAM / OTH / Unexplained]
+ Further Details: [Include only if provided]
+---------------------------------------------------------------------------
+
+OLD THREAD #6  (originally posted 2026-03-18 21:04)
+  Author  : Lee
+  Message : @channel Instagram gave this error, can we check why? Mercy College Sligo
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1773848049545869?thread_ts=1773848049.545869&cid=C08LEFNF0BS
+  [8 earlier replies before 2026-04-07 not shown]
+  New replies on 2026-04-07 (2):
+    [14:04] Ayush Kharpuse: @Lee @Sunny could you please check the latest comment on the trello boarder, regarding this.
+    [14:35] Lee: that's fine thanks Ayush
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [15:15] Tejas Mahadik: @channel
+Hi, The web ticketing system is deployed on QA2. Kindly have a look.
+
+CC: @Sandeep Jain, @Ravindra Chherke
+│   └─ Replies:
+│      [15:16] Tejas Mahadik: You can find it here [Attachment(s): image.png]
+│      [15:16] Tejas Mahadik: URL- https://webticketdev.uniqueschoolapp.ie/
+
+for Client side, web updates module enabled for school 2 and 28 as of now. You can add it for other schools by adding *Web Updates* in Additional Features from Admin control account.
+
+• Internal accounts:
+<mailto:admin@uniqueschools.ie|admin@uniqueschools.ie>
+<mailto:dev@uniqueschools.ie|dev@uniqueschools.ie>
+<mailto:reviewer@uniqueschools.ie|reviewer@uniqueschools.ie>
+
+
+these are test accounts added. [Preview: Web-Ticketing]
+│      [15:20] Tejas Mahadik: This is an early build, and there are some open issues that we’ve identified during testing, so we’ll be fixing them in the near future.
+│      [15:22] Tejas Mahadik: Password
+https://pwpush.com/p/3htqmldwflir/r [Preview: Password Pusher]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (8 replies) ──────────────────────────────────────
+│ [18:22] Lee: @channel TUSLA Notifications > Send TUSLA PN > Send button not visible. Issue is with the text, text should wrap, full text should be visible and send/submit button should show [Attachment(s): Screenshot 2026-04-07 at 13.50.51.png]
+│   └─ Replies:
+│      [18:35] Sandeep Jain: @Vivek Jadhav
+│      [18:43] Harshwardhan More: @Lee Which school is this?
+│      [18:44] Lee: North Wicklow ETSS
+│      [19:02] Harshwardhan More: https://trello.com/c/ZIyDRAxP [Preview: [no preview available]]
+│      [19:02] Harshwardhan More: @Lee The issue has been fixed and deployed to LIVE.
+│      [19:03] Lee: thanks Harsh, but it's splitting words at the end of lines. Please check SS [Attachment(s): Screenshot 2026-04-07 at 14.33.22.png]
+│      [19:25] Harshwardhan More: @Lee I'll check this.
+│      [11:02] Krishna Thite: Job : Fix Text Wrapping and Send Button Visibility in TUSLA Notifications Screen
+Project code : 752
+└─────────────────────────────────────────────────────────────────────────

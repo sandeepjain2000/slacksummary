@@ -1,0 +1,259 @@
+SLACK RAW EXPORT — 2026-03-25
+Channel: C08LEFNF0BS
+Total messages: 108 | Threads: 9 | Standalone: 0
+================================================================================
+
+
+┌── THREAD #1 (7 replies) ──────────────────────────────────────
+│ [12:29] Kumaraswamy R: Hi @Fernanda @Sunny,
+Can anybody please approve the new Developer's program license agreement on *Unique School Communications* apple account?
+I'm not able to upload Boarders app. [Attachment(s): Screenshot 2026-03-25 at 12.27.41.png]
+│   └─ Replies:
+│      [13:39] Fernanda: this is what I see when i login
+│      [13:39] Fernanda:  [Attachment(s): image.png]
+│      [13:40] Kumaraswamy R: Emma is the account owner for Unique School Communication account
+│      [13:41] Fernanda: i logged in with our access
+│      [13:47] Fernanda: you had emailed emma to do it, so no point on asking us to check
+│      [13:47] Fernanda: she has already done it @Kumaraswamy R
+│      [13:58] Kumaraswamy R: Thank you :+1::skin-tone-2:
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (4 replies) ──────────────────────────────────────
+│ [14:12] Lee: @Harshwardhan More Can we have an option to create a group in Team Manager from a Team?
+Something like the screenshot or if you have a better idea.
+This is useful for creating payments based off the team [Attachment(s): image.png]
+│   └─ Replies:
+│      [14:13] Sandeep Jain: @Prajwal Chaudhari
+│      [14:34] Prajwal Chaudhari: https://trello.com/c/Sr6VrMff [Preview: [no preview available]]
+│      [14:44] Prajwal Chaudhari: Job no :- 711
+Job title :- Create a group in Team Manager from a Team
+│      [13:15] Harshwardhan More: @Lee Yup, I can make it happen.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (44 replies) ──────────────────────────────────────
+│ [15:00] Lee: @channel What's the status on boarders app/web? NFC cards have arrived, can I test on the current boarders app @Kumaraswamy R?
+│   └─ Replies:
+│      [15:06] Kumaraswamy R: Hi @Lee,
+Yes you can test the app. But there are few major changes on the app.
+It would be better if you wait till the next app release which will be done in a couple of hours.
+│      [15:07] Kumaraswamy R: I'll let you know once I upload.
+│      [15:09] Lee: perfect thank you
+
+@Vivek Jadhav Hey, status on web?
+│      [15:15] Vivek Jadhav: Hello @Lee,
+You can test boarders web on https://boardersqa.uniqueschoolapp.ie [Preview: Boarders]
+│      [15:16] Vivek Jadhav: https://ca.onetimesecret.com/secret/02087wjlu5bvtkxkjb0af9rqu4avco3bbtqj79qearrao95kduhqkscbqtvr43 [Preview: ca.onetimesecret.com]
+│      [15:21] Lee: Is the absent explained option on roll taking not yet implemented?
+│      [15:22] Vivek Jadhav: I have implemented that
+│      [15:29] Vivek Jadhav: It's deployed now, you can check.
+│      [15:36] Lee: woo! Thank you
+│      [15:37] Lee: How far away from live deploy for Wesley @Kumaraswamy R @Vivek Jadhav?
+│      [15:39] Kumaraswamy R: I can confirm this after the 'absent explained option on roll taking' feature is tested and approved by testers.
+│      [15:42] Vivek Jadhav: Testing for 'absent explained' is pending in web, also PN template implementation is pending
+│      [15:43] Kumaraswamy R: Hi @Lee,
+You can test the app with the below versions.
+
+Android - Boarders-1.0.0(6) - <https://mega.nz/folder/YwYwXDhQ#e64UKVczBisZEY2nLpPsCw/file/R95xXaLZ|8.82 GB folder on MEGA>
+iOS- TestFlight - v1.0.0(6) [Preview: 9.07 GB folder on MEGA]
+│      [15:48] Vivek Jadhav: @Lee For the PN template, if you want it to function like the team manager, it will require some development time. Alternatively, we can prefill the title and description as you suggested in the Trello card, and keep them editable as well.
+
+cc: @Sonali Gaikwad @Ayush Kharpuse
+│      [15:55] Lee: "Alternatively, we can prefill the title and description as you suggested in the Trello card, and keep them editable as well."
+
+Do this for now, thanky ou
+│      [16:08] Lee: Notify Parent when marking Absent Unexplained in the app is working but on the web, it's greyed out. Is there a reason for this @Vivek Jadhav?
+│      [16:10] Lee: @Kumaraswamy R Notify Parent when marking attendance from app does not generate a PN?
+
+Web version generates PN and we can see it on student profile
+│      [16:11] Kumaraswamy R: Checking
+│      [16:13] Lee: also do we need to scan card on the back of the device? Students will be scanning from the front, is that possible? If so we need to change the wording "Place you card on the device and hold steady"
+│      [16:14] Kumaraswamy R: No, the position of the NFC scanner hardware will be in the backside of the phones and tablets
+│      [16:14] Lee: is there a way to check which card is assigned to a student via scan option? Perhaps in settings > Student Card Provision, we shoiuld have a "Check Card" option or something
+│      [16:15] Lee: No, the position of the NFC scanner hardware will be in the backside of the phones and tablets
+
+• Damn, this is not ideal, the tablet will be in a casing/mounted. We need to figure this out somehow
+│      [16:17] Lee: hmm ipads do not have NFC lol
+│      [16:17] Lee: I didn't realise
+│      [16:17] Kumaraswamy R: The device will scan the card if the card is in proximity of the sensor. Sometimes it might fail if scanned from front.
+Ideal position is to tap at the top if it's an iOS or on the backside if it's an android device
+│      [16:20] Vivek Jadhav: @Lee If the reason is “Absent Unexplained,” the “Notify Parent” option is currently disabled as per the previous requirement. Would you still like the option to notify parents in this case?
+cc: @Sonali Gaikwad @Ayush Kharpuse
+│      [16:21] Lee: yes, please allow this Vivek
+│      [16:23] Lee: @Kumaraswamy R we can get an external NFC reader for the iPad, this should be fine. Can you update the message when scanning
+"Place your card on the scanner and hold steady"
+
+This NFC scanner will be clearly marked and beside the device so students will not miss it
+Thanks
+│      [16:28] Kumaraswamy R: I'm not sure if the NFC scanner will support the current app out of the box. I need to check on this
+│      [16:29] Lee: https://www.amazon.co.uk/ACS-ACR1552U-USB-C-NFC-Reader/dp/B0CNY5G8T3
+
+It's just a plug & play scanner, our good friend chatgpt says it should be fine
+│      [16:31] Lee: :face_palm:
+
+The ACR1552U can work with your app, but it does *not behave the same way as built-in NFC on a phone/tablet*. The reader supports *PC/SC smart-card mode* and a separate *keyboard emulation mode*. ACS also says the keyboard-emulation configuration tool is for *Windows only*, while its iOS/iPadOS app support is via its own tools rather than native iPad NFC hardware.
+So the key distinction is:
+• *Built-in NFC flow:* your app is likely listening for NFC events through the device NFC APIs.
+• *External reader flow:* the ACR1552U usually presents card data either through *PC/SC* integration or by *typing* data like a keyboard wedge. That is a different integration pattern. 
+What that means for your app
+If your app currently “works with built-in NFC,” then in most cases it will *not automatically work* with the ACR1552U as-is.
+It may work with minimal changes only if:
+your sign-in screen already has a focused input field and you are happy for the reader to *paste/type the card UID* into that field, like a barcode scanner. That would mean treating the reader as keyboard input rather than as NFC input. The ACR1552U explicitly supports *keyboard emulation mode*.
+It will need more substantial changes if:
+your app currently expects to receive NFC tag data directly from the device NFC framework and then parses records from that NFC session. In that setup, an external USB reader is a different source and your app would need a new integration path. The ACR1552U’s developer path is through its *PC/SC-compliant API/SDK*, not the iPad’s built-in NFC APIs.
+Best practical route
+For a school sign-in app, the easiest setup is usually:
+1. Configure the ACR1552U to output the *UID* in keyboard emulation mode.
+2. Add a dedicated hidden or visible input field in your app.
+3. When the UID is typed in, your app looks up the student and completes the sign-in.
+That is usually much simpler than trying to replicate your existing built-in NFC workflow exactly.
+Important caveat
+You also need to confirm that your student cards are compatible with the reader and that *UID output is enough* for your system. The ACR1552U supports common 13.56 MHz card families including ISO 14443 A/B, MIFARE, FeliCa, ISO 15693, and NFC tags.
+My honest recommendation
+Assume this:
+> *Your current app will need at least some development work.*
+Most likely:
+• *small change* if you can accept reader-as-keyboard input
+• *bigger change* if your app is tightly built around native NFC APIs
+The cleanest approach is to adapt the app so the reader acts like a scanner, not like built-in NFC.
+│      [16:32] Lee: maybe I'll speak with James about this, we could just use Android Tablet
+│      [17:02] Kumaraswamy R: Hi @Lee,
+
+```@Kumaraswamy Notify Parent when marking attendance from app does not generate a PN?
+
+Web version generates PN and we can see it on student profile```
+I think there's some backend validation for PN for Absent Unexplained. The PN's are getting triggered for rest of the 3 options during Absence marking.
+@Sonali Gaikwad Please correct me here
+│      [17:12] Sonali Gaikwad: @Lee What will be PN format for absent unexplained? can you share on trello?
+│      [17:20] Lee: *Title:*
+ [Student Name] marked absent on [Date]
+*Message:*
+ [Student Name] (Year [Year], Class [Class]) was marked absent on [Date].
+The Boarding Manager has provided the following information:
+*Reason:* [ILL / HOL / FAM / OTH / Unexplained]
+ *Further Details:* [Include only if provided]
+
+
+@Sonali Gaikwad @Vivek Jadhav
+This should be the template for explained and unexplained
+Any Q's let me know
+│      [19:20] Sonali Gaikwad: @Lee how should we handle the Further Details related to absentee notes.
+
+Should we include an “Additional Field” as a note to capture further details directly within the absentee note? Alternatively, should the PN message be referenced separately as supporting details to be submitted along with the absentee note?
+Kindly advise.
+│      [19:26] Lee: further details can be the Note if the user enables the send pn [Attachment(s): Screenshot 2026-03-25 at 13.55.49.png]
+│      [19:26] Lee: @Sonali Gaikwad
+│      [19:57] Sonali Gaikwad: Hi @Lee Will there be 2 different templates for absent explained and unexplained?
+You have already provided absent explained template on trello.
+│      [19:58] Lee: Just use the same template for both, I shared it above
+│      [20:02] Kumaraswamy R: Hi @Lee,
+
+Should we need to show Title and Description edit option on the Mark Absent form UI? If yes, this change will need some time.
+│      [20:02] Kumaraswamy R: Can we keep the above shared template as static for now?
+│      [20:22] Lee: yes, keep static for now
+│      [13:03] Sonali Gaikwad: Hi @Lee I have one additional question for clarification:
+If the “Send PN” option isn't selected, should we still create the PN without sending a push alert, or skip creating it altogether?
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (1 reply) ──────────────────────────────────────
+│ [15:02] Fernanda: @channel this is happening more and more, where the school deletes a notification and gets stressed that parents are still seeing.
+Can you please delete this message from Meanscoil Naas app, school deleted from notification, but still visible for parents. [Attachment(s): IMG_2989.PNG]
+│   └─ Replies:
+│      [15:03] Sandeep Jain: @Prajwal Chaudhari @Shruti Kokate
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (3 replies) ──────────────────────────────────────
+│ [17:02] Sunny: @channel can we please merge the profiles for *St. Colman's CC Midleton?*
+
+*Alex Linnane -* 14846956 is correct student id [Attachment(s): image (164).png]
+│   └─ Replies:
+│      [17:03] Sandeep Jain: @Manish Pathe @Sonali Gaikwad
+│      [17:54] Manish Pathe: @Sunny Profile merger has been done and trashed the duplicate student
+
+CC: @Sandeep Jain
+│      [18:39] Sunny: thank you Manish
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (17 replies) ──────────────────────────────────────
+│ [17:05] Fernanda: @Kritika Wadhwa urgent query, limit orders, when processing a refund, does the refund still counts as an order in the limit?
+│   └─ Replies:
+│      [17:05] Fernanda: or does it free up for another parent
+│      [17:09] Kritika Wadhwa: Hi @Fernanda If its a full refund then it doesnt count as limit.
+Still i am checking will confirm in 5 mins
+│      [17:12] Fernanda: I think I have it, it is not adding the limit back after the refund. please confirm anyway
+│      [17:12] Kritika Wadhwa: okay
+│      [17:18] Kritika Wadhwa: Okay i see, the item disappears even if the order is refunded.
+│      [17:18] Kritika Wadhwa: Should i fix it?
+│      [17:20] Fernanda: how long does that take to be fixed?
+│      [17:20] Fernanda: just cause the school will need to allow them to make the payment now, so she would extend the number of payments
+│      [17:21] Kritika Wadhwa: i can make that fix live by tomorrow
+│      [17:22] Fernanda: so please wait until next week, during midterm to implement
+│      [17:23] Fernanda: I will say to the school, so they can increase the number now to allow payments ( trip is tomorrow)
+│      [17:23] Kritika Wadhwa: Okay
+│      [17:23] Fernanda: thank you
+│      [17:24] Sandeep Jain: What are the start / end dates for mid term
+│      [17:28] Fernanda: start March 30th ends April 10th - its two weeks starting monday
+│      [17:58] Prajwal Chaudhari: https://trello.com/c/DdAFKwNy [Preview: [no preview available]]
+│      [18:04] Prajwal Chaudhari: job no :- 713
+Job title :-  Urgent query about limit orders and refunds
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (14 replies) ──────────────────────────────────────
+│ [17:31] Fernanda: @Kritika Wadhwa multiple payments, the item has been paid for this student, I still can see the item but cannot pay again.  [Attachment(s): File.jpg]
+│   └─ Replies:
+│      [17:32] Kritika Wadhwa: Which school is this @Fernanda?
+│      [17:32] Fernanda: I also need to test how does the reminder and opt-out work for this type of payment. Also - if it gives a pop up to the parent to say it has been paid for the student before if they wish to pay again
+│      [17:32] Fernanda: I am checking in our demo
+│      [17:33] Kritika Wadhwa: Okay please test and let me know if anything is required
+│      [17:34] Fernanda: well, starting with allowing for multiple payments. not allowing me to pay again
+│      [17:35] Kritika Wadhwa: have you updated the app?
+│      [17:36] Fernanda: i didnt, thanks!!
+│      [17:36] Fernanda: will test the rest now
+│      [17:36] Kritika Wadhwa: Okay
+│      [18:03] Fernanda: • why does it show 'ongoing'? it is not an ongoing payment, once paid, it should display paid
+• reminder - I believe its not triggering if has paid at least once, can you confirm if this is the case?
+
+│      [18:05] Kritika Wadhwa: • If the payment has started then we change the status to ongoing as parents can still pay again (Marking as paid will close the payment). On unpublishing the item the statuses will be updated
+• Yes if they have paid atleas once there will be no reminder
+│      [18:15] Fernanda: can we change from ongoing to received?
+│      [18:16] Fernanda: ongoing just sounds like there is more to be paid, which may not be the case
+│      [18:17] Kritika Wadhwa: Sure will change from ongoing to received
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #8 (4 replies) ──────────────────────────────────────
+│ [19:53] Lee: Loreto Abbey are getting PM ARF, they only want AM ARF.
+It's coming through Auto API, can we disable for PM for this school?
+@channel @Sonali Gaikwad [Attachment(s): Screenshot 2026-03-25 at 14.23.03.png]
+│   └─ Replies:
+│      [20:04] Sonali Gaikwad: The setting is added as AM & PM school [Attachment(s): image.png]
+│      [20:05] Sonali Gaikwad: It runs based on the setting added
+│      [20:24] Lee: it is AM/PM school but they do not want to send PM ARF
+
+We still need to mark as AM/PM school because of the cumulative counts
+│      [10:57] Sonali Gaikwad: @Lee I believe the AFM team should not send the generated ARF through an automated API.
+
+The automation will generate the ARF based on the school’s session settings
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #9 (5 replies) ──────────────────────────────────────
+│ [20:29] Sunny: @channel Can you please check the incoming 2026 status for *St. Brigid's Presentation Secondary School (Killarney)?*
+
+*There are 137 incoming students but why only 26 users there in app engagement?*
+
+School reported a few parents said they cannot register. [Attachment(s): Screenshot 2026-03-25 at 14.58.22.png, Screenshot 2026-03-25 at 14.58.33.png]
+│   └─ Replies:
+│      [20:40] Sandeep Jain: Did they specify the reason for not being able to register
+│      [20:47] Sunny: School: I have had a few calls from parents below saying it is telling them to contact the school as their number isn’t registered.
+I don’t know why this is happening as all numbers are on the system and they have got the text message.
+Can you advise please.
+│      [20:48] Sunny: not sure if it has anything to do with our app engagement counts
+│      [20:53] Sunny: cc @Fernanda @Lee staffsupport query
+│      [20:56] Lee: when AFM team imported maybe they didn't refresh
+└─────────────────────────────────────────────────────────────────────────

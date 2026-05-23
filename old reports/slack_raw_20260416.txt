@@ -1,0 +1,84 @@
+SLACK RAW EXPORT — 2026-04-16
+Channel: C08LEFNF0BS
+Total messages: 31 | Threads: 5 | Standalone: 0
+================================================================================
+
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [13:27] Sunny: @channel @Kumaraswamy R
+
+I was checking the Boarder's app and noticed the Report tab should have a search bar for student name - Both on the dashboard in the app and web!
+ps. Lee is out today for meetings [Attachment(s): IMG_1219.png]
+│   └─ Replies:
+│      [13:29] Kumaraswamy R: Hi @Sunny,
+The search bar was not on the approved wireframe hence it wasn't implemented.
+If it is needed we can add it as feature in Phase 2
+│      [13:30] Lee: yes that's fine Kumar, just make note of it please
+│      [13:39] Kumaraswamy R: Noted
+│      [18:25] Krishna Thite: Job : Add Student Name Search Functionality in Boarders App Report Tab
+Project Code : 771
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (5 replies) ──────────────────────────────────────
+│ [13:31] Lee: @channel in a meeting now, anomalies list is blank, please check asap
+│   └─ Replies:
+│      [13:31] Lee: check for cnoc mhuire too please
+│      [13:36] Fernanda: the school that needs to be checked ASAP is Mean Scoil Mhuire 534 @Sandeep Jain
+│      [13:36] Lee: sorry forgot to add school
+│      [13:38] Sandeep Jain: Asking Team to check
+│      [13:48] Harshwardhan More: Checking
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (10 replies) ──────────────────────────────────────
+│ [13:49] Sunny: @channel St louis high school 182
+
+Can you check why April's attendance isn't showing in CMS (Calendar view). one example: Selam Ines Kobech 1L [Attachment(s): Screenshot 2026-04-16 at 09.16.58.png, Screenshot 2026-04-16 at 09.17.05.png]
+│   └─ Replies:
+│      [13:51] Sandeep Jain: @Harshwardhan More
+│      [13:57] Sandeep Jain: https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776259830550899
+
+Is it a related issue?
+@Harshwardhan More [Preview: [April 15th, 2026 6:30 AM] lee: Aoife Walsh
+(4, 4A)
+Mercy Roscommon, no data showing for april, please check
+<!channel> This seems to be april issue with wonde maybe]
+│      [14:19] Sunny: seems like it yes
+│      [14:20] Sunny: please let us know when this is fixed then! thanks
+│      [14:20] Harshwardhan More: Yes I'll let you know
+│      [17:51] Harshwardhan More: @Sunny This is same case like below:
+https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776259830550899
+
+It is fixed though. Thanks.
+│      [18:07] Harshwardhan More: @Krishna Thite Please create an FMP job for this, mark it as complete, and share the job details here. Thanks.
+│      [18:29] Krishna Thite: Job : Fix Missing April Attendance Data in CMS Calendar View
+Project Code : 772
+│      [19:15] Sunny: @Harshwardhan More this is complete?
+│      [19:19] Harshwardhan More: Yes
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (2 replies) ──────────────────────────────────────
+│ [16:03] Sunny: @channel Kayla Walsh - St. Mary's New Ross
+
+Can you tell me why this 100 eur cash is different date on the Find Student and Cash payment page? cc @Kritika Wadhwa [Attachment(s): Screenshot 2026-04-16 at 11.32.17.png, Screenshot 2026-04-16 at 11.32.21.png]
+│   └─ Replies:
+│      [16:04] Kritika Wadhwa: I will check and let you know @Sunny
+│      [18:32] Krishna Thite: Job : Investigate Date Mismatch for Cash Payments Across Screens
+Project Code : 773
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (5 replies) ──────────────────────────────────────
+│ [16:52] Sunny: @channel St Flannan's - shop teacher group
+
+a teacher created a group of teacher wanted to add a teacher payment in shop but there's no "group" filter under teacher payment. Is it okay to have the group there too under teacher setup? cc  @Fernanda [Attachment(s): Screenshot 2026-04-16 at 12.18.57.png, Screenshot 2026-04-16 at 12.20.37.png]
+│   └─ Replies:
+│      [11:54] Kritika Wadhwa: @Sunny, As per current functionality, both teachers and students can be added to the same group, so we do not have any group-level filter at the moment.
+However, we can implement this, but it will require some effort. In cases where a group contains both teachers and students, we would need to apply logic to display only teachers accordingly.
+│      [12:05] Sunny: Thanks Kritika for checking - will check with dublin team and let you know if we need to implement it thanks
+│      [12:06] Kritika Wadhwa: Okay Sunny
+│      [12:13] Sunny: might not worth it to implement but can you keep in mind in the new build of the shop
+│      [12:13] Kritika Wadhwa: okay
+└─────────────────────────────────────────────────────────────────────────

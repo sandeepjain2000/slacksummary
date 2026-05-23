@@ -1,0 +1,368 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-04-14
+Total messages: 109 | Threads: 9 | Standalone: 3
+================================================================================
+
+### 1.a [15:17] — Lee reports an issue with student profiles
+**Original message:** Lee: @channel
+Niamh O'Hare
+(3, 3C)
+Portumna Community School
+Showing ABS in the PM on YHD Student Profile
+Showing ILL in the PM on VSware
+24th February
+I have revalidated attendance via wonde dashboard.
+Still same issue
+Can you please check?
+Thanks
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Harshwardhan More explains the issue might be on Wonde's side and suggests waiting until Monday for a possible automatic resolution. Lee emphasizes not to mark the job as complete until the issue is resolved.
+
+### 1.b [15:54] — Dashboard feature request for parents in Filemaker
+**Original message:** Ravindra Chherke: @Krishna Thite James is asking for this in dashboard. Can you please add it on filemaker. @Sandeep Jain Can Tejas work on it?
+**Project Code:** PROJECT 763
+**Thread summary:** Tejas Mahadik works on adding a feature for parents in Filemaker, with discussions on UI elements, deployment, and potential issues like system crashes.
+
+### 1.c [16:27] — Update request for Ardscoil Mhuire Limerick
+**Original message:** Fernanda: @Kritika Wadhwa can you confirm Ardscoil Mhuire Limerick is updated with the change card feature?
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Shruti Kokate confirms the update status for Ardscoil Mhuire Limerick and other schools, mentioning the inclusion of the Change Card functionality.
+
+### 1.d [17:11] — Investigation of iPhone app freeze issue
+**Original message:** Sunny: @channel cc @Kumaraswamy R
+iphone users when they log into the past pupil app, it's always just frozen and they think the app isn't working. Can you look into that?
+**Project Code:** PROJECT 764
+**Thread summary:** Kumaraswamy R investigates the issue of the app freezing after login, requests a ticket creation, and asks for login credentials to replicate the problem. Testing and a new build deployment are planned.
+
+### 1.e [17:21] — Checking student profile data discrepancy
+**Original message:** Sunny: @channel Alana Gilligan (3D) - *St. Clare's Comprehensive School*
+This student has 9 consecutive days in the CMS but it seems to have much more days than 9. Could you have a look at this? Thanks!
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Harshwardhan More agrees to check the discrepancy in the student's profile data.
+
+### 1.f [18:17] — Disapproving an approved PTL at Mount Temple
+**Original message:** Sunny: @channel Mount Temple - Emilia McEvoy 3U
+The school would like to disapprove this approved PTL. is it possible to update it from back end? cc @Sonali Gaikwad
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sonali Gaikwad explains the process of disapproving the PTL and its implications.
+
+### 1.g [19:32] — Request to increase character count in Detention Manager
+**Original message:** Lee: @channel can we increase the character count in Detention Manager > Settings > Reasons > Description & When adding student to detention > Description
+**Project Code:** PROJECT 761
+**Thread summary:** Tejas Mahadik plans to increase the character limit and add an edit option for detention descriptions, with testing on QA2 and expected live deployment next week.
+
+### 1.h [19:43] — Checking for a deleted PTL at Mount Temple
+**Original message:** Fernanda: @Sonali Gaikwad can you check if there was a ptl created for Emilia McEvoy 3U due for 1.45 for mount temple today? not there now, school is wondering if was deleted
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sonali Gaikwad confirms that the PTL was deleted by a parent.
+
+### 1.i [20:08] — Staff count discrepancy at St. Clare's Comprehensive School
+**Original message:** Sunny: @channel *St. Clare's Comprehensive School*
+*can you check why the number of staff isnt correct. thanks!*
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Harshwardhan More is tasked with investigating the discrepancy in the staff count.
+
+### Standalone message [21:05] — Alerting schools about low SMS credit
+**Job:** Alert the school when the SMS credit is low
+**Project Code:** 759
+
+### Standalone message [21:08] — Removing cancel option for waiting list applications
+**Job:** Remove Cancel Option for Waiting List Applications (Parent Screen)
+**Project Code:** 760
+
+There are no unresolved issues flagged in the provided conversations.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (3)
+  Thread #2 [15:54] — Code(s): PROJECT 763
+    "@Krishna Thite James is asking for this in dashboard. Can you please add it on f..."
+  Thread #4 [17:11] — Code(s): PROJECT 764
+    "@channel cc @Kumaraswamy R
+
+iphone users when they log into the past pupil app, ..."
+  Thread #7 [19:32] — Code(s): PROJECT 761
+    "@channel can we increase the character count in Detention Manager > Settings > R..."
+
+THREADS WITHOUT PROJECT/JOB CODE (6)
+  Thread #1 [15:17] — "@channel
+Niamh O'Hare
+(3, 3C)
+Portumna Community School
+Showing ABS in the PM on..."
+  Thread #3 [16:27] — "@Kritika Wadhwa
+can you confirm Ardscoil Mhuire Limerick is updated with the cha..."
+  Thread #5 [17:21] — "@channel Alana Gilligan (3D) - *St. Clare's Comprehensive School*
+
+This student ..."
+  Thread #6 [18:17] — "@channel Mount Temple - Emilia McEvoy 3U
+
+The school would like to disapprove th..."
+  Thread #8 [19:43] — "@Sonali Gaikwad can you check if there was a ptl created for Emilia McEvoy 3U du..."
+  Thread #9 [20:08] — "@channel *St. Clare's Comprehensive School*
+
+*can you check why the number of st..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-04-14 (2 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-04-13 16:22)
+  Author  : Fernanda
+  Message : @channel Mount Carmel, why is not allowing to delete? I thought we had agreed to allow them to do so.
+
+trying to delete the unpublished one
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1776077572418779?thread_ts=1776077572.418779&cid=C08LEFNF0BS
+  New reply on 2026-04-14 (1):
+    [12:39] Fernanda: @Sandeep Jain @Ravindra Chherke
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-04-02 18:49)
+  Author  : Lee
+  Message : @channel (@Kumaraswamy R)
+for all school apps > side menu > App Help & Support changes:
+
+> New module added to sidebar → *App Help* (add to top of menu underneath *School Office* _- capitalise the 'O' in office_) - when this is clicked, it will direct to this url: https://parenthelp.uniqueschools.ie/hc/en-gb
+> 
+> Rename or Remove the following:
+> App Help and Support → *App Settings & Info* (bottom of menu)
+> 
+> Tour of the App Video → *Remove*
+> Contact App Developer → *Contact Support only* _(Common Issues → Remove)_
+> About App Developer → *About Unique Schools*
+> Rate Application → *Remove*
+> Terms and condition → *Terms & Conditions*
+> Privacy Policy → *Privacy Policy* (no change)
+> Tell a friend → *Remove*
+> Delete cached data → *Fix App Issues (Refresh App Data)*
+> Version number → *Version Number* (no change)
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1775135970713449?thread_ts=1775135970.713449&cid=C08LEFNF0BS
+  [15 earlier replies before 2026-04-14 not shown]
+  New replies on 2026-04-14 (3):
+    [11:59] Shruti Kokate: @Lee The *App Help tab* has been added for all schools. However, the changes only appear after closing and reopening the app twice.
+cc: @Kumaraswamy R @Ravindra Chherke
+    [12:01] Kumaraswamy R: Noted
+    [12:20] Lee: thanks Shruti
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[13:31] Sunny: @channel Past Pupil website seems to be down. If someone can have a look, thanks! (i've forwarded the email to Ravi & Sandeep too) [Attachment(s): image.png, Screenshot 2026-04-14 at 08.56.53.png]
+
+┌── THREAD #1 (6 replies) ──────────────────────────────────────
+│ [15:17] Lee: @channel
+Niamh O'Hare
+(3, 3C)
+Portumna Community School
+Showing ABS in the PM on YHD Student Profile
+Showing ILL in the PM on VSware
+24th February
+I have revalidated attendance via wonde dashboard.
+Still same issue
+Can you please check?
+Thanks [Attachment(s): Screenshot 2026-04-14 at 10.45.18.png, Screenshot 2026-04-14 at 10.46.03.png, Screenshot 2026-04-14 at 10.46.17.png]
+│   └─ Replies:
+│      [19:06] Lee: @Harshwardhan More @Ayush Kharpuse
+Can you guys take a quick look at this please?
+│      [12:45] Lee: Let me know when fixed please @Harshwardhan More thanks
+│      [12:53] Harshwardhan More: Yes
+│      [18:06] Harshwardhan More: @Lee We are receiving the absence code directly from Wonde. If Vsware shows “ill” but Wonde returns “abs,” this could be an issue on Wonde’s side.
+If you’d like, we can wait until after Saturday since they run a weekly job on Friday—there’s a chance it may resolve automatically.
+Otherwise, I can reach out to Wonde to have it fixed. [Attachment(s): image.png, image.png]
+│      [18:07] Harshwardhan More: @Krishna Thite Please create an FMP job for this, mark it as complete, and share the job details here. Thanks.
+│      [11:26] Lee: Do not mark as complete until it's resolved. We can wait until Monday. Please ensure to check this Monday to see if Wonde updated the data and if not, reach out to them. Thanks
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (25 replies) ──────────────────────────────────────
+│ [15:54] Ravindra Chherke: @Krishna Thite James is asking for this in dashboard. Can you please add it on filemaker. 
+
+@Sandeep Jain Can Tejas work on it? [Attachment(s): Year_Heads_Dashboard.png]
+│   └─ Replies:
+│      [15:55] Sandeep Jain: yes
+│      [15:57] Ravindra Chherke: @Tejas Mahadik If you’re able to complete it this week, that would be great.
+│      [15:57] Sandeep Jain: TM on leave today
+│      [11:13] Ravindra Chherke: @Tejas Mahadik Please make sure this is in Filemaker. I believe this can we done quickly. You can Ask Sonali for the logic.
+│      [11:17] Tejas Mahadik: @Ravindra Chherke Yes. will do
+│      [11:56] Tejas Mahadik: @Lee @Sunny @Fernanda For which app users do you want this? or all app users?
+
+cc: @Ravindra Chherke
+│      [12:26] Lee: just parents please @Tejas Mahadik
+│      [12:29] Tejas Mahadik: Ok. Thanks
+│      [12:36] Krishna Thite: Job : Add Year Heads Dashboard Feature for Parent Users
+Project Code : 763
+│      [16:07] Tejas Mahadik: @Lee Can you check the wording is as per required?
+I ran it through AI, but  just want to confirm. [Attachment(s): image.png]
+│      [16:16] Lee:  [Attachment(s): image.png]
+│      [16:20] Tejas Mahadik: okay
+│      [13:44] Tejas Mahadik: @Lee Do we need to show contact info of parent in the list?
+│      [14:56] Tejas Mahadik: @Lee @Sunny it's deployed on QA2, can you take a look and let me know your feedback, especially about the list, if something more is required or it's fine.
+│      [16:04] Lee: Phone number yes, add app user icon, if click on name bring to student profile
+│      [16:26] Tejas Mahadik: @Lee
+Yes, I’ll add the phone number.
+Since this list already shows only parent app users, adding an app user icon might not add much value as it would be the same for all.
+
+For navigation, since a parent can have multiple children, directly opening a student profile isn’t straightforward. We could show the all children and have the option to view their profiles. but this may complicate the ui.
+What do you think?
+│      [17:41] Sunny: can you still show their mobile number and next to their name and at least on of their student's name (year/class) [Attachment(s): Screenshot 2026-04-16 at 13.10.21.png]
+│      [17:42] Sunny: can we also export this list to an excel?
+│      [17:42] Sunny: cc @Fernanda if you have any more ideas
+│      [18:17] Tejas Mahadik: We can do it.
+│      [18:17] Tejas Mahadik: I think I should not hold it for export for it's deployment on Live later when it gets ready, will do the export functionality after that.
+│      [13:12] Tejas Mahadik: https://trello.com/c/QpwvjUpX [Preview: [no preview available]]
+│      [13:13] Lee: when I click on student name to go to profile. Probably related to system crash issue so I will check again soon [Attachment(s): Screenshot 2026-04-17 at 08.43.05.png]
+│      [13:18] Tejas Mahadik: @Lee Yes this is issue, Shruti faced it while testing too. will fix it if it's from this feature, because it seems that this occurs on many pages on Qa2
+│      [13:23] Lee: cool, yes that's good though, I like the set up
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (10 replies) ──────────────────────────────────────
+│ [16:27] Fernanda: @Kritika Wadhwa
+can you confirm Ardscoil Mhuire Limerick is updated with the change card feature?
+│   └─ Replies:
+│      [16:28] Kritika Wadhwa: @Shruti Kokate Can you confirm please?
+│      [16:30] Shruti Kokate: Not yet ,I will Update @Fernanda
+│      [19:11] Fernanda: any idea when will be updated @Shruti Kokate?
+│      [19:14] Shruti Kokate: @Fernanda Hopefully it will be updated tomorrow. I've submitted it for review, and it usually App Stores  takes about a day to review app.
+│      [19:17] Fernanda: is st munchin's updated?
+│      [19:17] Shruti Kokate: Yes
+│      [12:03] Shruti Kokate: *@Fernanda Ardscoil Mhuire Limerick* App is updated
+│      [19:55] Fernanda: hi @Shruti Kokate which schools are awaiting for this update?
+│      [10:50] Shruti Kokate: @Fernanda I’ve updated some schools. I will release them today and share the list of updated schools with you.
+│      [17:15] Shruti Kokate: In *School Details* sheet, there is a tab named *Change_Card* where you can see the apps with the Change Card functionality added.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (33 replies) ──────────────────────────────────────
+│ [17:11] Sunny: @channel cc @Kumaraswamy R
+
+iphone users when they log into the past pupil app, it's always just frozen and they think the app isn't working. Even though after i close and reopen again it's working fine but that's not feasible for schools. Can you look into that? [Attachment(s): Screenshot 2026-04-14 at 12.40.27.png]
+│   └─ Replies:
+│      [17:12] Sunny: Now when i clicked into the app (from an iphone) it's frozen (again)
+│      [17:45] Kumaraswamy R: @Sunny This issue is happening on the latest version right?
+│      [18:12] Sunny: if the teacher redownload it, it should be the latest one right?
+│      [18:13] Sunny: it is 2.2.0
+│      [18:13] Kumaraswamy R: Let me check on this and let you know
+│      [13:04] Sunny: the school would like to launch later this week so if this can be looked at as a priority
+│      [13:04] Sunny: thanks Kumar!
+│      [13:24] Kumaraswamy R: Sure @Sunny,
+I'll plan my work accordingly.
+│      [13:26] Kumaraswamy R: @Krishna Thite,
+Please create a ticket on the FMP for this.
+
+Terllo link:
+https://trello.com/c/3KB29HDC
+│      [13:51] Krishna Thite: Job : Investigate iPhone app freeze on login for Past Pupil app (requires close/reopen)
+Project Code : 764
+│      [13:31] Sunny: @Kumaraswamy R fyi, i opened the app today, it was working fine. I closed and opened again - it became not working
+│      [15:43] Sunny: school is a bit concerned - is there any update so far? [Attachment(s): Screenshot 2026-04-16 at 11.13.26.png]
+│      [15:44] Sunny: @Kumaraswamy R cc @Sandeep Jain @Ravindra Chherke
+│      [15:45] Kumaraswamy R: Yes, I tested with the same build. No issues so far on my end.
+Can you please help me with the login creds with which you faced the error?
+│      [15:45] Sunny: <mailto:staffsupport@uniqueschools.ie|staffsupport@uniqueschools.ie>
+│      [15:45] Sunny: https://ca.onetimesecret.com/secret/37vj5x16saivtdxual9k4cb6sibp5h22ni46aevvmexw8u6syb99vvx7sntjeb [Preview: ca.onetimesecret.com]
+│      [15:45] Kumaraswamy R: Okay thanks.
+
+@Shruti Kokate Can you also please check once?
+│      [16:46] Sunny: @Shruti Kokate are you able to replicate it from your end?
+
+It is also happening to my work phone cc @Fernanda
+│      [16:52] Shruti Kokate: @Sunny Its working for me
+cc: @Kumaraswamy R @Fernanda
+│      [17:15] Kumaraswamy R: @Sunny,
+The app is getting stuck after the sign-in right? Or is it happening for sign-in too?
+│      [17:43] Sunny: you mean the signing in process if it's stuck? No
+│      [17:43] Sunny: only after logged in
+│      [17:44] Sunny: (right now it seems to be working fine) however it's like this sometimes working sometimes not
+│      [17:47] Kumaraswamy R: Okay..
+Please share us the Screen recording of Screen shot, if the issue re-occur. Hopefully it'll reveal something :crossed_fingers:
+│      [17:51] Sunny: but the recording wont be helpful
+│      [17:51] Sunny: because if it's stuck it's just stuck
+│      [17:51] Sunny: it happens again right now
+│      [17:51] Sunny: it's stuck now (cannot press anything
+│      [17:52] Sunny: do u need a recording of me tapping it :smile: ?
+│      [17:52] Kumaraswamy R: Recording from app launch to stuck state..
+│      [17:55] Sunny: it was fine at first and later it got stuck [Attachment(s): WhatsApp Video 2026-04-16 at 13.25.10.mp4]
+│      [18:01] Kumaraswamy R: Okay
+│      [18:48] Kumaraswamy R: Hi @Sunny @Lee,
+
+Please test the new build on the TestFlight *2.2.1 (24)*
+and let me know the results.
+Thanks
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #5 (2 replies) ──────────────────────────────────────
+│ [17:21] Sunny: @channel Alana Gilligan (3D) - *St. Clare's Comprehensive School*
+
+This student has 9 consecutive days in the CMS but it seems to have much more days than 9. Could you have a look at this? Thanks! [Attachment(s): Screenshot 2026-04-14 at 12.49.36.png, Screenshot 2026-04-14 at 12.50.24.png, Screenshot 2026-04-14 at 12.50.14.png]
+│   └─ Replies:
+│      [17:45] Ravindra Chherke: @Harshwardhan More
+│      [17:46] Harshwardhan More: I'll check that
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #6 (1 reply) ──────────────────────────────────────
+│ [18:17] Sunny: @channel Mount Temple - Emilia McEvoy 3U
+
+The school would like to disapprove this approved PTL. is it possible to update it from back end? cc @Sonali Gaikwad [Attachment(s): Screenshot 2026-04-14 at 13.47.04.png]
+│   └─ Replies:
+│      [18:41] Sonali Gaikwad: @Sunny Yes it is possible. but the PN goes from YHD and won't send when we do it directly from the backend.
+
+If you want i can update the status to pending. so you can take action to disapprove.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #7 (15 replies) ──────────────────────────────────────
+│ [19:32] Lee: @channel can we increase the character count in Detention Manager > Settings > Reasons > Description & When adding student to detention > Description [Attachment(s): Screenshot 2026-04-14 at 15.00.46.png]
+│   └─ Replies:
+│      [19:33] Lee: and here [Attachment(s): Screenshot 2026-04-14 at 15.01.54.png]
+│      [19:38] Sandeep Jain: Noted
+│      [19:39] Lee: can this be done quickly please, it should be an easy change
+│      [19:40] Sandeep Jain: Tejas will look into this tomorrow
+│      [19:43] Lee: Also should have edit option for Reasons @Tejas Mahadik FYI
+
+But more important is higher character count please
+│      [20:05] Lee: @Sunny
+│      [21:11] Krishna Thite: Job: Increase Character Limit and Add Edit Option for Detention Descriptions
+Project code : 761
+│      [13:04] Sunny: @Tejas Mahadik please let me know when this is done (increase reason character limit) so i will email the school, thank you!
+│      [13:05] Tejas Mahadik: Yes, will let you know:+1:
+│      [13:22] Sunny: it can be done today right? (lee said so to the school :stuck_out_tongue:
+│      [13:22] Tejas Mahadik: Have another task as well.. will try the best:sweat_smile:
+│      [16:53] Tejas Mahadik: Character counter deployed on QA2, testing will begin
+│      [12:10] Sunny: how long will the testing be? Can we expect it to be live next week? (just wanna inform the school
+│      [12:10] Sunny: @Tejas Mahadik
+│      [12:12] Tejas Mahadik: @Lee yeah, maybe next week.
+
+There are some more bug fixes in detention reported by Prajwal while testing so will fix them too.
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #8 (1 reply) ──────────────────────────────────────
+│ [19:43] Fernanda: @Sonali Gaikwad can you check if there was a ptl created for Emilia McEvoy 3U due for 1.45 for mount temple today? not there now, school is wondering if was deleted
+│   └─ Replies:
+│      [19:51] Sonali Gaikwad: It was deleted by parent <mailto:stefania@stanzani.eu|stefania@stanzani.eu> at 2026-04-14 14:41:07
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #9 (4 replies) ──────────────────────────────────────
+│ [20:08] Sunny: @channel *St. Clare's Comprehensive School*
+
+*can you check why the number of staff isnt correct. thanks!* [Attachment(s): Screenshot 2026-04-14 at 15.37.49.png, Screenshot 2026-04-14 at 15.38.03.png]
+│   └─ Replies:
+│      [20:12] Sandeep Jain: @Sonali Gaikwad
+│      [10:47] Sonali Gaikwad: @Harshwardhan More @Vivek Jadhav
+│      [13:47] Ravindra Chherke: @Harshwardhan More any update on this?
+│      [15:00] Harshwardhan More: I'll check and let you know.
+└─────────────────────────────────────────────────────────────────────────
+
+[21:05] Krishna Thite: Job : Alert the school when the SMS credit is low
+Project Code : 759
+[21:08] Krishna Thite: Job : Remove Cancel Option for Waiting List Applications (Parent Screen)
+Project Code : 760
