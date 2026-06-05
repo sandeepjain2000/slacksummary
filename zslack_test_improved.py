@@ -14,8 +14,15 @@ from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email import encoders
 from slack_sdk import WebClient
-from openai import OpenAI
 import os
+import sys
+from pathlib import Path
+
+_claudes = next((p for p in Path(__file__).resolve().parents if p.name == "Claudes"), None)
+if _claudes is None:
+    raise ImportError("Claudes root not found (expected ...\\Claudes\\nvidia_keys)")
+sys.path.insert(0, str(_claudes))
+from nvidia_llm import nvidia_chat, NVIDIA_MODEL
 
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import cm
@@ -35,12 +42,10 @@ with open("config.json") as f:
 
 SLACK_TOKEN = config["slack_token"]
 CHANNEL_ID = config["channel_id"]
-OPENAI_API_KEY = config["openai_api_key"]
 SENDER_EMAIL = config.get("sender_email", "jain105sandeep@gmail.com")
 RECIPIENT_EMAIL = config.get("recipient_email", "sandeep@uniqueschools.ie")
 
 client = WebClient(token=SLACK_TOKEN)
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
 # -------------------------
 # Load Slack IDs from Excel
@@ -583,28 +588,24 @@ MESSAGES:
 """
 
     try:
-        response = openai_client.chat.completions.create(
-            model="gpt-3.5-turbo-16k",  # Use 16k model to handle larger thread content
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are a meticulous assistant that produces detailed, structured summaries "
-                        "of Slack conversations. You never skip thread replies and always attribute "
-                        "statements to the correct person. You flag unresolved issues clearly."
-                    )
-                },
-                {"role": "user", "content": prompt}
-            ],
+        summary_text, key_id = nvidia_chat(
+            prompt,
+            system_prompt=(
+                "You are a meticulous assistant that produces detailed, structured summaries "
+                "of Slack conversations. You never skip thread replies and always attribute "
+                "statements to the correct person. You flag unresolved issues clearly."
+            ),
+            max_tokens=4000,
             temperature=0.2,
-            max_tokens=4000  # Section 6 (thread-by-thread) adds significant length
+            log_fn=print,
         )
-        return response.choices[0].message.content
+        print(f"Summary generated with NVIDIA key: {key_id}")
+        return summary_text
     except Exception as e:
         print(f"Error generating summary: {e}")
-        return "Error generating summary. Please check OpenAI API key and try again."
+        return "Error generating summary. Please check NVIDIA keys in nvidia_keys/ and try again."
 
-print("Generating detailed summary using OpenAI...")
+print("Generating detailed summary using NVIDIA NIM...")
 summary = generate_summary(summary_input_text, thread_code_lookup_text)
 
 # -------------------------

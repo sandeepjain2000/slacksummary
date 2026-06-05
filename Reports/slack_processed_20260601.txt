@@ -1,0 +1,66 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-06-01
+Total messages: 5 | Threads: 1 | Standalone: 2
+================================================================================
+
+## THREAD-BY-THREAD SUMMARY
+### 1.a [11:30] — Reminder about Clonaslee College 480 switching to Tyro
+**Original message:** USLACKBOT: Reminder: Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** The thread started with a reminder from USLACKBOT about updating the VSware tab for Clonaslee College 480 to Tyro tab. Ravindra Chherke replied at 13:46, tagging Ayush Kharpuse and Shruti Kokate. Ayush Kharpuse then responded at 14:41, mentioning that there are no notes to check for WB today since the school is closed and that he will check tomorrow or if any notes are received. He also thanked the team.
+
+### 1.b [13:47] — Sharing a link about updating VSware tab for Colaiste Pobail Setanta
+**Original message:** Ravindra Chherke shared a link: https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779788980458359
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies. Ravindra Chherke shared a link to a previous conversation about updating the VSware tab to Tyro tab for Colaiste Pobail Setanta on 01/06/2026.
+
+### 1.c [13:47] — Sharing another link about updating VSware tab for Clonaslee College 480
+**Original message:** Ravindra Chherke shared another link: https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779975678504979?thread_ts=1779788980.458359&cid=C08LEFNF0BS
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies. Ravindra Chherke shared a link to a previous conversation about updating the VSware tab to Tyro tab for Clonaslee College 480, scheduled for Tuesday, 02/06/2026, due to Monday being a bank holiday.
+
+--- 
+Note: There are no unresolved issues clearly flagged in the provided messages, as the discussions seem to be either reminders or sharing of information without requiring immediate action or resolution.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (1)
+  Thread #1 [11:30] — "Reminder: Clonaslee College 480 will also switch to Tyro and please update the V..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-06-01 (0 found, lookback: 30 days)
+================================================================================
+
+No old threads had new activity on this date.
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [11:30] USLACKBOT: Reminder: Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.
+│   └─ Replies:
+│      [13:46] Ravindra Chherke: @Ayush Kharpuse @Shruti Kokate
+│      [14:41] Ayush Kharpuse: @Sunny @Ravindra Chherke
+
+There are no notes to check for WB today, as the school is closed. I'll check tomorrow after attendance is completed, or if we receive any notes.
+
+Thank you.
+└─────────────────────────────────────────────────────────────────────────
+
+[13:47] Ravindra Chherke: <https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779788980458359|https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779788980458359> [Preview: [May 26th, 2026 2:49 AM] sunny: <@U08J6J1CJTX> Hi, can you please make note to update VSware tab to Tyro tab for *Colaiste Pobail Setanta on 01/06/2026 Monday?* 
+
+*Many thanks!*]
+[13:47] Ravindra Chherke: <https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779975678504979?thread_ts=1779788980.458359&cid=C08LEFNF0BS|https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779975678504979?thread_ts=1779788980.458359&cid=C08LEFNF0BS> [Preview: [May 28th, 2026 6:41 AM] sunny: <@U08J6J1CJTX> cc <@U070C8EGH18> <@U06V082KT7F>
+*Clonaslee College 480 will also switch to Tyro and if you can update vsware tab to Tyro tab please.*
+
+*On Tuesday 02/06/2026 as Monday is bank holiday here.* 
+
+*Thank you!*]

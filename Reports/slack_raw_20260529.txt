@@ -1,0 +1,33 @@
+SLACK RAW EXPORT — 2026-05-29
+Channel: C08LEFNF0BS
+Total messages: 9 | Threads: 1 | Standalone: 4
+================================================================================
+
+[13:10] Sandeep Jain: Deployments this week
+• *Kritika Wadhwa* – Fix Payment Limit Slot Not Releasing After Refunds (866) – *LIVE*
+• *Vivek Jadhav* – Fix Bulk Selection Issue in Attendance Overview Late Tab (869) – *LIVE*
+• *Kumaraswamy* – Fix Gallery Image Caching Issue in School App (848) – *Testing*
+• *Yashraj* – Irish Language Translate Bug Fix – *LIVE*
+• *Yashraj* – Enrolment: Fixed Export in Others Tab – *LIVE*
+[13:48] Sandeep Jain: <https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG|Weekly Review - new features | Meeting-Join | Microsoft Teams> [Preview: Join meeting on Teams]
+[13:48] Sandeep Jain: 9.30 am
+[13:55] Sandeep Jain: Security Items of Week (In-Progress and Compoleted)
+
+856 - Web Ticketing Security Testing (Complete)
+870 - Security Implementations for Web Ticketing System (TM/VJ)
+841 - AWS Secrets Manager + WAF for Tyro (AK/RC)
+842 - AWS Secrets Manager + WAF for Past Pupil (YT/KR & RC)
+788 - Security Implementations for Tyro (Code) (AK)
+785 - Security Implementation for Past Pupil (Code) (YT/KR)
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [17:01] Harshwardhan More: @Sunny Could you please confirm with JMM whether only the writeback should be disabled, or if all related processes—including writebacks, data pull/sync, rollovers, and mappings—should be turned off for the next two months (June and July)?
+│   └─ Replies:
+│      [17:03] Sunny: is that in relation to the June 06?
+
+You can write an email to JMM though and cc staffsupport and ravindra & sandeep
+│      [14:02] Sonali Gaikwad: @Sunny
+One question: Should the WB be triggered in August for the previous academic year? As we are pausing the cron execution, when it resumes, pending records may get picked up and trigger the WB for those records.
+│      [15:24] Sunny: No we should not trigger for previous academic year when we are in 2026/27 cc @Lee
+│      [16:11] Sonali Gaikwad: Okay Thanks @Sunny
+└─────────────────────────────────────────────────────────────────────────

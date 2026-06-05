@@ -1,0 +1,67 @@
+SLACK RAW EXPORT — 2026-05-26
+Channel: C08LEFNF0BS
+Total messages: 24 | Threads: 4 | Standalone: 1
+================================================================================
+
+[13:15] Manish Pathe: Hi @Lee
+
+We fixed and deployed two UI issues to production yesterday:
+• A calendar UI glitch affecting Notification, News, MIS, Shop, and other screens, which occurred after closing a form screen following edit or creation actions.
+• Another UI issue calendar categories.
+ [Attachment(s): Screenshot 2026-05-21 at 3.11.13 PM.png, Screenshot 2026-05-25 at 4.17.15 PM.png]
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [15:19] Sunny: @Shruti Kokate Hi, can you please make note to update VSware tab to Tyro tab for *Colaiste Pobail Setanta on 01/06/2026 Monday?* 
+
+*Many thanks!*
+│   └─ Replies:
+│      [19:11] Sunny: @Shruti Kokate cc @Ravindra Chherke @Sandeep Jain
+*Clonaslee College 480 will also switch to Tyro and if you can update vsware tab to Tyro tab please.*
+
+*On Tuesday 02/06/2026 as Monday is bank holiday here.* 
+
+*Thank you!*
+│      [11:19] Shruti Kokate: @Sunny *Clonaslee College Colaiste Pobail Setanta* changed to *TYRO from Vsware*
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (2 replies) ──────────────────────────────────────
+│ [19:05] Sunny: @channel Can someone answer this enrolment query?
+
+Can I please get a report of incoming First Years 2026/2027 showing their name, primary school and if they submitted any reports other then school reports.
+
+I know we can get the name and primary school from export file. Do you know the answer to the latter question?
+│   └─ Replies:
+│      [19:28] Yashraj Talokar: No, we can’t really tell whether they’ve uploaded anything else, apart from the school report, where school report need to be uploaded. we just accept the document they have uploaded
+│      [19:35] Sunny: okay thank you cc @U06UWDU2RU3
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (3 replies) ──────────────────────────────────────
+│ [19:42] Sunny: @Shruti Kokate
+
+is Mount Mercy College 118 the most up to date to change card in shop for parents?
+│   └─ Replies:
+│      [13:02] Sunny: let me know if there's any update (for parent queries
+│      [11:32] Shruti Kokate: @Sunny I have updated the app, and it is currently under review. I will release it once the review is completed.
+│      [13:09] Shruti Kokate: @Sunny App is live on both stores
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #4 (12 replies) ──────────────────────────────────────
+│ [20:14] Lee: @Shruti Kokate for sandford park app they want to change the crest. is this something Natalia needs to provide (artwork) or can it be done by us? [Attachment(s): Primary Crest.png]
+│   └─ Replies:
+│      [20:14] Lee: we need to keep the green background for app icon
+│      [12:26] Lee: @Sunny
+│      [19:42] Sunny: cc @Ravindra Chherke @Sandeep Jain
+In case Shruti is on leave for longer time
+│      [19:43] Ravindra Chherke: @Sunny She will be back on Monday.
+│      [11:07] Shruti Kokate: Hi @Lee @Sunny Yes I need updated graphics
+│      [12:43] Lee: ok i've asked Natalia
+│      [13:06] Shruti Kokate: @Lee I have submitted the app for review. I will release it once the review is completed.
+│      [13:08] Lee: oh natalia sent you the graphics?
+│      [13:09] Shruti Kokate: Yes
+│      [13:09] Lee: great thank you
+│      [13:50] Shruti Kokate: @Lee @Sunny App is updated with updated graphics
+│      [13:56] Lee: thank you @Shruti Kokate
+└─────────────────────────────────────────────────────────────────────────

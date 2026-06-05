@@ -1,0 +1,74 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-05-27
+Total messages: 11 | Threads: 2 | Standalone: 2
+================================================================================
+
+## THREAD-BY-THREAD SUMMARY
+### 1.a [14:05] — Request to delete an absent note
+**Original message:** @Sonali Gaikwad Hey, thanks for working today btw. Could you please delete this absent note? Thank you — Lee
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sonali Gaikwad replied that the task was done but mentioned that they cannot undo writeback on VSware and suggested updating manually. Lee acknowledged the response. The issue was resolved within the thread. No further action is required.
+
+### 1.b [15:07] — Issue with selecting records
+**Original message:** @channel issue with selecting, when I select one record, it selects all... see recording — Lee
+**Project Code:** PROJECT 869
+**Thread summary:** The discussion started with Lee reporting an issue. Sandeep Jain, Ravindra Chherke, and Krishna Thite contributed to the conversation, with Krishna Thite referencing Project Code 869 for the job to fix the bulk selection issue. Vivek Jadhav eventually reported that the issue was fixed, and Lee thanked him. The issue was resolved within the thread. No further action is required.
+
+### 1.c [18:54] — User report of missing PDFs after duplicating a PN
+**Original message:** @channel Santa Sabina - user is reporting when she duplicated the PN from 18th march on the 26th March, the PDFs were not there. I was not able to replicate. User said she did not remove them before submission. Can this be checked? — Lee
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies. The issue of missing PDFs after duplicating a PN remains open and requires further investigation or response.
+
+### 1.d [19:38] — Notification of absence
+**Original message:** @channel FYI I'm not here tomorrow/friday + we are all off on Monday (bank holiday) — Lee
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies. This is a standalone notification of Lee's absence and the upcoming bank holiday. No action is required as it is an informational post.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (1)
+  Thread #2 [15:07] — Code(s): PROJECT 869
+    "@channel issue with selecting, when I select one record, it selects all... see r..."
+
+THREADS WITHOUT PROJECT/JOB CODE (1)
+  Thread #1 [14:05] — "@Sonali Gaikwad Hey, thanks for working today btw. Could you please delete this ..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-05-27 (0 found, lookback: 30 days)
+================================================================================
+
+No old threads had new activity on this date.
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [14:05] Lee: @Sonali Gaikwad Hey, thanks for working today btw. Could you please delete this absent note? Thank you [Attachment(s): Screenshot 2026-05-27 at 09.33.24.png]
+│   └─ Replies:
+│      [14:09] Sonali Gaikwad: @Lee Done.
+
+We can not undo writeback on VSware. Please update manually.
+│      [14:10] Lee: yeah got it, thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (5 replies) ──────────────────────────────────────
+│ [15:07] Lee: @channel issue with selecting, when I select one record, it selects all... see recording [Attachment(s): Screen Recording 2026-05-27 at 10.36.31.mov]
+│   └─ Replies:
+│      [15:18] Sandeep Jain: @Harshwardhan More
+│      [11:48] Ravindra Chherke: @Vivek Jadhav @Harshwardhan More This must be looked at on priority.
+│      [15:13] Krishna Thite: Job : Fix Bulk Selection Issue in Attendance Overview Late Tab
+Project Code : 869
+│      [17:54] Vivek Jadhav: @Lee Fixed.
+
+cc:@Sandeep Jain @Ravindra Chherke
+│      [12:44] Lee: thanks Vivek
+└─────────────────────────────────────────────────────────────────────────
+
+[18:54] Lee: @channel Santa Sabina - user is reporting when she duplicated the PN from 18th march on the 26th March, the PDFs were not there. I was not able to replicate. User said she did not remove them before submission. Can this be checked? [Attachment(s): Screenshot 2026-05-27 at 14.23.23.png, Screenshot 2026-05-27 at 14.23.14.png, Screenshot 2026-05-27 at 14.22.58.png, Screenshot 2026-05-27 at 14.22.46.png]
+[19:38] Lee: @channel FYI I'm not here tomorrow/friday + we are all off on Monday (bank holiday)

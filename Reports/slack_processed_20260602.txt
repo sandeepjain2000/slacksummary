@@ -1,0 +1,156 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-06-02
+Total messages: 29 | Threads: 3 | Standalone: 1
+================================================================================
+
+## THREAD-BY-THREAD SUMMARY
+
+### 1.a [11:30] — Reminder about Clonaslee College 480 switching to Tyro
+**Original message:** USLACKBOT: Reminder: Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.b [13:32] — Discussion about consents in enrolment export
+**Original message:** Lee: @channel Carolyn from Mount Temple called and wanted to see the consents in the enrolment export. I tested and it's not included in the export. Am I missing something?
+**Project Code:** NO PROJECT CODE
+**Thread summary:** The discussion started with Lee's question about consents in the enrolment export. Ravindra Chherke and Yashraj Talokar replied, and Yashraj explained that consents are downloaded individually in PDF format. U06UWDU2RU3 (Sharon) suggested adding a download all button for consents instead of changing the existing system. Yashraj agreed to add this to the list of enhancements. Later, Jayesh Jaiswal added consents to the current enrolment Excel export and deployed the change to live. The issue was resolved with the deployment of the updated export.
+
+### 1.c [16:04] — Question about Notification SMS logic
+**Original message:** Manish Pathe: Hi @Lee I have a question regarding Notification As you mentioned, the SMS notification logic should be the same as the Personal Notification flow. However, there is one important point to consider: Notifications currently support sending SMS messages without sending it to the mobile app. This functionality will be lost if we implement it exactly like Personal Notifications.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Manish Pathe asked about the SMS notification logic, and Lee suggested having a call to discuss. After the call, Manish decided to implement the old CMS functionality with an additional feature to send SMS messages to staff members. The issue was resolved with Manish's implementation decision.
+
+### 1.d [18:58] — Question about booklist module
+**Original message:** Ravindra Chherke: @Lee @Sunny Is booklist module still being used for something or can we stop upgrading/maintaining it.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ravindra Chherke asked about the booklist module, and Sunny replied that it might not be used anymore due to the book scheme. Lee confirmed that they can stop upgrading/maintaining the module for now and will discuss it with James later. The issue is partially resolved, with a decision to stop maintenance, but the final decision on the module's fate is pending discussion with James.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (3)
+  Thread #1 [13:32] — "@channel Carolyn from Mount Temple called and wanted to see the consents in the ..."
+  Thread #2 [16:04] — "Hi @Lee
+
+I have a question regarding Notification
+As you mentioned, the SMS noti..."
+  Thread #3 [18:58] — "@Lee @Sunny Is booklist module still being used for something or can we stop upg..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-06-02 (4 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-05-29 17:01)
+  Author  : Harshwardhan More
+  Message : @Sunny Could you please confirm with JMM whether only the writeback should be disabled, or if all related processes—including writebacks, data pull/sync, rollovers, and mappings—should be turned off for the next two months (June and July)?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1780054310491469?thread_ts=1780054310.491469&cid=C08LEFNF0BS
+  [2 earlier replies before 2026-06-02 not shown]
+  New replies on 2026-06-02 (2):
+    [15:24] Sunny: No we should not trigger for previous academic year when we are in 2026/27 cc @Lee
+    [16:11] Sonali Gaikwad: Okay Thanks @Sunny
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-05-27 15:07)
+  Author  : Lee
+  Message : @channel issue with selecting, when I select one record, it selects all... see recording
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779874644731109?thread_ts=1779874644.731109&cid=C08LEFNF0BS
+  [4 earlier replies before 2026-06-02 not shown]
+  New reply on 2026-06-02 (1):
+    [12:44] Lee: thanks Vivek
+---------------------------------------------------------------------------
+
+OLD THREAD #3  (originally posted 2026-05-26 15:19)
+  Author  : Sunny
+  Message : @Shruti Kokate Hi, can you please make note to update VSware tab to Tyro tab for *Colaiste Pobail Setanta on 01/06/2026 Monday?* 
+
+*Many thanks!*
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779788980458359?thread_ts=1779788980.458359&cid=C08LEFNF0BS
+  [1 earlier reply before 2026-06-02 not shown]
+  New reply on 2026-06-02 (1):
+    [11:19] Shruti Kokate: @Sunny *Clonaslee College Colaiste Pobail Setanta* changed to *TYRO from Vsware*
+---------------------------------------------------------------------------
+
+OLD THREAD #4  (originally posted 2026-05-20 16:27)
+  Author  : Sunny
+  Message : @Kritika Wadhwa 0862345513 third year parent - Santa Sabina Dominican College
+
+This parent has experienced three years that she cannot pay through the app. When she needs to authenticate her bank account, it shows her 0.00 EUR.
+
+I asked her for screenshots or recording so she might share later.
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779274639751799?thread_ts=1779274639.751799&cid=C08LEFNF0BS
+  [4 earlier replies before 2026-06-02 not shown]
+  New reply on 2026-06-02 (1):
+    [15:28] Sunny: @Kritika Wadhwa i've followed up with the school again
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[11:30] USLACKBOT: Reminder: Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.
+
+┌── THREAD #1 (15 replies) ──────────────────────────────────────
+│ [13:32] Lee: @channel Carolyn from Mount Temple called and wanted to see the consents in the enrolment export. I tested and it's not included in the export. Am I missing something? [Attachment(s): Screenshot 2026-05-27 at 15.04.24.png]
+│   └─ Replies:
+│      [14:29] Ravindra Chherke: @Yashraj Talokar
+│      [14:34] Yashraj Talokar: @Lee Currently only Picture Permission is there in the excel export. Consents are downloaded in pdf with signed signature of guardian per user.
+
+Do you want to add these consent in enrolment export?
+
+cc: @U06UWDU2RU3
+│      [14:36] Lee: Yeah I think we should but maybe Sharon can confirm when she is back from her annual leave. Is there anyway you can get this for mount temple from backend for all enrolments?
+│      [14:39] U06UWDU2RU3: Morning all, the consents aren't in the export excel files. They are downloaded individually directly in the applicants enrolment form using the download consents button. The signature appears there also. Apart from picture permission and assessment testing all the others are a yes if they have enrolled as they must agree to all.  Let Carolyn know that anyway. 
+
+Rather than make changes to the existing system maybe Yash can add a download all button for consents?
+│      [14:41] Lee: thanks Sharon
+│      [14:43] Yashraj Talokar: Thanks Sharon, I'll add this to list of enhancements.
+│      [14:45] U06UWDU2RU3: I've a different way I want exports to work in new build Yash. Just for current mount temple system we are hoping ti add a download all button for them. Do you think that possible?
+│      [14:46] Yashraj Talokar: It is easier to add this consents in current enrolment excel export than creating a download all button
+│      [14:46] U06UWDU2RU3: Ok. Do that and then add to enhancements for new build. Thanks Yash. 
+│      [14:46] Yashraj Talokar: yes sure thank you
+│      [15:09] Jayesh Jaiswal: @Lee I've added consents to the current enrolment Excel export as discussed. Let me know if its okay. its currently on staging. [Attachment(s): image.png]
+│      [15:12] Lee: thought we were adding for rebuild? If we can deploy on current live system even better but up to @U06UWDU2RU3
+│      [15:14] U06UWDU2RU3: That's fine Lee. Yash I don't think Lee has staging credentials to log in so we will just have to trust you :) Ravi might have but I'd not you can deploy to live. 
+│      [15:25] Jayesh Jaiswal: @Lee consents have now been added to the enrolment Excel export and the change has been deployed to live.
+│      [15:26] Lee: great thanks
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (6 replies) ──────────────────────────────────────
+│ [16:04] Manish Pathe: Hi @Lee
+
+I have a question regarding Notification
+As you mentioned, the SMS notification logic should be the same as the Personal Notification flow. However, there is one important point to consider: Notifications currently support sending SMS messages without sending it to the mobile app. This functionality will be lost if we implement it exactly like Personal Notifications.
+
+At present, the notification flow follows the old notification logic.
+There are two possible approaches:
+1. *Retain the old CMS functionality*
+In this approach, teachers would need to select the years, classes, and primary/secondary user through filters to determine the SMS recipients along with  SMS checkbox.
+
+2. *Follow the Personal Notification approach*
+In this approach, there would be a single *"Send SMS"* checkbox. All recipient identification and data preparation would be handled by the backend, which would determine the users who should receive the SMS.
+
+Which one should we implement?
+│   └─ Replies:
+│      [16:07] Manish Pathe:  [Attachment(s): Screenshot 2026-06-02 at 4.06.34 PM.png, Screenshot 2026-06-02 at 4.05.07 PM.png]
+│      [16:07] Lee: let's have a call
+│      [16:07] Manish Pathe: Sure
+│      [16:16] Lee:  [Attachment(s): Screenshot 2026-06-02 at 11.45.57.png]
+│      [16:25] Manish Pathe: As discussed, I am implementing it as the old CMS functionality, with an additional feature that allows SMS messages to be sent to staff members as well.
+│      [16:28] Lee: thanks Manish
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (4 replies) ──────────────────────────────────────
+│ [18:58] Ravindra Chherke: @Lee @Sunny Is booklist module still being used for something or can we stop upgrading/maintaining it.
+│   └─ Replies:
+│      [18:59] Sunny: i don't think booklist is being used anymore due to the book scheme (free books). @Lee can later confirm if that's the case
+│      [19:04] Lee: you can stop upgrading/maintaining for now and we'll speak to james about it
+│      [19:05] Lee: I hate it so hopefully he says get rid of it :slightly_smiling_face:
+│      [19:05] Ravindra Chherke: FYI, There is a viewonly mode in it so parents can just view it.
+└─────────────────────────────────────────────────────────────────────────

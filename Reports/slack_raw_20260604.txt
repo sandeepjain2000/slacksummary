@@ -1,0 +1,58 @@
+SLACK RAW EXPORT — 2026-06-04
+Channel: C08LEFNF0BS
+Total messages: 23 | Threads: 3 | Standalone: 4
+================================================================================
+
+[12:01] Ravindra Chherke: :point_right: Please use below settings for using Titan mail on email clients like apple mail. thunderbird.
+
+https://support.titan.email/hc/en-us/articles/4406867379865-Configure-Titan-on-other-apps-using-IMAP-POP-for-EU-hosted-users
+[12:02] Ravindra Chherke: Configure using IMAP
+Email address   :   Your Titan address eg: jack@<domainName>
+Password      :    Your Titan password
+Username (if asked) : Same as Your Titan address eg: jack@<domainName>
+Incoming Server :   imap0101.titan.email
+                   Encryption: SSL/TLS (Port: 993)
+Outgoing Server :   smtp0101.titan.email
+                    Encryption: SSL/TLS (Port: 465)
+[12:03] Ravindra Chherke: Please enable 2FA after setting up email on email client. If you setup 2FA before then it may fail on email client.
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [12:05] Ravindra Chherke: If anybody wants to import email after 14th may from racksapce to Titan, Let me know
+│   └─ Replies:
+│      [12:08] Sanket Haval: I have signed in to Titan mails
+Please resync mail from 14th May
+│      [12:09] Ravindra Chherke: Please share your Racksapce email password on onetime secret
+└─────────────────────────────────────────────────────────────────────────
+
+[12:20] Ravindra Chherke:  [Attachment(s): Screenshot 2026-06-04 at 12.19.45 PM.png]
+
+┌── THREAD #2 (4 replies) ──────────────────────────────────────
+│ [15:20] Lee: @channel can I just confirm that the student ID feature is good to go and live in app and on cms? I believe it is but just want to confirm. Thanks
+│   └─ Replies:
+│      [15:47] Kumaraswamy R: All good from app side.
+│      [15:52] Sonali Gaikwad: Backend changes are also deployed
+│      [15:58] Lee: ok great
+│      [15:58] Lee: thanks team
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (10 replies) ──────────────────────────────────────
+│ [18:59] Lee: @Yashraj Talokar For mount temple enrolment, can you please change the consents for Picture Permissions and Assessment Testing to Yes
+
+Thank you
+
+cc @channel [Attachment(s): Screenshot 2026-06-04 at 14.27.39.png]
+│   └─ Replies:
+│      [19:01] Ravindra Chherke: @Lee  Yash has left and will be on leave tomorrow as well.
+
+Is it urgent?
+│      [19:12] Lee: it needs to be done by tomorrow if possible
+│      [19:16] Ravindra Chherke: Is this for Dylan	Cosgrave?
+│      [19:18] Ravindra Chherke: I can do it now if you can confirm the info
+│      [19:19] Lee: yeah please
+│      [19:19] Lee: thank you
+│      [19:20] Ravindra Chherke: Can you check now
+│      [19:20] Ravindra Chherke: if it has been updated
+│      [19:21] Lee: ah excellent thanks Ravindra
+│      [19:28] Ravindra Chherke: :+1:
+└─────────────────────────────────────────────────────────────────────────

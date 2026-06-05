@@ -1,0 +1,67 @@
+SLACK RAW EXPORT — 2026-06-02
+Channel: C08LEFNF0BS
+Total messages: 29 | Threads: 3 | Standalone: 1
+================================================================================
+
+[11:30] USLACKBOT: Reminder: Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.
+
+┌── THREAD #1 (15 replies) ──────────────────────────────────────
+│ [13:32] Lee: @channel Carolyn from Mount Temple called and wanted to see the consents in the enrolment export. I tested and it's not included in the export. Am I missing something? [Attachment(s): Screenshot 2026-05-27 at 15.04.24.png]
+│   └─ Replies:
+│      [14:29] Ravindra Chherke: @Yashraj Talokar
+│      [14:34] Yashraj Talokar: @Lee Currently only Picture Permission is there in the excel export. Consents are downloaded in pdf with signed signature of guardian per user.
+
+Do you want to add these consent in enrolment export?
+
+cc: @U06UWDU2RU3
+│      [14:36] Lee: Yeah I think we should but maybe Sharon can confirm when she is back from her annual leave. Is there anyway you can get this for mount temple from backend for all enrolments?
+│      [14:39] U06UWDU2RU3: Morning all, the consents aren't in the export excel files. They are downloaded individually directly in the applicants enrolment form using the download consents button. The signature appears there also. Apart from picture permission and assessment testing all the others are a yes if they have enrolled as they must agree to all.  Let Carolyn know that anyway. 
+
+Rather than make changes to the existing system maybe Yash can add a download all button for consents?
+│      [14:41] Lee: thanks Sharon
+│      [14:43] Yashraj Talokar: Thanks Sharon, I'll add this to list of enhancements.
+│      [14:45] U06UWDU2RU3: I've a different way I want exports to work in new build Yash. Just for current mount temple system we are hoping ti add a download all button for them. Do you think that possible?
+│      [14:46] Yashraj Talokar: It is easier to add this consents in current enrolment excel export than creating a download all button
+│      [14:46] U06UWDU2RU3: Ok. Do that and then add to enhancements for new build. Thanks Yash. 
+│      [14:46] Yashraj Talokar: yes sure thank you
+│      [15:09] Jayesh Jaiswal: @Lee I've added consents to the current enrolment Excel export as discussed. Let me know if its okay. its currently on staging. [Attachment(s): image.png]
+│      [15:12] Lee: thought we were adding for rebuild? If we can deploy on current live system even better but up to @U06UWDU2RU3
+│      [15:14] U06UWDU2RU3: That's fine Lee. Yash I don't think Lee has staging credentials to log in so we will just have to trust you :) Ravi might have but I'd not you can deploy to live. 
+│      [15:25] Jayesh Jaiswal: @Lee consents have now been added to the enrolment Excel export and the change has been deployed to live.
+│      [15:26] Lee: great thanks
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (6 replies) ──────────────────────────────────────
+│ [16:04] Manish Pathe: Hi @Lee
+
+I have a question regarding Notification
+As you mentioned, the SMS notification logic should be the same as the Personal Notification flow. However, there is one important point to consider: Notifications currently support sending SMS messages without sending it to the mobile app. This functionality will be lost if we implement it exactly like Personal Notifications.
+
+At present, the notification flow follows the old notification logic.
+There are two possible approaches:
+1. *Retain the old CMS functionality*
+In this approach, teachers would need to select the years, classes, and primary/secondary user through filters to determine the SMS recipients along with  SMS checkbox.
+
+2. *Follow the Personal Notification approach*
+In this approach, there would be a single *"Send SMS"* checkbox. All recipient identification and data preparation would be handled by the backend, which would determine the users who should receive the SMS.
+
+Which one should we implement?
+│   └─ Replies:
+│      [16:07] Manish Pathe:  [Attachment(s): Screenshot 2026-06-02 at 4.06.34 PM.png, Screenshot 2026-06-02 at 4.05.07 PM.png]
+│      [16:07] Lee: let's have a call
+│      [16:07] Manish Pathe: Sure
+│      [16:16] Lee:  [Attachment(s): Screenshot 2026-06-02 at 11.45.57.png]
+│      [16:25] Manish Pathe: As discussed, I am implementing it as the old CMS functionality, with an additional feature that allows SMS messages to be sent to staff members as well.
+│      [16:28] Lee: thanks Manish
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (4 replies) ──────────────────────────────────────
+│ [18:58] Ravindra Chherke: @Lee @Sunny Is booklist module still being used for something or can we stop upgrading/maintaining it.
+│   └─ Replies:
+│      [18:59] Sunny: i don't think booklist is being used anymore due to the book scheme (free books). @Lee can later confirm if that's the case
+│      [19:04] Lee: you can stop upgrading/maintaining for now and we'll speak to james about it
+│      [19:05] Lee: I hate it so hopefully he says get rid of it :slightly_smiling_face:
+│      [19:05] Ravindra Chherke: FYI, There is a viewonly mode in it so parents can just view it.
+└─────────────────────────────────────────────────────────────────────────

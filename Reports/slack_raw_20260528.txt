@@ -1,0 +1,19 @@
+SLACK RAW EXPORT — 2026-05-28
+Channel: C08LEFNF0BS
+Total messages: 6 | Threads: 1 | Standalone: 3
+================================================================================
+
+[19:13] Ravindra Chherke:  set up a reminder “Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab." at 11:30am on 1 June 2026
+
+/remind #C08LEFNF0BS "Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.” in this channel at 11:30 Tuesday 2nd June, India Standard Time.
+[19:14] Ravindra Chherke:  set up a reminder “Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.” in this channel at 11:30 Monday 1st June, India Standard Time.
+[19:14] Ravindra Chherke:  set up a reminder “Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.” in this channel at 11:30 Tuesday 2nd June, India Standard Time.
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [19:22] Sunny: @channel can someone please remove Medical Forms for _Rockford Manor_
+
+_They said it's urgent so if you can do that soon, thank you! (both cms and app)_
+│   └─ Replies:
+│      [19:26] Ravindra Chherke: @Sunny Removed. I have checked in the app. Please check in cms.
+│      [19:29] Sunny: thank yoU!
+└─────────────────────────────────────────────────────────────────────────

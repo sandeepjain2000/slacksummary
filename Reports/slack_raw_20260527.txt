@@ -1,0 +1,31 @@
+SLACK RAW EXPORT — 2026-05-27
+Channel: C08LEFNF0BS
+Total messages: 11 | Threads: 2 | Standalone: 2
+================================================================================
+
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [14:05] Lee: @Sonali Gaikwad Hey, thanks for working today btw. Could you please delete this absent note? Thank you [Attachment(s): Screenshot 2026-05-27 at 09.33.24.png]
+│   └─ Replies:
+│      [14:09] Sonali Gaikwad: @Lee Done.
+
+We can not undo writeback on VSware. Please update manually.
+│      [14:10] Lee: yeah got it, thank you
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (5 replies) ──────────────────────────────────────
+│ [15:07] Lee: @channel issue with selecting, when I select one record, it selects all... see recording [Attachment(s): Screen Recording 2026-05-27 at 10.36.31.mov]
+│   └─ Replies:
+│      [15:18] Sandeep Jain: @Harshwardhan More
+│      [11:48] Ravindra Chherke: @Vivek Jadhav @Harshwardhan More This must be looked at on priority.
+│      [15:13] Krishna Thite: Job : Fix Bulk Selection Issue in Attendance Overview Late Tab
+Project Code : 869
+│      [17:54] Vivek Jadhav: @Lee Fixed.
+
+cc:@Sandeep Jain @Ravindra Chherke
+│      [12:44] Lee: thanks Vivek
+└─────────────────────────────────────────────────────────────────────────
+
+[18:54] Lee: @channel Santa Sabina - user is reporting when she duplicated the PN from 18th march on the 26th March, the PDFs were not there. I was not able to replicate. User said she did not remove them before submission. Can this be checked? [Attachment(s): Screenshot 2026-05-27 at 14.23.23.png, Screenshot 2026-05-27 at 14.23.14.png, Screenshot 2026-05-27 at 14.22.58.png, Screenshot 2026-05-27 at 14.22.46.png]
+[19:38] Lee: @channel FYI I'm not here tomorrow/friday + we are all off on Monday (bank holiday)

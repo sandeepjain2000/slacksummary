@@ -1,0 +1,140 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-05-29
+Total messages: 9 | Threads: 1 | Standalone: 4
+================================================================================
+
+## THREAD-BY-THREAD SUMMARY
+
+### 1.a [13:10] — Sandeep Jain posted about deployments for the week
+**Original message:** Deployments this week • *Kritika Wadhwa* – Fix Payment Limit Slot Not Releasing After Refunds (866) – *LIVE* • *Vivek Jadhav* – Fix Bulk Selection Issue in Attendance Overview Late Tab (869) – *LIVE* • *Kumaraswamy* – Fix Gallery Image Caching Issue in School App (848) – *Testing* • *Yashraj* – Irish Language Translate Bug Fix – *LIVE* • *Yashraj* – Enrolment: Fixed Export in Others Tab – *LIVE*
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.b [13:48] — Sandeep Jain shared a meeting link
+**Original message:** <https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG|Weekly Review - new features | Meeting-Join | Microsoft Teams>
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.c [13:48] — Sandeep Jain mentioned the meeting time
+**Original message:** 9.30 am
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.d [13:55] — Sandeep Jain posted about security items for the week
+**Original message:** Security Items of Week (In-Progress and Compoleted) 856 - Web Ticketing Security Testing (Complete) 870 - Security Implementations for Web Ticketing System (TM/VJ) 841 - AWS Secrets Manager + WAF for Tyro (AK/RC) 842 - AWS Secrets Manager + WAF for Past Pupil (YT/KR & RC) 788 - Security Implementations for Tyro (Code) (AK) 785 - Security Implementation for Past Pupil (Code) (YT/KR)
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.e [17:01] — Harshwardhan More asked about disabling processes
+**Original message:** @Sunny Could you please confirm with JMM whether only the writeback should be disabled, or if all related processes—including writebacks, data pull/sync, rollovers, and mappings—should be turned off for the next two months (June and July)?
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sunny suggested writing an email to JMM and cc'ing staff support and others. Sonali Gaikwad asked if the writeback should be triggered in August for the previous academic year, and Sunny replied that it should not be triggered. The discussion seems to be resolved, with Sonali acknowledging Sunny's response. 
+
+--- 
+Note: Since there is only one thread start time (17:01) in the PROJECT CODE REFERENCE TABLE, and it corresponds to "NO PROJECT CODE", all threads are marked as "NO PROJECT CODE".
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (1)
+  Thread #1 [17:01] — "@Sunny Could you please confirm with JMM whether only the writeback should be di..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-05-29 (2 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-05-12 17:00)
+  Author  : Lee
+  Message : @channel email confirmation for absent note is not very clear. This parent selected the 6th of May and the 8th of May. In the email it shows 2026-05-08, 2026-05-12. This looks like it's from - to.
+
+It should be more clear eg:
+> Thank you for submitting your absentee note for:
+> • 6th May 2026
+> • 8th May 2026
+> The note has been submitted to the school.
+Note, the date format too. In ireland, we use DD/MM/YYYY
+
+YYYY/MM/DD is too confusing for users. Please ensure going forward any date formats should be DD/MM/YYYY or like 6th May 2026. We need to update all areas of the system (big job perhaps but necessary). James mentioned this multiple times.
+
+Can this please be done?
+
+Also @Kumaraswamy R is the date range selection on absent note live? Instead of individual days, it's a range selection. Please confirm and make Mount Anville live if not already. Please also do this for all school apps.
+
+Thanks
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778585412488359?thread_ts=1778585412.488359&cid=C08LEFNF0BS
+  [6 earlier replies before 2026-05-29 not shown]
+  New replies on 2026-05-29 (2):
+    [14:41] Sunny: cc @Sandeep Jain
+    [14:42] Sunny: lee also wanted email to be changed (how the dates are shown) so if needed, just create a separate job for the email change
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-05-12 16:31)
+  Author  : Sunny
+  Message : @Shruti Kokate
+
+Can i please get APK for ennistymon community school? If it's possible a link so i can share with the parent in email. Thanks!
+
+Ticket #55305
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1778583688323469?thread_ts=1778583688.323469&cid=C08LEFNF0BS
+  [12 earlier replies before 2026-05-29 not shown]
+  New replies on 2026-05-29 (14):
+    [12:44] Sunny: @Shruti Kokate this is the device info - sorry i forgot to get back to you on this. [Attachment(s): Screenshot_20260521_230034_com.android.settings.jpg]
+    [13:00] Kumaraswamy R: Hi @Sunny
+    [13:02] Kumaraswamy R: Actually looking at the screenshots I can see that the app is installed but failed to launch due to Google Play services on that device
+    [13:06] Kumaraswamy R: Previously, installing apk used to work on that phone?
+    [13:08] Sunny: im not sure
+    [13:08] Sunny: parents reached out on May 7
+    [13:08] Sunny: and last communication is May 21
+    [13:08] Sunny: registration date is May 16 though [Attachment(s): Screenshot 2026-05-29 at 08.37.57.png]
+    [13:10] Kumaraswamy R: Okay. I think that device doesn't have Google Play services installed.
+This is required for our app to handle Notifications and other Google services.
+    [13:10] Sunny: it's huawei so it doesnt have google play
+    [13:10] Sunny: i thought apk will works but shruti sent a download link 2 times both failed
+    [13:13] Kumaraswamy R: Yeah, user can still download the GBox app and try if they want.
+
+• Open the Huawei AppGallery on your phone.
+• Search for and install GBox.
+• Open GBox and locate the Google Play Store icon within the app.
+• Open the Play Store, log in with your Google account, and download your apps. 
+
+    [13:14] Kumaraswamy R: It would be best if they use Android phone, if possible
+    [13:17] Sunny: ok i will share those steps to them
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[13:10] Sandeep Jain: Deployments this week
+• *Kritika Wadhwa* – Fix Payment Limit Slot Not Releasing After Refunds (866) – *LIVE*
+• *Vivek Jadhav* – Fix Bulk Selection Issue in Attendance Overview Late Tab (869) – *LIVE*
+• *Kumaraswamy* – Fix Gallery Image Caching Issue in School App (848) – *Testing*
+• *Yashraj* – Irish Language Translate Bug Fix – *LIVE*
+• *Yashraj* – Enrolment: Fixed Export in Others Tab – *LIVE*
+[13:48] Sandeep Jain: <https://teams.microsoft.com/meet/3665701592095?p=Zu5PbWbJpUOlkYXAnG|Weekly Review - new features | Meeting-Join | Microsoft Teams> [Preview: Join meeting on Teams]
+[13:48] Sandeep Jain: 9.30 am
+[13:55] Sandeep Jain: Security Items of Week (In-Progress and Compoleted)
+
+856 - Web Ticketing Security Testing (Complete)
+870 - Security Implementations for Web Ticketing System (TM/VJ)
+841 - AWS Secrets Manager + WAF for Tyro (AK/RC)
+842 - AWS Secrets Manager + WAF for Past Pupil (YT/KR & RC)
+788 - Security Implementations for Tyro (Code) (AK)
+785 - Security Implementation for Past Pupil (Code) (YT/KR)
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [17:01] Harshwardhan More: @Sunny Could you please confirm with JMM whether only the writeback should be disabled, or if all related processes—including writebacks, data pull/sync, rollovers, and mappings—should be turned off for the next two months (June and July)?
+│   └─ Replies:
+│      [17:03] Sunny: is that in relation to the June 06?
+
+You can write an email to JMM though and cc staffsupport and ravindra & sandeep
+│      [14:02] Sonali Gaikwad: @Sunny
+One question: Should the WB be triggered in August for the previous academic year? As we are pausing the cron execution, when it resumes, pending records may get picked up and trigger the WB for those records.
+│      [15:24] Sunny: No we should not trigger for previous academic year when we are in 2026/27 cc @Lee
+│      [16:11] Sonali Gaikwad: Okay Thanks @Sunny
+└─────────────────────────────────────────────────────────────────────────

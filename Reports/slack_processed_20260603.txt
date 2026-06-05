@@ -1,0 +1,133 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-06-03
+Total messages: 16 | Threads: 3 | Standalone: 4
+================================================================================
+
+## THREAD-BY-THREAD SUMMARY
+
+### 1.a [13:39] — Announcement about email service migration
+**Original message:** @channel :rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light: We are currently migrating our email service from Rackspace to Titan Mail. The migration process has already started, and we have completed an initial sync of your existing emails. To ensure that no emails are missed during the transition, we will perform a final synchronization after the migration is complete to capture any emails received since the last sync. While we expect the migration to be completed quickly, DNS propagation and email service updates can sometimes take up to 24 hours. If you encounter any issues during this period, please use Slack for communication and discussions. We expect minimal disruption, as most day-to-day communication does not rely heavily on email. *Please note:* Email accounts belonging to the Data Entry team and Interns are *not* being migrated. — Ravindra Chherke
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.b [16:14] — Setup for new Titan email
+**Original message:** @channel You can use settings on this link to setup new Titan email https://support.titan.email/hc/en-us/articles/900000750943-Configure-Titan-account-on-MacOS-Apple-Mail-App — Ravindra Chherke
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.c [16:25] — Issue with Apple mail
+**Original message:** @channel Apple mail is not working right now. You try on web https://app.titan.email/mail/ I think Apple mail will take some time — Ravindra Chherke
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.d [16:26] — Password issues with new email
+**Original message:** @channel For those password is not working, Let me know — Ravindra Chherke
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.e [16:43] — Issue with Appendix 3
+**Original message:** @channel Appendix 3 - *St. Flannan's College* this user who is an admin tried to add a new user to appendix 3 but the dropdown menu isn't showing - can this be fixed? no rush thanks! — Sunny
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sunny reported an issue with the dropdown menu not showing in Appendix 3 for St. Flannan's College. Ravindra Chherke and Harshwardhan More were tagged. Harshwardhan More investigated and suggested that the admin user refresh the page and try again, as it was working fine from his side.
+
+### 1.f [18:43] — Issue with DSI tablet
+**Original message:** @channel DSI tablet - *Educate Together Secondary School Wicklow* cc @Kumaraswamy R <https://etsswicklow-my.sharepoint.com/personal/cian_foley_etsswicklow_ie/_layouts/15/stream.aspx?id=%2Fpersonal%2Fcian%5Ffoley%5Fetsswicklow%5Fie%2FDocuments%2FAttachments%2FIMG%5F7009%2Emov&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec7a6244f%2D3f94%2D46ff%2D98f6%2D4ab063ab34c0|https://etsswicklow-my.sharepoint.com/personal/cian_foley_etsswicklow_ie/_layouts/15/stream[…]%2Eview%2Ec7a6244f%2D3f94%2D46ff%2D98f6%2D4ab063ab34c0> They are having this yellow spinning issue with the sign in app. It has been like this for a few days and the last 2 days were the worst. For now they've taken down the ipad cuz it's summer break soon. Can you check why it's happening to them? They are new build and just got the tablet for a month or so. — Sunny
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sunny reported an issue with a DSI tablet having a yellow spinning issue with the sign-in app for Educate Together Secondary School Wicklow. Kumaraswamy R was asked to investigate. Kumaraswamy R requested a video of the issue, which Sunny provided. Kumaraswamy R then tested the app and found no issues, suggesting that the school might not be on the latest app version.
+
+### 1.g [20:01] — Request to remove Sports Uniform tab
+**Original message:** @channel can you please remove *Sports Uniform* this tab under Shop for *Cistercian* @Shruti Kokate — Sunny
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sunny requested that Shruti Kokate remove the Sports Uniform tab under Shop for Cistercian. Shruti Kokate confirmed that the tab had been removed.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (3)
+  Thread #1 [16:43] — "@channel Appendix 3 - *St. Flannan's College*
+
+this user who is an admin tried t..."
+  Thread #2 [18:43] — "@channel DSI tablet - *Educate Together Secondary School Wicklow* cc @Kumaraswam..."
+  Thread #3 [20:01] — "@channel can you please remove *Sports Uniform* this tab under Shop for *Cisterc..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-06-03 (1 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-05-26 19:42)
+  Author  : Sunny
+  Message : @Shruti Kokate
+
+is Mount Mercy College 118 the most up to date to change card in shop for parents?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779804770001319?thread_ts=1779804770.001319&cid=C08LEFNF0BS
+  [2 earlier replies before 2026-06-03 not shown]
+  New reply on 2026-06-03 (1):
+    [13:09] Shruti Kokate: @Sunny App is live on both stores
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[13:39] Ravindra Chherke: @channel
+
+:rotating_light::rotating_light::rotating_light::rotating_light::rotating_light::rotating_light:
+We are currently migrating our email service from Rackspace to Titan Mail.
+
+The migration process has already started, and we have completed an initial sync of your existing emails. To ensure that no emails are missed during the transition, we will perform a final synchronization after the migration is complete to capture any emails received since the last sync.
+
+While we expect the migration to be completed quickly, DNS propagation and email service updates can sometimes take up to 24 hours.
+
+If you encounter any issues during this period, please use Slack for communication and discussions. We expect minimal disruption, as most day-to-day communication does not rely heavily on email.
+
+*Please note:* Email accounts belonging to the Data Entry team and Interns are *not* being migrated.
+[16:14] Ravindra Chherke: @channel You can use settings on this link to setup new Titan email
+
+https://support.titan.email/hc/en-us/articles/900000750943-Configure-Titan-account-on-MacOS-Apple-Mail-App
+[16:25] Ravindra Chherke: Apple mail is not working right now. You try on web https://app.titan.email/mail/
+
+I think Apple mail will take some time
+[16:26] Ravindra Chherke: For those password is not working, Let me know
+
+┌── THREAD #1 (4 replies) ──────────────────────────────────────
+│ [16:43] Sunny: @channel Appendix 3 - *St. Flannan's College*
+
+this user who is an admin tried to add a new user to appendix 3 but the dropdown menu isn't showing - can this be fixed? no rush thanks! [Attachment(s): image.png, Screenshot 2026-06-03 at 12.11.31.png]
+│   └─ Replies:
+│      [16:44] Sunny: should be this (I can add from my end [Attachment(s): Screenshot 2026-06-03 at 12.13.33.png]
+│      [16:44] Ravindra Chherke: @Harshwardhan More
+│      [16:48] Harshwardhan More: @Sunny I'm Investigating.
+│      [17:00] Harshwardhan More: @Sunny It’s working fine from my side as well. Could you ask the admin user to go back, refresh the page, and then try again? [Attachment(s): image.png]
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #2 (4 replies) ──────────────────────────────────────
+│ [18:43] Sunny: @channel DSI tablet - *Educate Together Secondary School Wicklow* cc @Kumaraswamy R
+
+<https://etsswicklow-my.sharepoint.com/personal/cian_foley_etsswicklow_ie/_layouts/15/stream.aspx?id=%2Fpersonal%2Fcian%5Ffoley%5Fetsswicklow%5Fie%2FDocuments%2FAttachments%2FIMG%5F7009%2Emov&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec7a6244f%2D3f94%2D46ff%2D98f6%2D4ab063ab34c0|https://etsswicklow-my.sharepoint.com/personal/cian_foley_etsswicklow_ie/_layouts/15/stream[…]%2Eview%2Ec7a6244f%2D3f94%2D46ff%2D98f6%2D4ab063ab34c0>
+
+They are having this yellow spinning issue with the sign in app. It has been like this for a few days and the last 2 days were the worst.
+
+For now they've taken down the ipad cuz it's summer break soon. Can you check why it's happening to them? They are new build and just got the tablet for a month or so.
+│   └─ Replies:
+│      [18:46] Kumaraswamy R: Sure @Sunny, Could you please share the video here, I'm not able to access the link.
+│      [18:47] Sunny:  [Attachment(s): IMG_7009.mov]
+│      [19:07] Kumaraswamy R: Hi @Sunny,
+I was able to do a successful Late entry and didn't encountered the issue mentioned above.
+The latest version is 1.6.2(32). Check if the school is on latest app version.
+
+You can also test once and confirm from your end. [Attachment(s): ScreenRecording_06-03-2026 19-02-42_1.MP4]
+│      [19:28] Sunny: sure i will say that to the school
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (1 reply) ──────────────────────────────────────
+│ [20:01] Sunny: @channel can you please remove *Sports Uniform* this tab under Shop for *Cistercian*  @Shruti Kokate
+│   └─ Replies:
+│      [10:41] Shruti Kokate: removed @Sunny
+└─────────────────────────────────────────────────────────────────────────

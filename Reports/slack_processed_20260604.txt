@@ -1,0 +1,134 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-06-04
+Total messages: 23 | Threads: 3 | Standalone: 4
+================================================================================
+
+## THREAD-BY-THREAD SUMMARY
+
+### 1.a [12:01] — Ravindra Chherke shares settings for using Titan mail on email clients
+**Original message:** :point_right: Please use below settings for using Titan mail on email clients like apple mail. thunderbird. https://support.titan.email/hc/en-us/articles/4406867379865-Configure-Titan-on-other-apps-using-IMAP-POP-for-EU-hosted-users — Ravindra Chherke
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.b [12:02] — Ravindra Chherke provides configuration details for Titan mail
+**Original message:** Configure using IMAP Email address : Your Titan address eg: jack@<domainName> Password : Your Titan password Username (if asked) : Same as Your Titan address eg: jack@<domainName> Incoming Server : imap0101.titan.email Encryption: SSL/TLS (Port: 993) Outgoing Server : smtp0101.titan.email Encryption: SSL/TLS (Port: 465) — Ravindra Chherke
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.c [12:03] — Ravindra Chherke reminds to enable 2FA after setting up email
+**Original message:** Please enable 2FA after setting up email on email client. If you setup 2FA before then it may fail on email client. — Ravindra Chherke
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.d [12:05] — Ravindra Chherke offers to import email from Rackspace to Titan
+**Original message:** If anybody wants to import email after 14th may from racksapce to Titan, Let me know — Ravindra Chherke
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Sanket Haval requests to resync mail from 14th May, and Ravindra Chherke asks Sanket to share his Rackspace email password on onetime secret.
+
+### 1.e [12:20] — Ravindra Chherke shares an attachment
+**Original message:** [Attachment(s): Screenshot 2026-06-04 at 12.19.45 PM.png] — Ravindra Chherke
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.f [15:20] — Lee confirms the student ID feature
+**Original message:** @channel can I just confirm that the student ID feature is good to go and live in app and on cms? I believe it is but just want to confirm. Thanks — Lee
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Kumaraswamy R confirms it's all good from the app side, and Sonali Gaikwad confirms backend changes are deployed. Lee thanks the team.
+
+### 1.g [18:59] — Lee requests to change consents for Picture Permissions and Assessment Testing
+**Original message:** @Yashraj Talokar For mount temple enrolment, can you please change the consents for Picture Permissions and Assessment Testing to Yes Thank you cc @channel — Lee
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ravindra Chherke informs that Yashraj is on leave and asks if it's urgent. Lee confirms it needs to be done by tomorrow. Ravindra Chherke offers to do it and later confirms that the update has been made, which Lee verifies.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (3)
+  Thread #1 [12:05] — "If anybody wants to import email after 14th may from racksapce to Titan, Let me ..."
+  Thread #2 [15:20] — "@channel can I just confirm that the student ID feature is good to go and live i..."
+  Thread #3 [18:59] — "@Yashraj Talokar For mount temple enrolment, can you please change the consents ..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-06-04 (2 found, lookback: 30 days)
+================================================================================
+
+OLD THREAD #1  (originally posted 2026-06-03 20:01)
+  Author  : Sunny
+  Message : @channel can you please remove *Sports Uniform* this tab under Shop for *Cistercian*  @Shruti Kokate
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1780497060949099?thread_ts=1780497060.949099&cid=C08LEFNF0BS
+  New reply on 2026-06-04 (1):
+    [10:41] Shruti Kokate: removed @Sunny
+---------------------------------------------------------------------------
+
+OLD THREAD #2  (originally posted 2026-05-26 20:14)
+  Author  : Lee
+  Message : @Shruti Kokate for sandford park app they want to change the crest. is this something Natalia needs to provide (artwork) or can it be done by us?
+  Link    : https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779806680238619?thread_ts=1779806680.238619&cid=C08LEFNF0BS
+  [10 earlier replies before 2026-06-04 not shown]
+  New replies on 2026-06-04 (2):
+    [13:50] Shruti Kokate: @Lee @Sunny App is updated with updated graphics
+    [13:56] Lee: thank you @Shruti Kokate
+---------------------------------------------------------------------------
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[12:01] Ravindra Chherke: :point_right: Please use below settings for using Titan mail on email clients like apple mail. thunderbird.
+
+https://support.titan.email/hc/en-us/articles/4406867379865-Configure-Titan-on-other-apps-using-IMAP-POP-for-EU-hosted-users
+[12:02] Ravindra Chherke: Configure using IMAP
+Email address   :   Your Titan address eg: jack@<domainName>
+Password      :    Your Titan password
+Username (if asked) : Same as Your Titan address eg: jack@<domainName>
+Incoming Server :   imap0101.titan.email
+                   Encryption: SSL/TLS (Port: 993)
+Outgoing Server :   smtp0101.titan.email
+                    Encryption: SSL/TLS (Port: 465)
+[12:03] Ravindra Chherke: Please enable 2FA after setting up email on email client. If you setup 2FA before then it may fail on email client.
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [12:05] Ravindra Chherke: If anybody wants to import email after 14th may from racksapce to Titan, Let me know
+│   └─ Replies:
+│      [12:08] Sanket Haval: I have signed in to Titan mails
+Please resync mail from 14th May
+│      [12:09] Ravindra Chherke: Please share your Racksapce email password on onetime secret
+└─────────────────────────────────────────────────────────────────────────
+
+[12:20] Ravindra Chherke:  [Attachment(s): Screenshot 2026-06-04 at 12.19.45 PM.png]
+
+┌── THREAD #2 (4 replies) ──────────────────────────────────────
+│ [15:20] Lee: @channel can I just confirm that the student ID feature is good to go and live in app and on cms? I believe it is but just want to confirm. Thanks
+│   └─ Replies:
+│      [15:47] Kumaraswamy R: All good from app side.
+│      [15:52] Sonali Gaikwad: Backend changes are also deployed
+│      [15:58] Lee: ok great
+│      [15:58] Lee: thanks team
+└─────────────────────────────────────────────────────────────────────────
+
+
+┌── THREAD #3 (10 replies) ──────────────────────────────────────
+│ [18:59] Lee: @Yashraj Talokar For mount temple enrolment, can you please change the consents for Picture Permissions and Assessment Testing to Yes
+
+Thank you
+
+cc @channel [Attachment(s): Screenshot 2026-06-04 at 14.27.39.png]
+│   └─ Replies:
+│      [19:01] Ravindra Chherke: @Lee  Yash has left and will be on leave tomorrow as well.
+
+Is it urgent?
+│      [19:12] Lee: it needs to be done by tomorrow if possible
+│      [19:16] Ravindra Chherke: Is this for Dylan	Cosgrave?
+│      [19:18] Ravindra Chherke: I can do it now if you can confirm the info
+│      [19:19] Lee: yeah please
+│      [19:19] Lee: thank you
+│      [19:20] Ravindra Chherke: Can you check now
+│      [19:20] Ravindra Chherke: if it has been updated
+│      [19:21] Lee: ah excellent thanks Ravindra
+│      [19:28] Ravindra Chherke: :+1:
+└─────────────────────────────────────────────────────────────────────────

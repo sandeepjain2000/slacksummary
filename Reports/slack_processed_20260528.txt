@@ -1,0 +1,68 @@
+================================================================================
+SLACK MESSAGES SUMMARY
+Date: 2026-05-28
+Total messages: 6 | Threads: 1 | Standalone: 3
+================================================================================
+
+## THREAD-BY-THREAD SUMMARY
+
+### 1.a [19:13] — Ravindra Chherke sets up a reminder about Clonaslee College 480 switching to Tyro.
+**Original message:** Ravindra Chherke: set up a reminder “Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab." at 11:30am on 1 June 2026 /remind #C08LEFNF0BS "Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.” in this channel at 11:30 Tuesday 2nd June, India Standard Time.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.b [19:14] — Ravindra Chherke sets up another reminder about Clonaslee College 480 switching to Tyro.
+**Original message:** Ravindra Chherke: set up a reminder “Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.” in this channel at 11:30 Monday 1st June, India Standard Time.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.c [19:14] — Ravindra Chherke sets up yet another reminder about Clonaslee College 480 switching to Tyro.
+**Original message:** Ravindra Chherke: set up a reminder “Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.” in this channel at 11:30 Tuesday 2nd June, India Standard Time.
+**Project Code:** NO PROJECT CODE
+**Thread summary:** No replies.
+
+### 1.d [19:22] — Sunny requests removal of Medical Forms for Rockford Manor.
+**Original message:** Sunny: @channel can someone please remove Medical Forms for _Rockford Manor_ _They said it's urgent so if you can do that soon, thank you! (both cms and app)_
+**Project Code:** NO PROJECT CODE
+**Thread summary:** Ravindra Chherke replied that the Medical Forms for Rockford Manor have been removed and asked Sunny to check in the CMS. Sunny thanked Ravindra Chherke, indicating the issue was resolved.
+
+--- 
+PROJECT CODE REFERENCE TABLE (thread start time → project/job code): 
+Thread [19:22]: NO PROJECT CODE
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PROJECT CODE TRACKING
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THREADS WITH PROJECT/JOB CODE (0)
+  (none)
+
+THREADS WITHOUT PROJECT/JOB CODE (1)
+  Thread #1 [19:22] — "@channel can someone please remove Medical Forms for _Rockford Manor_
+
+_They sai..."
+
+================================================================================
+OLD THREADS WITH NEW ACTIVITY ON 2026-05-28 (0 found, lookback: 30 days)
+================================================================================
+
+No old threads had new activity on this date.
+
+================================================================================
+RAW MESSAGES (Thread-Structured)
+================================================================================
+
+[19:13] Ravindra Chherke:  set up a reminder “Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab." at 11:30am on 1 June 2026
+
+/remind #C08LEFNF0BS "Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.” in this channel at 11:30 Tuesday 2nd June, India Standard Time.
+[19:14] Ravindra Chherke:  set up a reminder “Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.” in this channel at 11:30 Monday 1st June, India Standard Time.
+[19:14] Ravindra Chherke:  set up a reminder “Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.” in this channel at 11:30 Tuesday 2nd June, India Standard Time.
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [19:22] Sunny: @channel can someone please remove Medical Forms for _Rockford Manor_
+
+_They said it's urgent so if you can do that soon, thank you! (both cms and app)_
+│   └─ Replies:
+│      [19:26] Ravindra Chherke: @Sunny Removed. I have checked in the app. Please check in cms.
+│      [19:29] Sunny: thank yoU!
+└─────────────────────────────────────────────────────────────────────────

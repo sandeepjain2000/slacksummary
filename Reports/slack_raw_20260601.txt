@@ -1,0 +1,26 @@
+SLACK RAW EXPORT — 2026-06-01
+Channel: C08LEFNF0BS
+Total messages: 5 | Threads: 1 | Standalone: 2
+================================================================================
+
+
+┌── THREAD #1 (2 replies) ──────────────────────────────────────
+│ [11:30] USLACKBOT: Reminder: Clonaslee College 480 will also switch to Tyro and please update the VSware tab to Tyro tab.
+│   └─ Replies:
+│      [13:46] Ravindra Chherke: @Ayush Kharpuse @Shruti Kokate
+│      [14:41] Ayush Kharpuse: @Sunny @Ravindra Chherke
+
+There are no notes to check for WB today, as the school is closed. I'll check tomorrow after attendance is completed, or if we receive any notes.
+
+Thank you.
+└─────────────────────────────────────────────────────────────────────────
+
+[13:47] Ravindra Chherke: <https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779788980458359|https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779788980458359> [Preview: [May 26th, 2026 2:49 AM] sunny: <@U08J6J1CJTX> Hi, can you please make note to update VSware tab to Tyro tab for *Colaiste Pobail Setanta on 01/06/2026 Monday?* 
+
+*Many thanks!*]
+[13:47] Ravindra Chherke: <https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779975678504979?thread_ts=1779788980.458359&cid=C08LEFNF0BS|https://unique-schools.slack.com/archives/C08LEFNF0BS/p1779975678504979?thread_ts=1779788980.458359&cid=C08LEFNF0BS> [Preview: [May 28th, 2026 6:41 AM] sunny: <@U08J6J1CJTX> cc <@U070C8EGH18> <@U06V082KT7F>
+*Clonaslee College 480 will also switch to Tyro and if you can update vsware tab to Tyro tab please.*
+
+*On Tuesday 02/06/2026 as Monday is bank holiday here.* 
+
+*Thank you!*]
